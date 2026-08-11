@@ -87,6 +87,11 @@ function parseMd(text) {
   const body = lines.slice(bodyStart, bodyEnd).join("\n").trim();
   const disclaimer = (body.match(/^>\s*(.+)$/m) || [])[1] || "";
 
+  // 标点清洗：标题去冒号，正文去破折号
+  h1 = h1.replace(/：/g, "，").replace(/，\s*$/g, "");
+  body = body.replace(/——/g, "，").replace(/，，/g, "，");
+  cover = cover.replace(/——/g, "，").replace(/，，/g, "，");
+
   return { h1, alts, cover: cover.trim(), body, disclaimer, refs };
 }
 
