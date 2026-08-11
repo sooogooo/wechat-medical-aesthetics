@@ -193,6 +193,7 @@ function articleHtml(series, article, bodyHtml) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${article.title} · ${series.name}</title>
   <meta name="description" content="${article.summary.slice(0, 120)}" />
+  <link rel="icon" type="image/png" href="../assets/logo/amc-logo.png" />
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
   <link rel="stylesheet" href="../assets/css/base.css" />
   <link rel="stylesheet" href="../assets/css/article.css" />
@@ -202,6 +203,7 @@ function articleHtml(series, article, bodyHtml) {
   <header class="site-header" id="siteHeader">
     <div class="site-header__inner">
       <a href="../index.html" class="brand">
+        <img class="brand__logo" src="../assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
         <span class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></span>
       </a>
       <nav class="main-nav" id="mainNav">
@@ -295,6 +297,7 @@ function seriesIndexHtml(series, articles) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${series.name} · 医美科普</title>
   <meta name="description" content="${series.desc}" />
+  <link rel="icon" type="image/png" href="../assets/logo/amc-logo.png" />
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
   <link rel="stylesheet" href="../assets/css/base.css" />
   <link rel="stylesheet" href="../assets/css/home.css" />
@@ -308,6 +311,7 @@ function seriesIndexHtml(series, articles) {
   <header class="site-header" id="siteHeader">
     <div class="site-header__inner">
       <a href="../index.html" class="brand">
+        <img class="brand__logo" src="../assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
         <span class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></span>
       </a>
       <nav class="main-nav" id="mainNav">
@@ -346,6 +350,7 @@ function seriesIndexHtml(series, articles) {
         <div class="grid" id="grid">
           ${articles.map(a => `
           <a class="card reveal" href="${a.slug}.html">
+            ${a.thumb ? `<div class="card__thumb"><img class="card__thumb-img" src="${a.thumb}" alt="${a.title}" loading="lazy" /></div>` : ''}
             <div class="card__body">
               <p class="card__category">${a.tag || series.name}</p>
               <p class="card__title">${a.title}</p>
@@ -427,6 +432,17 @@ for (const series of SERIES) {
     // md 里的 ![](images/xxx.svg) 保持不变，因为文章 HTML 和 images/ 在同一目录
     let bodyHtml = bodyToHtml(parsed.body);
 
+    // 查找该篇的缩略图（第一张 SVG）
+    const imgDirPath = path.join(series.outDir, series.imgDir);
+    let thumb = "";
+    if (fs.existsSync(imgDirPath)) {
+      const idPrefix = slug.split("-")[0]; // 篇号，如 "06"
+      const imgs = fs.readdirSync(imgDirPath)
+        .filter(f => f.endsWith(".svg") && f.startsWith(idPrefix + "-"))
+        .sort();
+      if (imgs.length > 0) thumb = series.imgPrefix + imgs[0];
+    }
+
     // 写文章 HTML
     const article = {
       id,
@@ -436,6 +452,7 @@ for (const series of SERIES) {
       tag: series.key,
       refs: parsed.refs,
       disclaimer: parsed.disclaimer,
+      thumb,
     };
     const html = articleHtml(series, article, bodyHtml);
     fs.writeFileSync(path.join(series.outDir, slug + ".html"), html, "utf8");
@@ -448,6 +465,7 @@ for (const series of SERIES) {
       title: parsed.h1,
       summary: parsed.cover || "",
       keywords: parsed.alts || [],
+      thumb,
     });
 
     totalArticles++;

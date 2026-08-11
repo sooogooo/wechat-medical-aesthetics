@@ -37,6 +37,8 @@
     .series-card--types .series-card__tag { color: var(--accent-warm); }
 
     .portal-footer-text { text-align: center; padding: var(--sp-7) 0; color: var(--ink-faint); font-size: var(--fs-small); }
+    .series-card__thumb { aspect-ratio: 16/10; border-radius: var(--radius); overflow: hidden; margin-bottom: var(--sp-3); background: var(--bg-soft); }
+    .series-card__thumb img { width: 100%; height: 100%; object-fit: cover; }
   </style>
 </head>
 <body>
@@ -45,6 +47,7 @@
   <header class="site-header" id="siteHeader">
     <div class="site-header__inner">
       <a href="/" class="brand" aria-label="重庆西区医院整形外科医疗美容中心 首页">
+        <img class="brand__logo" src="assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
         <span class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></span>
       </a>
       <nav class="main-nav" id="mainNav" aria-label="主导航">
@@ -92,6 +95,7 @@
 
           <!-- 皮肤病症 -->
           <a href="skin/" class="series-card series-card--skin reveal">
+            <div class="series-card__thumb"><img src="assets/img/conditions/00-acne.svg" alt="皮肤病症" loading="lazy" /></div>
             <p class="series-card__tag">系列一 · 皮肤科</p>
             <h2 class="series-card__title">皮肤常见病症科普</h2>
             <p class="series-card__desc">55 个常见皮肤问题的科学解读。先确认病名,再谈处理;不羞辱外观,不承诺根治,不替代面诊。</p>
@@ -103,6 +107,7 @@
 
           <!-- 四级手术 -->
           <a href="surgery/" class="series-card series-card--surgery reveal">
+            <div class="series-card__thumb"><img src="surgery/images-poster/00-01.svg" alt="四级手术" loading="lazy" /></div>
             <p class="series-card__tag">系列二 · 整形外科</p>
             <h2 class="series-card__title">四级与整形美容手术</h2>
             <p class="series-card__desc">30 个手术主题——颌面四级手术、躯干轮廓、鼻部、面部年轻化、安全管理。风险最高的医美决策,需要最审慎的科普。</p>
@@ -114,6 +119,7 @@
 
           <!-- 美容注射 -->
           <a href="injection/" class="series-card series-card--injection reveal">
+            <div class="series-card__thumb"><img src="injection/images/01-美容注射不只是打一针-01.svg" alt="美容注射" loading="lazy" /></div>
             <p class="series-card__tag">系列三 · 微创注射</p>
             <h2 class="series-card__title">美容注射的艺术</h2>
             <p class="series-card__desc">40 篇注射主题——填充、肉毒、再生材料的机制与风险,MD Codes 编码注射方法,以及长期管理的智慧。</p>
@@ -125,6 +131,7 @@
 
           <!-- 亚美学 -->
           <a href="aesthetics/" class="series-card series-card--aesthetics reveal">
+            <div class="series-card__thumb"><img src="aesthetics/images/01-医美亚美学是什么-01.svg" alt="医美亚美学" loading="lazy" /></div>
             <p class="series-card__tag">系列四 · 审美文化</p>
             <h2 class="series-card__title">医美亚美学</h2>
             <p class="series-card__desc">10 种医美审美流派的盘点与反思——幼态脸、高级脸、妈生款、抗老美学、容貌焦虑。看清欲望来源,才能自主选择。</p>
@@ -136,6 +143,7 @@
 
           <!-- 美学三型 -->
           <a href="types/" class="series-card series-card--types reveal">
+            <div class="series-card__thumb"><img src="types/images/01-医美美学三型总论-01.svg" alt="美学三型" loading="lazy" /></div>
             <p class="series-card__tag">系列五 · 审美境界</p>
             <h2 class="series-card__title">医美美学三型</h2>
             <p class="series-card__desc">高级型、技术型、庸俗型——医美审美的三种境界分类。倡导克制与整体,警示趋同与过度,一份审美升级指南。</p>
