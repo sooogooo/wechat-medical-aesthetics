@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round" text-rendering="geometricPrecision" font-family='-apple-system,PingFang SC,Hiragino Sans GB,sans-serif'>
+
+  <path d="M44 30h32c0 4 0 10-2 18-2 8-6 14-14 14s-12-6-14-14c-2-8-2-14-2-18z" stroke="#2B2A28" stroke-width="2"/>
+  <path d="M46 36h28" stroke="#2B2A28" stroke-width="1.3" fill="none"/>
+    <path d="M46 34h28c0 6 0 12-2 18-2 6-6 10-12 10s-10-4-12-10c-2-6-2-12-2-18z" fill="#C9A876" fill-opacity="0.3" stroke="#C9A876" stroke-width="1.3"/>
+    <path d="M50 40l3 30M60 40l3 30M70 40l3 30" stroke="#2B2A28" stroke-width="0.8" fill="none" opacity="0.5"/>
+</svg>

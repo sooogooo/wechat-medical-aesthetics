@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="典型联合治疗组合">
+  <rect width="640" height="320" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">常见的&quot;填充 + 肉毒&quot;组合</text>
+
+  <rect x="30" y="60" width="185" height="115" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="122" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">上额</text>
+  <text x="45" y="110" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肉毒：抬头纹</text>
+  <text x="45" y="128" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充 F：额头扁平</text>
+  <text x="45" y="152" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">→ 额头平滑又饱满</text>
+
+  <rect x="227" y="60" width="185" height="115" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="320" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">眼周</text>
+  <text x="242" y="110" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肉毒：鱼尾纹</text>
+  <text x="242" y="128" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充 E：泪沟</text>
+  <text x="242" y="152" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">→ 眼周年轻又自然</text>
+
+  <rect x="424" y="60" width="185" height="115" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="516" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">眉间</text>
+  <text x="439" y="110" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肉毒：川字纹</text>
+  <text x="439" y="128" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充：深静态纹</text>
+  <text x="439" y="152" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">→ 眉间舒展不显凶</text>
+
+  <rect x="30" y="190" width="185" height="115" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="122" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">中下面部</text>
+  <text x="45" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充 Ck/Nl：法令纹</text>
+  <text x="45" y="258" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">（必要时肉毒辅助）</text>
+  <text x="45" y="282" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">→ 中面部整体提升</text>
+
+  <rect x="227" y="190" width="185" height="115" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="320" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">下面部轮廓</text>
+  <text x="242" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肉毒：咬肌</text>
+  <text x="242" y="258" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充 Jw：下颌线</text>
+  <text x="242" y="282" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">→ 下面部清晰柔和</text>
+
+  <rect x="424" y="190" width="185" height="115" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="516" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">口周</text>
+  <text x="439" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肉毒：口周纹</text>
+  <text x="439" y="258" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充：容积流失</text>
+  <text x="439" y="282" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">→ 口周年轻自然</text>
+
+  <text x="320" y="312" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">联合不是&quot;什么都打&quot;，而是针对不同机制用不同手段</text>
+</svg>

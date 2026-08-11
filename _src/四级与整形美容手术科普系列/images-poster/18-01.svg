@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title1801 desc1801">
+  <title id="title1801">鼻修复为什么比初鼻更难</title>
+  <desc id="desc1801">组织条件差、材料处理复杂、血供脆弱、感染和心理压力使修复更难</desc>
+  <defs>
+    <linearGradient id="bg1801" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh1801" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .num { font: 700 24px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg1801)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh1801)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 18</text>
+  <text x="62" y="117" class="title">修复比初鼻更难：五个叠加因素</text>
+  <text x="62" y="153" class="kicker">前次手术的痕迹，让修复空间处处受限</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 五个因素卡（左侧列表式） -->
+  <!-- 1 组织条件差 -->
+  <rect x="62" y="205" width="776" height="52" rx="10" fill="#fdf1ee" stroke="#D55E00" stroke-width="1.5"/>
+  <rect x="62" y="205" width="8" height="52" rx="4" fill="#D55E00"/>
+  <circle cx="100" cy="231" r="16" fill="#D55E00"/>
+  <text x="100" y="238" class="num" text-anchor="middle" style="font-size:18px">1</text>
+  <text x="130" y="227" class="nodeTitle">组织条件差</text>
+  <text x="130" y="248" class="small">疤痕、血供改变、皮肤变薄或挛缩，修复空间受限</text>
+
+  <!-- 2 材料处理复杂 -->
+  <rect x="62" y="265" width="776" height="52" rx="10" fill="#fff8ee" stroke="#E69F00" stroke-width="1.5"/>
+  <rect x="62" y="265" width="8" height="52" rx="4" fill="#E69F00"/>
+  <circle cx="100" cy="291" r="16" fill="#E69F00"/>
+  <text x="100" y="298" class="num" text-anchor="middle" style="font-size:18px">2</text>
+  <text x="130" y="287" class="nodeTitle">材料处理复杂</text>
+  <text x="130" y="308" class="small">原有假体、软骨、注射物需取出或调整，可能发现组织缺损</text>
+
+  <!-- 3 血供风险升高 -->
+  <rect x="62" y="325" width="776" height="52" rx="10" fill="#fdf1ee" stroke="#D55E00" stroke-width="1.5"/>
+  <rect x="62" y="325" width="8" height="52" rx="4" fill="#D55E00"/>
+  <circle cx="100" cy="351" r="16" fill="#D55E00"/>
+  <text x="100" y="358" class="num" text-anchor="middle" style="font-size:18px">3</text>
+  <text x="130" y="347" class="nodeTitle">血供风险升高</text>
+  <text x="130" y="368" class="small">多次手术后鼻尖皮肤血供脆弱，坏死风险增加</text>
+
+  <!-- 4 感染风险升高 -->
+  <rect x="62" y="385" width="776" height="52" rx="10" fill="#fff8ee" stroke="#E69F00" stroke-width="1.5"/>
+  <rect x="62" y="385" width="8" height="52" rx="4" fill="#E69F00"/>
+  <circle cx="100" cy="411" r="16" fill="#E69F00"/>
+  <text x="100" y="418" class="num" text-anchor="middle" style="font-size:18px">4</text>
+  <text x="130" y="407" class="nodeTitle">感染风险升高</text>
+  <text x="130" y="428" class="small">疤痕组织和植入物增加感染可能</text>
+
+  <!-- 5 心理压力大 -->
+  <rect x="62" y="445" width="776" height="52" rx="10" fill="#f8fbfb" stroke="#0072B2" stroke-width="1.5"/>
+  <rect x="62" y="445" width="8" height="52" rx="4" fill="#0072B2"/>
+  <circle cx="100" cy="471" r="16" fill="#0072B2"/>
+  <text x="100" y="478" class="num" text-anchor="middle" style="font-size:18px">5</text>
+  <text x="130" y="467" class="nodeTitle">心理压力大</text>
+  <text x="130" y="488" class="small">前次失败的阴影使预期管理更难，患者容易焦虑或反复</text>
+
+  <!-- 金句 -->
+  <rect x="62" y="510" width="776" height="40" rx="12" fill="#fdf1ee"/>
+  <text x="450" y="536" class="quote" text-anchor="middle">取出假体不等于回到原样——组织已经改变</text>
+
+  <text x="62" y="572" class="footer">医学教育示意 · 鼻修复对医生经验要求更高 · 复杂重建可达三级／四级</text>
+</svg>

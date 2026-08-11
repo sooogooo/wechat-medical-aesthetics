@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round" text-rendering="geometricPrecision" font-family='-apple-system,PingFang SC,Hiragino Sans GB,sans-serif'>
+
+    
+  <path d="M50 24c-4 0-8 4-8 12v36c0 8 4 14 10 14h16c6 0 10-6 10-14V36c0-8-4-12-8-12-3 0-5 2-10 2s-7-2-10-2z" stroke="#2B2A28" stroke-width="1.8"/>
+    <g stroke="#2B2A28" stroke-width="1.2" fill="none">
+      <path d="M50 40c4-3 8-3 12 0M52 50c4-3 8-3 12 0M50 60c4-3 8-3 12 0M52 70c4-3 8-3 12 0"/>
+    </g>
+    <g stroke="#B5654A" stroke-width="1" fill="none">
+      <path d="M44 36l-4-4M72 36l4-4M44 82l-4 4M72 82l4 4"/>
+    </g>
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title0201 desc0201">
+  <title id="title0201">选医生：该看什么，别看什么</title>
+  <desc id="desc0201">硬资质值得核验，头衔与案例数参考价值有限，左右对照清单</desc>
+  <defs>
+    <linearGradient id="bg0201" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh0201" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 20px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg0201)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh0201)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 02</text>
+  <text x="62" y="117" class="title">选医生：该看什么，别看什么</text>
+  <text x="62" y="153" class="kicker">硬资质比头衔和案例数更重要</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 左：该看 -->
+  <rect x="62" y="215" width="377" height="290" rx="16" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <rect x="62" y="215" width="377" height="46" rx="16" fill="#0072B2"/>
+  <rect x="62" y="245" width="377" height="16" fill="#0072B2"/>
+  <text x="86" y="245" class="nodeTitle" fill="#ffffff">该看 · 可官方核验</text>
+
+  <circle cx="92" cy="290" r="5" fill="#0072B2"/>
+  <text x="108" y="295" class="body">执业类别（如临床）</text>
+  <circle cx="92" cy="322" r="5" fill="#0072B2"/>
+  <text x="108" y="327" class="body">执业范围（外科/整形外科/医美科）</text>
+  <circle cx="92" cy="354" r="5" fill="#0072B2"/>
+  <text x="108" y="359" class="body">执业地点与就诊机构一致</text>
+  <circle cx="92" cy="386" r="5" fill="#0072B2"/>
+  <text x="108" y="391" class="body">所在机构核准该手术级别</text>
+  <circle cx="92" cy="418" r="5" fill="#0072B2"/>
+  <text x="108" y="423" class="body">本人具备四级手术权限</text>
+  <circle cx="92" cy="450" r="5" fill="#0072B2"/>
+  <text x="108" y="455" class="body">并发症应对经验、专业背景</text>
+  <rect x="82" y="470" width="337" height="22" rx="6" fill="#eef6f8"/>
+  <text x="250" y="486" class="small" text-anchor="middle">都能在医师执业注册查询系统核到</text>
+
+  <!-- 右：别看 -->
+  <rect x="461" y="215" width="377" height="290" rx="16" fill="#fdf1ee" stroke="#D55E00" stroke-width="2"/>
+  <rect x="461" y="215" width="377" height="46" rx="16" fill="#D55E00"/>
+  <rect x="461" y="245" width="377" height="16" fill="#D55E00"/>
+  <text x="485" y="245" class="nodeTitle" fill="#ffffff">别全信 · 参考价值有限</text>
+
+  <circle cx="491" cy="290" r="5" fill="#D55E00"/>
+  <text x="507" y="295" class="body">"院长""首席"等自印头衔</text>
+  <circle cx="491" cy="322" r="5" fill="#D55E00"/>
+  <text x="507" y="327" class="body">来路不明的"国际协会"会员</text>
+  <circle cx="491" cy="354" r="5" fill="#D55E00"/>
+  <text x="507" y="359" class="body">"做过一万例"无法核实</text>
+  <circle cx="491" cy="386" r="5" fill="#D55E00"/>
+  <text x="507" y="391" class="body">数量≠复杂手术处理能力</text>
+  <circle cx="491" cy="418" r="5" fill="#D55E00"/>
+  <text x="507" y="423" class="body">"放心""保证满意"的口头承诺</text>
+  <circle cx="491" cy="450" r="5" fill="#D55E00"/>
+  <text x="507" y="455" class="body">"客座""特聘"等模糊称呼</text>
+  <rect x="481" y="470" width="337" height="22" rx="6" fill="#fbeae3"/>
+  <text x="649" y="486" class="small" text-anchor="middle">含金量取决于颁发主体，不是字面</text>
+
+  <rect x="62" y="525" width="776" height="40" rx="12" fill="#eef6f8"/>
+  <text x="450" y="551" class="quote" text-anchor="middle">先把资质不符的筛掉，再比方案和价格</text>
+
+  <text x="62" y="582" class="footer">医学教育示意 · 医师资质请以官方核验结果为准，学会任职以颁发主体权威性判断</text>
+</svg>

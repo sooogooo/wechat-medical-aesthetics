@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="肉毒效果时间线">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">一次肉毒注射的效果曲线（示意）</text>
+
+  <!-- 坐标轴 -->
+  <line x1="60" y1="220" x2="600" y2="220" stroke="#a8a39d" stroke-width="1.5"/>
+  <line x1="60" y1="220" x2="60" y2="70" stroke="#a8a39d" stroke-width="1.5"/>
+  <text x="40" y="145" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864" transform="rotate(-90 40 145)">效果强度</text>
+  <text x="330" y="250" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">时间</text>
+
+  <!-- 曲线 -->
+  <path d="M 60 220 Q 90 215 130 180 Q 170 110 230 95 Q 320 85 400 95 Q 470 110 510 150 Q 550 195 600 218" stroke="#7a8b6f" stroke-width="3" fill="none"/>
+  <!-- 填充 -->
+  <path d="M 60 220 Q 90 215 130 180 Q 170 110 230 95 Q 320 85 400 95 Q 470 110 510 150 Q 550 195 600 218 L 600 220 L 60 220 Z" fill="#7a8b6f" opacity="0.15"/>
+
+  <!-- 阶段标注 -->
+  <line x1="60" y1="70" x2="60" y2="220" stroke="#c9a876" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="60" y="60" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">注射</text>
+
+  <circle cx="130" cy="180" r="4" fill="#c9a876"/>
+  <text x="130" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#6b6864">3–14 天</text>
+  <text x="130" y="170" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#6b6864">起效</text>
+
+  <circle cx="320" cy="85" r="4" fill="#7a8b6f"/>
+  <text x="320" y="75" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">1–3 月 高峰</text>
+
+  <circle cx="510" cy="150" r="4" fill="#8a9a7f"/>
+  <text x="510" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#6b6864">4–6 月</text>
+  <text x="510" y="170" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#6b6864">逐渐消退</text>
+
+  <text x="320" y="268" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">个体差异大；曲线仅为示意，实际起效速度、峰值和维持时间因人而异</text>
+</svg>

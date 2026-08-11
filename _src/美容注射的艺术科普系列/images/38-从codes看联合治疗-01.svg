@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="静态填充与动态肉毒的协作">
+  <rect width="640" height="300" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">两类问题，两种手段，常常并存</text>
+
+  <!-- 填充 -->
+  <rect x="30" y="65" width="280" height="200" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="170" y="95" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#5f6e54">填充 codes（静态）</text>
+  <text x="50" y="125" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">解决：</text>
+  <text x="50" y="148" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 容积流失（凹陷、干瘪）</text>
+  <text x="50" y="168" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 支撑下降（下垂、轮廓模糊）</text>
+  <text x="50" y="188" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 静态纹（不动时就在的）</text>
+  <text x="50" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">代表 codes：</text>
+  <text x="50" y="240" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">Ck、T、F、Jw、Nl 等</text>
+
+  <!-- 肉毒 -->
+  <rect x="330" y="65" width="280" height="200" rx="8" fill="#f4ede0" stroke="#c9a876"/>
+  <text x="470" y="95" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#8a7340">肉毒（动态）</text>
+  <text x="350" y="125" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">解决：</text>
+  <text x="350" y="148" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 动态纹（表情时出现）</text>
+  <text x="350" y="168" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 肌肉型轮廓（咬肌肥大）</text>
+  <text x="350" y="188" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 肌肉过度活动</text>
+  <text x="350" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">代表部位：</text>
+  <text x="350" y="240" font-family="PingFang SC,sans-serif" font-size="11" fill="#8a7340">额肌、皱眉肌、眼轮匝肌、咬肌</text>
+
+  <text x="320" y="285" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">同一个人常同时有静态和动态问题——这就是联合治疗的基础</text>
+</svg>

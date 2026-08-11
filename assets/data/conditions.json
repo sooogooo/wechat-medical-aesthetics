@@ -1,0 +1,573 @@
+[
+  {
+    "id": 0,
+    "slug": "00-acne",
+    "glyph": "痤",
+    "category": "acne-rosacea",
+    "title": "痘痘反复红肿、留印又留坑：痤疮治疗不能只靠“刷酸清洁”",
+    "summary": "痤疮不只是“油多没洗净”。闭口、炎性丘疹、脓疱和囊肿结节代表不同程度，越早控制炎症，越能减少痘印和永久性痘坑。",
+    "common": true,
+    "keywords": ["闭口", "脓疱", "囊肿", "痘印", "痘坑", "粉刺", "出油", "刷酸"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 1,
+    "slug": "01-rosacea",
+    "glyph": "瑰",
+    "category": "acne-rosacea",
+    "title": "一热就脸红、发烫还刺痛：玫瑰痤疮不是“皮肤太薄”",
+    "summary": "遇热泛红、持续灼热、面中部红血丝和痘样丘疹，可能提示玫瑰痤疮。它会波动但可以管理，关键是分型、减刺激和长期维持。",
+    "common": true,
+    "keywords": ["脸红", "泛红", "灼热", "红血丝", "潮红", "丘疹", "鼻赘"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 2,
+    "slug": "02-topical-steroid-dermatitis",
+    "glyph": "屏",
+    "category": "acne-rosacea",
+    "title": "停掉药膏就“烂脸”？先分清激素相关皮炎和屏障受损",
+    "summary": "脸红、脱皮、灼热和停药反跳可能来自多种疾病。“激素脸”“重度敏感肌”不是精确诊断，先厘清用药史和原发皮炎，再谈屏障修复。",
+    "common": true,
+    "keywords": ["激素脸", "敏感肌", "屏障受损", "药膏", "反跳", "脱皮", "灼热"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 3,
+    "slug": "03-urticaria",
+    "glyph": "风",
+    "category": "eczema-dermatitis",
+    "title": "身上突然起大片风团，一抓更肿：荨麻疹先看有没有危险信号",
+    "summary": "荨麻疹常表现为剧痒风团，单个皮损通常在 24 小时内消退。若伴喉咙紧、呼吸困难或头晕，应立即急诊，不要只吃抗过敏药等。",
+    "urgent": true,
+    "common": true,
+    "keywords": ["风团", "过敏", "痒", "肿", "喉咙紧", "呼吸困难", "抗过敏"],
+    "symptoms": ["itch"]
+  },
+  {
+    "id": 4,
+    "slug": "04-melasma",
+    "glyph": "褐",
+    "category": "pigment",
+    "title": "两颊黄褐色斑越晒越深：黄褐斑不是“做一次激光就清零”",
+    "summary": "黄褐斑常在两颊、额头或上唇对称出现，日晒和可见光可能加重。治疗需要防晒、外用药与谨慎操作组合，追求一次清零反而容易翻车。",
+    "common": true,
+    "keywords": ["黄褐斑", "色斑", "晒斑", "对称", "两颊", "激光"],
+    "symptoms": ["face", "spot"]
+  },
+  {
+    "id": 5,
+    "slug": "05-postinflammatory-hyperpigmentation",
+    "glyph": "印",
+    "category": "pigment",
+    "title": "痘痘好了却留下一片黑印：炎症后色沉不是“色素毒素”",
+    "summary": "长痘、湿疹、抓挠或治疗刺激后留下的褐色印，常是炎症后色素沉着。它能逐渐变淡，但前提是控制炎症、防晒并减少二次伤害。",
+    "common": true,
+    "keywords": ["痘印", "黑印", "色沉", "色素", "褐色印"],
+    "symptoms": ["spot"]
+  },
+  {
+    "id": 6,
+    "slug": "06-solar-lentigo",
+    "glyph": "晒",
+    "category": "pigment",
+    "title": "脸上突然多了“小黑点”：日光性黑子不是所有老年斑",
+    "summary": "日光性黑子多见于脸、手背等长期日晒部位，通常边界清楚、颜色较均匀。它本身多为良性，但新发变化的斑先诊断，再美容处理。",
+    "keywords": ["晒斑", "老年斑", "小黑点", "日晒", "手背"],
+    "symptoms": ["spot"]
+  },
+  {
+    "id": 7,
+    "slug": "07-acquired-dermal-melanocytosis",
+    "glyph": "青",
+    "category": "pigment",
+    "title": "颧骨两侧成片灰褐小点：它可能不是雀斑，而是颧部褐青色痣",
+    "summary": "颧部褐青色痣常在成年后出现，双侧颧部有散在灰褐或蓝灰小斑。色素位置较深，容易与黄褐斑混淆，治疗前先把病名分清。",
+    "keywords": ["褐青色痣", "颧骨", "灰褐", "蓝灰", "真皮色素", "Hori痣"],
+    "symptoms": ["face", "spot"]
+  },
+  {
+    "id": 8,
+    "slug": "08-freckles",
+    "glyph": "雀",
+    "category": "pigment",
+    "title": "从小就有、晒后更深的小褐点：雀斑不是“没防晒好”这么简单",
+    "summary": "雀斑常有遗传倾向，童年后在面部等日晒部位出现，夏季变深、冬季变浅。它本身无害，是否治疗是个人选择，防晒能减少加深。",
+    "keywords": ["雀斑", "遗传", "小褐点", "日晒", "儿童"],
+    "symptoms": ["face", "spot", "birthmark"]
+  },
+  {
+    "id": 9,
+    "slug": "09-seborrheic-keratosis",
+    "glyph": "蜡",
+    "category": "pigment",
+    "title": "脸上贴着一块褐色“小蜡滴”：脂溢性角化不是病毒疣",
+    "summary": "脂溢性角化常呈褐色、蜡样或粗糙凸起，俗称“老年疣”，但不是 HPV 疣，也不传染。多数无需治疗，变化异常时先排除肿瘤。",
+    "keywords": ["老年疣", "脂溢性角化", "蜡样", "凸起", "老年斑"],
+    "symptoms": ["spot"]
+  },
+  {
+    "id": 10,
+    "slug": "10-nevus-of-ota",
+    "glyph": "田",
+    "category": "birthmark",
+    "title": "半边脸青灰、眼白也发蓝：太田痣不只是“胎记美容”",
+    "summary": "太田痣常为单侧眼周、额颞或颧部青灰色斑，可累及眼白。多数稳定良性，但涉及眼部时要关注眼压和眼内变化，再谈激光淡化。",
+    "keywords": ["太田痣", "青灰", "眼白", "单侧", "胎记", "眼压"],
+    "symptoms": ["birthmark", "face"]
+  },
+  {
+    "id": 11,
+    "slug": "11-nevus-of-ito",
+    "glyph": "伊",
+    "category": "birthmark",
+    "title": "肩背有片青灰色胎记：伊藤痣和太田痣，区别主要在位置",
+    "summary": "伊藤痣多位于肩部、锁骨上区、肩胛或上臂，呈青灰色斑片。它通常稳定良性，与太田痣组织相似但分布不同，治疗主要出于外观需求。",
+    "keywords": ["伊藤痣", "肩背", "青灰", "胎记", "锁骨"],
+    "symptoms": ["birthmark"]
+  },
+  {
+    "id": 12,
+    "slug": "12-cafe-au-lait",
+    "glyph": "咖",
+    "category": "birthmark",
+    "title": "身上有块“咖啡加奶色”的胎记：一两块常见，多块要会数",
+    "summary": "咖啡斑是边界较清楚、颜色均匀的浅褐色斑。单个或少量很常见；儿童出现多发、较大咖啡斑或伴腋窝雀斑样改变时，应进一步评估。",
+    "common": true,
+    "keywords": ["咖啡斑", "咖啡牛奶斑", "胎记", "神经纤维瘤", "儿童", "多发"],
+    "symptoms": ["birthmark", "spot"]
+  },
+  {
+    "id": 13,
+    "slug": "13-becker-nevus",
+    "glyph": "贝",
+    "category": "birthmark",
+    "title": "青春期肩背出现深色长毛斑：贝克痣不是“没洗干净”",
+    "summary": "贝克痣常在青春期出现于肩、胸或背部，呈单侧不规则褐斑，可伴毛发增多。多数为良性，治疗主要为外观改善，效果存在差异。",
+    "keywords": ["贝克痣", "长毛", "肩背", "青春期", "褐斑"],
+    "symptoms": ["birthmark", "spot"]
+  },
+  {
+    "id": 14,
+    "slug": "14-congenital-dermal-melanocytosis",
+    "glyph": "蒙",
+    "category": "birthmark",
+    "title": "宝宝屁股上的青斑像淤青？多半是会慢慢变淡的先天性青斑",
+    "summary": "婴幼儿腰骶、臀部的蓝灰色平坦斑常是先天性真皮黑素细胞增多症，旧称蒙古斑。多数会在儿童期逐渐变淡，但非典型分布需评估。",
+    "common": true,
+    "keywords": ["蒙古斑", "青斑", "宝宝", "屁股", "蓝灰", "胎记"],
+    "symptoms": ["birthmark"]
+  },
+  {
+    "id": 15,
+    "slug": "15-keratosis-pilaris",
+    "glyph": "鸡",
+    "category": "keratinization",
+    "title": "手臂大腿一粒粒“鸡皮”：毛周角化不是洗不干净",
+    "summary": "毛周角化是角蛋白堵在毛囊口形成的粗糙小颗粒，常见于上臂、大腿和面颊。它无害、不传染，温和保湿和角质调节可改善。",
+    "common": true,
+    "keywords": ["鸡皮肤", "毛周角化", "粗糙", "小颗粒", "上臂", "大腿"],
+    "symptoms": []
+  },
+  {
+    "id": 16,
+    "slug": "16-chronic-eczema",
+    "glyph": "湿",
+    "category": "eczema-dermatitis",
+    "title": "皮肤反复干痒、抓破又结痂：慢性湿疹不只是“过敏”",
+    "summary": "慢性湿疹可表现为干燥、脱屑、增厚、裂口和反复瘙痒。治疗不是只涂几天药，更要修复屏障、减少刺激并排除接触过敏和感染。",
+    "common": true,
+    "keywords": ["湿疹", "干痒", "脱屑", "增厚", "裂口", "屏障", "过敏"],
+    "symptoms": ["itch"]
+  },
+  {
+    "id": 17,
+    "slug": "17-neurodermatitis",
+    "glyph": "神",
+    "category": "eczema-dermatitis",
+    "title": "脖子手肘越抓越厚、越厚越痒：神经性皮炎要打断“痒抓循环”",
+    "summary": "神经性皮炎又称慢性单纯性苔藓，常在颈后、手肘、脚踝等处形成增厚粗糙斑块。治疗核心是控制炎症并打断反复抓挠。",
+    "keywords": ["神经性皮炎", "痒抓循环", "增厚", "颈后", "手肘", "苔藓样"],
+    "symptoms": ["itch"]
+  },
+  {
+    "id": 18,
+    "slug": "18-prurigo-nodularis",
+    "glyph": "结",
+    "category": "eczema-dermatitis",
+    "title": "四肢反复长硬疙瘩、痒到睡不着：结节性痒疹不是“抓出来就算了”",
+    "summary": "结节性痒疹常在四肢出现多个坚硬、剧痒结节，形成顽固的痒、抓循环。治疗要同时控制炎症、神经瘙痒、抓挠和潜在伴随疾病。",
+    "keywords": ["结节性痒疹", "硬疙瘩", "剧痒", "四肢", "痒抓循环"],
+    "symptoms": ["itch"]
+  },
+  {
+    "id": 19,
+    "slug": "19-folliculitis",
+    "glyph": "囊",
+    "category": "benign-tumor",
+    "title": "胸背、头皮一片“小痘痘”：毛囊炎和痤疮，治疗真不一样",
+    "summary": "毛囊炎是毛囊周围的炎症，可由细菌、马拉色菌、摩擦或药物等引起。外观像痤疮但病因不同，反复发作时应明确类型再用药。",
+    "keywords": ["毛囊炎", "小痘痘", "胸背", "头皮", "马拉色菌", "细菌"],
+    "symptoms": []
+  },
+  {
+    "id": 20,
+    "slug": "20-onychomycosis",
+    "glyph": "甲",
+    "category": "fungal",
+    "title": "指甲发黄增厚、变脆分层：先确认真菌，再谈“灰指甲根治”",
+    "summary": "甲真菌病可使指趾甲变色、增厚、碎裂，但外伤和银屑病等也很像。规范治疗前常需取样确认，疗效要等健康新甲逐渐长出。",
+    "keywords": ["灰指甲", "甲真菌病", "增厚", "变色", "真菌", "趾甲"],
+    "symptoms": ["nail"]
+  },
+  {
+    "id": 21,
+    "slug": "21-tinea-manuum-pedis",
+    "glyph": "癣",
+    "category": "fungal",
+    "title": "手脚脱皮、起水疱还很痒：手足癣别只靠泡脚和止痒膏",
+    "summary": "手足癣由皮肤癣菌感染引起，可表现为趾缝糜烂、足底脱屑、水疱或单手干燥。先确认真菌，足量足疗程治疗，并同步处理甲真菌病。",
+    "common": true,
+    "keywords": ["脚气", "手足癣", "脱皮", "水疱", "趾缝", "真菌"],
+    "symptoms": ["foot", "itch"]
+  },
+  {
+    "id": 22,
+    "slug": "22-tinea-corporis-cruis",
+    "glyph": "环",
+    "category": "fungal",
+    "title": "身上长出环形脱屑红斑：体癣股癣不是“上火起圈”",
+    "summary": "体癣、股癣由皮肤癣菌引起，常呈边缘活跃、向外扩大的脱屑斑。激素可把外观压平却让感染扩散，诊断不清时应做真菌检查。",
+    "keywords": ["体癣", "股癣", "环形", "红斑", "脱屑", "真菌"],
+    "symptoms": ["itch"]
+  },
+  {
+    "id": 23,
+    "slug": "23-pityriasis-versicolor",
+    "glyph": "汗",
+    "category": "fungal",
+    "title": "胸背出现浅色“汗斑”：花斑癣是真菌相关，但不是不讲卫生",
+    "summary": "花斑癣常在胸背、颈肩出现浅色、褐色或粉色细屑斑，由马拉色菌过度生长相关。抗真菌后颜色恢复较慢，复发并不等于没治好。",
+    "keywords": ["花斑癣", "汗斑", "浅色斑", "胸背", "马拉色菌"],
+    "symptoms": ["spot"]
+  },
+  {
+    "id": 24,
+    "slug": "24-syringoma",
+    "glyph": "管",
+    "category": "benign-tumor",
+    "title": "眼下成片肉色小疙瘩：汗管瘤不是脂肪粒，也很难“无痕清空”",
+    "summary": "汗管瘤是良性汗腺导管来源的小丘疹，常对称分布在下眼睑。它不会传染，多数无需治疗；操作可改善外观，却可能复发或留色差。",
+    "keywords": ["汗管瘤", "眼下", "小疙瘩", "肉色", "脂肪粒"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 25,
+    "slug": "25-milia",
+    "glyph": "粟",
+    "category": "benign-tumor",
+    "title": "眼周白色硬颗粒挤不动：粟丘疹不是“营养过剩的脂肪粒”",
+    "summary": "粟丘疹是表皮下充满角蛋白的小囊肿，常见于眼周和面颊。它不是脂肪，也多与血脂无关；稳定无症状时可不处理。",
+    "keywords": ["粟丘疹", "脂肪粒", "白色颗粒", "眼周", "角蛋白"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 26,
+    "slug": "26-sebaceous-hyperplasia",
+    "glyph": "腺",
+    "category": "benign-tumor",
+    "title": "额头鼻子有颗“中间凹的小黄包”：皮脂腺增生别当痘挤",
+    "summary": "皮脂腺增生常见于额头和面颊，是淡黄或肤色小丘疹，中央可见小凹。它多为良性，但与某些皮肤肿瘤相似时需专业鉴别。",
+    "keywords": ["皮脂腺增生", "小黄包", "额头", "中央凹陷"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 27,
+    "slug": "27-fordyce-spots",
+    "glyph": "唇",
+    "category": "benign-tumor",
+    "title": "嘴唇边缘一排淡黄小点：皮脂腺异位不是传染病",
+    "summary": "皮脂腺异位又称 Fordyce 斑，常见于唇缘、口腔或生殖器，为可见的皮脂腺正常变异。它不传染、不是性病，多数无需治疗。",
+    "keywords": ["皮脂腺异位", "Fordyce", "淡黄小点", "唇缘", "正常变异"],
+    "symptoms": []
+  },
+  {
+    "id": 28,
+    "slug": "28-filiform-wart",
+    "glyph": "丝",
+    "category": "warts",
+    "title": "脖子眼皮长出细细“小肉刺”：丝状疣和皮赘不是一回事",
+    "summary": "丝状疣是 HPV 相关的非生殖器皮肤疣，常呈细长指状，出现在面部、眼睑和颈部。它有传染和自体接种可能，应避免抠抓剃刮。",
+    "keywords": ["丝状疣", "小肉刺", "脖子", "眼皮", "HPV", "皮赘"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 29,
+    "slug": "29-flat-wart",
+    "glyph": "扁",
+    "category": "warts",
+    "title": "脸上突然多了许多扁平小疙瘩：扁平疣别当闭口反复刷酸",
+    "summary": "扁平疣是 HPV 相关的平顶小丘疹，常见于面部、手背和前臂，可沿抓痕排列。部分会自行消退，面部治疗应兼顾传染和色沉风险。",
+    "keywords": ["扁平疣", "扁平小疙瘩", "面部", "HPV", "自体接种"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 30,
+    "slug": "30-common-wart",
+    "glyph": "瘊",
+    "category": "warts",
+    "title": "手上硬硬的“小瘊子”：寻常疣会传染，但不必全家恐慌",
+    "summary": "寻常疣是皮肤型 HPV 相关的粗糙丘疹，常见于手指、手背和膝肘。许多可自行消退，疼痛、出血、扩散或诊断不清时再积极处理。",
+    "keywords": ["寻常疣", "小瘊子", "手指", "HPV", "传染"],
+    "symptoms": []
+  },
+  {
+    "id": 31,
+    "slug": "31-plantar-wart",
+    "glyph": "跖",
+    "category": "warts",
+    "title": "脚底硬疙瘩走路像踩针：跖疣不是普通鸡眼",
+    "summary": "跖疣是长在足底的 HPV 皮肤疣，受压力后向内生长，走路可疼。它与鸡眼处理不同，糖尿病、感觉或循环异常者应避免自行用酸。",
+    "keywords": ["跖疣", "脚底", "硬疙瘩", "踩针", "HPV", "鸡眼"],
+    "symptoms": ["foot"]
+  },
+  {
+    "id": 32,
+    "slug": "32-androgenetic-alopecia",
+    "glyph": "脱",
+    "category": "hair-loss",
+    "title": "发缝越来越宽、头顶越来越透：雄激素性脱发要尽早长期管理",
+    "summary": "雄激素性脱发常表现为发际线、头顶或发缝区域毛发逐渐变细。越早稳定微小化，越有机会保住现有毛发；治疗通常需要长期维持。",
+    "common": true,
+    "keywords": ["雄脱", "发缝宽", "头顶稀疏", "发际线", "变细", "长期"],
+    "symptoms": ["hair"]
+  },
+  {
+    "id": 33,
+    "slug": "33-alopecia-areata",
+    "glyph": "斑",
+    "category": "hair-loss",
+    "title": "头皮突然秃了一块：斑秃是免疫性脱发，不是“压力太大想出来的”",
+    "summary": "斑秃是免疫系统攻击毛囊导致的非瘢痕性脱发，可从小块圆形秃斑发展为全头脱发。部分能自发再生，但复发和疗效存在不确定。",
+    "keywords": ["斑秃", "鬼剃头", "秃一块", "免疫", "圆形秃斑", "全秃"],
+    "symptoms": ["hair"]
+  },
+  {
+    "id": 34,
+    "slug": "34-cicatricial-alopecia",
+    "glyph": "瘢",
+    "category": "hair-loss",
+    "title": "头皮红痛结痂、毛囊口消失：瘢痕性脱发最怕拖",
+    "summary": "瘢痕性脱发是一组炎症破坏毛囊的疾病，可造成永久脱发。头皮红、痛、灼热、脓疱、结痂或毛囊口消失时，应尽早皮肤科评估。",
+    "urgent": true,
+    "keywords": ["瘢痕性脱发", "头皮红痛", "毛囊口消失", "永久脱发", "炎症"],
+    "symptoms": ["hair"]
+  },
+  {
+    "id": 35,
+    "slug": "35-postpartum-telogen-effluvium",
+    "glyph": "产",
+    "category": "hair-loss",
+    "title": "生完几个月头发一把把掉：产后脱发多半会回来，先别急着植发",
+    "summary": "产后数月出现弥漫性大量脱发，常是休止期脱发，与雌激素回落有关，多数会逐渐恢复。持续加重或超过预期时应排查其他原因。",
+    "common": true,
+    "keywords": ["产后脱发", "休止期脱发", "一把把掉", "弥漫性", "雌激素"],
+    "symptoms": ["hair"]
+  },
+  {
+    "id": 36,
+    "slug": "36-focal-hyperhidrosis",
+    "glyph": "汗",
+    "category": "sweat-misc",
+    "title": "手心滴水、脚底发白、额头总湿：局部多汗不是“虚”",
+    "summary": "局部多汗症可累及手、足、头面等，汗量超过体温调节需要并影响生活。先排除药物和疾病因素，再按部位选择止汗剂、离子导入等。",
+    "keywords": ["多汗", "手心出汗", "脚底发白", "止汗", "离子导入"],
+    "symptoms": []
+  },
+  {
+    "id": 37,
+    "slug": "37-tattoo-removal",
+    "glyph": "纹",
+    "category": "aesthetic-complication",
+    "title": "洗眉、洗眼线、洗纹身：激光能淡化，但不保证“恢复原皮”",
+    "summary": "纹身和永久化妆色料位于真皮，激光需按颜色选择波长并多次治疗。部分白色、肤色和红黄色料可能变色，完全清除并非总能做到。",
+    "keywords": ["洗纹身", "洗眉", "洗眼线", "激光", "色料", "波长"],
+    "symptoms": ["postprocedural"]
+  },
+  {
+    "id": 38,
+    "slug": "38-perioral-dermatitis",
+    "glyph": "周",
+    "category": "eczema-dermatitis",
+    "title": "嘴巴周围一圈红疹，越涂激素越反复：小心口周皮炎",
+    "summary": "口周皮炎常在嘴、鼻或眼周出现红色小丘疹、脱屑和灼痒，唇红缘附近可留一圈空白。长期外用激素会掩盖并加重反复。",
+    "keywords": ["口周皮炎", "嘴周红疹", "激素反跳", "丘疹", "脱屑"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 39,
+    "slug": "39-contact-cheilitis",
+    "glyph": "触",
+    "category": "eczema-dermatitis",
+    "title": "嘴唇常年干裂脱皮，润唇膏越涂越痒：可能是接触性唇炎",
+    "summary": "慢性接触性唇炎可由唇膏、口红、牙膏、香料或职业接触引起，表现为干裂、脱屑、瘙痒和灼痛。找到并避开过敏原是关键。",
+    "keywords": ["接触性唇炎", "嘴唇干裂", "脱皮", "润唇膏", "过敏原", "斑贴"],
+    "symptoms": []
+  },
+  {
+    "id": 40,
+    "slug": "40-exfoliative-cheilitis",
+    "glyph": "剥",
+    "category": "eczema-dermatitis",
+    "title": "嘴唇反复结痂、脱一层又长一层：剥脱性唇炎不只是“缺水”",
+    "summary": "剥脱性唇炎表现为唇部持续脱屑、结痂和反复剥落，可能与舔咬、接触过敏、感染或心理行为因素相关。先找原因，再修复屏障。",
+    "keywords": ["剥脱性唇炎", "结痂", "脱屑", "舔咬", "反复剥落"],
+    "symptoms": []
+  },
+  {
+    "id": 41,
+    "slug": "41-photoaging",
+    "glyph": "光",
+    "category": "pigment",
+    "title": "细纹、粗糙、斑点一起出现：光老化不是“自然年龄”一个原因",
+    "summary": "光老化是长期紫外线累积造成的细纹、粗糙、斑点和肤色不均，还会增加癌前病变风险。防晒是底盘，治疗应按具体问题组合。",
+    "keywords": ["光老化", "细纹", "粗糙", "斑点", "紫外线", "防晒"],
+    "symptoms": ["face", "spot"]
+  },
+  {
+    "id": 42,
+    "slug": "42-atrophic-acne-scars",
+    "glyph": "坑",
+    "category": "aesthetic-complication",
+    "title": "痘痘消了，脸上却留下凹坑：痘坑治疗先分型，再谈设备",
+    "summary": "萎缩性痘坑是真皮组织修复不足形成的凹陷瘢痕，常分冰锥型、箱车型和滚轮型。先控制活动痤疮，再按结构选择联合治疗。",
+    "common": true,
+    "keywords": ["痘坑", "凹陷瘢痕", "冰锥型", "箱车型", "滚轮型", "点阵"],
+    "symptoms": ["postprocedural", "face"]
+  },
+  {
+    "id": 43,
+    "slug": "43-subcutaneous-atrophy",
+    "glyph": "陷",
+    "category": "aesthetic-complication",
+    "title": "外伤或手术后皮肤陷下去：表面磨皮，解决不了深层组织缺损",
+    "summary": "外伤、手术、感染或注射损伤后，皮肤凹陷可能涉及真皮、脂肪和深层粘连。先评估层次和活动度，再选择松解、填充或重建。",
+    "keywords": ["凹陷", "组织缺损", "粘连", "填充", "松解", "外伤后"],
+    "symptoms": ["postprocedural"]
+  },
+  {
+    "id": 44,
+    "slug": "44-stable-vitiligo",
+    "glyph": "白",
+    "category": "pigment",
+    "title": "白斑半年没变化，就能做表皮移植吗？稳定期白癜风要先“验稳定”",
+    "summary": "稳定期白癜风可在严格筛选后讨论表皮或细胞移植，但先要确认诊断、疾病活动度和部位。手指、嘴唇等区域复色通常更困难。",
+    "keywords": ["白癜风", "白斑", "稳定期", "表皮移植", "复色", "色素脱失"],
+    "symptoms": ["spot"]
+  },
+  {
+    "id": 45,
+    "slug": "45-cutaneous-amyloidosis",
+    "glyph": "粉",
+    "category": "eczema-dermatitis",
+    "title": "小腿密密麻麻褐色硬疙瘩、越抓越痒：小心皮肤淀粉样变",
+    "summary": "原发性局限性皮肤淀粉样变可表现为小腿褐色粗糙丘疹或背部波纹样色斑。多数局限在皮肤，治疗重点是止痒、减少摩擦和长期管理。",
+    "keywords": ["皮肤淀粉样变", "褐色硬疙瘩", "小腿", "波纹样", "瘙痒"],
+    "symptoms": ["itch", "spot"]
+  },
+  {
+    "id": 46,
+    "slug": "46-lichen-sclerosus",
+    "glyph": "硬",
+    "category": "eczema-dermatitis",
+    "title": "外阴反复痒痛、皮肤发白变薄：硬化性苔藓不能只当普通炎症",
+    "summary": "硬化性苔藓是慢性炎症性皮肤病，常累及外阴和肛周，引起发白、瘙痒、裂口与瘢痕。规范治疗能控症状并降低并发风险。",
+    "urgent": true,
+    "keywords": ["硬化性苔藓", "外阴", "发白", "变薄", "痒痛", "裂口"],
+    "symptoms": ["itch"]
+  },
+  {
+    "id": 47,
+    "slug": "47-prurigo-pigmentosa",
+    "glyph": "网",
+    "category": "eczema-dermatitis",
+    "title": "胸背突然长出很痒的红疹，退后留下网状黑印：认识色素性痒疹",
+    "summary": "色素性痒疹是一种少见炎症性皮肤病，常在颈、胸背出现对称痒疹，消退后留下网状色沉。部分病例与酮症或快速减重相关。",
+    "keywords": ["色素性痒疹", "网状色沉", "红疹", "胸背", "生酮", "酮症"],
+    "symptoms": ["itch", "spot"]
+  },
+  {
+    "id": 48,
+    "slug": "48-spider-nevus",
+    "glyph": "蛛",
+    "category": "vascular",
+    "title": "皮肤上一个红点向外放射“小血丝”：蜘蛛痣不等于肝病证明",
+    "summary": "蜘蛛痣是中央小动脉向外放射毛细血管形成的红色皮损，按压中央可暂时褪色。单个常为良性，短期多发时应结合肝病和激素因素评估。",
+    "keywords": ["蜘蛛痣", "红点", "血丝", "毛细血管", "肝病", "激素"],
+    "symptoms": []
+  },
+  {
+    "id": 49,
+    "slug": "49-facial-telangiectasia",
+    "glyph": "丝",
+    "category": "vascular",
+    "title": "鼻翼脸颊红血丝一直不退：先找原因，再谈“封血管”",
+    "summary": "面部毛细血管扩张表现为持续可见的红色细线，可与玫瑰痤疮、日晒、激素使用或遗传相关。光电能改善，但先诊断和稳定炎症。",
+    "keywords": ["红血丝", "毛细血管扩张", "鼻翼", "脸颊", "玫瑰痤疮", "光电"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 50,
+    "slug": "50-filler-nodules",
+    "glyph": "结",
+    "category": "aesthetic-complication",
+    "title": "医美注射后鼓包、硬结迟迟不退：先分感染、炎症和材料残留",
+    "summary": "注射后硬结可能来自材料堆积、炎症结节、感染或异物肉芽肿，发生时间可早可晚。处理前应确认产品、层次和血流，避免盲目溶解。",
+    "urgent": true,
+    "common": true,
+    "keywords": ["注射硬结", "鼓包", "肉芽肿", "填充", "血管栓塞", "透明质酸酶"],
+    "symptoms": ["postprocedural"]
+  },
+  {
+    "id": 51,
+    "slug": "51-callus",
+    "glyph": "茧",
+    "category": "keratinization",
+    "title": "脚底厚硬老茧越削越快长：胼胝是在替你扛压力",
+    "summary": "胼胝是长期压力和摩擦造成的广泛角质增厚，常见于足底受力点。修薄只能减轻症状，真正减少复发还要调整鞋袜、受力和皮肤干燥。",
+    "keywords": ["胼胝", "老茧", "脚底", "角质增厚", "受力", "鞋袜"],
+    "symptoms": ["foot"]
+  },
+  {
+    "id": 52,
+    "slug": "52-corn",
+    "glyph": "眼",
+    "category": "keratinization",
+    "title": "脚趾缝或受力点像扎进一颗钉子：鸡眼的“芯”来自压力",
+    "summary": "鸡眼是局部长期压力形成的圆锥形角质栓，常在脚趾和前掌，垂直受压时疼。处理核心是解除挤压，糖尿病患者勿自行贴酸。",
+    "keywords": ["鸡眼", "脚趾", "角质栓", "疼痛", "压力", "糖尿病足"],
+    "symptoms": ["foot"]
+  },
+  {
+    "id": 53,
+    "slug": "53-recurrent-herpes-simplex",
+    "glyph": "疱",
+    "category": "infection",
+    "title": "嘴角反复起一簇痛水疱：单纯疱疹不是“上火”，也不只是嘴的问题",
+    "summary": "复发性单纯疱疹常先有刺痛灼热，再在唇周出现成簇水疱。病毒会潜伏并复发，早期抗病毒和减少传播是管理重点。",
+    "common": true,
+    "keywords": ["单纯疱疹", "嘴角水疱", "上火", "刺痛", "成簇", "病毒"],
+    "symptoms": ["face"]
+  },
+  {
+    "id": 54,
+    "slug": "54-postherpetic-pigmentation",
+    "glyph": "带",
+    "category": "infection",
+    "title": "带状疱疹好了，却留下一条深色带：先确认病毒已停，再处理色沉",
+    "summary": "带状疱疹愈合后可遗留褐色或灰褐色沉着，甚至瘢痕。先确认无新水疱、无感染，并处理持续神经痛，再考虑温和淡化和光电。",
+    "urgent": true,
+    "keywords": ["带状疱疹", "缠腰龙", "色沉", "神经痛", "深色带", "水疱"],
+    "symptoms": ["itch", "spot"]
+  }
+]

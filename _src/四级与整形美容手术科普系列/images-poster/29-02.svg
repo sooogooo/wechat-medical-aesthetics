@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title2902 desc2902">
+  <title id="title2902">术前评估清单：不是走过场</title>
+  <desc id="desc2902">病史体检、血液化验、心电图影像、专科评估、麻醉评估、禁食准备，是判断能否安全承受麻醉的依据</desc>
+  <defs>
+    <linearGradient id="bg2902" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh2902" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .num { font: 700 24px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg2902)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh2902)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 29</text>
+  <text x="62" y="117" class="title">术前评估清单：不是「走过场」</text>
+  <text x="62" y="153" class="kicker">这些是判断你能否安全承受麻醉和手术的依据</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 6 张评估清单卡 3x2 -->
+  <!-- 1 病史体检 -->
+  <rect x="62" y="208" width="250" height="125" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="98" cy="242" r="19" fill="#0072B2"/>
+  <text x="98" y="250" class="num" text-anchor="middle">1</text>
+  <text x="128" y="248" class="nodeTitle">病史体检</text>
+  <text x="82" y="286" class="body">慢性病、过敏、用药</text>
+  <text x="82" y="310" class="body">既往麻醉反应</text>
+  <text x="82" y="326" class="small">家族麻醉史（恶性高热）</text>
+
+  <!-- 2 血液化验 -->
+  <rect x="325" y="208" width="250" height="125" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="361" cy="242" r="19" fill="#0072B2"/>
+  <text x="361" y="250" class="num" text-anchor="middle">2</text>
+  <text x="391" y="248" class="nodeTitle">血液化验</text>
+  <text x="345" y="286" class="body">血常规、凝血</text>
+  <text x="345" y="310" class="body">肝肾功能、电解质</text>
+  <text x="345" y="326" class="small">血糖、感染指标</text>
+
+  <!-- 3 心电图影像 -->
+  <rect x="588" y="208" width="250" height="125" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="624" cy="242" r="19" fill="#0072B2"/>
+  <text x="624" y="250" class="num" text-anchor="middle">3</text>
+  <text x="654" y="248" class="nodeTitle">心电图 · 影像</text>
+  <text x="608" y="286" class="body">心电图评估心肺</text>
+  <text x="608" y="310" class="body">胸片或相关影像</text>
+  <text x="608" y="326" class="small">高龄慢性病者尤为必要</text>
+
+  <!-- 4 专科评估 -->
+  <rect x="62" y="346" width="250" height="125" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="98" cy="380" r="19" fill="#E69F00"/>
+  <text x="98" y="388" class="num" text-anchor="middle">4</text>
+  <text x="128" y="386" class="nodeTitle">专科评估</text>
+  <text x="82" y="424" class="body">高龄、慢性病者</text>
+  <text x="82" y="448" class="body">心内科、呼吸科等</text>
+  <text x="82" y="464" class="small">必要时会诊</text>
+
+  <!-- 5 麻醉评估 -->
+  <rect x="325" y="346" width="250" height="125" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="361" cy="380" r="19" fill="#E69F00"/>
+  <text x="361" y="388" class="num" text-anchor="middle">5</text>
+  <text x="391" y="386" class="nodeTitle">麻醉评估</text>
+  <text x="345" y="424" class="body">气道评估（插管难度）</text>
+  <text x="345" y="448" class="body">ASA 分级</text>
+  <text x="345" y="464" class="small">个体化麻醉方案</text>
+
+  <!-- 6 禁食准备 -->
+  <rect x="588" y="346" width="250" height="125" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2"/>
+  <circle cx="624" cy="380" r="19" fill="#D55E00"/>
+  <text x="624" y="388" class="num" text-anchor="middle">6</text>
+  <text x="654" y="386" class="nodeTitle">禁食 · 准备</text>
+  <text x="608" y="424" class="body">固体 6–8 小时</text>
+  <text x="608" y="448" class="body">清饮料 2 小时</text>
+  <text x="608" y="464" class="small">防止麻醉中误吸</text>
+
+  <!-- 金句 -->
+  <rect x="62" y="488" width="776" height="40" rx="12" fill="#fbeae3"/>
+  <text x="450" y="514" class="quote" text-anchor="middle">连基本术前检查都不做就安排手术的机构，对麻醉安全缺乏基本严谨</text>
+
+  <text x="62" y="548" class="small">其他准备：调整抗凝/降糖药须遵医嘱 · 术前戒烟 · 取下饰品义齿指甲油 · 安排术后陪护</text>
+  <text x="62" y="566" class="small">全麻后短期内不宜独自活动和驾驶 · 不遵守禁食可能导致手术推迟或风险升高</text>
+  <text x="62" y="582" class="footer">医学教育示意 · 具体术前评估项目以麻醉科和外科医嘱为准</text>
+</svg>

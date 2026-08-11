@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="懂与不懂 MD Codes 的沟通差别">
+  <rect width="640" height="260" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">懂一点 MD Codes，沟通完全不同</text>
+
+  <rect x="30" y="60" width="280" height="170" rx="8" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="170" y="90" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#b5654a">不懂时</text>
+  <text x="50" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">医生：“给你打打苹果肌。”</text>
+  <text x="50" y="145" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">你：“……好。”</text>
+  <text x="50" y="175" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 只能被动接受</text>
+  <text x="50" y="193" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 不知道打哪里、为什么</text>
+  <text x="50" y="211" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 出问题不知怎么追溯</text>
+
+  <rect x="330" y="60" width="280" height="170" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="470" y="90" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">懂一点时</text>
+  <text x="350" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">医生：“建议 Ck1 深层支撑 + Nl 修饰。”</text>
+  <text x="350" y="145" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">你：“Ck1 是骨面深层吗？为什么先打它？”</text>
+  <text x="350" y="175" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 听得懂方案逻辑</text>
+  <text x="350" y="193" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 能提问、能讨论</text>
+  <text x="350" y="211" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 有记录、可追溯</text>
+
+  <text x="320" y="245" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">MD Codes 把你从“听安排”变成“能讨论”——这是它给消费者的核心价值</text>
+</svg>

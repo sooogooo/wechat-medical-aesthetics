@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="两种胶原思路对比">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">都叫“胶原”，但完全不同</text>
+
+  <rect x="30" y="55" width="280" height="200" rx="8" fill="#ffffff" stroke="#7a8b6f"/>
+  <rect x="30" y="55" width="280" height="36" rx="8" fill="#7a8b6f"/>
+  <rect x="30" y="81" width="280" height="10" fill="#7a8b6f"/>
+  <text x="170" y="79" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#ffffff">直接注射胶原蛋白</text>
+  <text x="50" y="118" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">机制：外源胶原作为填充物</text>
+  <text x="50" y="142" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">来源：动物源（牛/猪）或重组</text>
+  <text x="50" y="166" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">效果：即刻填充</text>
+  <text x="50" y="190" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">维持：较短（数月）</text>
+  <text x="50" y="214" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">风险：过敏（动物源需皮试）</text>
+  <text x="50" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">类似透明质酸的“填充”逻辑</text>
+
+  <rect x="330" y="55" width="280" height="200" rx="8" fill="#ffffff" stroke="#8a9a7f"/>
+  <rect x="330" y="55" width="280" height="36" rx="8" fill="#8a9a7f"/>
+  <rect x="330" y="81" width="280" height="10" fill="#8a9a7f"/>
+  <text x="470" y="79" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#ffffff">刺激自身胶原增生</text>
+  <text x="350" y="118" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">机制：微球诱导胶原生成</text>
+  <text x="350" y="142" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">成分：PLLA/CaHA/PCL 等</text>
+  <text x="350" y="166" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">效果：渐进（数周到数月）</text>
+  <text x="350" y="190" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">维持：较长（1–2 年）</text>
+  <text x="350" y="214" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">风险：迟发结节、难溶解</text>
+  <text x="350" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">再生类材料（见第 16、17 篇）</text>
+
+  <text x="320" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">名称都含“胶原”，但机制、维持、风险差别巨大</text>
+</svg>

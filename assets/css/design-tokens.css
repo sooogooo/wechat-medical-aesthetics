@@ -1,0 +1,97 @@
+/* =========================================================================
+   设计令牌 · 暖白 + 莫兰迪
+   Apple 风禅意简洁 · 皮肤科普系列
+   ========================================================================= */
+
+:root {
+  /* —— 背景 —— */
+  --bg-warm: #faf8f4;        /* 暖白主背景,非纯白,护眼 */
+  --bg-card: #ffffff;        /* 卡片纯白,与背景形成层次 */
+  --bg-elevated: #ffffff;    /* 悬浮元素 */
+  --bg-soft: #f3efe8;        /* 次级区块底 */
+
+  /* —— 文字 —— */
+  --ink: #2b2a28;            /* 墨色正文,非纯黑,柔和 */
+  --ink-soft: #6b6864;       /* 次级灰文 */
+  --ink-faint: #a8a39d;      /* 辅助/编号/占位 */
+  --ink-on-accent: #ffffff;  /* 强调色上的白字 */
+
+  /* —— 分隔线 —— */
+  --line: #ece7df;           /* 暖色分隔线 */
+  --line-strong: #ddd6ca;    /* 强分隔线 */
+
+  /* —— 莫兰迪点缀色 —— */
+  --accent: #7a8b6f;         /* 鼠尾草绿,主点缀 */
+  --accent-deep: #5f6e54;    /* 深鼠尾草,悬停 */
+  --accent-soft: #eef0ea;    /* 鼠尾草浅底 */
+  --accent-warm: #c9a876;    /* 赭石,次点缀 */
+  --accent-warm-soft: #f4ede0;/* 赭石浅底 */
+
+  /* —— 急救色(莫兰迪陶土红,非刺眼) —— */
+  --urgent: #b5654a;         /* 陶土红文字 */
+  --urgent-bg: #f7ece6;      /* 急救块暖底 */
+  --urgent-border: #e3c9bd;  /* 急救块边 */
+
+  /* —— 字体栈 —— */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC",
+    "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "SF Pro Display", "PingFang SC", "Hiragino Sans GB",
+    "Source Han Serif SC", "Noto Serif CJK SC", Georgia, "Songti SC", serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+
+  /* —— 字号阶梯(modular scale) —— */
+  --fs-display: clamp(2.4rem, 5vw, 3.6rem);   /* hero 大标题 */
+  --fs-h1: clamp(1.9rem, 3.5vw, 2.6rem);      /* 详情页标题 */
+  --fs-h2: clamp(1.4rem, 2.2vw, 1.7rem);      /* 章节大标题 */
+  --fs-h3: 1.2rem;                             /* 小节标题 */
+  --fs-lead: clamp(1.1rem, 1.6vw, 1.3rem);    /* 引导段 */
+  --fs-body: 1rem;                             /* 正文 */
+  --fs-small: 0.9rem;                          /* 次级正文 */
+  --fs-xs: 0.8rem;                             /* 标签/角标 */
+
+  /* —— 行高 —— */
+  --lh-tight: 1.2;          /* 标题 */
+  --lh-snug: 1.4;           /* 小标题 */
+  --lh-relaxed: 1.75;       /* 正文,呼吸感 */
+  --lh-loose: 1.9;          /* 长文阅读 */
+
+  /* —— 字重 —— */
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semibold: 600;
+  --w-bold: 700;
+
+  /* —— 间距(8px 基准) —— */
+  --sp-1: 0.25rem;   /* 4 */
+  --sp-2: 0.5rem;    /* 8 */
+  --sp-3: 0.75rem;   /* 12 */
+  --sp-4: 1rem;      /* 16 */
+  --sp-5: 1.5rem;    /* 24 */
+  --sp-6: 2rem;      /* 32 */
+  --sp-7: 3rem;      /* 48 */
+  --sp-8: 4rem;      /* 64 */
+  --sp-9: 6rem;      /* 96,大章节间距 */
+  --sp-10: 8rem;     /* 128 */
+
+  /* —— 圆角 —— */
+  --radius-sm: 6px;
+  --radius: 12px;          /* 卡片 */
+  --radius-lg: 18px;       /* 大区块 */
+  --radius-full: 999px;    /* 胶囊 */
+
+  /* —— 阴影(克制,仅悬浮) —— */
+  --shadow-card: 0 1px 2px rgba(43, 42, 40, 0.04);
+  --shadow-hover: 0 12px 32px -8px rgba(43, 42, 40, 0.12),
+    0 2px 8px rgba(43, 42, 40, 0.06);
+  --shadow-urgent: 0 2px 12px -4px rgba(181, 101, 74, 0.25);
+
+  /* —— 动效 —— */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);  /* Apple ease */
+  --dur: 0.25s;
+
+  /* —— 布局 —— */
+  --maxw: 1120px;          /* 主内容宽 */
+  --readw: 700px;          /* 详情页正文阅读宽 */
+  --header-h: 64px;
+}

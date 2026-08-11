@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="技术型的边界">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">数据 ≠ 标准：技术型的边界</text>
+
+  <rect x="30" y="60" width="580" height="55" rx="6" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="320" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">边界一：参数有正常范围，不是唯一正确值</text>
+  <text x="320" y="103" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">鼻额角 115°–130° 都正常，不是必须 120°；强行套单一数值反而不自然</text>
+
+  <rect x="30" y="125" width="580" height="55" rx="6" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="320" y="150" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">边界二：美不能完全还原为参数</text>
+  <text x="320" y="168" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">气质、神态、辨识度、协调感，这些无法用数字衡量，却是美的关键</text>
+
+  <rect x="30" y="190" width="580" height="55" rx="6" fill="#f4ede0" stroke="#c9a876"/>
+  <text x="320" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#8a7340">核心认知</text>
+  <text x="320" y="233" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">技术参数辅助决策，但不取代审美判断——否则容易陷入&quot;为达标而失协&quot;</text>
+
+  <text x="320" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">把数据当参考的医生是技术型；把数据当唯一标准的医生，可能滑向庸俗型</text>
+</svg>

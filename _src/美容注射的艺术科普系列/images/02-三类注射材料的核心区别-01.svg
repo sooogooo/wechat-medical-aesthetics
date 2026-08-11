@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="诉求与材料类别匹配图">
+  <rect width="720" height="340" fill="#faf8f4" rx="12"/>
+  <text x="360" y="32" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">我的诉求，对应哪一类材料</text>
+
+  <!-- 左列：诉求 -->
+  <text x="120" y="62" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#6b6864">常见诉求</text>
+  <rect x="40" y="74" width="180" height="40" rx="6" fill="#ffffff" stroke="#ddd6ca"/>
+  <text x="130" y="99" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">泪沟、太阳穴凹陷</text>
+  <rect x="40" y="120" width="180" height="40" rx="6" fill="#ffffff" stroke="#ddd6ca"/>
+  <text x="130" y="145" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">鼻梁低、下巴短</text>
+  <rect x="40" y="166" width="180" height="40" rx="6" fill="#ffffff" stroke="#ddd6ca"/>
+  <text x="130" y="191" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">抬头纹、鱼尾纹</text>
+  <rect x="40" y="212" width="180" height="40" rx="6" fill="#ffffff" stroke="#ddd6ca"/>
+  <text x="130" y="237" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">咬肌大、方脸</text>
+  <rect x="40" y="258" width="180" height="40" rx="6" fill="#ffffff" stroke="#ddd6ca"/>
+  <text x="130" y="283" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">肤质粗糙、整体松弛</text>
+
+  <!-- 中间：连接线 -->
+  <line x1="220" y1="94" x2="300" y2="94" stroke="#7a8b6f" stroke-width="2"/>
+  <polygon points="300,94 294,90 294,98" fill="#7a8b6f"/>
+  <line x1="220" y1="140" x2="300" y2="140" stroke="#7a8b6f" stroke-width="2"/>
+  <polygon points="300,140 294,136 294,144" fill="#7a8b6f"/>
+  <line x1="220" y1="186" x2="430" y2="186" stroke="#c9a876" stroke-width="2"/>
+  <polygon points="430,186 424,182 424,190" fill="#c9a876"/>
+  <line x1="220" y1="232" x2="430" y2="232" stroke="#c9a876" stroke-width="2"/>
+  <polygon points="430,232 424,228 424,236" fill="#c9a876"/>
+  <line x1="220" y1="278" x2="560" y2="278" stroke="#8a9a7f" stroke-width="2"/>
+  <polygon points="560,278 554,274 554,282" fill="#8a9a7f"/>
+
+  <!-- 右列：材料类别 -->
+  <rect x="300" y="70" width="160" height="100" rx="8" fill="#eef0ea" stroke="#7a8b6f" stroke-width="1.5"/>
+  <text x="380" y="96" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">填充类</text>
+  <text x="380" y="118" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">透明质酸为主</text>
+  <text x="380" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">即刻补容积</text>
+  <text x="380" y="158" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">可溶可逆</text>
+
+  <rect x="430" y="170" width="160" height="90" rx="8" fill="#f4ede0" stroke="#c9a876" stroke-width="1.5"/>
+  <text x="510" y="196" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#8a7340">肌肉松弛类</text>
+  <text x="510" y="218" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">肉毒杆菌素</text>
+  <text x="510" y="240" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">放松表情肌</text>
+
+  <rect x="560" y="250" width="140" height="70" rx="8" fill="#eef0ea" stroke="#8a9a7f" stroke-width="1.5"/>
+  <text x="630" y="276" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">再生刺激类</text>
+  <text x="630" y="298" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">渐进改善</text>
+
+  <text x="360" y="330" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为常见匹配示意，实际选择需面诊评估</text>
+</svg>

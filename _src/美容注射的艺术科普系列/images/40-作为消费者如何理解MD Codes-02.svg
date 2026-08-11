@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="评估方案的四个标准">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">好方案的四个特征</text>
+
+  <rect x="30" y="60" width="140" height="190" rx="8" fill="#ffffff" stroke="#7a8b6f"/>
+  <circle cx="100" cy="95" r="14" fill="#7a8b6f"/>
+  <text x="100" y="100" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">1</text>
+  <text x="100" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">有逻辑</text>
+  <text x="100" y="165" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">每个 code 都有</text>
+  <text x="100" y="182" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">明确的问题指向</text>
+  <text x="100" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">不是“套餐”</text>
+
+  <rect x="180" y="60" width="140" height="190" rx="8" fill="#ffffff" stroke="#8a9a7f"/>
+  <circle cx="250" cy="95" r="14" fill="#8a9a7f"/>
+  <text x="250" y="100" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">2</text>
+  <text x="250" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">有克制</text>
+  <text x="250" y="165" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">剂量克制、</text>
+  <text x="250" y="182" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">不一次打满</text>
+  <text x="250" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">愿意分次</text>
+
+  <rect x="330" y="60" width="140" height="190" rx="8" fill="#ffffff" stroke="#c9a876"/>
+  <circle cx="400" cy="95" r="14" fill="#c9a876"/>
+  <text x="400" y="100" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">3</text>
+  <text x="400" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#8a7340">有边界</text>
+  <text x="400" y="165" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">说清能力边界</text>
+  <text x="400" y="182" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">该手术就建议手术</text>
+  <text x="400" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#8a7340">不硬打</text>
+
+  <rect x="480" y="60" width="140" height="190" rx="8" fill="#ffffff" stroke="#5f6e54"/>
+  <circle cx="550" cy="95" r="14" fill="#5f6e54"/>
+  <text x="550" y="100" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">4</text>
+  <text x="550" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">有记录</text>
+  <text x="550" y="165" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">材料、批号、</text>
+  <text x="550" y="182" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">code、剂量可追溯</text>
+  <text x="550" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">能复盘</text>
+
+  <text x="320" y="265" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">用这四个标准评估，能筛掉大量不靠谱的方案</text>
+</svg>

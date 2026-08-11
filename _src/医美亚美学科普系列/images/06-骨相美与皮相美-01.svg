@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="骨相美与皮相美的对比">
+  <rect width="640" height="340" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">骨相美 vs 皮相美</text>
+
+  <!-- 骨相美 -->
+  <rect x="30" y="60" width="280" height="250" rx="8" fill="#ffffff" stroke="#7a8b6f" stroke-width="1.5"/>
+  <rect x="30" y="60" width="280" height="40" rx="8" fill="#7a8b6f"/>
+  <rect x="30" y="90" width="280" height="10" fill="#7a8b6f"/>
+  <text x="170" y="86" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#ffffff">骨相美</text>
+  <text x="50" y="125" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">核心：骨骼结构</text>
+  <text x="50" y="150" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 颧骨、下颌、眉骨立体</text>
+  <text x="50" y="170" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 面部支撑力强</text>
+  <text x="50" y="190" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 轮廓线条清晰</text>
+  <text x="50" y="225" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">气质印象：</text>
+  <text x="50" y="245" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">大气、耐老、有气场</text>
+  <text x="50" y="275" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">&quot;美人在骨不在皮&quot;</text>
+
+  <!-- 皮相美 -->
+  <rect x="330" y="60" width="280" height="250" rx="8" fill="#ffffff" stroke="#c9a876" stroke-width="1.5"/>
+  <rect x="330" y="60" width="280" height="40" rx="8" fill="#c9a876"/>
+  <rect x="330" y="90" width="280" height="10" fill="#c9a876"/>
+  <text x="470" y="86" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#ffffff">皮相美</text>
+  <text x="350" y="125" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">核心：皮肤与五官</text>
+  <text x="350" y="150" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 皮肤白皙细腻</text>
+  <text x="350" y="170" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 五官柔和精致</text>
+  <text x="350" y="190" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 色泽红润通透</text>
+  <text x="350" y="225" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">气质印象：</text>
+  <text x="350" y="245" font-family="PingFang SC,sans-serif" font-size="11" fill="#8a7340">惊艳、动人、柔和</text>
+  <text x="350" y="275" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">&quot;一白遮百丑&quot;</text>
+
+  <text x="320" y="330" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">两套审美逻辑，对应不同的美——本没有高下</text>
+</svg>

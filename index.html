@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>皮肤常见病症科普系列 · 重庆西区医院整形外科医疗美容中心</title>
+  <meta name="description" content="55 个常见皮肤问题的科学解读。每篇经临床审校，不替代面诊。遇到紧急情况请先拨打 120。" />
+  <link rel="icon" type="image/png" href="/assets/logo/amc-logo.png" />
+  <link rel="apple-touch-icon" href="/assets/logo/amc-logo.png" />
+  <link rel="stylesheet" href="assets/css/design-tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+</head>
+<body>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__inner">
+      <a href="/" class="brand" aria-label="重庆西区医院整形外科医疗美容中心 首页">
+        <img class="brand__logo" src="/assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
+        <span class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="主导航">
+        <a href="/">首页</a>
+        <a href="/plasticsurgery.html">整形外科</a>
+        <a href="/nonsurgical-center.html">非手术中心</a>
+        <a href="/special-conditions.html">特色专科</a>
+        <a href="/dermatology-conditions.html" aria-current="page">皮肤病症</a>
+        <a href="/our-teams.html">医疗团队</a>
+        <a href="/contact.html" class="btn btn--primary">预约面诊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow hero__eyebrow">皮肤常见病症科普系列</p>
+        <h1>认识皮肤，<br />从分清“这是什么”开始。</h1>
+        <p class="hero__sub">55 个常见皮肤问题的科学解读。先确认病名，再谈处理；不羞辱外观，不承诺根治，不替代面诊。</p>
+        <div class="hero__actions">
+          <a href="#explore" class="btn btn--primary">浏览病症</a>
+          <a href="/contact.html" class="btn btn--ghost">在线咨询</a>
+        </div>
+        <div class="hero__meta">
+          <span><i></i>55 个问题</span>
+          <span><i></i>经临床审校</span>
+          <span><i></i>不替代面诊</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 急救警示带(常驻) ============ -->
+    <div class="urgent-bar">
+      <div class="container urgent-bar__inner">
+        <span class="urgent-bar__icon" aria-hidden="true">⚠</span>
+        <p class="urgent-bar__text">
+          <strong>紧急情况请先求助。</strong>
+          出现 <em>呼吸困难、面部肿胀、注射后剧痛发白、高热伴皮疹</em> 等，<em>立即拨打 120 或前往急诊</em>，不要先查科普。
+        </p>
+      </div>
+    </div>
+
+    <!-- ============ 使用说明 ============ -->
+    <p class="series-note container">
+      这不是自助诊断工具。科普帮你看懂“可能是什么、怎样规范处理”，最终判断请交给面诊医生。
+    </p>
+
+    <!-- ============ 搜索 + 按症状入口 ============ -->
+    <section class="explore" id="explore">
+      <div class="container">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
+          </svg>
+          <input type="search" id="searchInput" placeholder="搜索病症、症状……" aria-label="搜索病症或症状" />
+        </div>
+
+        <div class="symptom-nav" id="symptomNav">
+          <p class="symptom-nav__label">不确定分类？从症状开始</p>
+          <div class="symptom-nav__chips">
+            <button class="chip" data-symptom="face">脸部长痘、泛红</button>
+            <button class="chip" data-symptom="spot">身上长斑</button>
+            <button class="chip" data-symptom="hair">脱发、掉发</button>
+            <button class="chip" data-symptom="itch">瘙痒难忍</button>
+            <button class="chip" data-symptom="foot">脚部问题</button>
+            <button class="chip" data-symptom="nail">指甲异常</button>
+            <button class="chip" data-symptom="birthmark">孩子的胎记</button>
+            <button class="chip" data-symptom="postprocedural">医美后异常</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 分类筛选(由 JS 渲染) ============ -->
+    <div class="category-bar">
+      <div class="container">
+        <div class="category-bar__inner" id="categoryBar" role="tablist" aria-label="按分类筛选">
+          <!-- JS 渲染 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 结果计数 ============ -->
+    <div class="results-meta container" id="resultsMeta">
+      <span id="resultsCount">加载中……</span>
+      <span id="resultsHint"></span>
+    </div>
+
+    <!-- ============ 卡片网格(由 JS 渲染) ============ -->
+    <div class="grid" id="grid" aria-live="polite">
+      <!-- JS 渲染 -->
+    </div>
+
+    <!-- ============ 流中转化分隔条 ============ -->
+    <div class="cta-strip" id="ctaStrip" hidden>
+      <div class="cta-strip__inner">
+        <div class="cta-strip__text">
+          <h3>没找到对应的，或者想确认？</h3>
+          <p>科普只帮你看懂，确诊和方案需要面诊。皮肤科医生可以帮你判断。</p>
+        </div>
+        <a href="/contact.html" class="btn btn--primary">预约皮肤科面诊</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="footer-about">
+          <h4>关于我们</h4>
+          <p>重庆西区医院整形外科医疗美容中心（AMC）依托三级综合医院，提供整形外科、美容外科、微整注射、美容皮肤科等医疗服务。</p>
+          <p class="footer-about__disclaimer">本网站内容不代表任何诊疗建议和就医指导，诊疗活动请到正规医疗机构找有资质的医生进行。</p>
+        </div>
+        <div>
+          <h4>快速链接</h4>
+          <ul>
+            <li><a href="/">首页</a></li>
+            <li><a href="/plasticsurgery.html">整形外科</a></li>
+            <li><a href="/nonsurgical-center.html">非手术中心</a></li>
+            <li><a href="/special-conditions.html">特色专科</a></li>
+            <li><a href="/dermatology-conditions.html">皮肤病症</a></li>
+            <li><a href="/skin-tone-lab.html">肤色实验室</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>更多</h4>
+          <ul>
+            <li><a href="/our-teams.html">医疗团队</a></li>
+            <li><a href="/#services">服务项目</a></li>
+            <li><a href="/contact.html">联系我们</a></li>
+            <li><a href="/join-us.html">共享平台</a></li>
+            <li><a href="/recruitment.html">加入我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>联系方式</h4>
+          <ul>
+            <li>门诊电话：（+86）023-81913691</li>
+            <li>行政电话：（+86）023-81913592</li>
+            <li>医院地址：重庆市九龙坡区华福大道北段 301 号</li>
+            <li>交通：轻轨 5 号线华岩站旁（向南约 500 米）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/home.js"></script>
+</body>
+</html>

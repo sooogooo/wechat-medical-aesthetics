@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="唇部美学维度示意">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">唇部注射要考虑的维度</text>
+
+  <!-- 简化唇形 -->
+  <g transform="translate(220,80)">
+    <!-- 上唇 -->
+    <path d="M 0 30 Q 30 10 60 18 Q 90 10 120 18 Q 150 10 180 30 Q 150 45 120 38 Q 90 45 60 38 Q 30 45 0 30 Z" fill="#e3c9bd" stroke="#b5654a" stroke-width="1.5"/>
+    <!-- 下唇 -->
+    <path d="M 20 50 Q 90 80 160 50 Q 130 70 90 72 Q 50 70 20 50 Z" fill="#e3c9bd" stroke="#b5654a" stroke-width="1.5"/>
+
+    <!-- 标注点 -->
+    <circle cx="30" cy="22" r="3" fill="#7a8b6f"/>
+    <text x="0" y="0" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">唇峰</text>
+
+    <circle cx="90" cy="40" r="3" fill="#7a8b6f"/>
+    <text x="120" y="38" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">唇珠</text>
+
+    <circle cx="90" cy="65" r="3" fill="#c9a876"/>
+    <text x="120" y="68" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">下唇丰满度</text>
+
+    <circle cx="0" cy="30" r="3" fill="#8a9a7f"/>
+    <text x="-30" y="50" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">口角</text>
+  </g>
+
+  <!-- 右侧维度列表 -->
+  <rect x="440" y="70" width="180" height="170" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <text x="455" y="95" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#2b2a28">美学考量</text>
+  <text x="455" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 上下唇比例（约 1:1.6）</text>
+  <text x="455" y="142" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 唇峰与唇珠形态</text>
+  <text x="455" y="164" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 人中长度与形态</text>
+  <text x="455" y="186" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 口角上扬（避免下垂）</text>
+  <text x="455" y="208" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 口周细纹</text>
+  <text x="455" y="230" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">• 与整体五官协调</text>
+
+  <text x="320" y="262" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为示意；唇部美学高度个体化，需结合面部整体比例</text>
+</svg>

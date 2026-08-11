@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="面部传递的四种常见气质印象">
+  <rect width="720" height="360" fill="#faf8f4" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">面部可能传递的四种&quot;气质印象&quot;</text>
+
+  <!-- 疲惫 -->
+  <rect x="30" y="65" width="160" height="260" rx="8" fill="#ffffff" stroke="#c9a876"/>
+  <ellipse cx="110" cy="170" rx="48" ry="60" fill="#f3efe8" stroke="#a8a39d"/>
+  <path d="M 80 150 Q 85 158 90 150" stroke="#8a7340" stroke-width="1.5" fill="none"/>
+  <path d="M 130 150 Q 135 158 140 150" stroke="#8a7340" stroke-width="1.5" fill="none"/>
+  <ellipse cx="82" cy="180" rx="10" ry="6" fill="#c9a876" opacity="0.3"/>
+  <ellipse cx="138" cy="180" rx="10" ry="6" fill="#c9a876" opacity="0.3"/>
+  <path d="M 90 200 Q 110 205 130 200" stroke="#a8a39d" stroke-width="1" fill="none"/>
+  <text x="110" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#8a7340">疲惫</text>
+  <text x="110" y="295" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">泪沟、眼周凹陷</text>
+  <text x="110" y="312" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">→ E、Ck codes</text>
+
+  <!-- 悲伤 -->
+  <rect x="200" y="65" width="160" height="260" rx="8" fill="#ffffff" stroke="#c9a876"/>
+  <ellipse cx="280" cy="170" rx="48" ry="60" fill="#f3efe8" stroke="#a8a39d"/>
+  <path d="M 250 150 L 260 148 M 300 150 L 310 148" stroke="#8a7340" stroke-width="1.5"/>
+  <path d="M 260 200 Q 280 195 300 200" stroke="#a8a39d" stroke-width="1" fill="none"/>
+  <path d="M 255 220 Q 245 230 255 235" stroke="#a8a39d" stroke-width="1" fill="none"/>
+  <path d="M 305 220 Q 315 230 305 235" stroke="#a8a39d" stroke-width="1" fill="none"/>
+  <text x="280" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#8a7340">悲伤</text>
+  <text x="280" y="295" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">口角下垂、木偶纹</text>
+  <text x="280" y="312" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">→ 口角、下颌 codes</text>
+
+  <!-- 严厉 -->
+  <rect x="370" y="65" width="160" height="260" rx="8" fill="#ffffff" stroke="#c9a876"/>
+  <ellipse cx="450" cy="170" rx="48" ry="60" fill="#f3efe8" stroke="#a8a39d"/>
+  <path d="M 425 148 L 440 153 M 460 153 L 475 148" stroke="#8a7340" stroke-width="1.5"/>
+  <path d="M 420 152 Q 450 145 480 152" stroke="#8a7340" stroke-width="1" fill="none"/>
+  <ellipse cx="420" cy="190" rx="14" ry="10" fill="#8a7340" opacity="0.2"/>
+  <ellipse cx="480" cy="190" rx="14" ry="10" fill="#8a7340" opacity="0.2"/>
+  <text x="450" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#8a7340">严厉</text>
+  <text x="450" y="295" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">眉间纹、颞部凹陷</text>
+  <text x="450" y="312" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">→ T、眉间 codes</text>
+
+  <!-- 老态 -->
+  <rect x="540" y="65" width="150" height="260" rx="8" fill="#ffffff" stroke="#c9a876"/>
+  <ellipse cx="615" cy="170" rx="48" ry="60" fill="#f3efe8" stroke="#a8a39d"/>
+  <path d="M 580 200 Q 615 215 650 200" stroke="#a8a39d" stroke-width="1.5" fill="none"/>
+  <path d="M 580 195 Q 615 188 650 195" stroke="#a8a39d" stroke-width="1" fill="none"/>
+  <path d="M 590 220 L 600 230 M 630 230 L 640 220" stroke="#a8a39d" stroke-width="0.8"/>
+  <text x="615" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#8a7340">老态</text>
+  <text x="615" y="295" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">容积流失、下垂</text>
+  <text x="615" y="312" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">→ Ck、Jw codes</text>
+
+  <text x="360" y="345" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为示意；情感属性是 MD Codes 的特色维度，关注&quot;看起来怎样&quot;而非&quot;填哪里&quot;</text>
+</svg>

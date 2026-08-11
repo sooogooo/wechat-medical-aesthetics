@@ -1,0 +1,14 @@
+# 会话/编辑器临时文件
+.zcode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node
+node_modules/
+
+# 临时构建脚本
+_src/extract-svg.mjs
+_src/insert-poster-refs.mjs
+_src/serve*.js

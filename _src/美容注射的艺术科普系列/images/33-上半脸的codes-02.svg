@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-label="上半脸血管风险汇总">
+  <rect width="640" height="240" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">上半脸 codes 共同的血管风险</text>
+
+  <rect x="40" y="60" width="560" height="60" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="320" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#b5654a">三个区域的血管都与眼动脉系统有交通</text>
+  <text x="320" y="105" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">材料误入血管 → 可能逆流至眼部 → 视力问题甚至失明</text>
+
+  <rect x="40" y="135" width="560" height="80" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="320" y="160" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">降低风险的核心</text>
+  <text x="60" y="183" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 深层、骨面注射（多数 code 推荐层次）</text>
+  <text x="60" y="203" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 少量、慢推、回抽</text>
+  <text x="350" y="183" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 熟悉每个 code 的危险血管</text>
+  <text x="350" y="203" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 机构备有透明质酸酶</text>
+</svg>

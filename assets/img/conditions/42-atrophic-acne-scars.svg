@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round" text-rendering="geometricPrecision" font-family='-apple-system,PingFang SC,Hiragino Sans GB,sans-serif'>
+
+  <path d="M60 22c-14 0-24 10-24 26 0 20 10 38 24 42 14-4 24-22 24-42 0-16-10-26-24-26z" stroke="#2B2A28" stroke-width="1.8"/>
+  <path d="M50 50c-2-1-5-1-7 0M70 50c2-1 5-1 7 0" stroke="#2B2A28" stroke-width="1.5"/>
+  <path d="M56 62c2 3 6 3 8 0" stroke="#2B2A28" stroke-width="1.5" fill="none"/>
+    <g fill="#2B2A28" fill-opacity="0.32">
+      <ellipse cx="50" cy="58" rx="2.5" ry="3.5"/><ellipse cx="62" cy="60" rx="3" ry="4.5"/>
+      <ellipse cx="72" cy="58" rx="2.5" ry="3.5"/>
+    </g>
+</svg>

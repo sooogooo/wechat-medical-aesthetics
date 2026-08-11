@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title1702 desc1702">
+  <title id="title1702">鼻整形的材料选择逻辑</title>
+  <desc id="desc1702">假体、自体软骨、注射填充各有特点，由鼻基础和诉求决定，不是越贵越好</desc>
+  <defs>
+    <linearGradient id="bg1702" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh1702" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .num { font: 700 24px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg1702)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh1702)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 17</text>
+  <text x="62" y="117" class="title">鼻整形材料：由解剖和术式决定</text>
+  <text x="62" y="153" class="kicker">不是越贵越好——肋软骨不是标配升级，是有明确适应证</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 三张材料卡 -->
+  <!-- 卡1：假体 -->
+  <rect x="62" y="208" width="250" height="265" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="100" cy="244" r="20" fill="#0072B2"/>
+  <text x="100" y="252" class="num" text-anchor="middle">1</text>
+  <text x="132" y="250" class="nodeTitle">假体</text>
+  <text x="82" y="285" class="body">硅胶 · 膨体</text>
+  <text x="82" y="310" class="small">用途：垫高鼻梁</text>
+  <text x="82" y="338" class="body">膨体：组织融合好</text>
+  <text x="82" y="358" class="small">但感染后处理更复杂</text>
+  <text x="82" y="386" class="body">硅胶：易取出</text>
+  <text x="82" y="406" class="small">可能透光、显形</text>
+  <rect x="82" y="430" width="210" height="32" rx="6" fill="#eef6f8"/>
+  <text x="187" y="451" class="small" text-anchor="middle">过浅过大可能穿出皮肤</text>
+
+  <!-- 卡2：自体软骨 -->
+  <rect x="325" y="208" width="250" height="265" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="363" cy="244" r="20" fill="#E69F00"/>
+  <text x="363" y="252" class="num" text-anchor="middle">2</text>
+  <text x="395" y="250" class="nodeTitle">自体软骨</text>
+  <text x="345" y="285" class="body">耳软骨：鼻尖修饰</text>
+  <text x="345" y="310" class="body">鼻中隔软骨：支撑</text>
+  <text x="345" y="335" class="body">肋软骨：量大、支撑强</text>
+  <text x="345" y="358" class="small">无排异，但切取有额外创伤</text>
+  <text x="345" y="386" class="body">肋软骨：复杂重建用</text>
+  <rect x="345" y="410" width="210" height="52" rx="6" fill="#fdf3e3"/>
+  <text x="450" y="431" class="small" text-anchor="middle">肋软骨可能吸收、变形</text>
+  <text x="450" y="451" class="small" text-anchor="middle">用于复杂鼻基础或修复</text>
+
+  <!-- 卡3：注射填充 -->
+  <rect x="588" y="208" width="250" height="265" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2"/>
+  <circle cx="626" cy="244" r="20" fill="#D55E00"/>
+  <text x="626" y="252" class="num" text-anchor="middle">3</text>
+  <text x="658" y="250" class="nodeTitle">注射填充</text>
+  <text x="608" y="285" class="body">透明质酸等</text>
+  <text x="608" y="310" class="small">仅适合微小调整</text>
+  <text x="608" y="338" class="body">效果临时</text>
+  <text x="608" y="358" class="small">需反复注射</text>
+  <rect x="608" y="385" width="210" height="50" rx="6" fill="#fbeae3"/>
+  <text x="713" y="406" class="small" text-anchor="middle">不适合结构性改变</text>
+  <text x="713" y="425" class="small" text-anchor="middle">有血管栓塞风险</text>
+  <rect x="608" y="445" width="210" height="20" rx="6" fill="#fdf1ee"/>
+  <text x="713" y="460" class="small" text-anchor="middle">详见第 20 篇</text>
+
+  <!-- 金句 -->
+  <rect x="62" y="490" width="776" height="40" rx="12" fill="#eef6f8"/>
+  <text x="450" y="516" class="quote" text-anchor="middle">肋软骨鼻综合比假体高级、效果更好——这是一种消费化误解</text>
+
+  <text x="62" y="540" class="footer">医学教育示意 · 材料选择须由医生面诊后建议 · 涉及肋软骨的复杂术式级别更高</text>
+  <text x="62" y="560" class="small">肋软骨的选择基于鼻基础和材料需求，不是因为更高级</text>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-label="骨相至上论的问题">
+  <rect width="640" height="240" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">&quot;骨相更高级&quot;的说法有什么问题</text>
+
+  <rect x="30" y="60" width="580" height="50" rx="6" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="320" y="82" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">问题一：审美无客观等级</text>
+  <text x="320" y="100" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">骨相和皮相是不同维度，不是高低级别</text>
+
+  <rect x="30" y="120" width="580" height="50" rx="6" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="320" y="142" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">问题二：暗含人种与阶层偏见</text>
+  <text x="320" y="160" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">骨相立体常与西方化关联，可能隐含对东方扁平脸的贬低</text>
+
+  <rect x="30" y="180" width="580" height="40" rx="6" fill="#f4ede0" stroke="#c9a876"/>
+  <text x="320" y="205" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">真正多元的审美：骨相、皮相、骨皮兼修，各有其美</text>
+</svg>
