@@ -10,6 +10,7 @@
   var cfgScript = scripts.length > 0 ? scripts[scripts.length - 1] : document.currentScript;
   var DATA_URL = (cfgScript && cfgScript.getAttribute("data-src")) || "assets/data/conditions.json";
   var CARD_HREF_PREFIX = (cfgScript && cfgScript.getAttribute("data-href-prefix")) || "";
+  var IMG_PREFIX = (cfgScript && cfgScript.getAttribute("data-img-prefix")) || "assets/img/conditions/";
   var CTA_EVERY = 18; // 每 N 张卡片插入一次转化分隔条
 
   var grid = document.getElementById("grid");
@@ -220,7 +221,7 @@
       html +=
         '<a class="card" href="' + CARD_HREF_PREFIX + c.slug + ".html\">" +
         '<div class="card__thumb">' +
-        '<img class="card__thumb-img" src="assets/img/conditions/' + c.slug + '.svg" alt="" loading="lazy" />' +
+        '<img class="card__thumb-img" src="' + IMG_PREFIX + c.slug + '.svg" alt="" loading="lazy" />' +
         '<div class="card__badges">' + badges + "</div>" +
         "</div>" +
         '<div class="card__body">' +
