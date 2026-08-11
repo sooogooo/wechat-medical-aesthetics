@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="鼻部血管与眼动脉交通示意">
+  <rect width="640" height="320" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">为什么鼻部注射可能影响视力</text>
+
+  <!-- 血管路径示意 -->
+  <g transform="translate(120,70)">
+    <!-- 注射点 -->
+    <circle cx="40" cy="180" r="14" fill="#b5654a"/>
+    <text x="40" y="184" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#ffffff">误入</text>
+    <text x="40" y="210" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#b5654a">鼻部血管</text>
+
+    <!-- 逆流箭头 -->
+    <path d="M 54 175 Q 120 150 180 120" stroke="#b5654a" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <text x="130" y="145" font-family="PingFang SC,sans-serif" font-size="10" fill="#b5654a">逆流</text>
+
+    <!-- 内眦动脉/鼻背动脉 -->
+    <circle cx="190" cy="115" r="10" fill="#c9a876"/>
+    <text x="190" y="100" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">鼻背动脉</text>
+
+    <!-- 眼动脉 -->
+    <path d="M 200 110 Q 260 90 320 80" stroke="#b5654a" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- 眼动脉节点 -->
+    <circle cx="330" cy="78" r="12" fill="#b5654a"/>
+    <text x="330" y="60" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#b5654a">眼动脉</text>
+
+    <!-- 视网膜中央动脉 -->
+    <path d="M 342 75 Q 380 70 410 75" stroke="#b5654a" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <circle cx="425" cy="78" r="14" fill="#5f6e54"/>
+    <text x="425" y="82" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#ffffff">视网膜</text>
+    <text x="425" y="105" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">中央动脉栓塞</text>
+
+    <!-- 结果 -->
+    <path d="M 440 85 Q 470 110 470 140" stroke="#b5654a" stroke-width="2" fill="none" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+    <rect x="430" y="150" width="100" height="40" rx="6" fill="#f7ece6" stroke="#b5654a"/>
+    <text x="480" y="168" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">视网膜缺血</text>
+    <text x="480" y="184" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">→ 失明</text>
+
+    <defs>
+      <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+        <polygon points="0,0 8,4 0,8" fill="#b5654a"/>
+      </marker>
+    </defs>
+  </g>
+
+  <text x="320" y="290" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">鼻部血管与眼动脉存在交通，材料误入血管可逆流至眼部</text>
+  <text x="320" y="308" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为机制示意；实际血管走行有个体差异，栓塞可在极短时间内发生</text>
+</svg>

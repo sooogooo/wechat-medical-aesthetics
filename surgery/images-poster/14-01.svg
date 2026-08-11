@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title1401 desc1401">
+  <title id="title1401">乳房过大带来的功能问题</title>
+  <desc id="desc1401">巨乳症常带来颈肩背痛、皮肤糜烂、姿势异常、运动受限等功能问题，缩乳术多为功能性手术</desc>
+  <defs>
+    <linearGradient id="bg1401" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh1401" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .num { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg1401)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh1401)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 14</text>
+  <text x="62" y="117" class="title">巨乳症不只是美观问题</text>
+  <text x="62" y="153" class="kicker">这些是真实的健康问题，不是矫情</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 五张功能问题卡 -->
+  <!-- 1 颈肩背痛 -->
+  <rect x="62" y="210" width="250" height="138" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="100" cy="246" r="20" fill="#0072B2"/>
+  <text x="100" y="254" class="num" text-anchor="middle">1</text>
+  <text x="132" y="252" class="nodeTitle">颈肩背痛</text>
+  <text x="82" y="287" class="body">长期负重</text>
+  <text x="82" y="312" class="body">慢性疼痛</text>
+  <text x="82" y="337" class="small">姿势异常 · 驼背 · 肩部勒痕</text>
+
+  <!-- 2 皮肤问题 -->
+  <rect x="325" y="210" width="250" height="138" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="363" cy="246" r="20" fill="#E69F00"/>
+  <text x="363" y="254" class="num" text-anchor="middle">2</text>
+  <text x="395" y="252" class="nodeTitle">皮肤问题</text>
+  <text x="345" y="287" class="body">下皱襞潮湿糜烂</text>
+  <text x="345" y="312" class="body">湿疹 · 反复感染</text>
+  <text x="345" y="337" class="small">长期困扰，保守难根治</text>
+
+  <!-- 3 运动受限 -->
+  <rect x="588" y="210" width="250" height="138" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="626" cy="246" r="20" fill="#0072B2"/>
+  <text x="626" y="254" class="num" text-anchor="middle">3</text>
+  <text x="658" y="252" class="nodeTitle">运动受限</text>
+  <text x="608" y="287" class="body">影响日常生活</text>
+  <text x="608" y="312" class="body">运动困难</text>
+  <text x="608" y="337" class="small">购买合适内衣也困难</text>
+
+  <!-- 4 心理负担 -->
+  <rect x="62" y="362" width="380" height="138" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="100" cy="398" r="20" fill="#E69F00"/>
+  <text x="100" y="406" class="num" text-anchor="middle">4</text>
+  <text x="132" y="404" class="nodeTitle">心理负担</text>
+  <text x="82" y="439" class="body">他人目光 · 自卑 · 社交回避</text>
+  <text x="82" y="464" class="body">穿衣困难 · 体态焦虑</text>
+  <text x="82" y="488" class="small">真实存在的心理困扰</text>
+
+  <!-- 5 手术性质 -->
+  <rect x="458" y="362" width="380" height="138" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2"/>
+  <circle cx="496" cy="398" r="20" fill="#D55E00"/>
+  <text x="496" y="406" class="num" text-anchor="middle">!</text>
+  <text x="528" y="404" class="nodeTitle">手术性质</text>
+  <text x="478" y="439" class="body">乳房缩小术：四级手术</text>
+  <text x="478" y="464" class="body">多为功能性手术，不只是为了好看</text>
+  <rect x="478" y="475" width="340" height="22" rx="6" fill="#fbeae3"/>
+  <text x="648" y="491" class="small" text-anchor="middle">医保或商保在某些情况下可能覆盖（需另行核验）</text>
+
+  <!-- 金句 -->
+  <rect x="62" y="515" width="776" height="40" rx="12" fill="#eef6f8"/>
+  <text x="450" y="541" class="quote" text-anchor="middle">缩小术在很多场景下，是功能性手术</text>
+
+  <text x="62" y="582" class="footer">医学教育示意 · 症状严重程度需面诊评估 · 保险覆盖以属地政策为准</text>
+</svg>

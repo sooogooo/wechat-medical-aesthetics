@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="技术型与高级型的关系">
+  <rect width="640" height="220" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">好的医美 = 高级思路 + 技术精准</text>
+
+  <ellipse cx="240" cy="130" rx="120" ry="60" fill="#7a8b6f" opacity="0.3"/>
+  <text x="200" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">高级思路</text>
+
+  <ellipse cx="400" cy="130" rx="120" ry="60" fill="#c9a876" opacity="0.3"/>
+  <text x="440" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#8a7340">技术精准</text>
+
+  <ellipse cx="320" cy="130" rx="50" ry="40" fill="#5f6e54" opacity="0.5"/>
+  <text x="320" y="128" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#ffffff">最佳</text>
+  <text x="320" y="145" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#ffffff">结合区</text>
+
+  <text x="100" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#5f6e54">有思路无技术 → 效果不稳定</text>
+  <text x="540" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#8a7340">有技术无思路 → 精准但显俗</text>
+  <text x="320" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#5f6e54">两者结合 → 耐看且精准</text>
+</svg>

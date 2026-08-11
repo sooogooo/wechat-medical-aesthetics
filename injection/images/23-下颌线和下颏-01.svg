@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="下颌注射适用与不适用">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">下颌注射：能做和不能做</text>
+
+  <rect x="30" y="60" width="280" height="200" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="170" y="90" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">✓ 注射能改善</text>
+  <text x="50" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 下颌缘模糊、轮廓不清</text>
+  <text x="50" y="145" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 轻度下巴后缩</text>
+  <text x="50" y="170" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 下颌线轻度不对称</text>
+  <text x="50" y="195" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 颏部形态轻度调整</text>
+  <text x="50" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 整体下面部协调度</text>
+  <text x="50" y="248" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">用支撑性填充材料</text>
+
+  <rect x="330" y="60" width="280" height="200" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="470" y="90" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#b5654a">× 注射难以解决</text>
+  <text x="350" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 严重下巴后缩、短下巴</text>
+  <text x="350" y="145" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 骨性下颌宽大</text>
+  <text x="350" y="170" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 咬肌肥厚（需肉毒）</text>
+  <text x="350" y="195" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 脂肪堆积（需减脂/吸脂）</text>
+  <text x="350" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 严重皮肤松弛</text>
+  <text x="350" y="248" font-family="PingFang SC,sans-serif" font-size="10" fill="#b5654a">这些需要手术或其他手段</text>
+
+  <text x="320" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">判断属于哪种，需要医生面诊评估骨性和软组织基础</text>
+</svg>

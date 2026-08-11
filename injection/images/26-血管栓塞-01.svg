@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="血管栓塞机制示意">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">栓塞如何发生，为什么严重</text>
+
+  <!-- 血管与针 -->
+  <g transform="translate(40,80)">
+    <!-- 正常血管 -->
+    <text x="0" y="0" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">材料误入血管</text>
+    <rect x="0" y="20" width="180" height="30" rx="15" fill="#eef0ea" stroke="#b5654a"/>
+    <text x="90" y="40" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">血管腔</text>
+    <!-- 针 -->
+    <line x1="90" y1="-5" x2="90" y2="40" stroke="#2b2a28" stroke-width="2"/>
+    <circle cx="90" cy="40" r="5" fill="#7a8b6f"/>
+
+    <!-- 箭头 -->
+    <line x1="200" y1="40" x2="240" y2="40" stroke="#a8a39d" stroke-width="1.5" marker-end="url(#e1)"/>
+  </g>
+
+  <g transform="translate(290,80)">
+    <text x="0" y="0" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">顺血流移动</text>
+    <rect x="0" y="20" width="180" height="30" rx="15" fill="#f7ece6" stroke="#b5654a"/>
+    <circle cx="50" cy="35" r="6" fill="#7a8b6f"/>
+    <circle cx="110" cy="35" r="6" fill="#7a8b6f"/>
+    <line x1="60" y1="35" x2="100" y2="35" stroke="#b5654a" stroke-width="1" marker-end="url(#e1)"/>
+  </g>
+
+  <g transform="translate(290,160)">
+    <text x="0" y="0" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">堵塞远端供血</text>
+    <rect x="0" y="20" width="180" height="30" rx="15" fill="#ffffff" stroke="#b5654a"/>
+    <circle cx="60" cy="35" r="10" fill="#b5654a"/>
+    <line x1="75" y1="35" x2="160" y2="35" stroke="#e3c9bd" stroke-width="2" stroke-dasharray="4,3"/>
+    <text x="125" y="30" font-family="PingFang SC,sans-serif" font-size="9" fill="#b5654a">缺血</text>
+  </g>
+
+  <defs>
+    <marker id="e1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#a8a39d"/>
+    </marker>
+  </defs>
+
+  <!-- 右侧结果 -->
+  <rect x="500" y="80" width="120" height="120" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="560" y="110" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">后果</text>
+  <text x="560" y="135" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#2b2a28">皮肤坏死</text>
+  <text x="560" y="155" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#2b2a28">失明</text>
+  <text x="560" y="175" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#2b2a28">脑栓塞（罕见）</text>
+
+  <text x="320" y="262" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">高压推注、误入血管是主因；面部血管与眼动脉交通使失明成为可能</text>
+</svg>

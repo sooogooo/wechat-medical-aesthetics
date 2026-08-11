@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="庸俗型的典型特征">
+  <rect width="640" height="340" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">庸俗型的典型特征</text>
+
+  <rect x="30" y="60" width="185" height="250" rx="8" fill="#ffffff" stroke="#b5654a"/>
+  <rect x="30" y="60" width="185" height="36" rx="8" fill="#b5654a"/>
+  <rect x="30" y="86" width="185" height="10" fill="#b5654a"/>
+  <text x="122" y="84" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#ffffff">过度</text>
+  <text x="45" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">剂量过度</text>
+  <text x="45" y="140" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">每个局部做到极致</text>
+  <text x="45" y="160" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充饱满到不自然</text>
+  <text x="45" y="180" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肌肉放松到僵硬</text>
+  <text x="45" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">项目过度</text>
+  <text x="45" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">能做的全做</text>
+  <text x="45" y="258" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">&quot;全套套餐&quot;</text>
+  <text x="45" y="288" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">= 显假</text>
+
+  <rect x="227" y="60" width="185" height="250" rx="8" fill="#ffffff" stroke="#b5654a"/>
+  <rect x="227" y="60" width="185" height="36" rx="8" fill="#b5654a"/>
+  <rect x="227" y="86" width="185" height="10" fill="#b5654a"/>
+  <text x="320" y="84" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#ffffff">趋同</text>
+  <text x="242" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">所有人一张脸</text>
+  <text x="242" y="140" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">套同一种模板</text>
+  <text x="242" y="160" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">追求同一种&quot;标准&quot;</text>
+  <text x="242" y="180" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">辨识度被抹平</text>
+  <text x="242" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">追逐流行</text>
+  <text x="242" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">今年流行什么做什么</text>
+  <text x="242" y="258" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">不顾自己适合与否</text>
+  <text x="242" y="288" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">= 失去自己</text>
+
+  <rect x="424" y="60" width="185" height="250" rx="8" fill="#ffffff" stroke="#b5654a"/>
+  <rect x="424" y="60" width="185" height="36" rx="8" fill="#b5654a"/>
+  <rect x="424" y="86" width="185" height="10" fill="#b5654a"/>
+  <text x="516" y="84" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#ffffff">套模板</text>
+  <text x="439" y="120" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">无视基础</text>
+  <text x="439" y="140" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">把不适合的模板</text>
+  <text x="439" y="160" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">套到每个人脸上</text>
+  <text x="439" y="180" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">骨骼、气质被忽视</text>
+  <text x="439" y="220" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">孤立局部</text>
+  <text x="439" y="240" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">鼻子单独最高</text>
+  <text x="439" y="258" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">下巴单独最尖</text>
+  <text x="439" y="288" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">= 拼盘失协</text>
+
+  <text x="320" y="330" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">三大特征叠加 → 一眼看出&quot;做过&quot;、显俗、不耐看</text>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="潮流变化带来的不可逆风险">
+  <rect width="640" height="260" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">冲着流行做不可逆手术的风险</text>
+
+  <rect x="30" y="60" width="580" height="60" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="320" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#b5654a">2018 年：&quot;尖下巴好看&quot; → 削骨、假体</text>
+  <text x="320" y="105" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">不可逆手术后，潮流变了，&quot;尖下巴&quot;变成&quot;假&quot;</text>
+
+  <rect x="30" y="135" width="580" height="60" rx="8" fill="#f4ede0" stroke="#c9a876"/>
+  <text x="320" y="160" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#8a7340">&quot;高鼻梁好看&quot; → 鼻综合、肋软骨</text>
+  <text x="320" y="180" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">不可逆改变后，潮流变了，&quot;高鼻&quot;变成&quot;流水线&quot;</text>
+
+  <text x="320" y="230" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">可逆项目（如填充）随潮流调整相对容易；不可逆手术（如骨骼）一旦做了，潮流退去也无法回头</text>
+</svg>

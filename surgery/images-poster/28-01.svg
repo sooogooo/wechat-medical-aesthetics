@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title2801 desc2801">
+  <title id="title2801">二次修复的三步决策流程</title>
+  <desc id="desc2801">等组织稳定、区分真实问题与过高预期、权衡风险收益，有时不再手术是更明智选择</desc>
+  <defs>
+    <linearGradient id="bg2801" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh2801" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .num { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg2801)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh2801)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 28</text>
+  <text x="62" y="117" class="title">二次修复：三步决策流程</text>
+  <text x="62" y="153" class="kicker">不能凭一时情绪决定——给时间、辨问题、算风险</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 三张步骤卡（横向流程） -->
+  <!-- 步骤1：等组织稳定 -->
+  <rect x="62" y="215" width="250" height="305" rx="16" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="105" cy="258" r="22" fill="#0072B2"/>
+  <text x="105" y="267" class="num" text-anchor="middle">1</text>
+  <text x="140" y="265" class="nodeTitle">给时间</text>
+  <line x1="82" y1="290" x2="292" y2="290" stroke="#dce5e5"/>
+  <text x="82" y="318" class="body">肿胀期形态不稳定</text>
+  <text x="82" y="345" class="body">心理适应需要时间</text>
+  <text x="82" y="372" class="body">最终效果半年到一年</text>
+  <rect x="82" y="430" width="210" height="70" rx="8" fill="#eef6f8"/>
+  <text x="187" y="455" class="small" text-anchor="middle">过早修复判断不准</text>
+  <text x="187" y="475" class="small" text-anchor="middle">除非明确并发症</text>
+  <text x="187" y="493" class="small" text-anchor="middle">否则建议等待</text>
+
+  <!-- 步骤2：区分问题 -->
+  <rect x="325" y="215" width="250" height="305" rx="16" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="368" cy="258" r="22" fill="#E69F00"/>
+  <text x="368" y="267" class="num" text-anchor="middle">2</text>
+  <text x="403" y="265" class="nodeTitle">辨问题</text>
+  <line x1="345" y1="290" x2="555" y2="290" stroke="#dce5e5"/>
+  <text x="345" y="318" class="body">真实问题：</text>
+  <text x="345" y="342" class="small">不对称、形态异常、功能影响</text>
+  <text x="345" y="375" class="body">过高预期：</text>
+  <text x="345" y="399" class="small">没达到想象中的完美</text>
+  <rect x="345" y="430" width="210" height="70" rx="8" fill="#fdf3e3"/>
+  <text x="450" y="455" class="small" text-anchor="middle">过高预期修复常带来</text>
+  <text x="450" y="475" class="small" text-anchor="middle">新的不满</text>
+  <text x="450" y="493" class="small" text-anchor="middle">根源是预期而非手术</text>
+
+  <!-- 步骤3：权衡风险 -->
+  <rect x="588" y="215" width="250" height="305" rx="16" fill="#fdf1ee" stroke="#D55E00" stroke-width="2"/>
+  <circle cx="631" cy="258" r="22" fill="#D55E00"/>
+  <text x="631" y="267" class="num" text-anchor="middle">3</text>
+  <text x="666" y="265" class="nodeTitle">算风险</text>
+  <line x1="608" y1="290" x2="818" y2="290" stroke="#dce5e5"/>
+  <text x="608" y="318" class="body">能改善多少？</text>
+  <text x="608" y="345" class="body">带来什么新风险？</text>
+  <text x="608" y="372" class="body">值得承担吗？</text>
+  <text x="608" y="399" class="body">医生经验是否足够？</text>
+  <rect x="608" y="430" width="210" height="70" rx="8" fill="#fbeae3"/>
+  <text x="713" y="455" class="small" text-anchor="middle">改善有限而风险显著时</text>
+  <text x="713" y="475" class="small" text-anchor="middle">「接受现状」</text>
+  <text x="713" y="493" class="small" text-anchor="middle">可能是更理性的选择</text>
+
+  <!-- 流程箭头 -->
+  <path d="M 312 368 L 325 368" stroke="#7d8e93" stroke-width="2" fill="none"/>
+  <path d="M 320 363 L 325 368 L 320 373" fill="none" stroke="#7d8e93" stroke-width="2"/>
+  <path d="M 575 368 L 588 368" stroke="#7d8e93" stroke-width="2" fill="none"/>
+  <path d="M 583 363 L 588 368 L 583 373" fill="none" stroke="#7d8e93" stroke-width="2"/>
+
+  <!-- 金句 -->
+  <rect x="62" y="535" width="776" height="40" rx="12" fill="#eef6f8"/>
+  <text x="450" y="561" class="quote" text-anchor="middle">把「修复到完美」作为目标，几乎注定失望</text>
+
+  <text x="62" y="582" class="footer">医学教育示意 · 修复手术须在有资质、有修复经验的机构由具备权限的医师开展</text>
+</svg>

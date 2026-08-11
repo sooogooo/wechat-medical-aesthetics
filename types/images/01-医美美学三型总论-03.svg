@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="三型不是固定标签">
+  <rect width="640" height="220" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">同一个人，可能落在不同型</text>
+
+  <rect x="30" y="60" width="580" height="130" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="320" y="90" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">三型描述的是&quot;这一次医美的思路与结果&quot;</text>
+  <text x="320" y="118" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">同一个人，用克制思路做一次填充 → 高级型</text>
+  <text x="320" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">同一个人，被推销&quot;全套套餐&quot;过度填充 → 庸俗型</text>
+  <text x="320" y="168" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">所以三型是&quot;过程与结果&quot;的分类，不是&quot;人&quot;的分类</text>
+
+  <text x="320" y="208" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">这意味着：走向高级型，是一种选择，而不是一种身份</text>
+</svg>

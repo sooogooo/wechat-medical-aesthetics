@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" role="img" aria-label="MD Codes 面部分区概览">
+  <rect width="560" height="520" fill="#faf8f4" rx="12"/>
+  <text x="280" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">面部八大区域（示意）</text>
+
+  <!-- 面部轮廓 -->
+  <ellipse cx="280" cy="280" rx="130" ry="175" fill="#ffffff" stroke="#a8a39d" stroke-width="1.5"/>
+
+  <!-- F 额头 -->
+  <path d="M 180 180 Q 280 150 380 180" stroke="#7a8b6f" stroke-width="1.5" fill="#7a8b6f" fill-opacity="0.15"/>
+  <text x="280" y="178" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">F 额头</text>
+
+  <!-- T 颞部 -->
+  <ellipse cx="195" cy="210" rx="22" ry="28" fill="#8a9a7f" fill-opacity="0.2" stroke="#8a9a7f"/>
+  <ellipse cx="365" cy="210" rx="22" ry="28" fill="#8a9a7f" fill-opacity="0.2" stroke="#8a9a7f"/>
+  <text x="195" y="214" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">T</text>
+  <text x="365" y="214" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">T</text>
+
+  <!-- E 眼周 -->
+  <ellipse cx="245" cy="245" rx="18" ry="12" fill="#c9a876" fill-opacity="0.25" stroke="#c9a876"/>
+  <ellipse cx="315" cy="245" rx="18" ry="12" fill="#c9a876" fill-opacity="0.25" stroke="#c9a876"/>
+  <text x="245" y="249" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">E</text>
+  <text x="315" y="249" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">E</text>
+
+  <!-- Ck 颊部 -->
+  <ellipse cx="230" cy="295" rx="30" ry="25" fill="#7a8b6f" fill-opacity="0.2" stroke="#7a8b6f"/>
+  <ellipse cx="330" cy="295" rx="30" ry="25" fill="#7a8b6f" fill-opacity="0.2" stroke="#7a8b6f"/>
+  <text x="230" y="299" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">Ck</text>
+  <text x="330" y="299" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">Ck</text>
+
+  <!-- Nl 鼻唇沟 -->
+  <ellipse cx="245" cy="345" rx="14" ry="20" fill="#c9a876" fill-opacity="0.2" stroke="#c9a876"/>
+  <ellipse cx="315" cy="345" rx="14" ry="20" fill="#c9a876" fill-opacity="0.2" stroke="#c9a876"/>
+  <text x="245" y="349" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">Nl</text>
+  <text x="315" y="349" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#8a7340">Nl</text>
+
+  <!-- Jw 下颌线 -->
+  <path d="M 175 380 Q 200 410 280 415 Q 360 410 385 380" stroke="#5f6e54" stroke-width="3" fill="none" stroke-opacity="0.4"/>
+  <text x="180" y="405" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">Jw</text>
+  <text x="370" y="405" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">Jw</text>
+
+  <!-- C 颏部 -->
+  <ellipse cx="280" cy="410" rx="22" ry="18" fill="#8a9a7f" fill-opacity="0.2" stroke="#8a9a7f"/>
+  <text x="280" y="414" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">C 颏</text>
+
+  <!-- 图例 -->
+  <rect x="40" y="450" width="480" height="55" rx="6" fill="#ffffff" stroke="#ece7df"/>
+  <text x="55" y="472" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">每个区域再细分为多个 code（如 Ck1/Ck2/Ck3），对应不同的解剖子区域与注射目标</text>
+  <text x="55" y="492" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为分区示意；MD Codes 体系由 Maurício de Maio 提出，归属其本人</text>
+</svg>

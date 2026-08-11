@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="透明质酸型号与部位匹配示意">
+  <rect width="640" height="320" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">不同型号，配不同部位（示意）</text>
+
+  <!-- 横轴：从软到硬 -->
+  <line x1="60" y1="240" x2="580" y2="240" stroke="#a8a39d" stroke-width="2"/>
+  <polygon points="580,240 572,235 572,245" fill="#a8a39d"/>
+  <text x="60" y="262" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">柔软、易铺展</text>
+  <text x="580" y="262" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">坚硬、高支撑</text>
+
+  <!-- 泪沟 -->
+  <circle cx="130" cy="240" r="10" fill="#7a8b6f"/>
+  <text x="130" y="220" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">泪沟 / 唇部</text>
+  <text x="130" y="290" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">小粒径、低粘弹性</text>
+  <text x="130" y="306" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">柔软、不易透光</text>
+
+  <!-- 法令纹 -->
+  <circle cx="290" cy="240" r="10" fill="#8a9a7f"/>
+  <text x="290" y="220" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">法令纹 / 苹果肌</text>
+  <text x="290" y="290" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">中粒径、中等支撑</text>
+
+  <!-- 鼻梁 -->
+  <circle cx="450" cy="240" r="10" fill="#5f6e54"/>
+  <text x="450" y="220" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">鼻梁 / 下巴</text>
+  <text x="450" y="290" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">大粒径、高粘弹性</text>
+  <text x="450" y="306" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">坚硬、有支撑力</text>
+
+  <!-- 颞部 -->
+  <circle cx="540" cy="240" r="10" fill="#5f6e54"/>
+  <text x="540" y="220" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">颞部 / 颧弓</text>
+  <text x="540" y="290" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">深部、骨面支撑</text>
+
+  <text x="320" y="312" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为示意；实际型号选择由医生根据产品和部位特性决定</text>
+</svg>

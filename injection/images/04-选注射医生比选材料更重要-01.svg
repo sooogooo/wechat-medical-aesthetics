@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" role="img" aria-label="选医生的硬指标清单">
+  <rect width="680" height="380" fill="#faf8f4" rx="12"/>
+  <text x="340" y="32" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="16" font-weight="600" fill="#2b2a28">选注射医生：该看什么，别看什么</text>
+
+  <!-- 左栏：该看 -->
+  <rect x="30" y="55" width="300" height="305" rx="10" fill="#eef0ea" stroke="#7a8b6f" stroke-width="1.5"/>
+  <rect x="30" y="55" width="300" height="38" rx="10" fill="#7a8b6f"/>
+  <rect x="30" y="83" width="300" height="10" fill="#7a8b6f"/>
+  <text x="180" y="80" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#ffffff">✓ 该看的硬指标</text>
+
+  <text x="50" y="118" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 医师执业资格（临床 / 医疗美容科）</text>
+  <text x="50" y="142" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 执业范围与机构一致</text>
+  <text x="50" y="166" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 正规医疗机构执业许可证</text>
+  <text x="50" y="190" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 解剖功底与注射培训背景</text>
+  <text x="50" y="214" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 主动告知材料、风险、替代方案</text>
+  <text x="50" y="238" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 当面解释个体风险（结合部位）</text>
+  <text x="50" y="262" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 具备并发症识别与急救能力</text>
+  <text x="50" y="286" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 备有透明质酸酶等急救药品</text>
+  <text x="50" y="310" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 提供材料批号、可追溯</text>
+  <text x="50" y="334" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 不催促、不夸大、不打包票</text>
+
+  <!-- 右栏：别看 -->
+  <rect x="350" y="55" width="300" height="305" rx="10" fill="#f7ece6" stroke="#b5654a" stroke-width="1.5"/>
+  <rect x="350" y="55" width="300" height="38" rx="10" fill="#b5654a"/>
+  <rect x="350" y="83" width="300" height="10" fill="#b5654a"/>
+  <text x="500" y="80" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="14" font-weight="600" fill="#ffffff">✗ 别被绕晕的噱头</text>
+
+  <text x="370" y="118" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• “院长”“首席”等自封头衔</text>
+  <text x="370" y="142" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 来路不明的“国际会员”</text>
+  <text x="370" y="166" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• “做过一万例”无法核实</text>
+  <text x="370" y="190" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 只展示精修过的案例图</text>
+  <text x="370" y="214" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 强调“进口设备”回避资质</text>
+  <text x="370" y="238" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• “咨询师”主导全程决策</text>
+  <text x="370" y="262" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• “保证满意”“零风险”</text>
+  <text x="370" y="286" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• “今天定下来有优惠”</text>
+  <text x="370" y="310" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 不说明材料品牌、批号</text>
+  <text x="370" y="334" font-family="PingFang SC,sans-serif" font-size="12" fill="#2b2a28">• 回避风险讨论</text>
+
+  <text x="340" y="372" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">资质可在国家卫健委医师执业注册查询系统核实</text>
+</svg>

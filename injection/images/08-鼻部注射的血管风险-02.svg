@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="鼻部注射机构硬门槛">
+  <rect width="640" height="220" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">鼻部注射，机构必须满足</text>
+
+  <rect x="30" y="50" width="290" height="70" rx="8" fill="#ffffff" stroke="#b5654a" stroke-width="1.5"/>
+  <circle cx="55" cy="85" r="10" fill="#b5654a"/>
+  <text x="55" y="89" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#ffffff">!</text>
+  <text x="75" y="80" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#2b2a28">备有透明质酸酶</text>
+  <text x="75" y="100" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">栓塞发生时唯一的溶解手段</text>
+
+  <rect x="350" y="50" width="260" height="70" rx="8" fill="#ffffff" stroke="#b5654a" stroke-width="1.5"/>
+  <circle cx="375" cy="85" r="10" fill="#b5654a"/>
+  <text x="375" y="89" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#ffffff">!</text>
+  <text x="395" y="80" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#2b2a28">有栓塞急救流程</text>
+  <text x="395" y="100" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">不是“做完了再想办法”</text>
+
+  <rect x="30" y="135" width="290" height="70" rx="8" fill="#ffffff" stroke="#b5654a" stroke-width="1.5"/>
+  <circle cx="55" cy="170" r="10" fill="#b5654a"/>
+  <text x="55" y="174" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#ffffff">!</text>
+  <text x="75" y="165" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#2b2a28">医生熟悉鼻部血管解剖</text>
+  <text x="75" y="185" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">能讲清危险区如何规避</text>
+
+  <rect x="350" y="135" width="260" height="70" rx="8" fill="#ffffff" stroke="#b5654a" stroke-width="1.5"/>
+  <circle cx="375" cy="170" r="10" fill="#b5654a"/>
+  <text x="375" y="174" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#ffffff">!</text>
+  <text x="395" y="165" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#2b2a28">正规医疗机构资质</text>
+  <text x="395" y="185" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">执业许可证可查</text>
+</svg>

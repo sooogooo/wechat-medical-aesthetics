@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="常见纹路分类">
+  <rect width="640" height="340" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">常见皱纹的类型与首选手段</text>
+
+  <!-- 表头 -->
+  <rect x="30" y="50" width="580" height="32" rx="4" fill="#7a8b6f"/>
+  <text x="120" y="71" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">皱纹类型</text>
+  <text x="290" y="71" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">特征</text>
+  <text x="480" y="71" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">首选手段</text>
+
+  <!-- 行 -->
+  <rect x="30" y="82" width="580" height="42" fill="#ffffff" stroke="#ece7df"/>
+  <text x="120" y="108" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">抬头纹</text>
+  <text x="290" y="108" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">抬眉时横纹，通常动态为主</text>
+  <text x="480" y="108" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">肉毒</text>
+
+  <rect x="30" y="124" width="580" height="42" fill="#eef0ea" stroke="#ece7df"/>
+  <text x="120" y="150" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">眉间纹（川字纹）</text>
+  <text x="290" y="150" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">皱眉时竖纹，可发展为静态</text>
+  <text x="480" y="150" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">肉毒为主</text>
+
+  <rect x="30" y="166" width="580" height="42" fill="#ffffff" stroke="#ece7df"/>
+  <text x="120" y="192" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">鱼尾纹</text>
+  <text x="290" y="192" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">笑时眼角放射纹</text>
+  <text x="480" y="192" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">肉毒</text>
+
+  <rect x="30" y="208" width="580" height="42" fill="#eef0ea" stroke="#ece7df"/>
+  <text x="120" y="234" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">法令纹</text>
+  <text x="290" y="234" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">鼻翼到口角的沟，多为静态</text>
+  <text x="480" y="234" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#8a7340">填充 / 中面部提升</text>
+
+  <rect x="30" y="250" width="580" height="42" fill="#ffffff" stroke="#ece7df"/>
+  <text x="120" y="276" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">木偶纹</text>
+  <text x="290" y="276" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">口角下方的沟，多为静态</text>
+  <text x="480" y="276" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#8a7340">填充为主</text>
+
+  <text x="320" y="320" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">此表为一般规律；实际方案需医生面诊，常需联合治疗</text>
+</svg>

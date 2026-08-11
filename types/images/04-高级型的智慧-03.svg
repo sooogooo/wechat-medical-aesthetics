@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="耐看与潮流的关系">
+  <rect width="640" height="220" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">耐看 = 超越潮流</text>
+
+  <rect x="30" y="55" width="280" height="130" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="170" y="83" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#b5654a">✗ 庸俗型：追潮流</text>
+  <text x="50" y="113" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">追&quot;今天的标准脸&quot;</text>
+  <text x="50" y="136" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">→ 潮流变，脸就过时</text>
+  <text x="50" y="165" font-family="PingFang SC,sans-serif" font-size="10" fill="#b5654a">不可逆改变后无法回头</text>
+
+  <rect x="330" y="55" width="280" height="130" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="470" y="83" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">✓ 高级型：超越潮流</text>
+  <text x="350" y="113" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">追求&quot;协调、属于你&quot;</text>
+  <text x="350" y="136" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">→ 潮流变，脸仍耐看</text>
+  <text x="350" y="165" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">经得起时间检验</text>
+
+  <text x="320" y="205" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">时间是审美的试金石——耐看的脸，五年十年后仍然好看</text>
+</svg>

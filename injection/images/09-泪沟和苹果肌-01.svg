@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="眼下方凹陷的不同原因">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">眼下方凹陷，可能是这几种</text>
+
+  <rect x="30" y="55" width="140" height="180" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <ellipse cx="100" cy="110" rx="32" ry="40" fill="#f3efe8"/>
+  <path d="M 75 110 Q 100 130 125 110" stroke="#7a8b6f" stroke-width="2" fill="none"/>
+  <text x="100" y="180" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">真性泪沟</text>
+  <text x="100" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">韧带牵拉形成的凹陷</text>
+  <text x="100" y="216" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">填充有效</text>
+
+  <rect x="180" y="55" width="140" height="180" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <ellipse cx="250" cy="110" rx="32" ry="40" fill="#f3efe8"/>
+  <path d="M 225 100 Q 250 95 275 100" stroke="#c9a876" stroke-width="2" fill="none"/>
+  <ellipse cx="250" cy="125" rx="20" ry="10" fill="#eef0ea"/>
+  <text x="250" y="180" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#8a7340">眼袋 + 泪沟</text>
+  <text x="250" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">眶隔脂肪突出</text>
+  <text x="250" y="216" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">单纯填充可能更糟</text>
+
+  <rect x="330" y="55" width="140" height="180" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <ellipse cx="400" cy="110" rx="32" ry="40" fill="#f3efe8"/>
+  <path d="M 375 130 L 395 120 L 425 130" stroke="#8a9a7f" stroke-width="2" fill="none"/>
+  <text x="400" y="180" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">印第安纹</text>
+  <text x="400" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">颧颊沟韧带</text>
+  <text x="400" y="216" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">处理难度高</text>
+
+  <rect x="480" y="55" width="130" height="180" rx="8" fill="#ffffff" stroke="#ece7df"/>
+  <ellipse cx="545" cy="115" rx="30" ry="38" fill="#f3efe8"/>
+  <ellipse cx="545" cy="135" rx="22" ry="15" fill="#eef0ea"/>
+  <text x="545" y="180" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">苹果肌下垂</text>
+  <text x="545" y="200" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">容积流失 + 下移</text>
+  <text x="545" y="216" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">需中面部提升</text>
+
+  <text x="320" y="260" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">图为示意；准确判断需医生面诊触诊，有时需动态评估</text>
+</svg>

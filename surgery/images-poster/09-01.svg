@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title0901 desc0901">
+  <title id="title0901">下巴短的三种方案对比</title>
+  <desc id="desc0901">颏成形术四级、假体隆颏二三级、注射填充门诊，创伤与可逆性差别大</desc>
+  <defs>
+    <linearGradient id="bg0901" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh0901" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .body { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .lvl { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg0901)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh0901)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 09</text>
+  <text x="62" y="117" class="title">下巴短的三种方案对比</text>
+  <text x="62" y="153" class="kicker">截骨、假体、注射，创伤与可逆性差别很大</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 表头 -->
+  <rect x="62" y="210" width="776" height="32" rx="6" fill="#eef3f4"/>
+  <text x="188" y="232" class="small" text-anchor="middle" fill="#17323d" font-weight="700">方式</text>
+  <text x="350" y="232" class="small" text-anchor="middle" fill="#17323d" font-weight="700">创伤/恢复</text>
+  <text x="510" y="232" class="small" text-anchor="middle" fill="#17323d" font-weight="700">可逆性</text>
+  <text x="688" y="232" class="small" text-anchor="middle" fill="#17323d" font-weight="700">适合人群</text>
+
+  <!-- 行1：颏成形术 -->
+  <rect x="62" y="246" width="776" height="86" rx="8" fill="#fdf1ee" stroke="#D55E00" stroke-width="1.5"/>
+  <rect x="62" y="246" width="130" height="86" rx="8" fill="#D55E00"/>
+  <rect x="180" y="246" width="12" height="86" fill="#D55E00"/>
+  <text x="127" y="282" class="lvl" text-anchor="middle">颏成形术</text>
+  <text x="127" y="304" class="lvl" text-anchor="middle">（截骨前移）</text>
+  <text x="127" y="322" class="lvl" text-anchor="middle">四级</text>
+  <text x="350" y="278" class="body" text-anchor="middle">创伤大、恢复慢</text>
+  <text x="350" y="300" class="small" text-anchor="middle">全麻、经口内切口</text>
+  <text x="350" y="320" class="small" text-anchor="middle">需住院</text>
+  <text x="510" y="278" class="body" text-anchor="middle">效果永久</text>
+  <text x="510" y="300" class="small" text-anchor="middle">骨性前移</text>
+  <text x="510" y="320" class="small" text-anchor="middle">不可逆</text>
+  <text x="688" y="278" class="body" text-anchor="middle">骨性后缩明显</text>
+  <text x="688" y="300" class="small" text-anchor="middle">愿承担四级风险</text>
+  <text x="688" y="320" class="small" text-anchor="middle">追求永久效果</text>
+
+  <!-- 行2：假体隆颏 -->
+  <rect x="62" y="340" width="776" height="86" rx="8" fill="#fff8ee" stroke="#E69F00" stroke-width="1.5"/>
+  <rect x="62" y="340" width="130" height="86" rx="8" fill="#E69F00"/>
+  <rect x="180" y="340" width="12" height="86" fill="#E69F00"/>
+  <text x="127" y="376" class="lvl" text-anchor="middle">假体隆颏</text>
+  <text x="127" y="398" class="lvl" text-anchor="middle">硅胶/膨体</text>
+  <text x="127" y="416" class="lvl" text-anchor="middle">通常二/三级</text>
+  <text x="350" y="372" class="body" text-anchor="middle">中等创伤</text>
+  <text x="350" y="394" class="small" text-anchor="middle">口内或颏下切口</text>
+  <text x="350" y="414" class="small" text-anchor="middle">恢复数周</text>
+  <text x="510" y="372" class="body" text-anchor="middle">可取出</text>
+  <text x="510" y="394" class="small" text-anchor="middle">效果明确</text>
+  <text x="510" y="414" class="small" text-anchor="middle">有移位/显形风险</text>
+  <text x="688" y="372" class="body" text-anchor="middle">明显改善</text>
+  <text x="688" y="394" class="small" text-anchor="middle">不愿截骨</text>
+  <text x="688" y="414" class="small" text-anchor="middle">接受异物植入</text>
+
+  <!-- 行3：注射填充 -->
+  <rect x="62" y="434" width="776" height="86" rx="8" fill="#f8fbfb" stroke="#0072B2" stroke-width="1.5"/>
+  <rect x="62" y="434" width="130" height="86" rx="8" fill="#0072B2"/>
+  <rect x="180" y="434" width="12" height="86" fill="#0072B2"/>
+  <text x="127" y="470" class="lvl" text-anchor="middle">注射填充</text>
+  <text x="127" y="492" class="lvl" text-anchor="middle">透明质酸等</text>
+  <text x="127" y="510" class="lvl" text-anchor="middle">通常门诊</text>
+  <text x="350" y="466" class="body" text-anchor="middle">创伤小</text>
+  <text x="350" y="488" class="small" text-anchor="middle">恢复快</text>
+  <text x="350" y="508" class="small" text-anchor="middle">改善幅度有限</text>
+  <text x="510" y="466" class="body" text-anchor="middle">可吸收</text>
+  <text x="510" y="488" class="small" text-anchor="middle">效果临时</text>
+  <text x="510" y="508" class="small" text-anchor="middle">需定期补打</text>
+  <text x="688" y="466" class="body" text-anchor="middle">轻度后缩</text>
+  <text x="688" y="488" class="small" text-anchor="middle">试水效果</text>
+  <text x="688" y="508" class="small" text-anchor="middle">注意血管栓塞</text>
+
+  <rect x="62" y="525" width="776" height="40" rx="12" fill="#eef6f8"/>
+  <text x="450" y="551" class="quote" text-anchor="middle">"打一针垫下巴"被包装成无风险，仍有血管栓塞可能</text>
+
+  <text x="62" y="582" class="footer">医学教育示意，非教学图 · 颏成形术为四级手术，假体隆颏级别以机构核准为准</text>
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="几类高风险其他注射">
+  <rect width="640" height="340" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">这些注射，要格外警惕</text>
+
+  <rect x="30" y="55" width="185" height="250" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <rect x="30" y="55" width="185" height="34" rx="8" fill="#b5654a"/>
+  <rect x="30" y="79" width="185" height="10" fill="#b5654a"/>
+  <text x="122" y="77" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">溶脂针</text>
+  <text x="45" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">宣称：药物溶解脂肪</text>
+  <text x="45" y="140" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">问题：</text>
+  <text x="45" y="160" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 国内多数无明确批准</text>
+  <text x="45" y="180" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 皮肤坏死、感染、</text>
+  <text x="45" y="196" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">  不对称、神经损伤</text>
+  <text x="45" y="220" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 效果不可预测</text>
+  <text x="45" y="255" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">风险高，正规替代</text>
+  <text x="45" y="271" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">是吸脂或减重</text>
+  <text x="45" y="293" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">（部分产品限特定</text>
+  <text x="45" y="307" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">  适应证，需核验）</text>
+
+  <rect x="227" y="55" width="185" height="250" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <rect x="227" y="55" width="185" height="34" rx="8" fill="#b5654a"/>
+  <rect x="227" y="79" width="185" height="10" fill="#b5654a"/>
+  <text x="320" y="77" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">美白针</text>
+  <text x="242" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">宣称：静脉输液美白</text>
+  <text x="242" y="140" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">问题：</text>
+  <text x="242" y="160" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 国内无正规批准</text>
+  <text x="242" y="180" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 成分不明、剂量</text>
+  <text x="242" y="196" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">  不规范</text>
+  <text x="242" y="220" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 过敏、肝肾负担</text>
+  <text x="242" y="255" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">缺乏证据支持</text>
+  <text x="242" y="271" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">正规美白靠防晒</text>
+  <text x="242" y="293" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">和治疗色素疾病</text>
+
+  <rect x="424" y="55" width="185" height="250" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <rect x="424" y="55" width="185" height="34" rx="8" fill="#b5654a"/>
+  <rect x="424" y="79" width="185" height="10" fill="#b5654a"/>
+  <text x="516" y="77" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#ffffff">生长因子</text>
+  <text x="439" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">宣称：促进组织生长</text>
+  <text x="439" y="140" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">问题：</text>
+  <text x="439" y="160" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 注射用无正规批准</text>
+  <text x="439" y="180" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 不可控的组织增生</text>
+  <text x="439" y="196" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">  甚至异常增生</text>
+  <text x="439" y="220" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">• 处理极其困难</text>
+  <text x="439" y="255" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">并发症重、难处理</text>
+  <text x="439" y="271" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#b5654a">应严格避免</text>
+  <text x="439" y="293" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">（外用与注射</text>
+  <text x="439" y="307" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">  是两回事）</text>
+
+  <text x="320" y="328" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">产品批准状态会变化；以国家药监局现行信息为准</text>
+</svg>

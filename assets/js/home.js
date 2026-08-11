@@ -1,11 +1,15 @@
 /* =========================================================================
-   首页交互：分类筛选 / 搜索 / 按症状入口 / 卡片渲染
-   数据源：assets/data/conditions.json
+   系列列表页交互：分类筛选 / 搜索 / 卡片渲染
+   数据源：通过 script[data-src] 配置，默认 assets/data/conditions.json
    ========================================================================= */
 (function () {
   "use strict";
 
-  var DATA_URL = "assets/data/conditions.json";
+  // 从当前 script 标签读取配置（支持多系列复用）
+  var scripts = document.querySelectorAll("script[data-series-js]");
+  var cfgScript = scripts.length > 0 ? scripts[scripts.length - 1] : document.currentScript;
+  var DATA_URL = (cfgScript && cfgScript.getAttribute("data-src")) || "assets/data/conditions.json";
+  var CARD_HREF_PREFIX = (cfgScript && cfgScript.getAttribute("data-href-prefix")) || "";
   var CTA_EVERY = 18; // 每 N 张卡片插入一次转化分隔条
 
   var grid = document.getElementById("grid");
@@ -214,7 +218,7 @@
       }
 
       html +=
-        '<a class="card" href="condition/' + c.slug + ".html\">" +
+        '<a class="card" href="' + CARD_HREF_PREFIX + c.slug + ".html\">" +
         '<div class="card__thumb">' +
         '<img class="card__thumb-img" src="assets/img/conditions/' + c.slug + '.svg" alt="" loading="lazy" />' +
         '<div class="card__badges">' + badges + "</div>" +

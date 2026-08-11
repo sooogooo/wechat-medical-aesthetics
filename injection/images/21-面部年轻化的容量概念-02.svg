@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-label="支撑式填充 vs 表面填充对比">
+  <rect width="640" height="240" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">两种思路，两种结果</text>
+
+  <rect x="30" y="55" width="280" height="160" rx="8" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="170" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#b5654a">× 表面填充（哪里凹填哪里）</text>
+  <text x="50" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 只在法令纹表面填一道</text>
+  <text x="50" y="138" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 不解决中面部下移的根源</text>
+  <text x="50" y="161" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 容易显宽、移位、不协调</text>
+  <text x="50" y="184" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 材料堆积，走向假面</text>
+
+  <rect x="330" y="55" width="280" height="160" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="470" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">✓ 支撑式填充（理解结构）</text>
+  <text x="350" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 中面部深层做支撑</text>
+  <text x="350" y="138" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 把下移组织“托”回位</text>
+  <text x="350" y="161" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 法令纹自然改善</text>
+  <text x="350" y="184" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 整体协调、自然</text>
+
+  <text x="320" y="230" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">同样的材料，思路不同，结果天差地别</text>
+</svg>

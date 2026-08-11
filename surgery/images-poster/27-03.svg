@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title2703 desc2703">
+  <title id="title2703">术后急救原则与机构选择</title>
+  <desc id="desc2703">宁可联系医生确认也不要自行等待，选机构时就把术后应急算进去，五种值得了解的并发症</desc>
+  <defs>
+    <linearGradient id="bg2703" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh2703" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .num { font: 700 22px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg2703)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh2703)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 27</text>
+  <text x="62" y="117" class="title">术后急救原则：五种值得了解的并发症</text>
+  <text x="62" y="153" class="kicker">拿不准是不是异常时，宁可联系医生确认，不要自行等待</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 5 张并发症卡 -->
+  <!-- 1 血肿（红） -->
+  <rect x="62" y="208" width="250" height="135" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2.5"/>
+  <circle cx="98" cy="243" r="20" fill="#D55E00"/>
+  <text x="98" y="251" class="num" text-anchor="middle">1</text>
+  <text x="128" y="249" class="nodeTitle">血肿</text>
+  <text x="82" y="288" class="body">迅速肿胀、疼痛</text>
+  <text x="82" y="312" class="body">皮肤发紫、紧张感</text>
+  <text x="82" y="334" class="small">颈部血肿可压迫气道</text>
+
+  <!-- 2 血管栓塞（红-最急） -->
+  <rect x="325" y="208" width="250" height="135" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2.5"/>
+  <circle cx="361" cy="243" r="20" fill="#D55E00"/>
+  <text x="361" y="251" class="num" text-anchor="middle">2</text>
+  <text x="391" y="249" class="nodeTitle">血管栓塞</text>
+  <text x="345" y="288" class="body">皮肤发白、花斑</text>
+  <text x="345" y="312" class="body">面部注射后视力变化</text>
+  <text x="345" y="334" class="small">按分钟计算的急症</text>
+
+  <!-- 3 深静脉血栓/肺栓塞（红） -->
+  <rect x="588" y="208" width="250" height="135" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2.5"/>
+  <circle cx="624" cy="243" r="20" fill="#D55E00"/>
+  <text x="624" y="251" class="num" text-anchor="middle">3</text>
+  <text x="654" y="249" class="nodeTitle">肺栓塞</text>
+  <text x="608" y="288" class="body">下肢肿痛</text>
+  <text x="608" y="312" class="body">突发胸痛、呼吸困难</text>
+  <text x="608" y="334" class="small">可致命，与制动有关</text>
+
+  <!-- 4 感染（橙） -->
+  <rect x="62" y="358" width="250" height="135" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="98" cy="393" r="20" fill="#E69F00"/>
+  <text x="98" y="401" class="num" text-anchor="middle">4</text>
+  <text x="128" y="399" class="nodeTitle">感染</text>
+  <text x="82" y="438" class="body">红肿热痛加重</text>
+  <text x="82" y="462" class="body">流脓、发热</text>
+  <text x="82" y="484" class="small">需抗感染处理</text>
+
+  <!-- 5 球后出血（橙） -->
+  <rect x="325" y="358" width="250" height="135" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="361" cy="393" r="20" fill="#E69F00"/>
+  <text x="361" y="401" class="num" text-anchor="middle">5</text>
+  <text x="391" y="399" class="nodeTitle">球后出血</text>
+  <text x="345" y="438" class="body">眼球痛、突出</text>
+  <text x="345" y="462" class="body">视力下降</text>
+  <text x="345" y="484" class="small">可致失明</text>
+
+  <!-- 右下：选机构原则卡（蓝） -->
+  <rect x="588" y="358" width="250" height="135" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <text x="608" y="390" class="nodeTitle">选机构时就算进去</text>
+  <circle cx="612" cy="416" r="4" fill="#0072B2"/>
+  <text x="624" y="421" class="small">有无术后应急联系方式</text>
+  <circle cx="612" cy="442" r="4" fill="#0072B2"/>
+  <text x="624" y="447" class="small">能否处理术后并发症</text>
+  <circle cx="612" cy="468" r="4" fill="#0072B2"/>
+  <text x="624" y="473" class="small">夜间和节假日找谁</text>
+
+  <!-- 金句 -->
+  <rect x="62" y="510" width="776" height="40" rx="12" fill="#fbeae3"/>
+  <text x="450" y="536" class="quote" text-anchor="middle">「做完就走、术后找不到人」的机构，并发症时无法保障</text>
+
+  <text x="62" y="568" class="small">术后应急联系方式应成为术前决策的一部分，而不是出事后才发现</text>
+  <text x="62" y="584" class="footer">医学教育示意 · 不能替代急诊处置，出现危险信号立即就医</text>
+</svg>

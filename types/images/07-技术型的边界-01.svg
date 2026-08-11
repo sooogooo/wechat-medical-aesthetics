@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-label="技术型的能力">
+  <rect width="640" height="240" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">技术型能做什么（值得肯定）</text>
+
+  <rect x="30" y="60" width="180" height="150" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="120" y="88" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">客观化</text>
+  <text x="120" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">把模糊的&quot;感觉&quot;</text>
+  <text x="120" y="138" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">变成可讨论的</text>
+  <text x="120" y="156" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">数据</text>
+
+  <rect x="230" y="60" width="180" height="150" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="320" y="88" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">精准化</text>
+  <text x="320" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">降低操作</text>
+  <text x="320" y="138" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">随机性，效果</text>
+  <text x="320" y="156" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">更可复现</text>
+
+  <rect x="430" y="60" width="180" height="150" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="520" y="88" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">沟通化</text>
+  <text x="520" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">医患有共同</text>
+  <text x="520" y="138" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">语言，减少</text>
+  <text x="520" y="156" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">误解</text>
+
+  <text x="320" y="225" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">这些是技术型的真实价值，不应被否定</text>
+</svg>

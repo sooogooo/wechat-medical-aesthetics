@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="身体美学制造焦虑的机制">
+  <rect width="640" height="260" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">身体美学如何让&quot;自然身体&quot;变得不可接受</text>
+
+  <rect x="30" y="60" width="580" height="55" rx="6" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="50" y="85" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">第一步：把身材拆解成&quot;零件&quot;</text>
+  <text x="50" y="103" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">肩、颈、腰、臀、腿……每个零件都有&quot;标准&quot;</text>
+
+  <rect x="30" y="125" width="580" height="55" rx="6" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="50" y="150" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">第二步：让你对照检查&quot;不达标&quot;</text>
+  <text x="50" y="168" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">几乎每个人都能找到&quot;不合格&quot;的部分——焦虑由此产生</text>
+
+  <rect x="30" y="190" width="580" height="55" rx="6" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="50" y="215" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">第三步：提供&quot;修复方案&quot;</text>
+  <text x="50" y="233" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">吸脂、填充、手术……把&quot;不达标&quot;变成可消费的项目</text>
+</svg>

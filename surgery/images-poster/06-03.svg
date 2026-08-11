@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title0603 desc0603">
+  <title id="title0603">下颌角手术决策前的硬要求</title>
+  <desc id="desc0603">资质机构、CT评估、当面沟通、麻醉血备抢救四项硬要求，缺一不应进行</desc>
+  <defs>
+    <linearGradient id="bg0603" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh0603" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.4px; fill:#0072B2; }
+      .title { font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .kicker { font: 500 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .body { font: 500 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .num { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17323d; }
+      .footer { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg0603)"/>
+  <rect x="34" y="30" width="832" height="560" rx="24" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh0603)"/>
+
+  <text x="62" y="68" class="series">四级与整形美容手术 30 讲 · 06</text>
+  <text x="62" y="117" class="title">下颌角手术决策前的硬要求</text>
+  <text x="62" y="153" class="kicker">面诊前确认这四项，任何一项缺失都不应进入手术</text>
+  <line x1="62" y1="181" x2="838" y2="181" stroke="#dce5e5"/>
+
+  <!-- 四张硬要求卡 2x2 -->
+  <!-- 卡1：资质 -->
+  <rect x="62" y="210" width="377" height="143" rx="14" fill="#f8fbfb" stroke="#0072B2" stroke-width="2"/>
+  <circle cx="105" cy="252" r="22" fill="#0072B2"/>
+  <text x="105" y="261" class="num" text-anchor="middle">1</text>
+  <text x="140" y="248" class="nodeTitle">四级颌面资质的机构和主刀</text>
+  <text x="140" y="278" class="body">机构执业许可证核准四级手术科目</text>
+  <text x="140" y="302" class="body">主刀医师具备相应权限与经验</text>
+  <rect x="140" y="318" width="280" height="22" rx="6" fill="#eef6f8"/>
+  <text x="280" y="334" class="small" text-anchor="middle">门诊部一般不核准四级</text>
+
+  <!-- 卡2：影像 -->
+  <rect x="461" y="210" width="377" height="143" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="504" cy="252" r="22" fill="#E69F00"/>
+  <text x="504" y="261" class="num" text-anchor="middle">2</text>
+  <text x="539" y="248" class="nodeTitle">颌面 CT 或三维重建</text>
+  <text x="539" y="278" class="body">评估骨性结构</text>
+  <text x="539" y="302" class="body">明确下牙槽神经管位置</text>
+  <rect x="539" y="318" width="280" height="22" rx="6" fill="#fdf3e3"/>
+  <text x="679" y="334" class="small" text-anchor="middle">不是额外收费，是方案基础</text>
+
+  <!-- 卡3：沟通 -->
+  <rect x="62" y="365" width="377" height="143" rx="14" fill="#fff8ee" stroke="#E69F00" stroke-width="2"/>
+  <circle cx="105" cy="407" r="22" fill="#E69F00"/>
+  <text x="105" y="416" class="num" text-anchor="middle">3</text>
+  <text x="140" y="403" class="nodeTitle">与医生当面讨论方案与风险</text>
+  <text x="140" y="433" class="body">截骨范围、切口、预期效果</text>
+  <text x="140" y="457" class="body">并发症、不对称、恢复期</text>
+  <rect x="140" y="473" width="280" height="22" rx="6" fill="#fdf3e3"/>
+  <text x="280" y="489" class="small" text-anchor="middle">咨询师主导沟通是警示信号</text>
+
+  <!-- 卡4：急救 -->
+  <rect x="461" y="365" width="377" height="143" rx="14" fill="#fdf1ee" stroke="#D55E00" stroke-width="2"/>
+  <circle cx="504" cy="407" r="22" fill="#D55E00"/>
+  <text x="504" y="416" class="num" text-anchor="middle">4</text>
+  <text x="539" y="403" class="nodeTitle">确认麻醉、血库、抢救条件</text>
+  <text x="539" y="433" class="body">麻醉科常驻、血备或输血渠道</text>
+  <text x="539" y="457" class="body">术后住院监护、转诊通道</text>
+  <rect x="539" y="473" width="280" height="22" rx="6" fill="#fbeae3"/>
+  <text x="679" y="489" class="small" text-anchor="middle">"全麻当天走"是危险信号</text>
+
+  <rect x="62" y="525" width="776" height="40" rx="12" fill="#eef6f8"/>
+  <text x="450" y="551" class="quote" text-anchor="middle">四项硬要求缺任何一项，都不应进入手术安排</text>
+
+  <text x="62" y="582" class="footer">医学教育示意，非教学图 · 下颌角成形术须在有相应资质、具备急救能力的机构开展</text>
+</svg>

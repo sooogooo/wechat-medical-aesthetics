@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="三类材料可逆性对比">
+  <rect width="640" height="220" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">出问题之后，能不能&quot;撤回&quot;</text>
+
+  <!-- 轴线 -->
+  <line x1="50" y1="140" x2="590" y2="140" stroke="#a8a39d" stroke-width="2"/>
+  <polygon points="590,140 582,135 582,145" fill="#a8a39d"/>
+  <text x="50" y="170" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#b5654a">难以撤回</text>
+  <text x="590" y="170" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" fill="#5f6e54">可撤回</text>
+
+  <!-- 再生类 -->
+  <circle cx="130" cy="140" r="12" fill="#8a9a7f"/>
+  <text x="130" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">再生刺激类</text>
+  <text x="130" y="190" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">结节难溶、难取</text>
+
+  <!-- 不明注射物 -->
+  <circle cx="90" cy="140" r="12" fill="#b5654a"/>
+  <text x="90" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">不明注射物</text>
+  <text x="90" y="190" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">永久、并发症重</text>
+
+  <!-- 肉毒 -->
+  <circle cx="370" cy="140" r="12" fill="#c9a876"/>
+  <text x="370" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#8a7340">肉毒杆菌素</text>
+  <text x="370" y="190" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">数月自行代谢</text>
+
+  <!-- 透明质酸 -->
+  <circle cx="540" cy="140" r="12" fill="#7a8b6f"/>
+  <text x="540" y="120" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">透明质酸</text>
+  <text x="540" y="190" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">透明质酸酶可溶</text>
+
+  <text x="320" y="208" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">可逆性影响&quot;后悔成本&quot;——出问题时能否处理，比效果更重要</text>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="数字化工具的两面性">
+  <rect width="640" height="260" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">同一工具，两种用法</text>
+
+  <rect x="30" y="60" width="280" height="170" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="170" y="88" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#5f6e54">✓ 高级型用法</text>
+  <text x="50" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 辅助沟通和理解</text>
+  <text x="50" y="138" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 评估不对称和基础</text>
+  <text x="50" y="161" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 模拟多种方案对比</text>
+  <text x="50" y="184" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 强调&quot;参考非保证&quot;</text>
+  <text x="50" y="213" font-family="PingFang SC,sans-serif" font-size="10" fill="#5f6e54">工具服务于审美判断</text>
+
+  <rect x="330" y="60" width="280" height="170" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="470" y="88" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#b5654a">✗ 庸俗型用法</text>
+  <text x="350" y="115" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 用&quot;AI 评分&quot;制造焦虑</text>
+  <text x="350" y="138" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 用模拟图诱导消费</text>
+  <text x="350" y="161" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 把数据当唯一标准</text>
+  <text x="350" y="184" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 用&quot;科学&quot;包装模板</text>
+  <text x="350" y="213" font-family="PingFang SC,sans-serif" font-size="10" fill="#b5654a">工具服务于销售套路</text>
+
+  <text x="320" y="245" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">技术本身无善恶——是高级还是庸俗，取决于使用它的人</text>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="深层骨面注射的安全逻辑">
+  <rect width="640" height="220" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">为什么&quot;深层骨面&quot;是许多 code 的推荐层次</text>
+
+  <rect x="30" y="55" width="580" height="60" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="50" y="80" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#5f6e54">✓ 深层骨面（骨膜上）</text>
+  <text x="50" y="100" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">血管相对稀疏 · 支撑力强 · 材料稳定 · 是多数支撑性 code 的安全选择</text>
+
+  <rect x="30" y="130" width="580" height="60" rx="8" fill="#f7ece6" stroke="#b5654a"/>
+  <text x="50" y="155" font-family="PingFang SC,sans-serif" font-size="12" font-weight="600" fill="#b5654a">⚠ 浅层（真皮、皮下浅层）</text>
+  <text x="50" y="175" font-family="PingFang SC,sans-serif" font-size="11" fill="#6b6864">血管密集 · 易透光、不平 · 仅用于少量细节修饰，需格外谨慎</text>
+
+  <text x="320" y="210" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#a8a39d">“能深则深”是降低血管风险的重要原则，但具体层次因 code 和部位而异</text>
+</svg>

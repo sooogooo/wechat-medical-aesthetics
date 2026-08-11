@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="透明质酸酶的用途">
+  <rect width="640" height="280" fill="#faf8f4" rx="12"/>
+  <text x="320" y="30" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="15" font-weight="600" fill="#2b2a28">透明质酸酶能用在哪些情况</text>
+
+  <rect x="30" y="55" width="135" height="120" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="97" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">血管栓塞</text>
+  <text x="97" y="115" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">急救用途</text>
+  <text x="97" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">时间窗关键</text>
+  <text x="97" y="160" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#b5654a">最紧急</text>
+
+  <rect x="180" y="55" width="135" height="120" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="247" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">过度填充</text>
+  <text x="247" y="115" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">修整用途</text>
+  <text x="247" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">局部精准溶解</text>
+
+  <rect x="330" y="55" width="135" height="120" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="397" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">移位/不平</text>
+  <text x="397" y="115" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">调整用途</text>
+  <text x="397" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">溶解后重新填充</text>
+
+  <rect x="480" y="55" width="135" height="120" rx="8" fill="#eef0ea" stroke="#7a8b6f"/>
+  <text x="547" y="85" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#5f6e54">结节</text>
+  <text x="547" y="115" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">处理用途</text>
+  <text x="547" y="140" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">针对透明质酸结节</text>
+
+  <rect x="30" y="190" width="580" height="70" rx="8" fill="#f7ece6" stroke="#e3c9bd"/>
+  <text x="320" y="215" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="11" font-weight="600" fill="#b5654a">⚠ 透明质酸酶只对透明质酸有效</text>
+  <text x="320" y="238" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="10" fill="#6b6864">对再生类材料、胶原蛋白、不明注射物无效</text>
+  <text x="320" y="270" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="9" fill="#a8a39d">“能溶”是透明质酸相对于其他材料的优势，但它不是万能后悔药</text>
+</svg>
