@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t20 d20">
+  <title id="t20">甲真菌病治疗选择看范围</title>
+  <desc id="d20">外用还是口服，取决于甲根是否受累</desc>
+  <defs>
+    <linearGradient id="bg20" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh20" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+    .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+    .title  { font: 700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5F6E54; }
+    .nodeT  { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .nodeT2 { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .body   { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+    .small  { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+    .tiny   { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .quote  { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .num    { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+    .badge  { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; letter-spacing:0.6px; }
+</style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg20)"/>
+  <rect x="26" y="24" width="748" height="452" rx="18" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh20)"/>
+  <!-- header -->
+  <text x="48" y="58" class="series">皮肤病症科普 · 20</text>
+  <text x="48" y="92" class="title">甲真菌病治疗选择看范围</text>
+  <text x="48" y="116" class="kicker">外用还是口服，取决于甲根是否受累</text>
+  <line x1="48" y1="134" x2="752" y2="134" stroke="#dce8e8"/>
+  <!-- body -->
+  
+  <text x="48" y="168" class="nodeT">按受累范围分级选择</text>
+  
+  <rect x="48" y="188" width="220" height="150" rx="12" fill="#fbfdfc" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="48" y="188" width="220" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="48" y="206" width="220" height="10" fill="#7A8B6F"/>
+  <text x="158" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">远端小范围</text>
+  <text x="158" y="238" class="body" text-anchor="middle">外用抗甲真菌药</text>
+  <text x="158" y="256" class="small" text-anchor="middle">配合定期锉薄病甲</text>
+  
+  <rect x="290" y="188" width="220" height="150" rx="12" fill="#fbfdfc" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="290" y="188" width="220" height="28" rx="12" fill="#C9A876"/>
+  <rect x="290" y="206" width="220" height="10" fill="#C9A876"/>
+  <text x="400" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">多甲或近甲根</text>
+  <text x="400" y="238" class="body" text-anchor="middle">常需口服抗真菌药</text>
+  <text x="400" y="256" class="small" text-anchor="middle">足疗程，定期复查</text>
+  
+  <rect x="532" y="188" width="220" height="150" rx="12" fill="#fbfdfc" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="532" y="188" width="220" height="28" rx="12" fill="#B5654A"/>
+  <rect x="532" y="206" width="220" height="10" fill="#B5654A"/>
+  <text x="642" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">合并足癣</text>
+  <text x="642" y="238" class="body" text-anchor="middle">同步治疗足癣</text>
+  <text x="642" y="256" class="small" text-anchor="middle">处理鞋袜，减少来回播种</text>
+  
+  <rect x="60" y="363" width="9" height="9" rx="2" fill="#7A8B6F"/>
+  <text x="78" y="372" class="body">新甲从甲根向前缓慢生长，疗效按月观察</text>
+  
+  <rect x="60" y="387" width="9" height="9" rx="2" fill="#7A8B6F"/>
+  <text x="78" y="396" class="body">拍一组同角度对比照，比凭印象判断更可靠</text>
+  
+  <rect x="48" y="400" width="704" height="28" rx="10" fill="#eef4ee" stroke="#7A8B6F" stroke-opacity="0.35"/>
+  <text x="400" y="419" class="quote" text-anchor="middle">疗效要等健康新甲逐渐长出</text>
+  
+  <!-- footer -->
+  <text x="48" y="462" class="footer">医学教育示意 · 口服抗真菌药需评估肝功能与药物相互作用</text>
+</svg>

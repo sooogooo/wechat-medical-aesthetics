@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t51f1 d51f1">
+  <title id="t51f1">胼胝是替你扛压力</title>
+  <desc id="d51f1">胼胝是长期压力摩擦造成的广泛角质增厚常见于足底受力点</desc>
+  <defs>
+    <linearGradient id="bg51f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh51f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .step { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg51f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh51f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 51</text>
+  <text x="52" y="92" class="title">胼胝在替你扛压力</text>
+  <text x="52" y="116" class="kicker">修薄只能减轻症状，真正减少复发要调整受力</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 左：受力示意（足底受力点） -->
+  <text x="52" y="162" class="nodeTitle">足底常见受力点</text>
+  <g transform="translate(120,200)">
+    <!-- 脚掌轮廓 -->
+    <path d="M 60 0 Q 110 10 120 60 Q 124 120 100 180 Q 60 200 20 180 Q -4 120 0 60 Q 10 10 60 0 Z" fill="#f8fbfb" stroke="#7A8B6F" stroke-width="1.5"/>
+    <!-- 受力点 -->
+    <ellipse cx="60" cy="170" rx="24" ry="14" fill="#B5654A" opacity="0.6"/>
+    <ellipse cx="30" cy="150" rx="10" ry="8" fill="#B5654A" opacity="0.6"/>
+    <ellipse cx="90" cy="150" rx="10" ry="8" fill="#B5654A" opacity="0.6"/>
+    <ellipse cx="60" cy="100" rx="16" ry="10" fill="#B5654A" opacity="0.5"/>
+  </g>
+  <text x="180" y="350" class="small" text-anchor="middle">前掌</text>
+  <text x="180" y="366" class="small" text-anchor="middle">足跟</text>
+  <text x="180" y="382" class="small" text-anchor="middle" fill="#B5654A">受力点反复增厚</text>
+  <text x="60" y="404" class="small">范围较大</text>
+  <text x="60" y="420" class="small">边界不清</text>
+  <text x="60" y="436" class="small" fill="#5F6E54">广而浅的硬茧</text>
+
+  <!-- 右：机制循环 -->
+  <text x="310" y="162" class="nodeTitle">压力增厚循环</text>
+  <rect x="310" y="178" width="200" height="50" rx="10" fill="#7A8B6F"/>
+  <text x="410" y="200" class="step" text-anchor="middle">鞋不合脚、久站</text>
+  <text x="410" y="218" class="step" text-anchor="middle" font-size="11" fill="#f1f7f1">足底局部受压过大</text>
+
+  <rect x="310" y="244" width="200" height="50" rx="10" fill="#C9A876"/>
+  <text x="410" y="266" class="step" text-anchor="middle">皮肤代偿增厚</text>
+  <text x="410" y="284" class="step" text-anchor="middle" font-size="11" fill="#fbf5ea">角质堆积成茧</text>
+
+  <rect x="310" y="310" width="200" height="50" rx="10" fill="#B5654A"/>
+  <text x="410" y="332" class="step" text-anchor="middle">增厚后压力更集中</text>
+  <text x="410" y="350" class="step" text-anchor="middle" font-size="11" fill="#fbf0eb">越削越快长</text>
+
+  <rect x="530" y="178" width="218" height="182" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <text x="544" y="202" class="nodeTitle">常见诱因</text>
+  <circle cx="552" cy="226" r="3" fill="#5F6E54"/>
+  <text x="564" y="230" class="small">扁平足、高弓足</text>
+  <circle cx="552" cy="252" r="3" fill="#5F6E54"/>
+  <text x="564" y="256" class="small">鞋底过硬或过软</text>
+  <circle cx="552" cy="278" r="3" fill="#5F6E54"/>
+  <text x="564" y="282" class="small">鞋跟过高、过紧</text>
+  <circle cx="552" cy="304" r="3" fill="#5F6E54"/>
+  <text x="564" y="308" class="small">体重增加、久站</text>
+  <circle cx="552" cy="330" r="3" fill="#5F6E54"/>
+  <text x="564" y="334" class="small">皮肤干燥、足部畸形</text>
+  <circle cx="552" cy="352" r="3" fill="#5F6E54"/>
+  <text x="564" y="356" class="small" fill="#B5654A">糖尿病患者需特别小心</text>
+
+  <!-- 箭头 -->
+  <path d="M 410 228 L 410 244" stroke="#7d8e93" stroke-width="2"/>
+  <path d="M 404 238 L 410 244 L 416 238" fill="none" stroke="#7d8e93" stroke-width="2"/>
+  <path d="M 410 294 L 410 310" stroke="#7d8e93" stroke-width="2"/>
+  <path d="M 404 304 L 410 310 L 416 304" fill="none" stroke="#7d8e93" stroke-width="2"/>
+
+  <rect x="52" y="448" width="696" height="6" fill="#C9A876" opacity="0.3"/>
+  <text x="52" y="466" class="footer">健康科普示意 · 糖尿病、周围神经病变者足部处理须由专业人员进行</text>
+</svg>

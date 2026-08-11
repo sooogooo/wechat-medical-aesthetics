@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t06f2 d06f2">
+  <title id="t06f2">日光性黑子防晒与全皮肤观察</title>
+  <desc id="d06f2">防晒防累积而非临时抱佛脚，做一轮全皮肤观察比只盯一颗更重要</desc>
+  <defs>
+    <linearGradient id="bg06f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh06f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg06f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh06f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 06</text>
+  <text x="56" y="90" class="title">祛掉以后为什么还会长</text>
+  <text x="56" y="116" class="kicker">防晒要防累积，而不是临时抱佛脚</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">日常防护四要点</text>
+
+  <!-- 四要点 -->
+  <rect x="56" y="172" width="335" height="60" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="84" cy="202" r="16" fill="#7A8B6F"/><text x="84" y="207" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">1</text>
+  <text x="112" y="198" class="body" font-weight="700">全年广谱防晒</text>
+  <text x="112" y="218" class="small">不只是夏天和晴天 阴天也有紫外线</text>
+
+  <rect x="409" y="172" width="335" height="60" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="437" cy="202" r="16" fill="#7A8B6F"/><text x="437" y="207" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">2</text>
+  <text x="465" y="198" class="body" font-weight="700">物理遮挡配合</text>
+  <text x="465" y="218" class="small">帽子 防晒衣 避开正午强光</text>
+
+  <rect x="56" y="244" width="335" height="60" rx="10" fill="#fff8ee" stroke="#C9A876" stroke-width="1.4"/>
+  <circle cx="84" cy="274" r="16" fill="#C9A876"/><text x="84" y="279" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">3</text>
+  <text x="112" y="270" class="body" font-weight="700">手背也要防晒</text>
+  <text x="112" y="290" class="small">手背是日光性黑子高发区</text>
+
+  <rect x="409" y="244" width="335" height="60" rx="10" fill="#fff8ee" stroke="#C9A876" stroke-width="1.4"/>
+  <circle cx="437" cy="274" r="16" fill="#C9A876"/><text x="437" y="279" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">4</text>
+  <text x="465" y="270" class="body" font-weight="700">定期全皮肤自查</text>
+  <text x="465" y="290" class="small">不只盯脸上一颗 看全身</text>
+
+  <!-- 全皮肤观察 -->
+  <text x="56" y="346" class="nodeTitle">做一轮全皮肤观察</text>
+  <rect x="56" y="360" width="688" height="62" rx="10" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.4"/>
+  <text x="76" y="386" class="body">每两到三个月对全身皮肤做一次系统自查，关注新发、变化、不愈合的皮损</text>
+  <text x="76" y="408" class="small">比只盯脸上一颗更重要，能及早发现需要就医的变化</text>
+
+  <rect x="56" y="434" width="688" height="34" rx="10" fill="#eef4ee"/>
+  <text x="400" y="456" class="quote" text-anchor="middle">治疗前后都要保护诊断证据，留照片记录</text>
+  <text x="56" y="472" class="footer">医学教育示意 · 防晒计划要匹配真实生活，而非理想化的全天候</text>
+</svg>

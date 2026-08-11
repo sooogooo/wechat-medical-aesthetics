@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t04f2 d04f2">
+  <title id="t04f2">祛斑方案风险合同五问</title>
+  <desc id="d04f2">开始治疗前把预期写清楚，避免一次清零的翻车</desc>
+  <defs>
+    <linearGradient id="bg04f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh04f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg04f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh04f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 04</text>
+  <text x="56" y="90" class="title">祛斑方案的风险合同</text>
+  <text x="56" y="116" class="kicker">治疗前先建立一张斑地图并问清五件事</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 斑地图概念 -->
+  <text x="56" y="158" class="nodeTitle">先画斑地图 再谈治疗</text>
+  <rect x="56" y="172" width="688" height="62" rx="10" fill="#f8fbfb" stroke="#7A8B6F" stroke-width="1.4"/>
+  <text x="76" y="198" class="body">每隔四周在相同光线距离素颜下，正面与两侧拍照</text>
+  <text x="76" y="220" class="small">记录斑的颜色范围深浅变化，比肉眼记忆更可靠</text>
+
+  <!-- 五问清单 -->
+  <text x="56" y="262" class="nodeTitle">面诊前把这五问写进合同</text>
+
+  <rect x="56" y="276" width="340" height="50" rx="8" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.2"/>
+  <circle cx="80" cy="301" r="13" fill="#7A8B6F"/><text x="80" y="306" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">1</text>
+  <text x="104" y="297" class="body">这是哪一型黄褐斑</text>
+  <text x="104" y="315" class="small">表皮 真皮 还是混合</text>
+
+  <rect x="404" y="276" width="340" height="50" rx="8" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.2"/>
+  <circle cx="428" cy="301" r="13" fill="#7A8B6F"/><text x="428" y="306" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">2</text>
+  <text x="452" y="297" class="body">防晒做到什么程度算够</text>
+  <text x="452" y="315" class="small">是否需要防可见光</text>
+
+  <rect x="56" y="334" width="340" height="50" rx="8" fill="#fff8ee" stroke="#C9A876" stroke-width="1.2"/>
+  <circle cx="80" cy="359" r="13" fill="#C9A876"/><text x="80" y="364" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">3</text>
+  <text x="104" y="355" class="body">外用药用多久算起效</text>
+  <text x="104" y="373" class="small">起效按月计 不是按天</text>
+
+  <rect x="404" y="334" width="340" height="50" rx="8" fill="#fff8ee" stroke="#C9A876" stroke-width="1.2"/>
+  <circle cx="428" cy="359" r="13" fill="#C9A876"/><text x="428" y="364" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">4</text>
+  <text x="452" y="355" class="body">光电反黑概率多大</text>
+  <text x="452" y="373" class="small">出现色沉怎么处理</text>
+
+  <rect x="56" y="392" width="688" height="50" rx="8" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.2"/>
+  <circle cx="80" cy="417" r="13" fill="#B5654A"/><text x="80" y="422" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">5</text>
+  <text x="104" y="413" class="body">若效果有限或反黑，下一步是什么 复评周期多久</text>
+  <text x="104" y="431" class="small">能回答这些的方案，比只卖一次清零更可靠</text>
+
+  <text x="56" y="468" class="footer">医学教育示意 · 光电和换肤要克制，追求一次清零反而容易翻车</text>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t00f2 d00f2">
+  <title id="t00f2">痤疮居家护理四件事与就医红线</title>
+  <desc id="d00f2">温和清洁、控炎防晒、薄涂药物、减少摩擦，配合需就医的危险信号</desc>
+  <defs>
+    <linearGradient id="bg00f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh00f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg00f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh00f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 00</text>
+  <text x="56" y="90" class="title">居家护理四件事与就医红线</text>
+  <text x="56" y="116" class="kicker">把力气用在真正能改善炎症的方向</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 左侧四件护理事 -->
+  <text x="56" y="158" class="nodeTitle">日常坚持</text>
+  <rect x="56" y="172" width="340" height="56" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="84" cy="200" r="16" fill="#7A8B6F"/><text x="84" y="205" class="lvl" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">1</text>
+  <text x="112" y="196" class="body" font-weight="700">温和清洁</text>
+  <text x="112" y="216" class="small">早晚一次 出汗后及时冲洗 不洗到发涩</text>
+
+  <rect x="56" y="238" width="340" height="56" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="84" cy="266" r="16" fill="#7A8B6F"/><text x="84" y="271" class="lvl" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">2</text>
+  <text x="112" y="262" class="body" font-weight="700">保湿与防晒</text>
+  <text x="112" y="282" class="small">选标注不易致粉刺的产品 全年广谱防晒</text>
+
+  <rect x="56" y="304" width="340" height="56" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="84" cy="332" r="16" fill="#7A8B6F"/><text x="84" y="337" class="lvl" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">3</text>
+  <text x="112" y="328" class="body" font-weight="700">药物薄涂易发区</text>
+  <text x="112" y="348" class="small">整片涂抹预防新痘 而不是只点成熟大痘</text>
+
+  <rect x="56" y="370" width="340" height="56" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="84" cy="398" r="16" fill="#7A8B6F"/><text x="84" y="403" class="lvl" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">4</text>
+  <text x="112" y="394" class="body" font-weight="700">减少挤压摩擦</text>
+  <text x="112" y="414" class="small">不抠不磨砂 枕套手机定期清洁即可</text>
+
+  <!-- 右侧就医红线 -->
+  <text x="416" y="158" class="nodeTitle">出现以下情况尽早就医</text>
+  <rect x="416" y="172" width="328" height="254" rx="10" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.6"/>
+  <text x="432" y="200" class="body">疼痛性结节或囊肿</text>
+  <text x="432" y="226" class="body">迅速留坑 胸背大面积发炎</text>
+  <text x="432" y="252" class="body">突然爆发且伴发热</text>
+  <text x="432" y="278" class="body">明显影响社交与情绪</text>
+  <text x="432" y="304" class="body">用药后头痛 视力变化</text>
+  <text x="432" y="330" class="body">情绪异常 呼吸困难</text>
+  <text x="432" y="356" class="body">眼唇肿胀 渗液</text>
+  <text x="432" y="400" class="small" fill="#8a3f2b">上述任一信号出现 请停下自行加药</text>
+
+  <rect x="56" y="438" width="688" height="34" rx="10" fill="#f0f5ef"/>
+  <text x="400" y="460" class="quote" text-anchor="middle">用三个月评价方案，而不是三天</text>
+  <text x="56" y="478" class="footer">医学教育示意 · 具体用药与监测需遵医嘱</text>
+</svg>

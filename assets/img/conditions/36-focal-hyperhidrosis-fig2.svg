@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t36 d36">
+  <title id="t36">局部多汗症治疗梯度</title>
+  <desc id="d36">按部位和强度逐级升级</desc>
+  <defs>
+    <linearGradient id="bg36" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh36" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+    .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+    .title  { font: 700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5F6E54; }
+    .nodeT  { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .nodeT2 { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .body   { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+    .small  { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+    .tiny   { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .quote  { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .num    { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+    .badge  { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; letter-spacing:0.6px; }
+</style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg36)"/>
+  <rect x="26" y="24" width="748" height="452" rx="18" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh36)"/>
+  <!-- header -->
+  <text x="48" y="58" class="series">皮肤病症科普 · 36</text>
+  <text x="48" y="92" class="title">局部多汗症治疗梯度</text>
+  <text x="48" y="116" class="kicker">按部位和强度逐级升级</text>
+  <line x1="48" y1="134" x2="752" y2="134" stroke="#dce8e8"/>
+  <!-- body -->
+  
+  <text x="48" y="168" class="nodeT">从可逆到不可逆的阶梯选择</text>
+  
+  <rect x="48" y="200" width="165" height="120" rx="12" fill="#fbfdfc" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="48" y="200" width="165" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="48" y="218" width="165" height="10" fill="#7A8B6F"/>
+  <text x="130.5" y="220" class="nodeT2" text-anchor="middle" fill="#ffffff">第一级</text>
+  <text x="130.5" y="250" class="body" text-anchor="middle">止汗剂</text>
+  <text x="130.5" y="268" class="small" text-anchor="middle">氯化铝外用</text>
+  <path d="M 213 260 L 235 260" stroke="#2B2A28" stroke-width="1.8" fill="none"/>
+          <path d="M 235 260 l -8 -3 l 2 6 z" fill="#2B2A28"/>
+  
+  <rect x="237" y="200" width="165" height="120" rx="12" fill="#fbfdfc" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="237" y="200" width="165" height="28" rx="12" fill="#C9A876"/>
+  <rect x="237" y="218" width="165" height="10" fill="#C9A876"/>
+  <text x="319.5" y="220" class="nodeT2" text-anchor="middle" fill="#ffffff">第二级</text>
+  <text x="319.5" y="250" class="body" text-anchor="middle">离子导入</text>
+  <text x="319.5" y="268" class="small" text-anchor="middle">自来水直流电</text>
+  <path d="M 402 260 L 424 260" stroke="#2B2A28" stroke-width="1.8" fill="none"/>
+          <path d="M 424 260 l -8 -3 l 2 6 z" fill="#2B2A28"/>
+  
+  <rect x="426" y="200" width="165" height="120" rx="12" fill="#fbfdfc" stroke="#A88654" stroke-width="1.6"/>
+  <rect x="426" y="200" width="165" height="28" rx="12" fill="#A88654"/>
+  <rect x="426" y="218" width="165" height="10" fill="#A88654"/>
+  <text x="508.5" y="220" class="nodeT2" text-anchor="middle" fill="#ffffff">第三级</text>
+  <text x="508.5" y="250" class="body" text-anchor="middle">肉毒注射</text>
+  <text x="508.5" y="268" class="small" text-anchor="middle">可逆维持数月</text>
+  
+  <rect x="609" y="200" width="135" height="120" rx="12" fill="#fbfdfc" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="609" y="200" width="135" height="28" rx="12" fill="#B5654A"/>
+  <rect x="609" y="218" width="135" height="10" fill="#B5654A"/>
+  <text x="676.5" y="220" class="nodeT2" text-anchor="middle" fill="#ffffff">第四级</text>
+  <text x="676.5" y="250" class="body" text-anchor="middle">交感手术</text>
+  <text x="676.5" y="268" class="small" text-anchor="middle">最后才考虑</text>
+  
+  <rect x="60" y="348" width="9" height="9" rx="2" fill="#7A8B6F"/>
+  <text x="78" y="357" class="body">脚汗多还要管皮肤并发问题，如浸渍与足癣</text>
+  
+  <rect x="48" y="370" width="704" height="40" rx="10" fill="#eef4ee" stroke="#7A8B6F" stroke-opacity="0.35"/>
+  <text x="400" y="395" class="quote" text-anchor="middle">治疗前先做一个可逆性排序</text>
+  
+  <!-- footer -->
+  <text x="48" y="462" class="footer">医学教育示意 · 治疗梯度要把副作用算进去</text>
+</svg>

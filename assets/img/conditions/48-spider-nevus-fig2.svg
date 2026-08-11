@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t48f2 d48f2">
+  <title id="t48f2">蜘蛛痣单个良性多个需评估</title>
+  <desc id="d48f2">单个常为良性，短期多发时应结合肝病和激素因素评估</desc>
+  <defs>
+    <linearGradient id="bg48f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh48f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .col { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg48f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh48f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 48</text>
+  <text x="52" y="92" class="title">单发良性，多发需评估</text>
+  <text x="52" y="116" class="kicker">蜘蛛痣本身不危险，但"突然增多"是一个信号</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 两列对照 -->
+  <rect x="52" y="150" width="340" height="34" rx="8" fill="#5F6E54"/>
+  <text x="222" y="172" class="col" text-anchor="middle">多为良性，可观察</text>
+  <rect x="52" y="188" width="340" height="180" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="68" cy="214" r="3" fill="#5F6E54"/>
+  <text x="80" y="218" class="body">数量少（1~数个）</text>
+  <circle cx="68" cy="242" r="3" fill="#5F6E54"/>
+  <text x="80" y="246" class="body">长期稳定不变</text>
+  <circle cx="68" cy="270" r="3" fill="#5F6E54"/>
+  <text x="80" y="274" class="body">儿童、孕妇常见</text>
+  <circle cx="68" cy="298" r="3" fill="#5F6E54"/>
+  <text x="80" y="302" class="body">青春期激素相关</text>
+  <circle cx="68" cy="326" r="3" fill="#5F6E54"/>
+  <text x="80" y="330" class="body">无其他不适</text>
+  <circle cx="68" cy="354" r="3" fill="#5F6E54"/>
+  <text x="80" y="358" class="small">产后或停药可自行消退</text>
+
+  <rect x="408" y="150" width="340" height="34" rx="8" fill="#B5654A"/>
+  <text x="578" y="172" class="col" text-anchor="middle">需结合系统评估</text>
+  <rect x="408" y="188" width="340" height="180" rx="10" fill="#fbf0eb" stroke="#B5654A"/>
+  <circle cx="424" cy="214" r="3" fill="#B5654A"/>
+  <text x="436" y="218" class="body">短期内突然增多</text>
+  <circle cx="424" cy="242" r="3" fill="#B5654A"/>
+  <text x="436" y="246" class="body">分布范围扩大</text>
+  <circle cx="424" cy="270" r="3" fill="#B5654A"/>
+  <text x="436" y="274" class="body">伴肝功能异常</text>
+  <circle cx="424" cy="298" r="3" fill="#B5654A"/>
+  <text x="436" y="302" class="body">伴激素水平紊乱</text>
+  <circle cx="424" cy="326" r="3" fill="#B5654A"/>
+  <text x="436" y="330" class="body">女性长期不孕、月经紊乱</text>
+  <circle cx="424" cy="354" r="3" fill="#B5654A"/>
+  <text x="436" y="358" class="small">需查肝功能与雌激素</text>
+
+  <!-- 处理思路条 -->
+  <text x="52" y="396" class="nodeTitle">处理思路</text>
+  <rect x="52" y="406" width="170" height="20" rx="6" fill="#7A8B6F"/>
+  <text x="137" y="420" class="small" text-anchor="middle" fill="#ffffff">观察随访</text>
+  <rect x="232" y="406" width="170" height="20" rx="6" fill="#C9A876"/>
+  <text x="317" y="420" class="small" text-anchor="middle" fill="#ffffff">影响美观者可激光</text>
+  <rect x="412" y="406" width="170" height="20" rx="6" fill="#C9A876"/>
+  <text x="497" y="420" class="small" text-anchor="middle" fill="#ffffff">电凝处理</text>
+  <rect x="592" y="406" width="156" height="20" rx="6" fill="#B5654A"/>
+  <text x="670" y="420" class="small" text-anchor="middle" fill="#ffffff">多发须查系统病</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">蜘蛛痣不是肝病的证明，但是值得查的线索</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 是否需进一步检查须由医师评估</text>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t39f2 d39f2">
+  <title id="t39f2">接触性唇炎的处理流程</title>
+  <desc id="d39f2">从识别诱因到修复屏障再到就医的诊断处理流程</desc>
+  <defs>
+    <linearGradient id="bg39f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh39f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .step { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg39f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh39f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 39</text>
+  <text x="52" y="92" class="title">从怀疑到恢复的处理流程</text>
+  <text x="52" y="116" class="kicker">先记录接触史，再停可疑物，必要时做斑贴试验</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">分步处理路径</text>
+
+  <!-- 4步纵向 + 旁注 -->
+  <rect x="52" y="178" width="180" height="50" rx="12" fill="#7A8B6F"/>
+  <text x="142" y="200" class="step" text-anchor="middle">第 1 步 记录</text>
+  <text x="142" y="220" class="step" text-anchor="middle" font-size="12">列出近期接触物</text>
+
+  <rect x="52" y="240" width="180" height="50" rx="12" fill="#7A8B6F"/>
+  <text x="142" y="262" class="step" text-anchor="middle">第 2 步 停用</text>
+  <text x="142" y="282" class="step" text-anchor="middle" font-size="12">逐项排除可疑物</text>
+
+  <rect x="52" y="302" width="180" height="50" rx="12" fill="#C9A876"/>
+  <text x="142" y="324" class="step" text-anchor="middle">第 3 步 修复</text>
+  <text x="142" y="344" class="step" text-anchor="middle" font-size="12">精简护肤 + 保湿</text>
+
+  <rect x="52" y="364" width="180" height="50" rx="12" fill="#5F6E54"/>
+  <text x="142" y="386" class="step" text-anchor="middle">第 4 步 就医</text>
+  <text x="142" y="406" class="step" text-anchor="middle" font-size="12">顽固反复需确诊</text>
+
+  <path d="M 142 228 L 142 240" stroke="#7d8e93" stroke-width="2" fill="none"/>
+  <path d="M 136 234 L 142 240 L 148 234" fill="none" stroke="#7d8e93" stroke-width="2"/>
+  <path d="M 142 290 L 142 302" stroke="#7d8e93" stroke-width="2" fill="none"/>
+  <path d="M 136 296 L 142 302 L 148 296" fill="none" stroke="#7d8e93" stroke-width="2"/>
+  <path d="M 142 352 L 142 364" stroke="#7d8e93" stroke-width="2" fill="none"/>
+  <path d="M 136 358 L 142 364 L 148 358" fill="none" stroke="#7d8e93" stroke-width="2"/>
+
+  <!-- 右侧：每步要点卡 -->
+  <rect x="256" y="178" width="490" height="50" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <text x="270" y="200" class="body">新换口红、牙膏、护肤品、食物、职业暴露</text>
+  <text x="270" y="220" class="small">把"开始用什么"和"什么时候痒"对上号</text>
+
+  <rect x="256" y="240" width="490" height="50" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <text x="270" y="262" class="body">换无香无色无氟牙膏、纯凡士林</text>
+  <text x="270" y="282" class="small">一次只停一类，便于判断</text>
+
+  <rect x="256" y="302" width="490" height="50" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <text x="270" y="324" class="body">温水、无刺激保湿、避免舔咬撕皮</text>
+  <text x="270" y="344" class="small">唇部屏障恢复通常需数周</text>
+
+  <rect x="256" y="364" width="490" height="50" rx="10" fill="#eef6f8" stroke="#5F6E54"/>
+  <text x="270" y="386" class="body">斑贴试验查过敏原，排除光线性唇炎</text>
+  <text x="270" y="406" class="small">长期不愈需排查癌前病变</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">润唇膏是修复工具，不是诊断工具</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 用药与检查需由皮肤科医师面诊后决定</text>
+</svg>

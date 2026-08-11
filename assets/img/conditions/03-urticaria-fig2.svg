@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t03f2 d03f2">
+  <title id="t03f2">荨麻疹发作行动卡</title>
+  <desc id="d03f2">给家人留一张可执行的发作行动卡，分清居家与就医</desc>
+  <defs>
+    <linearGradient id="bg03f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh03f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg03f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh03f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 03</text>
+  <text x="56" y="90" class="title">发作行动卡 三步走</text>
+  <text x="56" y="116" class="kicker">给家人留一张可执行清单 比恐慌更管用</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">发作时按顺序操作</text>
+
+  <!-- 三步流程卡 -->
+  <rect x="56" y="174" width="220" height="190" rx="12" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="56" y="174" width="220" height="30" rx="12" fill="#7A8B6F"/><rect x="56" y="194" width="220" height="10" fill="#7A8B6F"/>
+  <text x="166" y="195" class="tag" text-anchor="middle">第一步 观察</text>
+  <text x="72" y="226" class="body">风团形态与范围</text>
+  <text x="72" y="250" class="body">是否24小时内消退</text>
+  <text x="72" y="274" class="body">记录起病时间</text>
+  <text x="72" y="298" class="body">拍照留证</text>
+  <text x="72" y="332" class="small">能帮医生判断急慢性</text>
+
+  <rect x="290" y="174" width="220" height="190" rx="12" fill="#fff8ee" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="290" y="174" width="220" height="30" rx="12" fill="#C9A876"/><rect x="290" y="194" width="220" height="10" fill="#C9A876"/>
+  <text x="400" y="195" class="tag" text-anchor="middle">第二步 排查危险</text>
+  <text x="306" y="226" class="body">喉咙紧 声音变</text>
+  <text x="306" y="250" class="body">呼吸困难 喘鸣</text>
+  <text x="306" y="274" class="body">头晕 脸色苍白</text>
+  <text x="306" y="298" class="body">呕吐 腹痛明显</text>
+  <text x="306" y="332" class="small" fill="#8a3f2b">任一阳性立即急诊</text>
+
+  <rect x="524" y="174" width="220" height="190" rx="12" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.6"/>
+  <rect x="524" y="174" width="220" height="30" rx="12" fill="#5F6E54"/><rect x="524" y="194" width="220" height="10" fill="#5F6E54"/>
+  <text x="634" y="195" class="tag" text-anchor="middle">第三步 控制记录</text>
+  <text x="540" y="226" class="body">按医嘱用抗组胺</text>
+  <text x="540" y="250" class="body">避免已知诱因</text>
+  <text x="540" y="274" class="body">冷敷减轻痒感</text>
+  <text x="540" y="298" class="body">慢性者复诊复评</text>
+  <text x="540" y="332" class="small">不要长期自行加药</text>
+
+  <!-- 诱因清单 -->
+  <text x="56" y="396" class="nodeTitle">常见诱因记录项</text>
+  <rect x="56" y="408" width="688" height="34" rx="8" fill="#f8fbfb" stroke="#dce8e8"/>
+  <text x="400" y="429" class="small" text-anchor="middle">食物 药物 感染 物理刺激 温度 情绪 自身免疫</text>
+
+  <rect x="56" y="450" width="688" height="20" rx="8" fill="#eef4ee"/>
+  <text x="400" y="464" class="footer" text-anchor="middle">慢性反复 检查不是越多越好 治疗主线是规律控制组胺作用</text>
+</svg>

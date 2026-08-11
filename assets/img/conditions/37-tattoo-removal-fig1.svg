@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t37f1 d37f1">
+  <title id="t37f1">纹身色料位于真皮，激光按颜色选波长</title>
+  <desc id="d37f1">纹身与纹绣色料进入真皮层，激光需按颜色匹配波长多次击碎色素</desc>
+  <defs>
+    <linearGradient id="bg37f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh37f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .tag { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg37f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh37f1)"/>
+
+  <!-- 报头 -->
+  <text x="52" y="56" class="series">皮肤病症科普 · 37</text>
+  <text x="52" y="92" class="title">色料在真皮，激光按颜色选波长</text>
+  <text x="52" y="116" class="kicker">黑蓝相对容易，红黄绿彩更难，肤色白色可能反而变色</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 左侧：皮肤分层模型 -->
+  <text x="52" y="162" class="nodeTitle">皮肤分层与色料所在</text>
+  <rect x="52" y="172" width="300" height="44" rx="8" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.5"/>
+  <text x="68" y="192" class="body">表皮层</text>
+  <text x="68" y="208" class="small">几乎无色料，可再修复</text>
+
+  <rect x="52" y="222" width="300" height="64" rx="8" fill="#eef3ec" stroke="#5F6E54" stroke-width="2"/>
+  <text x="68" y="244" class="body">真皮层（色料主要停留处）</text>
+  <text x="68" y="262" class="small">被巨噬细胞包裹，形成"稳定"颗粒</text>
+  <text x="68" y="278" class="small">激光击碎后由机体缓慢代谢</text>
+
+  <rect x="52" y="292" width="300" height="44" rx="8" fill="#f8fbfb" stroke="#C9A876" stroke-width="1.5"/>
+  <text x="68" y="312" class="body">皮下组织</text>
+  <text x="68" y="328" class="small">深部色料更难清除</text>
+
+  <!-- 右侧：颜色与波长对照表 -->
+  <text x="388" y="162" class="nodeTitle">颜色与波长对照</text>
+  <rect x="388" y="172" width="360" height="36" rx="8" fill="#5F6E54"/>
+  <text x="404" y="195" class="tag">黑 · 蓝</text>
+  <text x="640" y="195" class="small" fill="#ffffff">1064nm 相对容易</text>
+
+  <rect x="388" y="214" width="360" height="36" rx="8" fill="#C9A876"/>
+  <text x="404" y="237" class="tag">绿 · 紫</text>
+  <text x="630" y="237" class="small" fill="#ffffff">需特殊波长 较难</text>
+
+  <rect x="388" y="256" width="360" height="36" rx="8" fill="#B5654A"/>
+  <text x="404" y="279" class="tag">红 · 黄 · 橙</text>
+  <text x="620" y="279" class="small" fill="#ffffff">532nm 注意变色风险</text>
+
+  <rect x="388" y="298" width="360" height="36" rx="8" fill="#2B2A28"/>
+  <text x="404" y="321" class="tag">白 · 肤色</text>
+  <text x="610" y="321" class="small" fill="#ffffff">可能瞬间变黑，慎做</text>
+
+  <!-- 流程条 -->
+  <text x="52" y="368" class="nodeTitle">治疗节奏</text>
+  <rect x="52" y="378" width="170" height="40" rx="10" fill="#eef6f8" stroke="#7A8B6F"/>
+  <text x="137" y="394" class="body" text-anchor="middle">多次治疗</text>
+  <text x="137" y="410" class="small" text-anchor="middle">间隔数周至数月</text>
+
+  <rect x="238" y="378" width="170" height="40" rx="10" fill="#eef6f8" stroke="#7A8B6F"/>
+  <text x="323" y="394" class="body" text-anchor="middle">逐次碎裂</text>
+  <text x="323" y="410" class="small" text-anchor="middle">能量需循序渐进</text>
+
+  <rect x="424" y="378" width="170" height="40" rx="10" fill="#fff8ee" stroke="#C9A876"/>
+  <text x="509" y="394" class="body" text-anchor="middle">淡化不等于清零</text>
+  <text x="509" y="410" class="small" text-anchor="middle">可能留痕或反色</text>
+
+  <!-- 金句 -->
+  <rect x="52" y="432" width="696" height="32" rx="10" fill="#eef6f8"/>
+  <text x="400" y="453" class="quote" text-anchor="middle">洗纹身是淡化，不是恢复原皮</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 具体方案与波长选择需由医师面诊评估</text>
+</svg>

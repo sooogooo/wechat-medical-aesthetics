@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t44f2 d44f2">
+  <title id="t44f2">白癜风复色效果与部位差异</title>
+  <desc id="d44f2">不同部位复色效果差异及合理预期说明</desc>
+  <defs>
+    <linearGradient id="bg44f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh44f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .col { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg44f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh44f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 44</text>
+  <text x="52" y="92" class="title">部位不同，复色效果差很多</text>
+  <text x="52" y="116" class="kicker">毛囊多、血供好处易复色，肢端黏膜难度大</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">复色效果对照</text>
+
+  <!-- 三档对照 -->
+  <rect x="52" y="178" width="220" height="34" rx="8" fill="#5F6E54"/>
+  <text x="162" y="200" class="col" text-anchor="middle">效果较好</text>
+  <rect x="52" y="216" width="220" height="160" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="68" cy="246" r="3" fill="#5F6E54"/>
+  <text x="80" y="250" class="body">面颈部</text>
+  <circle cx="68" cy="278" r="3" fill="#5F6E54"/>
+  <text x="80" y="282" class="body">躯干</text>
+  <circle cx="68" cy="310" r="3" fill="#5F6E54"/>
+  <text x="80" y="314" class="body">毛囊丰富的部位</text>
+  <circle cx="68" cy="342" r="3" fill="#5F6E54"/>
+  <text x="80" y="346" class="body">小面积节段型</text>
+
+  <rect x="290" y="178" width="220" height="34" rx="8" fill="#C9A876"/>
+  <text x="400" y="200" class="col" text-anchor="middle">效果中等</text>
+  <rect x="290" y="216" width="220" height="160" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <circle cx="306" cy="246" r="3" fill="#C9A876"/>
+  <text x="318" y="250" class="body">四肢伸侧</text>
+  <circle cx="306" cy="278" r="3" fill="#C9A876"/>
+  <text x="318" y="282" class="body">大面积泛发型</text>
+  <circle cx="306" cy="310" r="3" fill="#C9A876"/>
+  <text x="318" y="314" class="body">毛发变白区域</text>
+  <circle cx="306" cy="342" r="3" fill="#C9A876"/>
+  <text x="318" y="346" class="body">既往治疗反应一般</text>
+
+  <rect x="528" y="178" width="220" height="34" rx="8" fill="#B5654A"/>
+  <text x="638" y="200" class="col" text-anchor="middle">效果较差</text>
+  <rect x="528" y="216" width="220" height="160" rx="10" fill="#fbf0eb" stroke="#B5654A"/>
+  <circle cx="544" cy="246" r="3" fill="#B5654A"/>
+  <text x="556" y="250" class="body">手指、手背</text>
+  <circle cx="544" cy="278" r="3" fill="#B5654A"/>
+  <text x="556" y="282" class="body">口唇、黏膜</text>
+  <circle cx="544" cy="310" r="3" fill="#B5654A"/>
+  <text x="556" y="314" class="body">足趾、足背</text>
+  <circle cx="544" cy="342" r="3" fill="#B5654A"/>
+  <text x="556" y="346" class="body">活动未稳定部位</text>
+
+  <!-- 移植方式说明 -->
+  <text x="52" y="396" class="nodeTitle">常用移植方式（医师判断）</text>
+  <rect x="52" y="406" width="220" height="20" rx="6" fill="#7A8B6F"/>
+  <text x="162" y="421" class="small" text-anchor="middle" fill="#ffffff">表皮移植</text>
+  <rect x="290" y="406" width="220" height="20" rx="6" fill="#7A8B6F"/>
+  <text x="400" y="421" class="small" text-anchor="middle" fill="#ffffff">自体表皮细胞培养</text>
+  <rect x="528" y="406" width="220" height="20" rx="6" fill="#7A8B6F"/>
+  <text x="638" y="421" class="small" text-anchor="middle" fill="#ffffff">黑素细胞移植</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">复色是点点长出来，不是一次变回去</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 移植方式与时机须由皮肤科医师评估</text>
+</svg>

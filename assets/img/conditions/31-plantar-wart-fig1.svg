@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t31 d31">
+  <title id="t31">脚底硬疙瘩走路像踩针</title>
+  <desc id="d31">跖疣不是普通鸡眼</desc>
+  <defs>
+    <linearGradient id="bg31" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh31" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+    .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+    .title  { font: 700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5F6E54; }
+    .nodeT  { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .nodeT2 { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .body   { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+    .small  { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+    .tiny   { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .quote  { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .num    { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+    .badge  { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; letter-spacing:0.6px; }
+</style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg31)"/>
+  <rect x="26" y="24" width="748" height="452" rx="18" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh31)"/>
+  <!-- header -->
+  <text x="48" y="58" class="series">皮肤病症科普 · 31</text>
+  <text x="48" y="92" class="title">脚底硬疙瘩走路像踩针</text>
+  <text x="48" y="116" class="kicker">跖疣不是普通鸡眼</text>
+  <line x1="48" y1="134" x2="752" y2="134" stroke="#dce8e8"/>
+  <!-- body -->
+  
+  <text x="48" y="168" class="nodeT">和鸡眼的区别不能只看疼不疼</text>
+  
+  <rect x="48" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="48" y="188" width="220" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="48" y="206" width="220" height="10" fill="#7A8B6F"/>
+  <text x="158" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">跖疣</text>
+  <text x="158" y="238" class="body" text-anchor="middle">受压后向内生长</text>
+  <text x="158" y="256" class="small" text-anchor="middle">表面黑点，可多发</text>
+  
+  <rect x="290" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="290" y="188" width="220" height="28" rx="12" fill="#C9A876"/>
+  <rect x="290" y="206" width="220" height="10" fill="#C9A876"/>
+  <text x="400" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">鸡眼</text>
+  <text x="400" y="238" class="body" text-anchor="middle">受压圆锥形角质</text>
+  <text x="400" y="256" class="small" text-anchor="middle">单发，中央角质栓</text>
+  
+  <rect x="532" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="532" y="188" width="220" height="28" rx="12" fill="#B5654A"/>
+  <rect x="532" y="206" width="220" height="10" fill="#B5654A"/>
+  <text x="642" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">胼胝</text>
+  <text x="642" y="238" class="body" text-anchor="middle">片状增厚</text>
+  <text x="642" y="256" class="small" text-anchor="middle">与摩擦压力相关</text>
+  <text x="400" y="395" class="small" text-anchor="middle">挤压痛 vs 压痛，分布与形态是鉴别关键</text>
+  
+  <rect x="48" y="410" width="704" height="28" rx="10" fill="#eef4ee" stroke="#7A8B6F" stroke-opacity="0.35"/>
+  <text x="400" y="429" class="quote" text-anchor="middle">可以观察，但要看疼痛和传播</text>
+  
+  <!-- footer -->
+  <text x="48" y="462" class="footer">医学教育示意 · 糖尿病或循环异常者应避免自行用酸</text>
+</svg>

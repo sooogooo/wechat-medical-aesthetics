@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t20 d20">
+  <title id="t20">甲变色增厚，先确认真菌</title>
+  <desc id="d20">外伤和银屑病甲都很像，治前要取样</desc>
+  <defs>
+    <linearGradient id="bg20" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh20" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+    .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+    .title  { font: 700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5F6E54; }
+    .nodeT  { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .nodeT2 { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .body   { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+    .small  { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+    .tiny   { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .quote  { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .num    { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+    .badge  { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; letter-spacing:0.6px; }
+</style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg20)"/>
+  <rect x="26" y="24" width="748" height="452" rx="18" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh20)"/>
+  <!-- header -->
+  <text x="48" y="58" class="series">皮肤病症科普 · 20</text>
+  <text x="48" y="92" class="title">甲变色增厚，先确认真菌</text>
+  <text x="48" y="116" class="kicker">外伤和银屑病甲都很像，治前要取样</text>
+  <line x1="48" y1="134" x2="752" y2="134" stroke="#dce8e8"/>
+  <!-- body -->
+  
+  <text x="48" y="168" class="nodeT">相似的甲改变，不同的方向</text>
+  
+  <rect x="48" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="48" y="188" width="220" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="48" y="206" width="220" height="10" fill="#7A8B6F"/>
+  <text x="158" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">甲真菌病</text>
+  <text x="158" y="238" class="body" text-anchor="middle">真菌镜检或培养阳性</text>
+  <text x="158" y="256" class="small" text-anchor="middle">需足疗程抗真菌治疗</text>
+  
+  <rect x="290" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="290" y="188" width="220" height="28" rx="12" fill="#C9A876"/>
+  <rect x="290" y="206" width="220" height="10" fill="#C9A876"/>
+  <text x="400" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">外伤甲</text>
+  <text x="400" y="238" class="body" text-anchor="middle">有明确磕碰或挤压史</text>
+  <text x="400" y="256" class="small" text-anchor="middle">避免再损伤，等待新甲生长</text>
+  
+  <rect x="532" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="532" y="188" width="220" height="28" rx="12" fill="#B5654A"/>
+  <rect x="532" y="206" width="220" height="10" fill="#B5654A"/>
+  <text x="642" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">银屑病甲</text>
+  <text x="642" y="238" class="body" text-anchor="middle">可见顶针凹陷、油滴</text>
+  <text x="642" y="256" class="small" text-anchor="middle">按银屑病系统管理</text>
+  <path d="M 268 273 L 290 273" stroke="#2B2A28" stroke-width="1.8" fill="none"/>
+          <path d="M 290 273 l -8 -3 l 2 6 z" fill="#2B2A28"/>
+  <path d="M 510 273 L 532 273" stroke="#2B2A28" stroke-width="1.8" fill="none"/>
+          <path d="M 532 273 l -8 -3 l 2 6 z" fill="#2B2A28"/>
+  <text x="400" y="395" class="small" text-anchor="middle">治疗前确认 = 不白白用药、不漏掉其他病</text>
+  
+  <rect x="48" y="410" width="704" height="28" rx="10" fill="#eef4ee" stroke="#7A8B6F" stroke-opacity="0.35"/>
+  <text x="400" y="429" class="quote" text-anchor="middle">真菌杀掉了，旧坏甲也不会瞬间变好</text>
+  
+  <!-- footer -->
+  <text x="48" y="462" class="footer">医学教育示意 · 取样应在活动边缘取，假阴性需结合临床判断</text>
+</svg>

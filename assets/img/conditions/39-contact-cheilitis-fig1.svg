@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t39f1 d39f1">
+  <title id="t39f1">接触性唇炎的常见诱因</title>
+  <desc id="d39f1">唇膏口红牙膏香料及职业接触均可引发唇部干裂脱屑瘙痒灼痛</desc>
+  <defs>
+    <linearGradient id="bg39f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh39f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .card { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg39f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh39f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 39</text>
+  <text x="52" y="92" class="title">润唇膏越涂越痒，先找过敏原</text>
+  <text x="52" y="116" class="kicker">接触性唇炎由反复接触致敏物累积引发，避开诱因是关键</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">常见诱因清单（按接触来源）</text>
+
+  <!-- 6张诱因卡 2行x3列 -->
+  <rect x="52" y="176" width="210" height="92" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="52" y="176" width="210" height="26" rx="12" fill="#B5654A"/>
+  <rect x="52" y="194" width="210" height="8" fill="#B5654A"/>
+  <text x="157" y="194" class="card" text-anchor="middle" fill="#ffffff">唇膏 · 口红</text>
+  <text x="64" y="222" class="body">羊毛脂、防腐剂</text>
+  <text x="64" y="242" class="body">蓖麻油、染色剂</text>
+  <text x="64" y="260" class="small">带色带香型更常见</text>
+
+  <rect x="278" y="176" width="210" height="92" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="278" y="176" width="210" height="26" rx="12" fill="#C9A876"/>
+  <rect x="278" y="194" width="210" height="8" fill="#C9A876"/>
+  <text x="383" y="194" class="card" text-anchor="middle" fill="#ffffff">牙膏 · 漱口水</text>
+  <text x="290" y="222" class="body">肉桂醛、薄荷</text>
+  <text x="290" y="242" class="body">氟化物、发泡剂</text>
+  <text x="290" y="260" class="small">口角处首发要留意</text>
+
+  <rect x="504" y="176" width="210" height="92" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="504" y="176" width="210" height="26" rx="12" fill="#C9A876"/>
+  <rect x="504" y="194" width="210" height="8" fill="#C9A876"/>
+  <text x="609" y="194" class="card" text-anchor="middle" fill="#ffffff">香料 · 精油</text>
+  <text x="516" y="222" class="body">香水、空气清新剂</text>
+  <text x="516" y="242" class="body">茶树、薰衣草类</text>
+  <text x="516" y="260" class="small">天然不等于不过敏</text>
+
+  <rect x="52" y="284" width="210" height="92" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="52" y="284" width="210" height="26" rx="12" fill="#7A8B6F"/>
+  <rect x="52" y="302" width="210" height="8" fill="#7A8B6F"/>
+  <text x="157" y="302" class="card" text-anchor="middle" fill="#ffffff">金属 · 义齿</text>
+  <text x="64" y="330" class="body">镍、钴、铬</text>
+  <text x="64" y="350" class="body">金属牙套、唇钉</text>
+  <text x="64" y="368" class="small">接触部位最明显</text>
+
+  <rect x="278" y="284" width="210" height="92" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="278" y="284" width="210" height="26" rx="12" fill="#7A8B6F"/>
+  <rect x="278" y="302" width="210" height="8" fill="#7A8B6F"/>
+  <text x="383" y="302" class="card" text-anchor="middle" fill="#ffffff">职业接触</text>
+  <text x="290" y="330" class="body">理发、印刷、建筑</text>
+  <text x="290" y="350" class="body">染料、溶剂、水泥</text>
+  <text x="290" y="368" class="small">长期反复暴露累积</text>
+
+  <rect x="504" y="284" width="210" height="92" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="504" y="284" width="210" height="26" rx="12" fill="#B5654A"/>
+  <rect x="504" y="302" width="210" height="8" fill="#B5654A"/>
+  <text x="609" y="302" class="card" text-anchor="middle" fill="#ffffff">食物 · 药物</text>
+  <text x="516" y="330" class="body">柑橘、芒果、辛辣</text>
+  <text x="516" y="350" class="body">外用或口服药</text>
+  <text x="516" y="368" class="small">反复在同一部位</text>
+
+  <!-- 表现条 -->
+  <text x="52" y="404" class="nodeTitle">典型表现</text>
+  <rect x="52" y="412" width="170" height="14" rx="7" fill="#5F6E54"/>
+  <text x="137" y="423" class="small" text-anchor="middle" fill="#ffffff">干裂</text>
+  <rect x="232" y="412" width="170" height="14" rx="7" fill="#5F6E54"/>
+  <text x="317" y="423" class="small" text-anchor="middle" fill="#ffffff">脱屑</text>
+  <rect x="412" y="412" width="170" height="14" rx="7" fill="#C9A876"/>
+  <text x="497" y="423" class="small" text-anchor="middle" fill="#ffffff">瘙痒灼痛</text>
+  <rect x="592" y="412" width="122" height="14" rx="7" fill="#B5654A"/>
+  <text x="653" y="423" class="small" text-anchor="middle" fill="#ffffff">反复增厚</text>
+
+  <rect x="52" y="436" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="456" class="quote" text-anchor="middle">找到并避开过敏原，胜过反复涂药</text>
+  <text x="52" y="470" class="footer">健康科普示意 · 明确过敏原可借助斑贴试验，由医师判断</text>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t15f1 d15f1">
+  <title id="t15f1">毛周角化是角蛋白堵在毛囊口</title>
+  <desc id="t15f1">常见于上臂大腿面颊的粗糙小颗粒，无害不传染</desc>
+  <defs>
+    <linearGradient id="bg15f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh15f1" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg15f1)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh15f1)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 15</text>
+  <text x="56" y="90" class="title">毛周角化不是洗不干净</text>
+  <text x="56" y="116" class="kicker">角蛋白堵在毛囊口形成的粗糙小颗粒</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">常见部位与特点</text>
+
+  <rect x="56" y="174" width="220" height="110" rx="12" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="56" y="174" width="220" height="28" rx="12" fill="#7A8B6F"/><rect x="56" y="192" width="220" height="10" fill="#7A8B6F"/>
+  <text x="166" y="193" class="tag" text-anchor="middle">上臂外侧</text>
+  <text x="166" y="226" class="body" text-anchor="middle">最常见部位</text>
+  <text x="166" y="250" class="small" text-anchor="middle">一粒粒粗糙</text>
+  <text x="166" y="270" class="small" text-anchor="middle">可能泛红</text>
+
+  <rect x="290" y="174" width="220" height="110" rx="12" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="290" y="174" width="220" height="28" rx="12" fill="#7A8B6F"/><rect x="290" y="192" width="220" height="10" fill="#7A8B6F"/>
+  <text x="400" y="193" class="tag" text-anchor="middle">大腿臀部</text>
+  <text x="400" y="226" class="body" text-anchor="middle">次常见</text>
+  <text x="400" y="250" class="small" text-anchor="middle">粗糙颗粒感</text>
+  <text x="400" y="270" class="small" text-anchor="middle">冬季加重</text>
+
+  <rect x="524" y="174" width="220" height="110" rx="12" fill="#fff8ee" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="524" y="174" width="220" height="28" rx="12" fill="#C9A876"/><rect x="524" y="192" width="220" height="10" fill="#C9A876"/>
+  <text x="634" y="193" class="tag" text-anchor="middle">面颊</text>
+  <text x="634" y="226" class="body" text-anchor="middle">儿童常见</text>
+  <text x="634" y="250" class="small" text-anchor="middle">发红粗糙</text>
+  <text x="634" y="270" class="small" text-anchor="middle">随年龄改善</text>
+
+  <!-- 核心特点 -->
+  <text x="56" y="316" class="nodeTitle">三个核心特点</text>
+  <rect x="56" y="330" width="220" height="56" rx="10" fill="#f8fbfb" stroke="#7A8B6F" stroke-width="1.2"/>
+  <text x="166" y="354" class="body" text-anchor="middle">无害</text>
+  <text x="166" y="374" class="small" text-anchor="middle">不影响健康</text>
+
+  <rect x="290" y="330" width="220" height="56" rx="10" fill="#f8fbfb" stroke="#7A8B6F" stroke-width="1.2"/>
+  <text x="400" y="354" class="body" text-anchor="middle">不传染</text>
+  <text x="400" y="374" class="small" text-anchor="middle">与遗传相关</text>
+
+  <rect x="524" y="330" width="220" height="56" rx="10" fill="#f8fbfb" stroke="#7A8B6F" stroke-width="1.2"/>
+  <text x="634" y="354" class="body" text-anchor="middle">可改善</text>
+  <text x="634" y="374" class="small" text-anchor="middle">保湿角质调节</text>
+
+  <rect x="56" y="402" width="688" height="44" rx="10" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.4"/>
+  <text x="400" y="422" class="body" text-anchor="middle" font-weight="700">先别把所有小颗粒都叫鸡皮</text>
+  <text x="400" y="438" class="small" text-anchor="middle">毛囊炎 湿疹 接触性皮炎也可表现为颗粒 需鉴别</text>
+
+  <text x="56" y="466" class="footer">医学教育示意 · 改善的第一步往往是少用力，不是更用力搓洗</text>
+</svg>

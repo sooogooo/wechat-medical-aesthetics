@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t41f1 d41f1">
+  <title id="t41f1">光老化与自然老化的区别</title>
+  <desc id="d41f1">光老化由紫外线累积造成细纹粗糙斑点和肤色不均，与自然老化不同</desc>
+  <defs>
+    <linearGradient id="bg41f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh41f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .col { font: 700 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg41f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh41f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 41</text>
+  <text x="52" y="92" class="title">光老化不只是"年纪大了"</text>
+  <text x="52" y="116" class="kicker">同为皮肤老化，自然老化与光老化机制和表现都不同</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 两列对照 -->
+  <rect x="52" y="150" width="340" height="34" rx="8" fill="#7A8B6F"/>
+  <text x="222" y="172" class="col" text-anchor="middle">自然老化（时程性）</text>
+  <rect x="52" y="188" width="340" height="170" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <text x="66" y="212" class="body">原因：年龄增长、激素变化</text>
+  <text x="66" y="238" class="body">纹理：细密、整体变薄</text>
+  <text x="66" y="264" class="body">弹性：缓慢松弛</text>
+  <text x="66" y="290" class="body">色斑：少见且均匀</text>
+  <text x="66" y="316" class="body">部位：全身大致同步</text>
+  <text x="66" y="342" class="small">不可逆，进程较温和</text>
+
+  <rect x="408" y="150" width="340" height="34" rx="8" fill="#C9A876"/>
+  <text x="578" y="172" class="col" text-anchor="middle">光老化（紫外线累积）</text>
+  <rect x="408" y="188" width="340" height="170" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <text x="422" y="212" class="body">原因：UVA / UVB 长期暴露</text>
+  <text x="422" y="238" class="body">纹理：粗糙、粗大皱纹</text>
+  <text x="422" y="264" class="body">弹性：明显松弛、皮革样</text>
+  <text x="422" y="290" class="body">色斑：日晒斑、肤色不均</text>
+  <text x="422" y="316" class="body">部位：面颈手背前臂</text>
+  <text x="422" y="342" class="small">可部分预防与改善</text>
+
+  <!-- 光老化四大表现条 -->
+  <text x="52" y="382" class="nodeTitle">光老化常见表现</text>
+  <rect x="52" y="392" width="160" height="30" rx="8" fill="#5F6E54"/>
+  <text x="132" y="412" class="col" text-anchor="middle" font-size="14">细纹皱纹</text>
+  <rect x="222" y="392" width="160" height="30" rx="8" fill="#5F6E54"/>
+  <text x="302" y="412" class="col" text-anchor="middle" font-size="14">粗糙暗沉</text>
+  <rect x="392" y="392" width="160" height="30" rx="8" fill="#C9A876"/>
+  <text x="472" y="412" class="col" text-anchor="middle" font-size="14">色斑不均</text>
+  <rect x="562" y="392" width="186" height="30" rx="8" fill="#B5654A"/>
+  <text x="655" y="412" class="col" text-anchor="middle" font-size="14">癌前病变风险</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">防晒是底盘，治疗按具体问题组合</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 具体方案与癌前病变筛查需医师面诊</text>
+</svg>

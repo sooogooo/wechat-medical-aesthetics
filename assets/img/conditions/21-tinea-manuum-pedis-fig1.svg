@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t21 d21">
+  <title id="t21">手足癣的四种表现</title>
+  <desc id="d21">单手双脚是经典线索，真菌检查能少走弯路</desc>
+  <defs>
+    <linearGradient id="bg21" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh21" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+    .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+    .title  { font: 700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5F6E54; }
+    .nodeT  { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .nodeT2 { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .body   { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+    .small  { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+    .tiny   { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .quote  { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .num    { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+    .badge  { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; letter-spacing:0.6px; }
+</style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg21)"/>
+  <rect x="26" y="24" width="748" height="452" rx="18" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh21)"/>
+  <!-- header -->
+  <text x="48" y="58" class="series">皮肤病症科普 · 21</text>
+  <text x="48" y="92" class="title">手足癣的四种表现</text>
+  <text x="48" y="116" class="kicker">单手双脚是经典线索，真菌检查能少走弯路</text>
+  <line x1="48" y1="134" x2="752" y2="134" stroke="#dce8e8"/>
+  <!-- body -->
+  
+  <text x="48" y="168" class="nodeT">同一感染，不同形态</text>
+  
+  <rect x="48" y="188" width="165" height="150" rx="12" fill="#fbfdfc" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="48" y="188" width="165" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="48" y="206" width="165" height="10" fill="#7A8B6F"/>
+  <text x="130.5" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">趾缝糜烂</text>
+  <text x="130.5" y="238" class="body" text-anchor="middle">浸渍发白</text>
+  <text x="130.5" y="256" class="small" text-anchor="middle">第3 4趾缝多见</text>
+  
+  <rect x="225" y="188" width="165" height="150" rx="12" fill="#fbfdfc" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="225" y="188" width="165" height="28" rx="12" fill="#C9A876"/>
+  <rect x="225" y="206" width="165" height="10" fill="#C9A876"/>
+  <text x="307.5" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">足底脱屑</text>
+  <text x="307.5" y="238" class="body" text-anchor="middle">环形或片状</text>
+  <text x="307.5" y="256" class="small" text-anchor="middle">边界较清</text>
+  
+  <rect x="402" y="188" width="165" height="150" rx="12" fill="#fbfdfc" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="402" y="188" width="165" height="28" rx="12" fill="#B5654A"/>
+  <rect x="402" y="206" width="165" height="10" fill="#B5654A"/>
+  <text x="484.5" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">水疱型</text>
+  <text x="484.5" y="238" class="body" text-anchor="middle">成群小水疱</text>
+  <text x="484.5" y="256" class="small" text-anchor="middle">明显瘙痒</text>
+  
+  <rect x="579" y="188" width="165" height="150" rx="12" fill="#fbfdfc" stroke="#5F6E54" stroke-width="1.6"/>
+  <rect x="579" y="188" width="165" height="28" rx="12" fill="#5F6E54"/>
+  <rect x="579" y="206" width="165" height="10" fill="#5F6E54"/>
+  <text x="661.5" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">单手干燥</text>
+  <text x="661.5" y="238" class="body" text-anchor="middle">一手掌脱屑</text>
+  <text x="661.5" y="256" class="small" text-anchor="middle">另一手正常</text>
+  
+  <rect x="60" y="363" width="9" height="9" rx="2" fill="#7A8B6F"/>
+  <text x="78" y="372" class="body">先做真菌镜检，再决定是否抗真菌治疗</text>
+  
+  <rect x="60" y="387" width="9" height="9" rx="2" fill="#7A8B6F"/>
+  <text x="78" y="396" class="body">涂药范围要超过肉眼可见的边界</text>
+  
+  <rect x="48" y="400" width="704" height="28" rx="10" fill="#eef4ee" stroke="#7A8B6F" stroke-opacity="0.35"/>
+  <text x="400" y="419" class="quote" text-anchor="middle">别只靠泡脚和止痒膏，要对准真菌</text>
+  
+  <!-- footer -->
+  <text x="48" y="462" class="footer">医学教育示意 · 涂药范围要超过肉眼边界，足量足疗程</text>
+</svg>

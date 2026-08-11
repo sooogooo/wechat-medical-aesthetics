@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t09f1 d09f1">
+  <title id="t09f1">脂溢性角化与病毒疣区分</title>
+  <desc id="t09f1">俗称老年疣但不是HPV疣也不传染，多数无需治疗</desc>
+  <defs>
+    <linearGradient id="bg09f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh09f1" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg09f1)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh09f1)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 09</text>
+  <text x="56" y="90" class="title">脂溢性角化不是病毒疣</text>
+  <text x="56" y="116" class="kicker">俗称老年疣，但不传染，多数无需治疗</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">两种常见褐色凸起对照</text>
+
+  <rect x="56" y="174" width="335" height="170" rx="12" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="56" y="174" width="335" height="30" rx="12" fill="#7A8B6F"/><rect x="56" y="194" width="335" height="10" fill="#7A8B6F"/>
+  <text x="72" y="195" class="tag">脂溢性角化</text>
+  <text x="72" y="226" class="body">褐色蜡样或粗糙凸起</text>
+  <text x="72" y="250" class="body">像贴在皮肤上的小蜡滴</text>
+  <text x="72" y="274" class="body">非病毒 不传染</text>
+  <text x="72" y="298" class="body">中老年常见 良性为主</text>
+  <text x="72" y="326" class="small">多数无需治疗</text>
+
+  <rect x="409" y="174" width="335" height="170" rx="12" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="409" y="174" width="335" height="30" rx="12" fill="#B5654A"/><rect x="409" y="194" width="335" height="10" fill="#B5654A"/>
+  <text x="425" y="195" class="tag">病毒疣</text>
+  <text x="425" y="226" class="body">HPV感染引起</text>
+  <text x="425" y="250" class="body">表面粗糙颗粒状</text>
+  <text x="425" y="274" class="body">可传染 可扩散</text>
+  <text x="425" y="298" class="body">处理思路完全不同</text>
+  <text x="425" y="326" class="small">不要自行点药水</text>
+
+  <text x="56" y="372" class="nodeTitle">为什么不能凭像蜡滴就自己诊断</text>
+  <rect x="56" y="386" width="688" height="56" rx="10" fill="#fff8ee" stroke="#C9A876" stroke-width="1.4"/>
+  <text x="76" y="410" class="body">部分恶性病变早期可被误判，变化异常时先排除肿瘤</text>
+  <text x="76" y="430" class="small">突然爆发很多颗 快速增大 破溃出血 颜色不均 需就医</text>
+
+  <rect x="56" y="452" width="688" height="20" rx="8" fill="#eef4ee"/>
+  <text x="400" y="466" class="quote" text-anchor="middle" font-size="14">抠剪点药水不划算，术后护理决定色差是否被放大</text>
+  <text x="56" y="472" class="footer" fill="#68787e">医学教育示意 · 诊断需皮肤科面诊，眼周和深肤色要更谨慎</text>
+</svg>

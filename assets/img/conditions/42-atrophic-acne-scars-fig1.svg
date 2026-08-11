@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t42f1 d42f1">
+  <title id="t42f1">萎缩性痘坑的三种分型</title>
+  <desc id="d42f1">冰锥型箱车型滚轮型三种凹陷瘢痕的形态与处理差异</desc>
+  <defs>
+    <linearGradient id="bg42f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh42f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .card { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg42f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh42f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 42</text>
+  <text x="52" y="92" class="title">痘坑分三型，处理各不同</text>
+  <text x="52" y="116" class="kicker">真皮修复不足形成的凹陷瘢痕，先分型再谈设备</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 三型卡：形态示意图 + 文字 -->
+  <!-- 冰锥型 -->
+  <rect x="52" y="150" width="220" height="270" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="52" y="150" width="220" height="34" rx="12" fill="#B5654A"/>
+  <rect x="52" y="168" width="220" height="16" fill="#B5654A"/>
+  <text x="162" y="172" class="card" text-anchor="middle">冰锥型</text>
+  <!-- 形态示意：深窄V -->
+  <line x1="162" y1="200" x2="162" y2="200" stroke="none"/>
+  <path d="M 110 200 L 150 200 L 162 280 L 174 200 L 214 200" stroke="#2B2A28" stroke-width="2" fill="none"/>
+  <path d="M 110 200 L 214 200" stroke="#2B2A28" stroke-width="2"/>
+  <text x="162" y="220" class="small" text-anchor="middle" fill="#B5654A">深窄如冰锥</text>
+  <text x="162" y="246" class="body" text-anchor="middle">形态</text>
+  <text x="162" y="266" class="small" text-anchor="middle">开口小、底部尖</text>
+  <text x="162" y="284" class="small" text-anchor="middle">深达真皮深层</text>
+  <text x="162" y="312" class="body" text-anchor="middle">常见部位</text>
+  <text x="162" y="332" class="small" text-anchor="middle">面颊、太阳穴</text>
+  <text x="162" y="360" class="body" text-anchor="middle">处理方向</text>
+  <text x="162" y="380" class="small" text-anchor="middle" fill="#B5654A">难，常需专项治疗</text>
+  <text x="162" y="398" class="small" text-anchor="middle" fill="#B5654A">先控制活动痘</text>
+
+  <!-- 箱车型 -->
+  <rect x="290" y="150" width="220" height="270" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="290" y="150" width="220" height="34" rx="12" fill="#C9A876"/>
+  <rect x="290" y="168" width="220" height="16" fill="#C9A876"/>
+  <text x="400" y="172" class="card" text-anchor="middle">箱车型</text>
+  <path d="M 348 200 L 452 200 L 444 250 L 356 250 Z" stroke="#2B2A28" stroke-width="2" fill="none"/>
+  <path d="M 340 200 L 460 200" stroke="#2B2A28" stroke-width="2"/>
+  <text x="400" y="220" class="small" text-anchor="middle" fill="#C9A876">平底的方坑</text>
+  <text x="400" y="246" class="body" text-anchor="middle">形态</text>
+  <text x="400" y="266" class="small" text-anchor="middle">边缘陡、底部平</text>
+  <text x="400" y="284" class="small" text-anchor="middle">宽而较浅</text>
+  <text x="400" y="312" class="body" text-anchor="middle">常见部位</text>
+  <text x="400" y="332" class="small" text-anchor="middle">面颊、下颌、颞部</text>
+  <text x="400" y="360" class="body" text-anchor="middle">处理方向</text>
+  <text x="400" y="380" class="small" text-anchor="middle" fill="#5F6E54">皮下分离、激光</text>
+  <text x="400" y="398" class="small" text-anchor="middle" fill="#5F6E54">磨削可改善</text>
+
+  <!-- 滚轮型 -->
+  <rect x="528" y="150" width="220" height="270" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="528" y="150" width="220" height="34" rx="12" fill="#7A8B6F"/>
+  <rect x="528" y="168" width="220" height="16" fill="#7A8B6F"/>
+  <text x="638" y="172" class="card" text-anchor="middle">滚轮型</text>
+  <path d="M 586 200 Q 638 240 690 200" stroke="#2B2A28" stroke-width="2" fill="none"/>
+  <path d="M 570 200 L 706 200" stroke="#2B2A28" stroke-width="2"/>
+  <text x="638" y="220" class="small" text-anchor="middle" fill="#5F6E54">宽阔波浪状</text>
+  <text x="638" y="246" class="body" text-anchor="middle">形态</text>
+  <text x="638" y="266" class="small" text-anchor="middle">边缘缓、底部牵拉</text>
+  <text x="638" y="284" class="small" text-anchor="middle">常与皮下粘连</text>
+  <text x="638" y="312" class="body" text-anchor="middle">常见部位</text>
+  <text x="638" y="332" class="small" text-anchor="middle">下颌、面颊下部</text>
+  <text x="638" y="360" class="body" text-anchor="middle">处理方向</text>
+  <text x="638" y="380" class="small" text-anchor="middle" fill="#5F6E54">皮下分离松解</text>
+  <text x="638" y="398" class="small" text-anchor="middle" fill="#5F6E54">配合填充或射频</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">先控痘、再分型，最后才谈设备</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 具体方案需由医师评估瘢痕类型后制定</text>
+</svg>

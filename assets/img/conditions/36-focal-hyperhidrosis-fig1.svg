@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t36 d36">
+  <title id="t36">手心滴水、脚底发白、额头总湿</title>
+  <desc id="d36">先分原发性，还是身体发出的新信号</desc>
+  <defs>
+    <linearGradient id="bg36" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh36" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+    .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+    .title  { font: 700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5F6E54; }
+    .nodeT  { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .nodeT2 { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .body   { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+    .small  { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+    .tiny   { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .quote  { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+    .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    .num    { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+    .badge  { font: 700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; letter-spacing:0.6px; }
+</style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg36)"/>
+  <rect x="26" y="24" width="748" height="452" rx="18" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh36)"/>
+  <!-- header -->
+  <text x="48" y="58" class="series">皮肤病症科普 · 36</text>
+  <text x="48" y="92" class="title">手心滴水、脚底发白、额头总湿</text>
+  <text x="48" y="116" class="kicker">先分原发性，还是身体发出的新信号</text>
+  <line x1="48" y1="134" x2="752" y2="134" stroke="#dce8e8"/>
+  <!-- body -->
+  
+  <text x="48" y="168" class="nodeT">先排除药物和疾病因素</text>
+  
+  <rect x="48" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="48" y="188" width="220" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="48" y="206" width="220" height="10" fill="#7A8B6F"/>
+  <text x="158" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">原发性局灶多汗</text>
+  <text x="158" y="238" class="body" text-anchor="middle">手心脚底头面腋下</text>
+  <text x="158" y="256" class="small" text-anchor="middle">睡眠时不出汗</text>
+  
+  <rect x="290" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="290" y="188" width="220" height="28" rx="12" fill="#C9A876"/>
+  <rect x="290" y="206" width="220" height="10" fill="#C9A876"/>
+  <text x="400" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">继发性多汗</text>
+  <text x="400" y="238" class="body" text-anchor="middle">全身或新发</text>
+  <text x="400" y="256" class="small" text-anchor="middle">查甲功血糖感染用药</text>
+  
+  <rect x="532" y="188" width="220" height="170" rx="12" fill="#fbfdfc" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="532" y="188" width="220" height="28" rx="12" fill="#B5654A"/>
+  <rect x="532" y="206" width="220" height="10" fill="#B5654A"/>
+  <text x="642" y="208" class="nodeT2" text-anchor="middle" fill="#ffffff">味觉性或夜间</text>
+  <text x="642" y="238" class="body" text-anchor="middle">与进食或睡眠相关</text>
+  <text x="642" y="256" class="small" text-anchor="middle">需进一步评估病因</text>
+  <text x="400" y="395" class="small" text-anchor="middle">汗量超过体温调节需要并影响生活</text>
+  
+  <rect x="48" y="410" width="704" height="28" rx="10" fill="#eef4ee" stroke="#7A8B6F" stroke-opacity="0.35"/>
+  <text x="400" y="429" class="quote" text-anchor="middle">把影响写成具体场景，再分级处理</text>
+  
+  <!-- footer -->
+  <text x="48" y="462" class="footer">医学教育示意 · 别把出汗解释成意志和体质问题</text>
+</svg>

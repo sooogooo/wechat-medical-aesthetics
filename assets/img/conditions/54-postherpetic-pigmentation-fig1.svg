@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t54f1 d54f1">
+  <title id="t54f1">带状疱疹后的时间轴</title>
+  <desc id="d54f1">带状疱疹愈合后遗留色沉或瘢痕需先确认病毒停止再处理色沉</desc>
+  <defs>
+    <linearGradient id="bg54f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh54f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .step { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg54f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh54f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 54</text>
+  <text x="52" y="92" class="title">从带状疱疹到色沉的时间轴</text>
+  <text x="52" y="116" class="kicker">先确认病毒已停，再处理色沉；神经痛可能持续更久</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">四阶段时间轴</text>
+
+  <!-- 时间轴主线 -->
+  <line x1="52" y1="280" x2="748" y2="280" stroke="#7d8e93" stroke-width="2.5"/>
+  <circle cx="130" cy="280" r="8" fill="#B5654A"/>
+  <circle cx="320" cy="280" r="8" fill="#C9A876"/>
+  <circle cx="510" cy="280" r="8" fill="#7A8B6F"/>
+  <circle cx="700" cy="280" r="8" fill="#5F6E54"/>
+
+  <!-- 阶段1 -->
+  <rect x="52" y="180" width="170" height="80" rx="10" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="52" y="180" width="170" height="22" rx="10" fill="#B5654A"/>
+  <rect x="52" y="194" width="170" height="8" fill="#B5654A"/>
+  <text x="137" y="196" class="step" text-anchor="middle" font-size="13">急性期</text>
+  <text x="64" y="222" class="small">成簇水疱、疼痛</text>
+  <text x="64" y="240" class="small">沿神经单侧分布</text>
+  <text x="64" y="254" class="small" fill="#B5654A">及时抗病毒</text>
+
+  <!-- 阶段2 -->
+  <rect x="232" y="180" width="180" height="80" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="232" y="180" width="180" height="22" rx="10" fill="#C9A876"/>
+  <rect x="232" y="194" width="180" height="8" fill="#C9A876"/>
+  <text x="322" y="196" class="step" text-anchor="middle" font-size="13">愈合期</text>
+  <text x="244" y="222" class="small">水疱结痂脱落</text>
+  <text x="244" y="240" class="small">皮肤炎症消退</text>
+  <text x="244" y="254" class="small" fill="#C9A876">需确认无新发、无感染</text>
+
+  <!-- 阶段3 -->
+  <rect x="422" y="180" width="180" height="80" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="422" y="180" width="180" height="22" rx="10" fill="#7A8B6F"/>
+  <rect x="422" y="194" width="180" height="8" fill="#7A8B6F"/>
+  <text x="512" y="196" class="step" text-anchor="middle" font-size="13">色沉/瘢痕期</text>
+  <text x="434" y="222" class="small">褐色或灰褐色带</text>
+  <text x="434" y="240" class="small">可能伴瘢痕</text>
+  <text x="434" y="254" class="small" fill="#5F6E54">温和淡化为主</text>
+
+  <!-- 阶段4 -->
+  <rect x="612" y="180" width="136" height="80" rx="10" fill="#f4f7f1" stroke="#5F6E54"/>
+  <rect x="612" y="180" width="136" height="22" rx="10" fill="#5F6E54"/>
+  <rect x="612" y="194" width="136" height="8" fill="#5F6E54"/>
+  <text x="680" y="196" class="step" text-anchor="middle" font-size="13">恢复期</text>
+  <text x="624" y="222" class="small">色沉缓慢变淡</text>
+  <text x="624" y="240" class="small">瘢痕稳定</text>
+  <text x="624" y="254" class="small" fill="#5F6E54">需数月以上</text>
+
+  <!-- 时间标签 -->
+  <text x="130" y="306" class="small" text-anchor="middle">数日内</text>
+  <text x="320" y="306" class="small" text-anchor="middle">2至4周</text>
+  <text x="510" y="306" class="small" text-anchor="middle">数周至数月</text>
+  <text x="700" y="306" class="small" text-anchor="middle">半年至更久</text>
+
+  <!-- 处理时机提示 -->
+  <text x="52" y="340" class="nodeTitle">关键判断</text>
+  <rect x="52" y="352" width="340" height="76" rx="10" fill="#fbf0eb" stroke="#B5654A"/>
+  <text x="64" y="374" class="body" fill="#B5654A">不能急着淡化的情况</text>
+  <text x="64" y="394" class="small">仍有新水疱、痂未脱、合并感染</text>
+  <text x="64" y="412" class="small">持续剧烈神经痛未控制</text>
+
+  <rect x="408" y="352" width="340" height="76" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <text x="420" y="374" class="body" fill="#5F6E54">可以开始温和淡化的情况</text>
+  <text x="420" y="394" class="small">无新发、皮肤完整</text>
+  <text x="420" y="412" class="small">炎症稳定、神经痛可控</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">先治痛、再治印、最后才谈淡化</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 治疗时机与方案须由皮肤科或疼痛科医师评估</text>
+</svg>

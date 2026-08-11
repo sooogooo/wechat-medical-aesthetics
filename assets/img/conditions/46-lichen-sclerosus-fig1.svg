@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t46f1 d46f1">
+  <title id="t46f1">硬化性苔藓不能只当炎症</title>
+  <desc id="d46f1">慢性炎症性皮肤病累及外阴肛周引起发白瘙痒裂口与瘢痕</desc>
+  <defs>
+    <linearGradient id="bg46f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh46f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .col { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg46f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh46f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 46</text>
+  <text x="52" y="92" class="title">慢性、可控制、需长期随访</text>
+  <text x="52" y="116" class="kicker">不是普通炎症，规范治疗能控症状并降低并发风险</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">典型特征四象限</text>
+
+  <!-- 2x2 -->
+  <rect x="52" y="178" width="340" height="100" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="52" y="178" width="340" height="28" rx="12" fill="#7A8B6F"/>
+  <rect x="52" y="194" width="340" height="12" fill="#7A8B6F"/>
+  <text x="222" y="197" class="col" text-anchor="middle" font-size="14">发白变薄</text>
+  <text x="68" y="230" class="body">皮肤瓷白色、萎缩</text>
+  <text x="68" y="252" class="small">失去弹性、易起皱</text>
+  <text x="68" y="270" class="small">边界较清楚</text>
+
+  <rect x="408" y="178" width="340" height="100" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="408" y="178" width="340" height="28" rx="12" fill="#C9A876"/>
+  <rect x="408" y="194" width="340" height="12" fill="#C9A876"/>
+  <text x="578" y="197" class="col" text-anchor="middle" font-size="14">瘙痒灼痛</text>
+  <text x="424" y="230" class="body">剧烈瘙痒，夜间明显</text>
+  <text x="424" y="252" class="small">排尿排便时灼痛</text>
+  <text x="424" y="270" class="small">性交疼痛或困难</text>
+
+  <rect x="52" y="290" width="340" height="100" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="52" y="290" width="340" height="28" rx="12" fill="#B5654A"/>
+  <rect x="52" y="306" width="340" height="12" fill="#B5654A"/>
+  <text x="222" y="309" class="col" text-anchor="middle" font-size="14">裂口与出血</text>
+  <text x="68" y="342" class="body">轻微外伤即裂口</text>
+  <text x="68" y="364" class="small">可见瘀斑、点状出血</text>
+  <text x="68" y="382" class="small">反复愈合再裂开</text>
+
+  <rect x="408" y="290" width="340" height="100" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="408" y="290" width="340" height="28" rx="12" fill="#B5654A"/>
+  <rect x="408" y="306" width="340" height="12" fill="#B5654A"/>
+  <text x="578" y="309" class="col" text-anchor="middle" font-size="14">结构改变</text>
+  <text x="424" y="342" class="body">正常解剖轮廓消失</text>
+  <text x="424" y="364" class="small">小阴唇吸收、粘连</text>
+  <text x="424" y="382" class="small">晚期可形成瘢痕</text>
+
+  <!-- 累及部位条 -->
+  <text x="52" y="410" class="nodeTitle">常见累及部位</text>
+  <rect x="52" y="420" width="230" height="18" rx="6" fill="#7A8B6F"/>
+  <text x="167" y="433" class="small" text-anchor="middle" fill="#ffffff">外阴</text>
+  <rect x="298" y="420" width="200" height="18" rx="6" fill="#C9A876"/>
+  <text x="398" y="433" class="small" text-anchor="middle" fill="#ffffff">肛周</text>
+  <rect x="514" y="420" width="234" height="18" rx="6" fill="#5F6E54"/>
+  <text x="631" y="433" class="small" text-anchor="middle" fill="#ffffff">男性包皮、龟头（少见）</text>
+
+  <text x="52" y="466" class="footer">健康科普示意 · 诊断与用药须由皮肤科或专科医师面诊</text>
+</svg>

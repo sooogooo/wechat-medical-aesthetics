@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t44f1 d44f1">
+  <title id="t44f1">稳定期白癜风要先验稳定</title>
+  <desc id="d44f1">表皮或细胞移植前须确认诊断活动度部位等多重稳定条件</desc>
+  <defs>
+    <linearGradient id="bg44f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh44f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .step { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg44f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh44f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 44</text>
+  <text x="52" y="92" class="title">"半年没变"不等于能移植</text>
+  <text x="52" y="116" class="kicker">移植前要层层确认，稳定是综合判断而非单一时间</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">四道确认关卡</text>
+
+  <!-- 4关纵向 -->
+  <rect x="52" y="178" width="696" height="50" rx="12" fill="#7A8B6F"/>
+  <text x="68" y="200" class="step">1 诊断关</text>
+  <text x="68" y="220" class="step" font-size="12" fill="#f1f7f1">确认是白癜风，排除其他色素减退病</text>
+  <text x="730" y="208" class="step" text-anchor="end" font-size="13" fill="#f1f7f1">伍德灯 + 病史</text>
+
+  <rect x="52" y="238" width="696" height="50" rx="12" fill="#7A8B6F"/>
+  <text x="68" y="260" class="step">2 活动度关</text>
+  <text x="68" y="280" class="step" font-size="12" fill="#f1f7f1">无新发、无扩大、同形反应阴性</text>
+  <text x="730" y="268" class="step" text-anchor="end" font-size="13" fill="#f1f7f1">观察通常6个月以上</text>
+
+  <rect x="52" y="298" width="696" height="50" rx="12" fill="#C9A876"/>
+  <text x="68" y="320" class="step">3 部位关</text>
+  <text x="68" y="340" class="step" font-size="12" fill="#fbf5ea">面颈躯干效果好，肢端黏膜效果差</text>
+  <text x="730" y="328" class="step" text-anchor="end" font-size="13" fill="#fbf5ea">手指嘴唇需充分告知</text>
+
+  <rect x="52" y="358" width="696" height="50" rx="12" fill="#5F6E54"/>
+  <text x="68" y="380" class="step">4 身体与期望关</text>
+  <text x="68" y="400" class="step" font-size="12" fill="#f1f7f1">无活动感染、瘢痕体质，期望合理</text>
+  <text x="730" y="388" class="step" text-anchor="end" font-size="13" fill="#f1f7f1">复色是渐进的</text>
+
+  <!-- 通过箭头 -->
+  <path d="M 400 228 L 400 238" stroke="#5F6E54" stroke-width="2" fill="none"/>
+  <path d="M 394 232 L 400 238 L 406 232" fill="none" stroke="#5F6E54" stroke-width="2"/>
+  <path d="M 400 288 L 400 298" stroke="#5F6E54" stroke-width="2" fill="none"/>
+  <path d="M 394 292 L 400 298 L 406 292" fill="none" stroke="#5F6E54" stroke-width="2"/>
+  <path d="M 400 348 L 400 358" stroke="#5F6E54" stroke-width="2" fill="none"/>
+  <path d="M 394 352 L 400 358 L 406 352" fill="none" stroke="#5F6E54" stroke-width="2"/>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">稳定不是"看着没变"，而是综合判断</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 是否适合移植须由皮肤科医师评估</text>
+</svg>

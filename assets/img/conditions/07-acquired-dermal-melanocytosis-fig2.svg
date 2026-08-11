@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t07f2 d07f2">
+  <title id="t07f2">褐青色痣激光疗程合理预期</title>
+  <desc id="d07f2">用颜色层次表避免混合色斑互相拖累，疗程分次进行</desc>
+  <defs>
+    <linearGradient id="bg07f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh07f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg07f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh07f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 07</text>
+  <text x="56" y="90" class="title">激光疗程的合理预期</text>
+  <text x="56" y="116" class="kicker">治疗能变淡，不等于所有色素都消失</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">颜色层次表 按深度分区处理</text>
+
+  <!-- 颜色层次 -->
+  <rect x="56" y="174" width="688" height="34" rx="8" fill="#f3efe6"/>
+  <text x="72" y="196" class="body">浅褐 表皮层 外用药与浅层光电</text>
+
+  <rect x="56" y="214" width="688" height="34" rx="8" fill="#c9a876" opacity="0.5"/>
+  <text x="72" y="236" class="body">深褐 表皮真皮交界 换肤与中等光电</text>
+
+  <rect x="56" y="254" width="688" height="34" rx="8" fill="#8a6a3a" opacity="0.6"/>
+  <text x="72" y="276" class="body" fill="#fff">灰蓝 真皮深层 调Q或皮秒多次</text>
+
+  <text x="56" y="318" class="small">混合存在时需分次分区，避免一锅端式高能量导致反黑</text>
+
+  <!-- 疗程节奏 -->
+  <text x="56" y="348" class="nodeTitle">疗程节奏与退出节点</text>
+  <line x1="100" y1="390" x2="700" y2="390" stroke="#cdd8d8" stroke-width="2"/>
+  <circle cx="180" cy="390" r="11" fill="#7A8B6F"/>
+  <text x="180" y="372" class="body" text-anchor="middle" font-weight="700">首次</text>
+  <text x="180" y="416" class="small" text-anchor="middle">先做测试区</text>
+
+  <circle cx="340" cy="390" r="11" fill="#5F6E54"/>
+  <text x="340" y="372" class="body" text-anchor="middle" font-weight="700">间隔数月</text>
+  <text x="340" y="416" class="small" text-anchor="middle">观察反黑反应</text>
+
+  <circle cx="500" cy="390" r="11" fill="#C9A876"/>
+  <text x="500" y="372" class="body" text-anchor="middle" font-weight="700">多次累积</text>
+  <text x="500" y="416" class="small" text-anchor="middle">逐步变淡</text>
+
+  <circle cx="660" cy="390" r="11" fill="#B5654A"/>
+  <text x="660" y="372" class="body" text-anchor="middle" font-weight="700">可接受</text>
+  <text x="660" y="416" class="small" text-anchor="middle">改善而非零斑</text>
+
+  <rect x="56" y="436" width="688" height="34" rx="10" fill="#eef4ee"/>
+  <text x="400" y="458" class="quote" text-anchor="middle">把预期写成可实现的句子</text>
+  <text x="56" y="474" class="footer">医学教育示意 · 每一程都要有可退出的节点，不追着颜色加码</text>
+</svg>

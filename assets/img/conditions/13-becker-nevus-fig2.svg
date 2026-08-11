@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t13f2 d13f2">
+  <title id="t13f2">贝克痣两条治疗线分别估算</title>
+  <desc id="d13f2">色素与毛发分开评估目标和费用，少数伴随表现需面诊说明</desc>
+  <defs>
+    <linearGradient id="bg13f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh13f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg13f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh13f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 13</text>
+  <text x="56" y="90" class="title">两条治疗线分别估算</text>
+  <text x="56" y="116" class="kicker">色素和毛发目标不同，方案费用需分开算</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">面诊决策表</text>
+
+  <!-- 决策表 -->
+  <rect x="56" y="172" width="688" height="32" rx="8" fill="#5F6E54"/>
+  <text x="120" y="193" class="tag" text-anchor="middle">关注点</text>
+  <text x="360" y="193" class="tag" text-anchor="middle">可能方案</text>
+  <text x="600" y="193" class="tag" text-anchor="middle">现实预期</text>
+
+  <rect x="56" y="204" width="688" height="44" rx="8" fill="#f8fbfb" stroke="#dce8e8"/>
+  <text x="120" y="231" class="body" text-anchor="middle">颜色偏深</text>
+  <text x="360" y="231" class="body" text-anchor="middle">调Q皮秒激光</text>
+  <text x="600" y="231" class="body" text-anchor="middle">部分改善为主</text>
+
+  <rect x="56" y="248" width="688" height="44" rx="8" fill="#f8fbfb" stroke="#dce8e8"/>
+  <text x="120" y="275" class="body" text-anchor="middle">毛发增多</text>
+  <text x="360" y="275" class="body" text-anchor="middle">激光脱毛多次</text>
+  <text x="600" y="275" class="body" text-anchor="middle">需长期维护</text>
+
+  <rect x="56" y="292" width="688" height="44" rx="8" fill="#f8fbfb" stroke="#dce8e8"/>
+  <text x="120" y="319" class="body" text-anchor="middle">范围扩大</text>
+  <text x="360" y="319" class="body" text-anchor="middle">观察为主</text>
+  <text x="600" y="319" class="body" text-anchor="middle">青春期后趋稳</text>
+
+  <!-- 伴随表现 -->
+  <text x="56" y="368" class="nodeTitle">少数伴随表现值得面诊说明</text>
+  <rect x="56" y="382" width="688" height="50" rx="10" fill="#fff8ee" stroke="#C9A876" stroke-width="1.4"/>
+  <text x="76" y="406" class="body">部分贝克痣伴发软组织或骨骼发育异常</text>
+  <text x="76" y="424" class="small">如有不对称或其他表现，主动告知医生做完整评估</text>
+
+  <rect x="56" y="442" width="688" height="22" rx="8" fill="#eef4ee"/>
+  <text x="400" y="457" class="quote" text-anchor="middle" font-size="14">日常不需要特殊排色素，温和护肤即可</text>
+  <text x="56" y="474" class="footer">医学教育示意 · 费用要按完整疗程估算，效果因人而异</text>
+</svg>

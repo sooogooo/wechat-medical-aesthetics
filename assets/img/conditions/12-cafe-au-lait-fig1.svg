@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t12f1 d12f1">
+  <title id="t12f1">咖啡斑一两块常见多块要会数</title>
+  <desc id="d12f1">单个少量常见，儿童多发较大咖啡斑或伴腋窝雀斑样改变需评估</desc>
+  <defs>
+    <linearGradient id="bg12f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh12f1" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg12f1)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh12f1)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 12</text>
+  <text x="56" y="90" class="title">咖啡斑 一两块常见 多块要会数</text>
+  <text x="56" y="116" class="kicker">边界清楚颜色均匀的浅褐色斑，重点是数量和变化</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">两种情形对照</text>
+
+  <rect x="56" y="174" width="335" height="170" rx="12" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="56" y="174" width="335" height="30" rx="12" fill="#7A8B6F"/><rect x="56" y="194" width="335" height="10" fill="#7A8B6F"/>
+  <text x="72" y="195" class="tag">单个或少量 常见</text>
+  <text x="72" y="226" class="body">边界规则 颜色均匀</text>
+  <text x="72" y="250" class="body">稳定不变化</text>
+  <text x="72" y="274" class="body">无伴随表现</text>
+  <text x="72" y="298" class="body">多为良性</text>
+  <text x="72" y="326" class="small">可选激光淡化 复色不少见</text>
+
+  <rect x="409" y="174" width="335" height="170" rx="12" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="409" y="174" width="335" height="30" rx="12" fill="#B5654A"/><rect x="409" y="194" width="335" height="10" fill="#B5654A"/>
+  <text x="425" y="195" class="tag">多发或较大 需评估</text>
+  <text x="425" y="226" class="body">数量多 直径较大</text>
+  <text x="425" y="250" class="body">伴腋窝雀斑样改变</text>
+  <text x="425" y="274" class="body">伴其他系统表现</text>
+  <text x="425" y="298" class="body">需进一步评估</text>
+  <text x="425" y="326" class="small" fill="#8a3f2b">不要让激光替代完整评估</text>
+
+  <text x="56" y="372" class="nodeTitle">家长最实用的不是天天量</text>
+  <rect x="56" y="386" width="688" height="56" rx="10" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.4"/>
+  <text x="76" y="410" class="body">而是做规范记录 数量 位置 变化 每隔数月拍照</text>
+  <text x="76" y="430" class="small">发现新增 较大 伴其他表现时及时带去皮肤科评估</text>
+
+  <rect x="56" y="452" width="688" height="20" rx="8" fill="#eef4ee"/>
+  <text x="400" y="466" class="quote" text-anchor="middle" font-size="14">和孩子谈外观时别提前制造缺陷感</text>
+  <text x="56" y="474" class="footer">医学教育示意 · 儿童审美决定要给孩子留位置</text>
+</svg>

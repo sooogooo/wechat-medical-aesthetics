@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t49f1 d49f1">
+  <title id="t49f1">面部红血丝的常见原因</title>
+  <desc id="d49f1">面部毛细血管扩张持续可见的红色细线与玫瑰痤疮日晒激素遗传相关</desc>
+  <defs>
+    <linearGradient id="bg49f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh49f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .card { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .step { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg49f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh49f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 49</text>
+  <text x="52" y="92" class="title">红血丝先找原因，再谈封血管</text>
+  <text x="52" y="116" class="kicker">毛细血管扩张是结果，背后原因决定处理顺序</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">五类常见原因</text>
+
+  <!-- 5卡 顶部行3 + 底部行2 -->
+  <rect x="52" y="176" width="210" height="76" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="52" y="176" width="210" height="24" rx="12" fill="#B5654A"/>
+  <rect x="52" y="190" width="210" height="10" fill="#B5654A"/>
+  <text x="157" y="192" class="card" text-anchor="middle" fill="#ffffff">玫瑰痤疮</text>
+  <text x="64" y="218" class="small">鼻翼脸颊为主</text>
+  <text x="64" y="236" class="small">伴阵发潮红、丘疹</text>
+
+  <rect x="278" y="176" width="210" height="76" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="278" y="176" width="210" height="24" rx="12" fill="#C9A876"/>
+  <rect x="278" y="190" width="210" height="10" fill="#C9A876"/>
+  <text x="383" y="192" class="card" text-anchor="middle" fill="#ffffff">长期日晒</text>
+  <text x="290" y="218" class="small">高原、户外工作者</text>
+  <text x="290" y="236" class="small">光老化累积</text>
+
+  <rect x="504" y="176" width="210" height="76" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="504" y="176" width="210" height="24" rx="12" fill="#C9A876"/>
+  <rect x="504" y="190" width="210" height="10" fill="#C9A876"/>
+  <text x="609" y="192" class="card" text-anchor="middle" fill="#ffffff">激素使用</text>
+  <text x="516" y="218" class="small">长期外用激素</text>
+  <text x="516" y="236" class="small">激素依赖性皮炎</text>
+
+  <rect x="52" y="266" width="210" height="76" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="52" y="266" width="210" height="24" rx="12" fill="#7A8B6F"/>
+  <rect x="52" y="280" width="210" height="10" fill="#7A8B6F"/>
+  <text x="157" y="282" class="card" text-anchor="middle" fill="#ffffff">遗传体质</text>
+  <text x="64" y="308" class="small">皮肤薄、白皙</text>
+  <text x="64" y="326" class="small">家族聚集</text>
+
+  <rect x="278" y="266" width="210" height="76" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="278" y="266" width="210" height="24" rx="12" fill="#7A8B6F"/>
+  <rect x="278" y="280" width="210" height="10" fill="#7A8B6F"/>
+  <text x="383" y="282" class="card" text-anchor="middle" fill="#ffffff">物理与疾病</text>
+  <text x="290" y="308" class="small">冷热刺激、护肤不当</text>
+  <text x="290" y="326" class="small">结缔组织病</text>
+
+  <!-- 处理顺序 -->
+  <text x="52" y="372" class="nodeTitle">处理顺序</text>
+  <rect x="52" y="382" width="166" height="40" rx="10" fill="#7A8B6F"/>
+  <text x="135" y="398" class="step" text-anchor="middle">1 先诊断</text>
+  <text x="135" y="414" class="step" text-anchor="middle" font-size="11" fill="#f1f7f1">明确原因</text>
+
+  <rect x="230" y="382" width="166" height="40" rx="10" fill="#7A8B6F"/>
+  <text x="313" y="398" class="step" text-anchor="middle">2 控炎症</text>
+  <text x="313" y="414" class="step" text-anchor="middle" font-size="11" fill="#f1f7f1">先稳定活动期</text>
+
+  <rect x="408" y="382" width="166" height="40" rx="10" fill="#C9A876"/>
+  <text x="491" y="398" class="step" text-anchor="middle">3 后封闭</text>
+  <text x="491" y="414" class="step" text-anchor="middle" font-size="11" fill="#fbf5ea">光电封血管</text>
+
+  <rect x="586" y="382" width="166" height="40" rx="10" fill="#5F6E54"/>
+  <text x="669" y="398" class="step" text-anchor="middle">4 维护防晒</text>
+  <text x="669" y="414" class="step" text-anchor="middle" font-size="11" fill="#f1f7f1">减少复发</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">光电能改善，但先诊断和稳定炎症</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 治疗方案须由医师面诊后制定</text>
+</svg>

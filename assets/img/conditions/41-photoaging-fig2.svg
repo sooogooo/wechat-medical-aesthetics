@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t41f2 d41f2">
+  <title id="t41f2">光老化的分层干预思路</title>
+  <desc id="d41f2">从防晒基底到色素血管到质地到轮廓的分层治疗思路</desc>
+  <defs>
+    <linearGradient id="bg41f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh41f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .layer { font: 700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg41f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh41f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 41</text>
+  <text x="52" y="92" class="title">分层干预思路</text>
+  <text x="52" y="116" class="kicker">不同问题对应不同手段，组合而非堆砌</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <text x="52" y="162" class="nodeTitle">从地基到表层，逐层处理</text>
+
+  <!-- 4层金字塔（自下而上） -->
+  <rect x="52" y="340" width="696" height="56" rx="10" fill="#5F6E54"/>
+  <text x="68" y="362" class="layer">基底</text>
+  <text x="68" y="384" class="layer" font-size="12">防晒 · 保湿 · 生活方式</text>
+  <text x="540" y="376" class="layer" text-anchor="start">SPF30+ 广谱防晒、戒烟、规律作息</text>
+
+  <rect x="120" y="280" width="628" height="56" rx="10" fill="#7A8B6F"/>
+  <text x="136" y="302" class="layer">质地</text>
+  <text x="136" y="324" class="layer" font-size="12">粗糙 · 细纹</text>
+  <text x="500" y="316" class="layer" text-anchor="start">外用维A酸、果酸焕肤、光电嫩肤</text>
+
+  <rect x="188" y="220" width="560" height="56" rx="10" fill="#C9A876"/>
+  <text x="204" y="242" class="layer">色素 · 血管</text>
+  <text x="204" y="264" class="layer" font-size="12">斑点 · 红血丝</text>
+  <text x="500" y="256" class="layer" text-anchor="start">淡斑激光、光电封血管、对症外用药</text>
+
+  <rect x="256" y="160" width="492" height="56" rx="10" fill="#B5654A"/>
+  <text x="272" y="182" class="layer">轮廓 · 松弛</text>
+  <text x="272" y="204" class="layer" font-size="12">下垂 · 深纹</text>
+  <text x="500" y="196" class="layer" text-anchor="start">射频超声、注射、手术评估</text>
+
+  <!-- 侧注 -->
+  <text x="52" y="180" class="small">越往上</text>
+  <text x="52" y="200" class="small">风险与成本</text>
+  <text x="52" y="220" class="small">递增</text>
+  <path d="M 70 230 L 70 380" stroke="#7d8e93" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M 64 374 L 70 380 L 76 374" fill="none" stroke="#7d8e93" stroke-width="1.5"/>
+
+  <!-- 警示框 -->
+  <rect x="52" y="404" width="696" height="24" rx="8" fill="#fbf0eb" stroke="#B5654A"/>
+  <text x="400" y="421" class="small" text-anchor="middle">出现新发、增大、易出血的斑点须先排查癌前病变与皮肤肿瘤</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">没有万能项目，按问题组合才合理</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 治疗方案须由医师面诊后制定</text>
+</svg>

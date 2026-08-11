@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t53f1 d53f1">
+  <title id="t53f1">单纯疱疹的潜伏与复发</title>
+  <desc id="d53f1">病毒潜伏于神经节在疲劳日晒等诱因下复发成簇水疱</desc>
+  <defs>
+    <linearGradient id="bg53f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh53f1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .step { font: 700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg53f1)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh53f1)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 53</text>
+  <text x="52" y="92" class="title">潜伏与复发的循环</text>
+  <text x="52" y="116" class="kicker">病毒会长期潜伏，在诱因下反复发作</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 复发循环圆环（4阶段） -->
+  <text x="52" y="162" class="nodeTitle">复发周期</text>
+
+  <!-- 中心 -->
+  <circle cx="400" cy="290" r="50" fill="#5F6E54"/>
+  <text x="400" y="284" class="step" text-anchor="middle" fill="#ffffff">病毒</text>
+  <text x="400" y="304" class="step" text-anchor="middle" fill="#ffffff" font-size="12">潜伏</text>
+
+  <!-- 4阶段卡（环绕） -->
+  <rect x="60" y="190" width="180" height="68" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="60" y="190" width="180" height="22" rx="12" fill="#7A8B6F"/>
+  <rect x="60" y="204" width="180" height="8" fill="#7A8B6F"/>
+  <text x="150" y="206" class="step" text-anchor="middle" font-size="13">1 潜伏期</text>
+  <text x="72" y="232" class="small">藏在神经节</text>
+  <text x="72" y="250" class="small">无症状</text>
+
+  <rect x="560" y="190" width="180" height="68" rx="12" fill="#fbf5ea" stroke="#C9A876"/>
+  <rect x="560" y="190" width="180" height="22" rx="12" fill="#C9A876"/>
+  <rect x="560" y="204" width="180" height="8" fill="#C9A876"/>
+  <text x="650" y="206" class="step" text-anchor="middle" font-size="13">2 前驱期</text>
+  <text x="572" y="232" class="small">刺痛、灼热、瘙痒</text>
+  <text x="572" y="250" class="small" fill="#C9A876">此时传染性已开始</text>
+
+  <rect x="560" y="322" width="180" height="68" rx="12" fill="#fbf0eb" stroke="#B5654A"/>
+  <rect x="560" y="322" width="180" height="22" rx="12" fill="#B5654A"/>
+  <rect x="560" y="336" width="180" height="8" fill="#B5654A"/>
+  <text x="650" y="338" class="step" text-anchor="middle" font-size="13">3 发作期</text>
+  <text x="572" y="364" class="small">成簇水疱、破溃结痂</text>
+  <text x="572" y="382" class="small">传染性最强</text>
+
+  <rect x="60" y="322" width="180" height="68" rx="12" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <rect x="60" y="322" width="180" height="22" rx="12" fill="#7A8B6F"/>
+  <rect x="60" y="336" width="180" height="8" fill="#7A8B6F"/>
+  <text x="150" y="338" class="step" text-anchor="middle" font-size="13">4 愈合期</text>
+  <text x="72" y="364" class="small">痂皮脱落、皮肤恢复</text>
+  <text x="72" y="382" class="small">病毒再次潜伏</text>
+
+  <!-- 连线循环 -->
+  <path d="M 240 224 Q 400 200 560 224" stroke="#7d8e93" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M 552 218 L 560 224 L 552 228" fill="none" stroke="#7d8e93" stroke-width="1.5"/>
+  <path d="M 650 258 L 650 322" stroke="#7d8e93" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M 644 316 L 650 322 L 656 316" fill="none" stroke="#7d8e93" stroke-width="1.5"/>
+  <path d="M 560 356 Q 400 380 240 356" stroke="#7d8e93" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M 248 350 L 240 356 L 248 362" fill="none" stroke="#7d8e93" stroke-width="1.5"/>
+  <path d="M 150 322 L 150 258" stroke="#7d8e93" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M 144 264 L 150 258 L 156 264" fill="none" stroke="#7d8e93" stroke-width="1.5"/>
+
+  <!-- 常见诱因条 -->
+  <text x="52" y="412" class="nodeTitle">常见复发诱因</text>
+  <rect x="52" y="422" width="110" height="20" rx="6" fill="#C9A876"/>
+  <text x="107" y="436" class="small" text-anchor="middle" fill="#ffffff">疲劳熬夜</text>
+  <rect x="172" y="422" width="110" height="20" rx="6" fill="#C9A876"/>
+  <text x="227" y="436" class="small" text-anchor="middle" fill="#ffffff">日晒</text>
+  <rect x="292" y="422" width="110" height="20" rx="6" fill="#C9A876"/>
+  <text x="347" y="436" class="small" text-anchor="middle" fill="#ffffff">精神压力</text>
+  <rect x="412" y="422" width="110" height="20" rx="6" fill="#C9A876"/>
+  <text x="467" y="436" class="small" text-anchor="middle" fill="#ffffff">月经期</text>
+  <rect x="532" y="422" width="110" height="20" rx="6" fill="#C9A876"/>
+  <text x="587" y="436" class="small" text-anchor="middle" fill="#ffffff">感冒发热</text>
+  <rect x="652" y="422" width="96" height="20" rx="6" fill="#C9A876"/>
+  <text x="700" y="436" class="small" text-anchor="middle" fill="#ffffff">外伤手术</text>
+
+  <text x="52" y="466" class="footer">健康科普示意 · 频繁复发或眼部受累须及时就医</text>
+</svg>

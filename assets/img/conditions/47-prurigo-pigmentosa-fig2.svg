@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t47f2 d47f2">
+  <title id="t47f2">色素性痒疹的管理与代谢排查</title>
+  <desc id="d47f2">治疗用药与代谢诱因排查及色沉管理的清单</desc>
+  <defs>
+    <linearGradient id="bg47f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh47f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg47f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh47f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 47</text>
+  <text x="52" y="92" class="title">治疗、排查与色沉管理</text>
+  <text x="52" y="116" class="kicker">三类手段并行，单一手段往往反复</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 三列 -->
+  <rect x="52" y="150" width="220" height="34" rx="8" fill="#5F6E54"/>
+  <text x="162" y="172" class="nodeTitle" text-anchor="middle">规范用药</text>
+  <rect x="52" y="188" width="220" height="220" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="68" cy="216" r="3" fill="#5F6E54"/>
+  <text x="80" y="220" class="body">米诺环素等口服</text>
+  <circle cx="68" cy="244" r="3" fill="#5F6E54"/>
+  <text x="80" y="248" class="body">氨苯砜（医师评估）</text>
+  <circle cx="68" cy="272" r="3" fill="#5F6E54"/>
+  <text x="80" y="276" class="body">外用抗炎药</text>
+  <circle cx="68" cy="300" r="3" fill="#5F6E54"/>
+  <text x="80" y="304" class="body">按疗程，不擅自停</text>
+  <circle cx="68" cy="328" r="3" fill="#5F6E54"/>
+  <text x="80" y="332" class="small">部分药物需监测副作用</text>
+  <circle cx="68" cy="372" r="3" fill="#5F6E54"/>
+  <text x="80" y="376" class="small" fill="#B5654A">孕妇用药须告知医师</text>
+
+  <rect x="290" y="150" width="220" height="34" rx="8" fill="#C9A876"/>
+  <text x="400" y="172" class="nodeTitle" text-anchor="middle">代谢排查</text>
+  <rect x="290" y="188" width="220" height="220" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <circle cx="306" cy="216" r="3" fill="#C9A876"/>
+  <text x="318" y="220" class="body">血糖、尿酮检测</text>
+  <circle cx="306" cy="244" r="3" fill="#C9A876"/>
+  <text x="318" y="248" class="body">饮食结构评估</text>
+  <circle cx="306" cy="272" r="3" fill="#C9A876"/>
+  <text x="318" y="276" class="body">近期减重方式</text>
+  <circle cx="306" cy="300" r="3" fill="#C9A876"/>
+  <text x="318" y="304" class="body">是否长期禁食</text>
+  <circle cx="306" cy="328" r="3" fill="#C9A876"/>
+  <text x="318" y="332" class="small">糖尿病家族史</text>
+  <circle cx="306" cy="372" r="3" fill="#C9A876"/>
+  <text x="318" y="376" class="small" fill="#5F6E54">调整饮食可减少复发</text>
+
+  <rect x="528" y="150" width="220" height="34" rx="8" fill="#7A8B6F"/>
+  <text x="638" y="172" class="nodeTitle" text-anchor="middle">色沉管理</text>
+  <rect x="528" y="188" width="220" height="220" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="544" cy="216" r="3" fill="#5F6E54"/>
+  <text x="556" y="220" class="body">严格防晒</text>
+  <circle cx="544" cy="244" r="3" fill="#5F6E54"/>
+  <text x="556" y="248" class="body">勿抓勿摩擦</text>
+  <circle cx="544" cy="272" r="3" fill="#5F6E54"/>
+  <text x="556" y="276" class="body">温和保湿修复</text>
+  <circle cx="544" cy="300" r="3" fill="#5F6E54"/>
+  <text x="556" y="304" class="body">色沉多自行缓慢消退</text>
+  <circle cx="544" cy="328" r="3" fill="#5F6E54"/>
+  <text x="556" y="332" class="small">顽固色沉可后续评估</text>
+  <circle cx="544" cy="372" r="3" fill="#5F6E54"/>
+  <text x="556" y="376" class="small" fill="#B5654A">急性期勿急于淡化</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">查酮、查糖、查饮食，比单纯吃药更重要</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 用药与检查须由皮肤科医师评估</text>
+</svg>

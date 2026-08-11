@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t37f2 d37f2">
+  <title id="t37f2">纹身激光去除的预期管理与风险</title>
+  <desc id="d37f2">列出可预期效果、需注意情况与高风险情况三档清单</desc>
+  <defs>
+    <linearGradient id="bg37f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh37f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg37f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh37f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 37</text>
+  <text x="52" y="92" class="title">洗纹身的预期与风险清单</text>
+  <text x="52" y="116" class="kicker">先确认产品、颜色与皮肤类型，再决定是否做、做几次</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 三列对照 -->
+  <!-- 列1：可预期 -->
+  <rect x="52" y="150" width="220" height="36" rx="8" fill="#5F6E54"/>
+  <text x="162" y="173" class="nodeTitle" text-anchor="middle">可预期的效果</text>
+  <rect x="52" y="190" width="220" height="220" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="68" cy="216" r="3" fill="#5F6E54"/>
+  <text x="80" y="220" class="body">黑蓝纹身淡化明显</text>
+  <circle cx="68" cy="244" r="3" fill="#5F6E54"/>
+  <text x="80" y="248" class="body">需多次，间隔数周</text>
+  <circle cx="68" cy="272" r="3" fill="#5F6E54"/>
+  <text x="80" y="276" class="body">每次反应因人而异</text>
+  <circle cx="68" cy="300" r="3" fill="#5F6E54"/>
+  <text x="80" y="304" class="body">术后短暂红肿结痂</text>
+  <circle cx="68" cy="328" r="3" fill="#5F6E54"/>
+  <text x="80" y="332" class="body">防晒可降低色沉</text>
+  <circle cx="68" cy="356" r="3" fill="#5F6E54"/>
+  <text x="80" y="360" class="body">纹眉眼线需保护眼睛</text>
+  <circle cx="68" cy="384" r="3" fill="#5F6E54"/>
+  <text x="80" y="388" class="body">部分色料需联合波长</text>
+
+  <!-- 列2：需注意 -->
+  <rect x="290" y="150" width="220" height="36" rx="8" fill="#C9A876"/>
+  <text x="400" y="173" class="nodeTitle" text-anchor="middle">需要权衡的情况</text>
+  <rect x="290" y="190" width="220" height="220" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <circle cx="306" cy="216" r="3" fill="#C9A876"/>
+  <text x="318" y="220" class="body">彩色混合色料</text>
+  <circle cx="306" cy="244" r="3" fill="#C9A876"/>
+  <text x="318" y="248" class="body">大面积或叠加覆盖</text>
+  <circle cx="306" cy="272" r="3" fill="#C9A876"/>
+  <text x="318" y="276" class="body">深肤色易色沉</text>
+  <circle cx="306" cy="300" r="3" fill="#C9A876"/>
+  <text x="318" y="304" class="body">既往瘢痕体质</text>
+  <circle cx="306" cy="328" r="3" fill="#C9A876"/>
+  <text x="318" y="332" class="body">不明来源色料</text>
+  <circle cx="306" cy="356" r="3" fill="#C9A876"/>
+  <text x="318" y="360" class="body">眼线靠近睑缘</text>
+  <circle cx="306" cy="384" r="3" fill="#C9A876"/>
+  <text x="318" y="388" class="body">疗程长需耐心</text>
+
+  <!-- 列3：高风险 -->
+  <rect x="528" y="150" width="220" height="36" rx="8" fill="#B5654A"/>
+  <text x="638" y="173" class="nodeTitle" text-anchor="middle">需先评估的高风险</text>
+  <rect x="528" y="190" width="220" height="220" rx="10" fill="#fbf0eb" stroke="#B5654A"/>
+  <circle cx="544" cy="216" r="3" fill="#B5654A"/>
+  <text x="556" y="220" class="body">肤色白色料可能反黑</text>
+  <circle cx="544" cy="244" r="3" fill="#B5654A"/>
+  <text x="556" y="248" class="body">红黄色料变深变绿</text>
+  <circle cx="544" cy="272" r="3" fill="#B5654A"/>
+  <text x="556" y="276" class="body">孕期哺乳期不建议</text>
+  <circle cx="544" cy="300" r="3" fill="#B5654A"/>
+  <text x="556" y="304" class="body">活动期皮肤感染</text>
+  <circle cx="544" cy="328" r="3" fill="#B5654A"/>
+  <text x="556" y="332" class="body">近期暴晒或正在光敏</text>
+  <circle cx="544" cy="356" r="3" fill="#B5654A"/>
+  <text x="556" y="360" class="body">期望完全恢复原皮</text>
+  <circle cx="544" cy="384" r="3" fill="#B5654A"/>
+  <text x="556" y="388" class="body">疤痕或增生倾向</text>
+
+  <!-- 金句 -->
+  <rect x="52" y="432" width="696" height="32" rx="10" fill="#eef6f8"/>
+  <text x="400" y="453" class="quote" text-anchor="middle">承诺一次洗净的，要警惕</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 是否适合激光及波长选择需医师面诊</text>
+</svg>

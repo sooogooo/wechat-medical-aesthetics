@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t40f2 d40f2">
+  <title id="t40f2">剥脱性唇炎护理禁忌清单</title>
+  <desc id="d40f2">列出宜做与禁忌行为，帮助减少反复剥脱</desc>
+  <defs>
+    <linearGradient id="bg40f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh40f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg40f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh40f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 40</text>
+  <text x="52" y="92" class="title">宜做与禁忌清单</text>
+  <text x="52" y="116" class="kicker">习惯改一改，往往比反复涂药更重要</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 宜做 -->
+  <rect x="52" y="150" width="340" height="36" rx="8" fill="#5F6E54"/>
+  <text x="222" y="173" class="nodeTitle" text-anchor="middle">宜做（有助于修复）</text>
+  <rect x="52" y="190" width="340" height="220" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="68" cy="220" r="3" fill="#5F6E54"/>
+  <text x="80" y="224" class="body">改掉舔唇、咬唇、撕皮</text>
+  <circle cx="68" cy="252" r="3" fill="#5F6E54"/>
+  <text x="80" y="256" class="body">温水清洁，少接触刺激</text>
+  <circle cx="68" cy="284" r="3" fill="#5F6E54"/>
+  <text x="80" y="288" class="body">纯凡士林或医用唇膏保湿</text>
+  <circle cx="68" cy="316" r="3" fill="#5F6E54"/>
+  <text x="80" y="320" class="body">记录脱屑与诱因关系</text>
+  <circle cx="68" cy="348" r="3" fill="#5F6E54"/>
+  <text x="80" y="352" class="body">出门戴口罩防晒</text>
+  <circle cx="68" cy="380" r="3" fill="#5F6E54"/>
+  <text x="80" y="384" class="body">压力管理、规律作息</text>
+
+  <!-- 禁忌 -->
+  <rect x="408" y="150" width="340" height="36" rx="8" fill="#B5654A"/>
+  <text x="578" y="173" class="nodeTitle" text-anchor="middle">禁忌（会加重反复）</text>
+  <rect x="408" y="190" width="340" height="220" rx="10" fill="#fbf0eb" stroke="#B5654A"/>
+  <circle cx="424" cy="220" r="3" fill="#B5654A"/>
+  <text x="436" y="224" class="body">舔湿嘴唇"补水"</text>
+  <circle cx="424" cy="252" r="3" fill="#B5654A"/>
+  <text x="436" y="256" class="body">撕掉翘起的死皮</text>
+  <circle cx="424" cy="284" r="3" fill="#B5654A"/>
+  <text x="436" y="288" class="body">频繁试新口红唇膏</text>
+  <circle cx="424" cy="316" r="3" fill="#B5654A"/>
+  <text x="436" y="320" class="body">自行长期涂激素药膏</text>
+  <circle cx="424" cy="348" r="3" fill="#B5654A"/>
+  <text x="436" y="352" class="body">吃辛辣柑橘芒果刺激</text>
+  <circle cx="424" cy="380" r="3" fill="#B5654A"/>
+  <text x="436" y="384" class="body">强效去角质磨砂</text>
+
+  <!-- 就医触发 -->
+  <rect x="52" y="424" width="696" height="6" fill="#C9A876" opacity="0.3"/>
+  <text x="52" y="424" class="small">以下情况须就医：</text>
+  <rect x="52" y="436" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="456" class="quote" text-anchor="middle">超过两到四周不愈、渗液结脓、范围扩大须面诊</text>
+  <text x="52" y="470" class="footer">健康科普示意 · 用药方案需由皮肤科医师面诊后制定</text>
+</svg>

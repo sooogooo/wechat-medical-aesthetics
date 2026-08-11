@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t01f1 d01f1">
+  <title id="t01f1">玫瑰痤疮四种表现与对应处理思路</title>
+  <desc id="d01f1">潮红、持续红斑、丘疹脓疱、鼻赘与眼型，各有不同处理路径</desc>
+  <defs>
+    <linearGradient id="bg01f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh01f1" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg01f1)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh01f1)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 01</text>
+  <text x="56" y="90" class="title">玫瑰痤疮分型 红从哪里来</text>
+  <text x="56" y="116" class="kicker">不同表现对应不同处理思路，不是一束光解决所有</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 中央面中分布 -->
+  <text x="56" y="158" class="nodeTitle">主要累及面中部</text>
+
+  <!-- 四型对照表 -->
+  <rect x="56" y="174" width="335" height="92" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <rect x="56" y="174" width="335" height="26" rx="10" fill="#7A8B6F"/><rect x="56" y="190" width="335" height="10" fill="#7A8B6F"/>
+  <text x="72" y="192" class="tag">阵发潮红型</text>
+  <text x="72" y="222" class="body">遇热 情绪 辛辣后短暂发红</text>
+  <text x="72" y="246" class="small">识别并减少触发 防晒减刺激</text>
+
+  <rect x="409" y="174" width="335" height="92" rx="10" fill="#f0f5ef" stroke="#C9A876" stroke-width="1.4"/>
+  <rect x="409" y="174" width="335" height="26" rx="10" fill="#C9A876"/><rect x="409" y="190" width="335" height="10" fill="#C9A876"/>
+  <text x="425" y="192" class="tag">持续红斑型</text>
+  <text x="425" y="222" class="body">面中固定红斑 血管扩张</text>
+  <text x="425" y="246" class="small">外用药控红 光电针对血管</text>
+
+  <rect x="56" y="282" width="335" height="92" rx="10" fill="#fff8ee" stroke="#B5654A" stroke-width="1.4"/>
+  <rect x="56" y="282" width="335" height="26" rx="10" fill="#B5654A"/><rect x="56" y="298" width="335" height="10" fill="#B5654A"/>
+  <text x="72" y="300" class="tag">丘疹脓疱型</text>
+  <text x="72" y="330" class="body">红丘疹 脓疱 与痤疮鉴别</text>
+  <text x="72" y="354" class="small">壬二酸 甲硝唑 必要时口服</text>
+
+  <rect x="409" y="282" width="335" height="92" rx="10" fill="#fdf1ee" stroke="#8a3f2b" stroke-width="1.6"/>
+  <rect x="409" y="282" width="335" height="26" rx="10" fill="#8a3f2b"/><rect x="409" y="298" width="335" height="10" fill="#8a3f2b"/>
+  <text x="425" y="300" class="tag">鼻赘与眼型</text>
+  <text x="425" y="330" class="body">鼻部增厚 眼干畏光睑缘炎</text>
+  <text x="425" y="354" class="small">眼型需眼科联合评估</text>
+
+  <rect x="56" y="390" width="688" height="36" rx="10" fill="#eef4ee"/>
+  <text x="400" y="413" class="quote" text-anchor="middle">不是角质层薄四个字能解释，需要可维持的管理</text>
+  <text x="56" y="446" class="footer">医学教育示意 · 眼痛畏光视物模糊需尽快看眼科 · 鼻部单侧破溃要就医</text>
+  <text x="56" y="462" class="footer">具体分型与方案需皮肤科面诊确定</text>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t13f1 d13f1">
+  <title id="t13f1">贝克痣色素与毛发两个治疗目标</title>
+  <desc id="t13f1">青春期肩背单侧不规则褐斑可伴毛发增多，治疗分两条线</desc>
+  <defs>
+    <linearGradient id="bg13f1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh13f1" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg13f1)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh13f1)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 13</text>
+  <text x="56" y="90" class="title">贝克痣不是没洗干净</text>
+  <text x="56" y="116" class="kicker">青春期肩胸背单侧不规则褐斑，可伴毛发增多</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">色素和毛发是两个治疗目标</text>
+
+  <rect x="56" y="174" width="335" height="150" rx="12" fill="#f3efe6" stroke="#8a6a3a" stroke-width="1.6"/>
+  <rect x="56" y="174" width="335" height="30" rx="12" fill="#8a6a3a"/><rect x="56" y="194" width="335" height="10" fill="#8a6a3a"/>
+  <text x="72" y="195" class="tag">色素目标</text>
+  <text x="72" y="226" class="body">调淡化色斑</text>
+  <text x="72" y="250" class="body">激光为主 效果存在差异</text>
+  <text x="72" y="274" class="body">难以完全祛除</text>
+  <text x="72" y="300" class="small">改善而非清零</text>
+
+  <rect x="409" y="174" width="335" height="150" rx="12" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.6"/>
+  <rect x="409" y="174" width="335" height="30" rx="12" fill="#7A8B6F"/><rect x="409" y="194" width="335" height="10" fill="#7A8B6F"/>
+  <text x="425" y="195" class="tag">毛发目标</text>
+  <text x="425" y="226" class="body">脱毛改善毛发增多</text>
+  <text x="425" y="250" class="body">激光脱毛多次</text>
+  <text x="425" y="274" class="body">可能影响局部肤色</text>
+  <text x="425" y="300" class="small">需分别评估</text>
+
+  <!-- 鉴别 -->
+  <text x="56" y="356" class="nodeTitle">需鉴别的褐色胎记</text>
+  <rect x="56" y="370" width="688" height="50" rx="10" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.4"/>
+  <text x="76" y="392" class="body">咖啡斑 先天性色素痣 炎症后色沉</text>
+  <text x="76" y="410" class="small">是否伴毛发 范围 是否单侧，是鉴别要点</text>
+
+  <rect x="56" y="432" width="688" height="36" rx="10" fill="#eef4ee"/>
+  <text x="400" y="455" class="quote" text-anchor="middle">先分清你最在意的是颜色毛发还是范围</text>
+  <text x="56" y="474" class="footer">医学教育示意 · 多数为良性，治疗主要为外观改善，费用按完整疗程估算</text>
+</svg>

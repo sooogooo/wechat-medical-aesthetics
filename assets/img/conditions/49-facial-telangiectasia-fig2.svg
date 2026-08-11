@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t49f2 d49f2">
+  <title id="t49f2">红血丝日常护理与治疗手段</title>
+  <desc id="d49f2">日常护理防晒修复屏障及光电治疗的护理与治疗清单</desc>
+  <defs>
+    <linearGradient id="bg49f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f7f8"/>
+      <stop offset="1" stop-color="#fff6eb"/>
+    </linearGradient>
+    <filter id="sh49f2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .series { font: 700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.3px; fill:#7A8B6F; }
+      .title { font: 700 26px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .kicker { font: 500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#52656c; }
+      .nodeTitle { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#ffffff; }
+      .body { font: 500 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#3e5057; }
+      .small { font: 500 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#5c6c72; }
+      .quote { font: 700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2B2A28; }
+      .footer { font: 500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#68787e; }
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="url(#bg49f2)"/>
+  <rect x="28" y="24" width="744" height="452" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh49f2)"/>
+
+  <text x="52" y="56" class="series">皮肤病症科普 · 49</text>
+  <text x="52" y="92" class="title">日常护理与治疗手段</text>
+  <text x="52" y="116" class="kicker">护理是基础，治疗是补充，二者不能颠倒</text>
+  <line x1="52" y1="134" x2="748" y2="134" stroke="#dce5e5"/>
+
+  <!-- 两列 -->
+  <rect x="52" y="150" width="340" height="34" rx="8" fill="#5F6E54"/>
+  <text x="222" y="172" class="nodeTitle" text-anchor="middle">日常护理（基础）</text>
+  <rect x="52" y="188" width="340" height="226" rx="10" fill="#f4f7f1" stroke="#7A8B6F"/>
+  <circle cx="68" cy="214" r="3" fill="#5F6E54"/>
+  <text x="80" y="218" class="body">严格防晒，物理遮挡优先</text>
+  <circle cx="68" cy="244" r="3" fill="#5F6E54"/>
+  <text x="80" y="248" class="body">温水洁面，避免热水刺激</text>
+  <circle cx="68" cy="274" r="3" fill="#5F6E54"/>
+  <text x="80" y="278" class="body">精简温和护肤品</text>
+  <circle cx="68" cy="304" r="3" fill="#5F6E54"/>
+  <text x="80" y="308" class="body">修复屏障，足量保湿</text>
+  <circle cx="68" cy="334" r="3" fill="#5F6E54"/>
+  <text x="80" y="338" class="body">避免酒精、辛辣、过热饮食</text>
+  <circle cx="68" cy="364" r="3" fill="#5F6E54"/>
+  <text x="80" y="368" class="body">停用可疑激素与刺激性产品</text>
+  <circle cx="68" cy="394" r="3" fill="#5F6E54"/>
+  <text x="80" y="398" class="small">避免蒸汽、桑拿、过冷过热</text>
+
+  <rect x="408" y="150" width="340" height="34" rx="8" fill="#C9A876"/>
+  <text x="578" y="172" class="nodeTitle" text-anchor="middle">治疗手段（医师选择）</text>
+  <rect x="408" y="188" width="340" height="226" rx="10" fill="#fbf5ea" stroke="#C9A876"/>
+  <circle cx="424" cy="214" r="3" fill="#C9A876"/>
+  <text x="436" y="218" class="body">强脉冲光 IPL</text>
+  <text x="436" y="236" class="small">较细血管，整体改善</text>
+  <circle cx="424" cy="262" r="3" fill="#C9A876"/>
+  <text x="436" y="266" class="body">长脉冲1064激光</text>
+  <text x="436" y="284" class="small">较粗血管、鼻翼</text>
+  <circle cx="424" cy="310" r="3" fill="#C9A876"/>
+  <text x="436" y="314" class="body">电凝或微针</text>
+  <text x="436" y="332" class="small">局部明显血管</text>
+  <circle cx="424" cy="358" r="3" fill="#C9A876"/>
+  <text x="436" y="362" class="body">原发病治疗</text>
+  <text x="436" y="380" class="small">玫瑰痤疮等先控制</text>
+  <text x="436" y="400" class="small" fill="#B5654A">活动炎症期勿急做光电</text>
+
+  <rect x="52" y="432" width="696" height="30" rx="10" fill="#eef6f8"/>
+  <text x="400" y="452" class="quote" text-anchor="middle">护不好皮肤，做再多光电也会复发</text>
+  <text x="52" y="466" class="footer">健康科普示意 · 治疗方案须由医师面诊后制定</text>
+</svg>

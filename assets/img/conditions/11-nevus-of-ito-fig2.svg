@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t11f2 d11f2">
+  <title id="t11f2">伊藤痣治疗预期与退出节点</title>
+  <desc id="d11f2">先了解反黑色减和疤痕，把祛除改写为可接受的改善</desc>
+  <defs>
+    <linearGradient id="bg11f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh11f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg11f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh11f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 11</text>
+  <text x="56" y="90" class="title">治疗前三项准备</text>
+  <text x="56" y="116" class="kicker">先了解风险，再决定是否治疗</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">三个必须了解的风险</text>
+
+  <rect x="56" y="172" width="220" height="110" rx="12" fill="#fdf1ee" stroke="#B5654A" stroke-width="1.6"/>
+  <rect x="56" y="172" width="220" height="28" rx="12" fill="#B5654A"/><rect x="56" y="190" width="220" height="10" fill="#B5654A"/>
+  <text x="166" y="191" class="tag" text-anchor="middle">反黑</text>
+  <text x="166" y="224" class="body" text-anchor="middle">炎症后色素沉着</text>
+  <text x="166" y="250" class="small" text-anchor="middle">深肤色风险更高</text>
+  <text x="166" y="270" class="small" text-anchor="middle">需数月观察</text>
+
+  <rect x="290" y="172" width="220" height="110" rx="12" fill="#fff8ee" stroke="#C9A876" stroke-width="1.6"/>
+  <rect x="290" y="172" width="220" height="28" rx="12" fill="#C9A876"/><rect x="290" y="190" width="220" height="10" fill="#C9A876"/>
+  <text x="400" y="191" class="tag" text-anchor="middle">色减</text>
+  <text x="400" y="224" class="body" text-anchor="middle">色素脱失</text>
+  <text x="400" y="250" class="small" text-anchor="middle">能量过高导致</text>
+  <text x="400" y="270" class="small" text-anchor="middle">可能不可逆</text>
+
+  <rect x="524" y="172" width="220" height="110" rx="12" fill="#f3efe6" stroke="#8a6a3a" stroke-width="1.6"/>
+  <rect x="524" y="172" width="220" height="28" rx="12" fill="#8a6a3a"/><rect x="524" y="190" width="220" height="10" fill="#8a6a3a"/>
+  <text x="634" y="191" class="tag" text-anchor="middle">疤痕</text>
+  <text x="634" y="224" class="body" text-anchor="middle">治疗过深所致</text>
+  <text x="634" y="250" class="small" text-anchor="middle">肩背更易留疤</text>
+  <text x="634" y="270" class="small" text-anchor="middle">参数需克制</text>
+
+  <!-- 测试区 -->
+  <text x="56" y="316" class="nodeTitle">测试区不是走形式</text>
+  <rect x="56" y="330" width="688" height="62" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <text x="76" y="354" class="body" font-weight="700">选小范围测试，观察两到四周反应</text>
+  <text x="76" y="376" class="small">反应良好再扩大范围，不要一上来就大面积高能量</text>
+
+  <rect x="56" y="404" width="688" height="36" rx="10" fill="#eef4ee"/>
+  <text x="400" y="427" class="quote" text-anchor="middle">把祛除改写为可接受的改善</text>
+  <text x="56" y="460" class="footer">医学教育示意 · 面诊带走一份书面计划，包含复评节点和退出条件</text>
+  <text x="56" y="474" class="footer">别只比较皮秒还是调Q，设备和参数针对的目标更重要</text>
+</svg>
