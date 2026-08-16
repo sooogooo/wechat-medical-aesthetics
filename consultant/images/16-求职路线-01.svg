@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-labelledby="t16a d16a">
+  <title id="t16a">求职路径决策树与双向面试</title>
+  <desc id="d16a">四条入行路径：现场咨询助理首选、皮肤管理师稳妥、客服转岗、网电只当跳板；面试是双向的</desc>
+  <defs>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .path{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .pathSub{font:500 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .tag{font:700 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+      .side{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .sideSub{font:500 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect x="30" y="26" width="740" height="448" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <text x="56" y="58" class="series">医美咨询师成长教程 · 阶段4 · 16</text>
+  <text x="56" y="90" class="title">求职路径 四条入口 + 双向面试</text>
+  <text x="56" y="116" class="kicker">面试是双向的——机构考你，你也在尽调机构</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 路径四条 -->
+  <rect x="56" y="144" width="330" height="78" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="2"/>
+  <rect x="72" y="158" width="76" height="20" rx="10" fill="#7A8B6F"/>
+  <text x="110" y="172" class="tag" text-anchor="middle">① 首选</text>
+  <text x="160" y="173" class="path">现场咨询助理</text>
+  <text x="72" y="196" class="pathSub">直客机构 / 轻医美连锁 · 面对面场景 AI 难替代</text>
+  <text x="72" y="212" class="pathSub">跟诊学得最快 · 面试出示作品集 + 模拟录像</text>
+
+  <rect x="56" y="232" width="330" height="78" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.5"/>
+  <rect x="72" y="246" width="76" height="20" rx="10" fill="#7A8B6F" opacity="0.75"/>
+  <text x="110" y="260" class="tag" text-anchor="middle">② 稳妥</text>
+  <text x="160" y="261" class="path">皮肤管理师 / 皮肤科助理</text>
+  <text x="72" y="284" class="pathSub">21 篇皮肤精读直接对口 · 干一年转现场很顺</text>
+
+  <rect x="56" y="320" width="330" height="78" rx="10" fill="#ffffff" stroke="#c9c9c4" stroke-width="1.4"/>
+  <rect x="72" y="334" width="76" height="20" rx="10" fill="#A8A39D"/>
+  <text x="110" y="348" class="tag" text-anchor="middle">③ 迂回</text>
+  <text x="160" y="349" class="path">客服 / 会员管理</text>
+  <text x="72" y="372" class="pathSub">接触老客户最多 · 练客户经营 · 内部转岗通道</text>
+
+  <rect x="56" y="408" width="330" height="60" rx="10" fill="#ffffff" stroke="#d9b3a6" stroke-width="1.5"/>
+  <rect x="72" y="420" width="86" height="20" rx="10" fill="#B5654A"/>
+  <text x="115" y="434" class="tag" text-anchor="middle">④ 只当跳板</text>
+  <text x="168" y="435" class="path">网电咨询</text>
+  <text x="72" y="458" class="pathSub">语料观点：不见面的咨询将全面被 AI 替代，尽快转现场</text>
+
+  <!-- 双向面试 -->
+  <rect x="414" y="144" width="330" height="152" rx="10" fill="#ffffff" stroke="#d9cbab" stroke-width="1.4"/>
+  <text x="430" y="170" class="side">机构考你 · 带证据回答</text>
+  <text x="430" y="194" class="sideSub">"顾客嫌贵？" → 拆价值不砍价（新车道答案）</text>
+  <text x="430" y="214" class="sideSub">"没医学背景？" → 我学了一年正是为守住边界</text>
+  <text x="430" y="234" class="sideSub">"业绩 vs 不适合的顾客？" → 不推进，成交压不过适合</text>
+  <text x="430" y="260" class="sideSub">证据三件：30 篇作品集 · 5 段模拟录像 · 卡片库节选</text>
+  <text x="430" y="284" class="sideSub">开场白：交通信号专业的三迁移（转行叙事）</text>
+
+  <rect x="414" y="308" width="330" height="122" rx="10" fill="#ffffff" stroke="#b8c0cf" stroke-width="1.4"/>
+  <text x="430" y="334" class="side">你考机构 · 反问四题</text>
+  <text x="430" y="358" class="sideSub">① 成交额与"医生决策匹配度"考核各占多少？</text>
+  <text x="430" y="378" class="sideSub">② 说错话（承诺疗效）怎么处理？有合规培训吗？</text>
+  <text x="430" y="398" class="sideSub">③ 新人三个月带教与跟诊安排？</text>
+  <text x="430" y="418" class="sideSub">④ 上一任为什么离开？——警惕信号任一出现，按红灯处理</text>
+
+  <path d="M744 220 L756 220 M756 216 L756 384 M750 378 L756 386 L762 378" stroke="#A8A39D" stroke-width="1.5" fill="none"/>
+
+  <text x="56" y="486" class="footer">机构调研五查：执业许可 · 医生团队 · 主营结构 · 差评环节 · 稳定性——查不到许可直接划掉</text>
+</svg>

@@ -8,8 +8,15 @@
   <link rel="icon" type="image/png" href="../assets/logo/amc-logo.png" />
   <link rel="apple-touch-icon" href="../assets/logo/amc-logo.png" />
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
-  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/base.css" />  <link rel="canonical" href="http://127.0.0.1:8000/skin/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="皮肤常见病症科普 · 医美科普" />
+  <meta property="og:description" content="55 个常见皮肤问题的科学解读：先确认病名，再谈处理。" />
+  <meta property="og:image" content="http://127.0.0.1:8000/assets/img/share/skin-card.png" />
+  <meta property="og:site_name" content="重庆西区医院医美科普" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="../assets/css/home.css" />
+  <link rel="stylesheet" href="../assets/css/share.css" />
 </head>
 <body>
 
@@ -21,14 +28,16 @@
         <span class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></span>
       </a>
       <nav class="main-nav" id="mainNav" aria-label="主导航">
-        <a href="/">首页</a>
-        <a href="/plasticsurgery.html">整形外科</a>
-        <a href="/nonsurgical-center.html">非手术中心</a>
-        <a href="/special-conditions.html">特色专科</a>
-        <a href="/dermatology-conditions.html" aria-current="page">皮肤病症</a>
-        <a href="/our-teams.html">医疗团队</a>
-        <a href="/contact.html" class="btn btn--primary">预约面诊</a>
+        <a href="../index.html">首页</a>
+        <a href="../search.html">搜索</a>
+        <a href="../surgery/">四级手术</a>
+        <a href="../injection/">美容注射</a>
+        <a href="../aesthetics/">亚美学</a>
+        <a href="../skin/" aria-current="page">皮肤病症</a>
+        <a href="../types/">美学三型</a>
+        <a href="../consultant/" class="btn btn--primary">一路绿灯 · 成长站</a>
       </nav>
+      <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
       <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
         <span></span>
       </button>
@@ -44,7 +53,7 @@
         <p class="hero__sub">55 个常见皮肤问题的科学解读。先确认病名，再谈处理；不羞辱外观，不承诺根治，不替代面诊。</p>
         <div class="hero__actions">
           <a href="#explore" class="btn btn--primary">浏览病症</a>
-          <a href="/contact.html" class="btn btn--ghost">在线咨询</a>
+          <a href="#grid" class="btn btn--ghost">浏览全部文章</a>
         </div>
         <div class="hero__meta">
           <span><i></i>55 个问题</span>
@@ -123,7 +132,7 @@
           <h3>没找到对应的，或者想确认？</h3>
           <p>科普只帮你看懂，确诊和方案需要面诊。皮肤科医生可以帮你判断。</p>
         </div>
-        <a href="/contact.html" class="btn btn--primary">预约皮肤科面诊</a>
+        <a href="tel:02381913691" class="btn btn--primary">电话 023-8191-3691</a>
       </div>
     </div>
   </main>
@@ -141,21 +150,21 @@
           <h4>快速链接</h4>
           <ul>
             <li><a href="/">首页</a></li>
-            <li><a href="/plasticsurgery.html">整形外科</a></li>
-            <li><a href="/nonsurgical-center.html">非手术中心</a></li>
-            <li><a href="/special-conditions.html">特色专科</a></li>
-            <li><a href="/dermatology-conditions.html">皮肤病症</a></li>
-            <li><a href="/skin-tone-lab.html">肤色实验室</a></li>
+            <li><a href="../surgery/">四级手术</a></li>
+            <li><a href="../injection/">美容注射</a></li>
+            <li><a href="../aesthetics/">亚美学</a></li>
+            <li><a href="../skin/">皮肤病症</a></li>
+            <li><a href="../aesthetics/">医美亚美学</a></li>
           </ul>
         </div>
         <div>
           <h4>更多</h4>
           <ul>
-            <li><a href="/our-teams.html">医疗团队</a></li>
+            <li><a href="../types/">美学三型</a></li>
             <li><a href="/#services">服务项目</a></li>
-            <li><a href="/contact.html">联系我们</a></li>
-            <li><a href="/join-us.html">共享平台</a></li>
-            <li><a href="/recruitment.html">加入我们</a></li>
+            <li><a href="../index.html">科普首页</a></li>
+            <li><a href="../consultant/">一路绿灯</a></li>
+            <li><a href="../types/">美学三型</a></li>
           </ul>
         </div>
         <div>
@@ -169,11 +178,12 @@
         </div>
       </div>
       <div class="site-footer__bottom">
-        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有
+        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有 · <a href="../disclaimer.html">实验内容声明</a>
       </div>
     </div>
   </footer>
 
   <script data-series-js src="../assets/js/home.js?v=2" data-src="../assets/data/conditions.json" data-href-prefix="" data-img-prefix="../assets/img/conditions/"></script>
+  <script src="../assets/js/share.js" defer></script>
 </body>
 </html>

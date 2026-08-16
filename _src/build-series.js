@@ -10,6 +10,8 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
+const { headMeta } = require("./site-config");
+const courseRefs = JSON.parse(fs.readFileSync(path.join(ROOT, "assets", "data", "course-refs.json"), "utf8"));
 
 // ============ 系列配置 ============
 const SERIES = [
@@ -84,7 +86,7 @@ function parseMd(text) {
     else if (inRefs && line.startsWith("  ") && refs.length > 0) refs[refs.length-1] += " " + line.trim();
   }
 
-  const body = lines.slice(bodyStart, bodyEnd).join("\n").trim();
+  let body = lines.slice(bodyStart, bodyEnd).join("\n").trim();
   const disclaimer = (body.match(/^>\s*(.+)$/m) || [])[1] || "";
 
   // 标点清洗：标题去冒号，正文去破折号
@@ -189,8 +191,17 @@ function hashCode(s) {
 }
 
 // ============ 文章 HTML 模板 ============
-function articleHtml(series, article, bodyHtml) {
+function articleHtml(series, article, bodyHtml, prev, next) {
   const dir = series.outDir.split(path.sep).pop(); // e.g. "surgery"
+  const cref = courseRefs[dir + "/" + article.slug + ".html"];
+  const jsonld = JSON.stringify({
+    "@context": "https://schema.org", "@type": "Article",
+    headline: article.title.slice(0, 110),
+    description: (article.summary || "").slice(0, 160),
+    inLanguage: "zh-CN",
+    isPartOf: { "@type": "CollectionPage", name: series.name },
+    publisher: { "@type": "Organization", name: "重庆西区医院整形外科医疗美容中心" }
+  });
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -202,9 +213,12 @@ function articleHtml(series, article, bodyHtml) {
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
   <link rel="stylesheet" href="../assets/css/base.css" />
   <link rel="stylesheet" href="../assets/css/article.css" />
+  <link rel="stylesheet" href="../assets/css/share.css" />
+  ${headMeta({ canonicalPath: dir + "/" + article.slug + ".html", title: article.title, desc: (article.summary || "").slice(0, 80), cardKey: dir })}
+  <script type="application/ld+json">${jsonld}</script>
   <style>figure img{max-width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line);margin:var(--sp-4) 0}.prose h2{margin-top:var(--sp-6)}</style>
 </head>
-<body>
+<body data-prev="${prev ? prev.slug + '.html' : ''}" data-next="${next ? next.slug + '.html' : ''}">
   <header class="site-header" id="siteHeader">
     <div class="site-header__inner">
       <a href="../index.html" class="brand">
@@ -213,12 +227,15 @@ function articleHtml(series, article, bodyHtml) {
       </a>
       <nav class="main-nav" id="mainNav">
         <a href="../index.html">首页</a>
-        <a href="../skin/">皮肤病症</a>
-        <a href="../surgery/">四级手术</a>
-        <a href="../injection/">美容注射</a>
-        <a href="../aesthetics/">亚美学</a>
-        <a href="../types/">美学三型</a>
+        <a href="../search.html">搜索</a>
+        <a href="../consultant/">一路绿灯</a>
+        <a href="../skin/"${dir === "skin" ? ' aria-current="page"' : ""}>皮肤病症</a>
+        <a href="../surgery/"${dir === "surgery" ? ' aria-current="page"' : ""}>四级手术</a>
+        <a href="../injection/"${dir === "injection" ? ' aria-current="page"' : ""}>美容注射</a>
+        <a href="../aesthetics/"${dir === "aesthetics" ? ' aria-current="page"' : ""}>亚美学</a>
+        <a href="../types/"${dir === "types" ? ' aria-current="page"' : ""}>美学三型</a>
       </nav>
+      <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
       <button class="nav-toggle" id="navToggle"><span></span></button>
     </div>
   </header>
@@ -233,7 +250,8 @@ function articleHtml(series, article, bodyHtml) {
   <main class="article">
     <div class="container">
       <nav class="breadcrumb">
-        <a href="../index.html">首页</a> ／
+        <a href="../index.html">首页</a>
+        <a href="../search.html">搜索</a> ／
         <a href="../${dir}/index.html">${series.name}</a> ／
         <span>${article.title.slice(0, 12)}…</span>
       </nav>
@@ -260,6 +278,12 @@ ${bodyHtml}
       </section>` : ""}
 
       <p class="disclaimer">${article.disclaimer || "本文用于健康教育,不能替代面诊和个体化评估。"}</p>
+      ${cref ? `<aside class="course-ref"><p class="course-ref__label">配套课程</p><a href="../${cref.url}">《一路绿灯》第 ${String(cref.no).padStart(2, "0")} 课 · ${cref.title}</a><span>本篇是该课的精读教材</span></aside>` : ""}
+      <nav class="pager">
+        ${prev ? '<a class="pager__a pager__prev" href="' + prev.slug + '.html"><span>上一篇</span><b>' + prev.title + '</b></a>' : '<span class="pager__a"></span>'}
+        ${next ? '<a class="pager__a pager__next" href="' + next.slug + '.html"><span>下一篇</span><b>' + next.title + '</b></a>' : '<span class="pager__a"></span>'}
+        <span class="pager__hint">←/→ 键翻篇</span>
+      </nav>
 
       <div class="article-foot">
         <div class="cta-strip">
@@ -272,8 +296,36 @@ ${bodyHtml}
 
   <footer class="site-footer">
     <div class="container">
-      <p class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></p>
-      <p style="font-size:var(--fs-xs);color:var(--ink-faint);margin-top:var(--sp-2);">${series.name} · ${article.id >= 0 ? "第 " + (article.id + 1) + " 篇" : ""}</p>
+      <div class="site-footer__grid">
+        <div class="footer-about">
+          <h4>关于我们</h4>
+          <p>重庆西区医院整形外科医疗美容中心（AMC）依托三级综合医院，提供整形外科、美容外科、微整注射、美容皮肤科等医疗服务。</p>
+          <p class="footer-about__disclaimer">本网站内容不代表任何诊疗建议和就医指导，诊疗活动请到正规医疗机构找有资质的医生进行。</p>
+        </div>
+        <div>
+          <h4>科普系列</h4>
+          <ul>
+            <li><a href="../index.html">科普首页</a></li>
+            <li><a href="../consultant/">一路绿灯 · 咨询师成长站</a></li>
+            <li><a href="../skin/">皮肤病症</a></li>
+            <li><a href="../surgery/">四级手术</a></li>
+            <li><a href="../injection/">美容注射</a></li>
+            <li><a href="../aesthetics/">医美亚美学</a></li>
+            <li><a href="../types/">美学三型</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>联系方式</h4>
+          <ul>
+            <li>门诊电话：（+86）023-81913691</li>
+            <li>医院地址：重庆市九龙坡区华福大道北段 301 号</li>
+            <li>交通：轻轨 5 号线华岩站旁（向南约 500 米）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有 · <a href="../disclaimer.html">实验内容声明</a>
+      </div>
     </div>
   </footer>
 
@@ -287,7 +339,9 @@ ${bodyHtml}
       if(rt)rt.addEventListener('click',function(){var o=rt.parentElement.classList.toggle('is-open');rt.setAttribute('aria-expanded',o)});
     })();
   </script>
-</body>
+  <script src="../assets/js/share.js" defer></script>
+  <script>(function(){var p=document.body.getAttribute("data-prev"),n=document.body.getAttribute("data-next");if(p||n)addEventListener("keydown",function(e){if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;if(e.key==="ArrowRight"&&n)location.href=n;if(e.key==="ArrowLeft"&&p)location.href=p})})();</script>
+</body>>
 </html>`;
 }
 
@@ -306,6 +360,8 @@ function seriesIndexHtml(series, articles) {
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
   <link rel="stylesheet" href="../assets/css/base.css" />
   <link rel="stylesheet" href="../assets/css/home.css" />
+  <link rel="stylesheet" href="../assets/css/share.css" />
+  ${headMeta({ canonicalPath: dir + "/index.html", title: series.name + " · 医美科普", desc: series.desc, cardKey: dir })}
   <style>
     .hero{padding:var(--sp-7) 0 var(--sp-5);text-align:center}
     .hero h1{font-size:var(--fs-display);margin-bottom:var(--sp-3)}
@@ -321,12 +377,15 @@ function seriesIndexHtml(series, articles) {
       </a>
       <nav class="main-nav" id="mainNav">
         <a href="../index.html">首页</a>
-        <a href="../skin/">皮肤病症</a>
-        <a href="../surgery/">四级手术</a>
-        <a href="../injection/">美容注射</a>
-        <a href="../aesthetics/">亚美学</a>
-        <a href="../types/">美学三型</a>
+        <a href="../search.html">搜索</a>
+        <a href="../consultant/">一路绿灯</a>
+        <a href="../skin/"${dir === "skin" ? ' aria-current="page"' : ""}>皮肤病症</a>
+        <a href="../surgery/"${dir === "surgery" ? ' aria-current="page"' : ""}>四级手术</a>
+        <a href="../injection/"${dir === "injection" ? ' aria-current="page"' : ""}>美容注射</a>
+        <a href="../aesthetics/"${dir === "aesthetics" ? ' aria-current="page"' : ""}>亚美学</a>
+        <a href="../types/"${dir === "types" ? ' aria-current="page"' : ""}>美学三型</a>
       </nav>
+      <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
       <button class="nav-toggle" id="navToggle"><span></span></button>
     </div>
   </header>
@@ -370,8 +429,36 @@ function seriesIndexHtml(series, articles) {
 
   <footer class="site-footer">
     <div class="container">
-      <p class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></p>
-      <p style="font-size:var(--fs-xs);color:var(--ink-faint);margin-top:var(--sp-2);">${series.name} · ${count} 篇</p>
+      <div class="site-footer__grid">
+        <div class="footer-about">
+          <h4>关于我们</h4>
+          <p>重庆西区医院整形外科医疗美容中心（AMC）依托三级综合医院，提供整形外科、美容外科、微整注射、美容皮肤科等医疗服务。</p>
+          <p class="footer-about__disclaimer">本网站内容不代表任何诊疗建议和就医指导，诊疗活动请到正规医疗机构找有资质的医生进行。</p>
+        </div>
+        <div>
+          <h4>科普系列</h4>
+          <ul>
+            <li><a href="../index.html">科普首页</a></li>
+            <li><a href="../consultant/">一路绿灯 · 咨询师成长站</a></li>
+            <li><a href="../skin/">皮肤病症</a></li>
+            <li><a href="../surgery/">四级手术</a></li>
+            <li><a href="../injection/">美容注射</a></li>
+            <li><a href="../aesthetics/">医美亚美学</a></li>
+            <li><a href="../types/">美学三型</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>联系方式</h4>
+          <ul>
+            <li>门诊电话：（+86）023-81913691</li>
+            <li>医院地址：重庆市九龙坡区华福大道北段 301 号</li>
+            <li>交通：轻轨 5 号线华岩站旁（向南约 500 米）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有 · <a href="../disclaimer.html">实验内容声明</a>
+      </div>
     </div>
   </footer>
 
@@ -405,6 +492,7 @@ function seriesIndexHtml(series, articles) {
       document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
     })();
   </script>
+  <script src="../assets/js/share.js" defer></script>
 </body>
 </html>`;
 }
@@ -425,7 +513,12 @@ for (const series of SERIES) {
 
   const articles = [];
 
+  const metaList = mdFiles.map(f => {
+    const t = fs.readFileSync(path.join(series.srcDir, f), "utf8");
+    return { slug: f.replace(/\.md$/, ""), title: ((t.match(/^# (.+)$/m) || [])[1] || "").replace(/：/g, "，") };
+  });
   for (const mdFile of mdFiles) {
+    const mdIdx = mdFiles.indexOf(mdFile);
     const mdPath = path.join(series.srcDir, mdFile);
     const text = fs.readFileSync(mdPath, "utf8");
     const parsed = parseMd(text);
@@ -459,7 +552,7 @@ for (const series of SERIES) {
       disclaimer: parsed.disclaimer,
       thumb,
     };
-    const html = articleHtml(series, article, bodyHtml);
+    const html = articleHtml(series, article, bodyHtml, mdIdx > 0 ? metaList[mdIdx - 1] : null, mdIdx < mdFiles.length - 1 ? metaList[mdIdx + 1] : null);
     fs.writeFileSync(path.join(series.outDir, slug + ".html"), html, "utf8");
     totalFiles++;
 

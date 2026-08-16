@@ -21,8 +21,22 @@ const TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-  let urlPath = decodeURIComponent(req.url.split("?")[0]);
+  const rawPath = req.url.split("?")[0];
+  let urlPath;
+  try {
+    urlPath = decodeURIComponent(rawPath);
+  } catch (e) {
+    // 非法编码的请求路径不应击垮服务器
+    res.writeHead(400, { "Content-Type": "text/html; charset=utf-8" });
+    res.end("<h1>400</h1><p>请求路径编码无效</p>");
+    return;
+  }
   if (urlPath === "/") urlPath = "/index.html";
+  // 目录路径自动落到 index.html（如 /consultant/ → /consultant/index.html）
+  if (urlPath.endsWith("/")) {
+    const indexFile = path.join(ROOT, urlPath, "index.html");
+    if (fs.existsSync(indexFile)) urlPath = urlPath + "index.html";
+  }
 
   // 安全:阻止路径穿越
   const filePath = path.normalize(path.join(ROOT, urlPath));
@@ -45,8 +59,9 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, "127.0.0.1", () => {
-  console.log("皮肤科普站点已启动:");
-  console.log("  首页    http://127.0.0.1:" + PORT + "/");
-  console.log("  示例文章 http://127.0.0.1:" + PORT + "/condition/00-acne.html");
+  console.log("医美科普站点已启动:");
+  console.log("  科普门户   http://127.0.0.1:" + PORT + "/");
+  console.log("  一路绿灯   http://127.0.0.1:" + PORT + "/consultant/");
+  console.log("  示例文章   http://127.0.0.1:" + PORT + "/skin/00-acne.html");
   console.log("按 Ctrl+C 停止。");
 });

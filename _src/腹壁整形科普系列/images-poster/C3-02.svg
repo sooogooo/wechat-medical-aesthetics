@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleC302 descC302">
+  <title id="titleC302">恢复期的限制与生活安排</title>
+  <desc id="descC302">腹壁成形术后限制与生活安排对照</desc>
+  <defs>
+    <marker id="ahC302" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · C3</text>
+  <text x="62" y="112" class="title">恢复期的限制与生活安排</text>
+  <text x="62" y="148" class="kicker">带娃、工作、运动，都要提前排期</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+  <rect x="62" y="205" width="380" height="250" rx="10" fill="none" stroke="#D9930D" stroke-width="1.2"/>
+  <text x="84" y="243" class="nodeTitle">术后限制</text>
+  <text x="84" y="277" class="body">数周内不能提重物</text>
+  <text x="84" y="303" class="body">带引流管 1～2 周</text>
+  <text x="84" y="329" class="body">弹力衣持续数周至数月</text>
+  <text x="84" y="355" class="body">初期不能开车</text>
+  <rect x="478" y="205" width="380" height="250" rx="10" fill="none" stroke="#0072B2" stroke-width="1.2"/>
+  <text x="500" y="243" class="nodeTitle">生活安排</text>
+  <text x="500" y="277" class="body">带娃需要帮手 2～4 周</text>
+  <text x="500" y="303" class="body">办公室工作请假 2～4 周</text>
+  <text x="500" y="329" class="body">运动停数周至数月</text>
+  <text x="500" y="355" class="body">独居需安排陪护</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">恢复是曲线，好几天、差一天，是正常的</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 恢复安排以主刀医嘱为准</text>
+</svg>

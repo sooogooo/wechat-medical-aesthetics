@@ -9,6 +9,14 @@
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
   <link rel="stylesheet" href="../assets/css/base.css" />
   <link rel="stylesheet" href="../assets/css/home.css" />
+  <link rel="stylesheet" href="../assets/css/share.css" />
+    <link rel="canonical" href="http://127.0.0.1:8000/injection/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="美容注射的艺术 · 医美科普" />
+  <meta property="og:description" content="填充、肉毒、再生材料的机制与风险,MD Codes 编码注射方法,以及长期管理的智慧。" />
+  <meta property="og:image" content="http://127.0.0.1:8000/assets/img/share/injection-card.png" />
+  <meta property="og:site_name" content="重庆西区医院医美科普" />
+  <meta name="twitter:card" content="summary_large_image" />
   <style>
     .hero{padding:var(--sp-7) 0 var(--sp-5);text-align:center}
     .hero h1{font-size:var(--fs-display);margin-bottom:var(--sp-3)}
@@ -24,12 +32,15 @@
       </a>
       <nav class="main-nav" id="mainNav">
         <a href="../index.html">首页</a>
+        <a href="../search.html">搜索</a>
+        <a href="../consultant/">一路绿灯</a>
         <a href="../skin/">皮肤病症</a>
         <a href="../surgery/">四级手术</a>
-        <a href="../injection/">美容注射</a>
+        <a href="../injection/" aria-current="page">美容注射</a>
         <a href="../aesthetics/">亚美学</a>
         <a href="../types/">美学三型</a>
       </nav>
+      <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
       <button class="nav-toggle" id="navToggle"><span></span></button>
     </div>
   </header>
@@ -58,28 +69,28 @@
         <div class="grid" id="grid">
           
           <a class="card reveal" href="01-美容注射不只是打一针.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/01-美容注射不只是打一针-01.svg" alt="美容注射不只是“打一针”：先理解它在做什么" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/01-美容注射不只是打一针-01.svg" alt="美容注射不只是“打一针”，先理解它在做什么" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">美容注射不只是“打一针”：先理解它在做什么</p>
+              <p class="card__title">美容注射不只是“打一针”，先理解它在做什么</p>
               <p class="card__summary">美容注射分为填充、松弛肌肉、刺激再生三大逻辑。理解它们在皮肤里发生什么，比记住品牌名更重要，这决定你能不能安全地选择。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="02-三类注射材料的核心区别.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/02-三类注射材料的核心区别-01.svg" alt="填充、松弛、再生：三类注射材料的核心区别" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/02-三类注射材料的核心区别-01.svg" alt="填充、松弛、再生，三类注射材料的核心区别" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">填充、松弛、再生：三类注射材料的核心区别</p>
+              <p class="card__title">填充、松弛、再生，三类注射材料的核心区别</p>
               <p class="card__summary">填充补容积、肉毒松肌肉、再生刺激胶原，三类注射材料的作用、层次、起效和可逆性差别很大。选错类别，比选错品牌更影响结果。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="03-一张脸的解剖.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/03-一张脸的解剖-01.svg" alt="一张脸的解剖：注射安全的第一道防线" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/03-一张脸的解剖-01.svg" alt="一张脸的解剖，注射安全的第一道防线" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">一张脸的解剖：注射安全的第一道防线</p>
+              <p class="card__title">一张脸的解剖，注射安全的第一道防线</p>
               <p class="card__summary">面部注射的安全建立在解剖上：皮肤分层、血管走行、脂肪垫分布。理解这张“地图”，才能理解为什么注射对操作者要求极高，以及风险从何而来。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
@@ -94,325 +105,325 @@
             </div>
           </a>
           <a class="card reveal" href="05-注射面诊清单.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/05-注射面诊清单-01.svg" alt="注射面诊清单：带着这 8 个问题去" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/05-注射面诊清单-01.svg" alt="注射面诊清单，带着这 8 个问题去" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">注射面诊清单：带着这 8 个问题去</p>
+              <p class="card__title">注射面诊清单，带着这 8 个问题去</p>
               <p class="card__summary">注射面诊的目的不是定套餐，而是评估适不适合打、打什么、风险能否承受。带着这份问题清单，让面诊成为真正的医学沟通。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="06-玻尿酸是什么.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/06-玻尿酸是什么-01.svg" alt="玻尿酸是什么：理解填充材料的底层逻辑" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/06-玻尿酸是什么-01.svg" alt="玻尿酸是什么，理解填充材料的底层逻辑" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">玻尿酸是什么：理解填充材料的底层逻辑</p>
+              <p class="card__title">玻尿酸是什么，理解填充材料的底层逻辑</p>
               <p class="card__summary">注射用透明质酸和护肤品里的玻尿酸不是一回事。理解交联、粘弹性、粒径这些底层概念，才能理解为什么不同部位要用不同型号。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="07-透明质酸怎么选.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/07-透明质酸怎么选-01.svg" alt="透明质酸怎么选：型号、部位和“自然”的关系" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/07-透明质酸怎么选-01.svg" alt="透明质酸怎么选，型号、部位和“自然”的关系" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">透明质酸怎么选：型号、部位和“自然”的关系</p>
+              <p class="card__title">透明质酸怎么选，型号、部位和“自然”的关系</p>
               <p class="card__summary">透明质酸的选择不只是品牌，更是型号与部位的匹配。柔软部位用软型、塑形部位用硬型，“自然”建立在医生对材料特性的理解之上。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="08-鼻部注射的血管风险.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/08-鼻部注射的血管风险-01.svg" alt="鼻部注射的血管风险：为什么“一针隆鼻”是最危险的注射之一" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/08-鼻部注射的血管风险-01.svg" alt="鼻部注射的血管风险，为什么“一针隆鼻”是最危险的注射之一" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">鼻部注射的血管风险：为什么“一针隆鼻”是最危险的注射之一</p>
+              <p class="card__title">鼻部注射的血管风险，为什么“一针隆鼻”是最危险的注射之一</p>
               <p class="card__summary">鼻部是面部血管最危险的注射区域之一，材料误入血管可致皮肤坏死甚至失明。鼻部注射能做，但必须由熟悉解剖的医生在高安全标准下进行。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="09-泪沟和苹果肌.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/09-泪沟和苹果肌-01.svg" alt="泪沟和苹果肌：眼周注射的精细学问" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/09-泪沟和苹果肌-01.svg" alt="泪沟和苹果肌，眼周注射的精细学问" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">泪沟和苹果肌：眼周注射的精细学问</p>
+              <p class="card__title">泪沟和苹果肌，眼周注射的精细学问</p>
               <p class="card__summary">泪沟和苹果肌注射能改善疲态，但眼周皮肤薄、血管密集，是精细操作区域。分清是真泪沟还是其他问题，比直接填更重要。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="10-唇部塑形.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/10-唇部塑形-01.svg" alt="唇部塑形：性感不是唯一的诉求，自然才是" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/10-唇部塑形-01.svg" alt="唇部塑形，性感不是唯一的诉求，自然才是" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">唇部塑形：性感不是唯一的诉求，自然才是</p>
+              <p class="card__title">唇部塑形，性感不是唯一的诉求，自然才是</p>
               <p class="card__summary">唇部注射可以改善唇形、比例和衰老迹象，但唇部活动频繁、血管丰富，过度填充会僵硬不自然。清晰的目标和克制的剂量比“饱满”更重要。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="11-肉毒杆菌素.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/11-肉毒杆菌素-01.svg" alt="肉毒杆菌素：放松肌肉的科学" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/11-肉毒杆菌素-01.svg" alt="肉毒杆菌素，放松肌肉的科学" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">肉毒杆菌素：放松肌肉的科学</p>
+              <p class="card__title">肉毒杆菌素，放松肌肉的科学</p>
               <p class="card__summary">肉毒杆菌素通过阻断神经肌肉传导放松表情肌，解决动态纹和肌肉型轮廓。它不是填充，不补容积，效果渐进出现，数月后自行代谢。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="12-动态纹和静态纹.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/12-动态纹和静态纹-01.svg" alt="动态纹和静态纹：肉毒和填充各管哪一段" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/12-动态纹和静态纹-01.svg" alt="动态纹和静态纹，肉毒和填充各管哪一段" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">动态纹和静态纹：肉毒和填充各管哪一段</p>
+              <p class="card__title">动态纹和静态纹，肉毒和填充各管哪一段</p>
               <p class="card__summary">皱纹分为动态纹（表情时出现）和静态纹（不动时就在）。肉毒管动态纹，填充管静态纹和容积，分清类型是选择治疗的前提。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="13-咬肌肥厚与瘦脸针.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/13-咬肌肥厚与瘦脸针-01.svg" alt="咬肌肥厚和“瘦脸针”：先分清是不是肌肉问题" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/13-咬肌肥厚与瘦脸针-01.svg" alt="咬肌肥厚和“瘦脸针”，先分清是不是肌肉问题" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">咬肌肥厚和“瘦脸针”：先分清是不是肌肉问题</p>
+              <p class="card__title">咬肌肥厚和“瘦脸针”，先分清是不是肌肉问题</p>
               <p class="card__summary">下面部宽大有咬肌、脂肪、骨骼三种来源。肉毒只对咬肌肥厚有效，对脂肪和骨性无效。分清来源，才能选对方法。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="14-肉毒的起效与维持.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/14-肉毒的起效与维持-01.svg" alt="肉毒的起效与维持：为什么它需要反复打" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/14-肉毒的起效与维持-01.svg" alt="肉毒的起效与维持，为什么它需要反复打" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">肉毒的起效与维持：为什么它需要反复打</p>
+              <p class="card__title">肉毒的起效与维持，为什么它需要反复打</p>
               <p class="card__summary">肉毒效果渐进起效、数月后自行消退，是因为身体会重建神经肌肉接头。这决定了它需要反复维持，也带来了耐药等考量。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="15-打完肉毒僵了怎么办.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/15-打完肉毒僵了怎么办-01.svg" alt="打完肉毒“僵”了：如何避免表情不自然" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/15-打完肉毒僵了怎么办-01.svg" alt="打完肉毒“僵”了，如何避免表情不自然" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">打完肉毒“僵”了：如何避免表情不自然</p>
+              <p class="card__title">打完肉毒“僵”了，如何避免表情不自然</p>
               <p class="card__summary">肉毒后表情僵硬、不自然，常源于过量、部位不准或扩散到非目标肌肉。“自然”建立在精准的剂量、部位和个体化判断上，不是简单地“少打”。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="16-再生类材料.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/16-再生类材料-01.svg" alt="再生类材料：刺激自身胶原的“渐进派”" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/16-再生类材料-01.svg" alt="再生类材料，刺激自身胶原的“渐进派”" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">再生类材料：刺激自身胶原的“渐进派”</p>
+              <p class="card__title">再生类材料，刺激自身胶原的“渐进派”</p>
               <p class="card__summary">再生类材料（胶原蛋白刺激剂）通过微球等成分刺激自身胶原产生，效果渐进。它与透明质酸的本质区别是：难溶解、难取出，决策需更审慎。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="17-再生类材料的远期.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/17-再生类材料的远期-01.svg" alt="再生类材料的远期：结节、增生和“不可撤回”" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/17-再生类材料的远期-01.svg" alt="再生类材料的远期，结节、增生和“不可撤回”" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">再生类材料的远期：结节、增生和“不可撤回”</p>
+              <p class="card__title">再生类材料的远期，结节、增生和“不可撤回”</p>
               <p class="card__summary">再生类材料的并发症可能在数月甚至数年后出现，表现为迟发性结节、过度增生等。由于不能酶解，处理往往复杂漫长，这是它最大的代价。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="18-胶原蛋白直接填充.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/18-胶原蛋白直接填充-01.svg" alt="胶原蛋白直接填充：另一种“胶原”思路" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/18-胶原蛋白直接填充-01.svg" alt="胶原蛋白直接填充，另一种“胶原”思路" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">胶原蛋白直接填充：另一种“胶原”思路</p>
+              <p class="card__title">胶原蛋白直接填充，另一种“胶原”思路</p>
               <p class="card__summary">胶原蛋白类注射分为“直接填充”和“刺激自身增生”两种思路。重组胶原蛋白是近年新方向，但有维持时间和过敏等考量。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="19-其他注射的警惕.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/19-其他注射的警惕-01.svg" alt="溶脂针、美白针等“其他注射”：警惕越界的注射" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/19-其他注射的警惕-01.svg" alt="溶脂针、美白针等“其他注射”，警惕越界的注射" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">溶脂针、美白针等“其他注射”：警惕越界的注射</p>
+              <p class="card__title">溶脂针、美白针等“其他注射”，警惕越界的注射</p>
               <p class="card__summary">溶脂针、美白针、生长因子等“其他注射”多数在国内缺乏明确批准或证据不足，风险高、并发症多。对这类项目要保持高度警惕。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="20-注射的节奏.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/20-注射的节奏-01.svg" alt="注射的节奏：联合、补打和“过度”的边界" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/20-注射的节奏-01.svg" alt="注射的节奏，联合、补打和“过度”的边界" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">注射的节奏：联合、补打和“过度”的边界</p>
+              <p class="card__title">注射的节奏，联合、补打和“过度”的边界</p>
               <p class="card__summary">注射的节奏比单次剂量更影响长期自然感。联合治疗要分清主次，补打要遵循材料特性，“过度”是注射脸的核心成因。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="21-面部年轻化的容量概念.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/21-面部年轻化的容量概念-01.svg" alt="面部年轻化的“容量”概念：为什么不是哪里凹填哪里" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/21-面部年轻化的容量概念-01.svg" alt="面部年轻化的“容量”概念，为什么不是哪里凹填哪里" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">面部年轻化的“容量”概念：为什么不是哪里凹填哪里</p>
+              <p class="card__title">面部年轻化的“容量”概念，为什么不是哪里凹填哪里</p>
               <p class="card__summary">面部衰老的核心是容量流失和组织下移。年轻化不是“哪里凹填哪里”，而是理解支撑结构，通过深层容量恢复实现自然的提升感。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="22-中面部和法令纹.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/22-中面部和法令纹-01.svg" alt="中面部和法令纹：为什么“填一道”解决不了" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/22-中面部和法令纹-01.svg" alt="中面部和法令纹，为什么“填一道”解决不了" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">中面部和法令纹：为什么“填一道”解决不了</p>
+              <p class="card__title">中面部和法令纹，为什么“填一道”解决不了</p>
               <p class="card__summary">法令纹的根源常在中面部容量流失和下移，单纯在沟里填充效果有限且易显假。理解中面部整体结构，才能自然改善。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="23-下颌线和下颏.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/23-下颌线和下颏-01.svg" alt="下颌线和下颏：轮廓注射的美学" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/23-下颌线和下颏-01.svg" alt="下颌线和下颏，轮廓注射的美学" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">下颌线和下颏：轮廓注射的美学</p>
+              <p class="card__title">下颌线和下颏，轮廓注射的美学</p>
               <p class="card__summary">下颌线和下颏的注射能改善轮廓模糊和轻度后缩，但效果有限、依赖骨性基础。它不能替代手术，且下颌区域有血管风险。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="24-太阳穴和额头.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/24-太阳穴和额头-01.svg" alt="太阳穴和额头：颞部注射的安全与美学" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/24-太阳穴和额头-01.svg" alt="太阳穴和额头，颞部注射的安全与美学" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">太阳穴和额头：颞部注射的安全与美学</p>
+              <p class="card__title">太阳穴和额头，颞部注射的安全与美学</p>
               <p class="card__summary">颞部（太阳穴）和额头凹陷能通过注射改善，但颞部血管丰富，层次精准至关重要。深部骨面支撑相对安全，浅层注射风险高。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="25-颈纹和手部.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/25-颈纹和手部-01.svg" alt="颈纹和手部：注射也能改善的“非面部”区域" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/25-颈纹和手部-01.svg" alt="颈纹和手部，注射也能改善的“非面部”区域" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">颈纹和手部：注射也能改善的“非面部”区域</p>
+              <p class="card__title">颈纹和手部，注射也能改善的“非面部”区域</p>
               <p class="card__summary">颈纹和手部衰老常被忽略，注射可改善，但颈部皮肤薄、活动多，注射分寸与面部不同。理解这些区域的特殊性是安全的前提。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="26-血管栓塞.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/26-血管栓塞-01.svg" alt="血管栓塞：注射最严重的并发症" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/26-血管栓塞-01.svg" alt="血管栓塞，注射最严重的并发症" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">血管栓塞：注射最严重的并发症</p>
+              <p class="card__title">血管栓塞，注射最严重的并发症</p>
               <p class="card__summary">血管栓塞是注射最严重的并发症，可致皮肤坏死甚至失明。识别早期征象、立即处理，是决定后果的关键。每个接受注射的人都应了解。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="27-结节过敏感染.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/27-结节过敏感染-01.svg" alt="注射后结节、过敏和感染：常见并发症识别" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/27-结节过敏感染-01.svg" alt="注射后结节、过敏和感染，常见并发症识别" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">注射后结节、过敏和感染：常见并发症识别</p>
+              <p class="card__title">注射后结节、过敏和感染，常见并发症识别</p>
               <p class="card__summary">注射后肿胀淤青多为正常反应，但结节、过敏、感染需要警惕。分清正常与异常，知道什么情况要联系医生，是术后安全的关键。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="28-透明质酸酶.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/28-透明质酸酶-01.svg" alt="透明质酸酶和“后悔药”：能溶不等于零风险" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/28-透明质酸酶-01.svg" alt="透明质酸酶和“后悔药”，能溶不等于零风险" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">透明质酸酶和“后悔药”：能溶不等于零风险</p>
+              <p class="card__title">透明质酸酶和“后悔药”，能溶不等于零风险</p>
               <p class="card__summary">透明质酸酶能溶解透明质酸填充，是重要的应急和修整工具。但它本身有风险，且不能解决所有问题。“能溶”不等于零风险。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="29-注射的长期主义.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/29-注射的长期主义-01.svg" alt="注射的“长期主义”：把注射当长期管理，而不是一次性消费" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/29-注射的长期主义-01.svg" alt="注射的“长期主义”，把注射当长期管理，而不是一次性消费" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">注射的“长期主义”：把注射当长期管理，而不是一次性消费</p>
+              <p class="card__title">注射的“长期主义”，把注射当长期管理，而不是一次性消费</p>
               <p class="card__summary">注射效果会消退，需要长期管理。建立注射档案、保持同一医生、设立停止标准，比追求单次完美更能保持长期自然。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="30-何时该停止.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/30-何时该停止-01.svg" alt="何时该停止：注射的边界和“不做”的智慧" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/30-何时该停止-01.svg" alt="何时该停止，注射的边界和“不做”的智慧" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">何时该停止：注射的边界和“不做”的智慧</p>
+              <p class="card__title">何时该停止，注射的边界和“不做”的智慧</p>
               <p class="card__summary">注射有明确的边界：心理预期不稳、体象困扰、过度累积、问题不适合注射时，停止或暂缓比继续更明智。“不做”有时是最好的选择。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="31-MD Codes是什么.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/31-MD Codes是什么-01.svg" alt="MD Codes：把面部注射变成一门“有章法”的艺术" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/31-MD Codes是什么-01.svg" alt="MD Codes，把面部注射变成一门“有章法”的艺术" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">MD Codes：把面部注射变成一门“有章法”的艺术</p>
+              <p class="card__title">MD Codes，把面部注射变成一门“有章法”的艺术</p>
               <p class="card__summary">MD Codes 把面部细分为带编号的解剖功能单元，每个 code 对应特定层次、材料和技术。它不是营销概念，而是一套让注射更安全、更自然的结构化思维。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="32-面部分区与编码逻辑.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/32-面部分区与编码逻辑-01.svg" alt="面部分区与编码逻辑：理解 MD Codes 的“地图”" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/32-面部分区与编码逻辑-01.svg" alt="面部分区与编码逻辑，理解 MD Codes 的“地图”" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">面部分区与编码逻辑：理解 MD Codes 的“地图”</p>
+              <p class="card__title">面部分区与编码逻辑，理解 MD Codes 的“地图”</p>
               <p class="card__summary">MD Codes 把面部组织成 8 个大区，每区再细分为带编号的 code。理解这个层级结构，就能听懂医生说的“Ck1”“Jw2”代表什么。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="33-上半脸的codes.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/33-上半脸的codes-01.svg" alt="上半脸的 Codes：额头、颞部和眼周" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/33-上半脸的codes-01.svg" alt="上半脸的 Codes，额头、颞部和眼周" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">上半脸的 Codes：额头、颞部和眼周</p>
+              <p class="card__title">上半脸的 Codes，额头、颞部和眼周</p>
               <p class="card__summary">上半脸（额头 F、颞部 T、眼周 E）的 codes 负责饱满度、框架感和疲惫感改善。这些区域血管密集，是注射的高风险区，理解 codes 有助于安全决策。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="34-中脸的codes.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/34-中脸的codes-01.svg" alt="中脸的 Codes：苹果肌、中面部和鼻唇沟" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/34-中脸的codes-01.svg" alt="中脸的 Codes，苹果肌、中面部和鼻唇沟" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">中脸的 Codes：苹果肌、中面部和鼻唇沟</p>
+              <p class="card__title">中脸的 Codes，苹果肌、中面部和鼻唇沟</p>
               <p class="card__summary">中脸 codes（Ck 颊部、Nl 鼻唇沟）是面部年轻化的核心区域。理解 Ck1–Ck4 的不同作用，能明白为什么法令纹要从中面部处理而不是只填沟。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="35-下半脸的codes.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/35-下半脸的codes-01.svg" alt="下半脸的 Codes：下颌线、下巴和面下轮廓" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/35-下半脸的codes-01.svg" alt="下半脸的 Codes，下颌线、下巴和面下轮廓" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">下半脸的 Codes：下颌线、下巴和面下轮廓</p>
+              <p class="card__title">下半脸的 Codes，下颌线、下巴和面下轮廓</p>
               <p class="card__summary">下半脸 codes（Jw 下颌线、C 颏部）负责下面部轮廓和清晰度。理解 Jw1–Jw3 和 C 的作用，能明白轮廓注射为什么是组合而非单点。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="36-情感修饰.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/36-情感修饰-01.svg" alt="情感修饰：MD Codes 如何改变“看起来怎样”" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/36-情感修饰-01.svg" alt="情感修饰，MD Codes 如何改变“看起来怎样”" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">情感修饰：MD Codes 如何改变“看起来怎样”</p>
+              <p class="card__title">情感修饰，MD Codes 如何改变“看起来怎样”</p>
               <p class="card__summary">MD Codes 引入“情感属性”概念，某些 codes 的改善能改变人传递的气质印象（疲惫、悲伤、严厉、老态）。理解它能让注射目标更贴近你的真实诉求。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="37-MD Codes的注射技术.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/37-MD Codes的注射技术-01.svg" alt="MD Codes 的注射技术：层次、针具和剂量原则" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/37-MD Codes的注射技术-01.svg" alt="MD Codes 的注射技术，层次、针具和剂量原则" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">MD Codes 的注射技术：层次、针具和剂量原则</p>
+              <p class="card__title">MD Codes 的注射技术，层次、针具和剂量原则</p>
               <p class="card__summary">MD Codes 对每个 code 推荐特定层次、针具和剂量原则。理解这些技术细节，能帮你判断医生操作是否规范，也理解为什么好注射贵在技术。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="38-从codes看联合治疗.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/38-从codes看联合治疗-01.svg" alt="从 Codes 看联合治疗：填充与肉毒的协作" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/38-从codes看联合治疗-01.svg" alt="从 Codes 看联合治疗，填充与肉毒的协作" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">从 Codes 看联合治疗：填充与肉毒的协作</p>
+              <p class="card__title">从 Codes 看联合治疗，填充与肉毒的协作</p>
               <p class="card__summary">MD Codes 的填充 codes 解决静态结构，肉毒解决动态肌肉问题，两者常常需要协作。理解联合思维，能明白为什么有些方案“既要填充又要肉毒”。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="39-MD Codes与解剖安全.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/39-MD Codes与解剖安全-01.svg" alt="MD Codes 与解剖安全：高危 codes 怎么打" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/39-MD Codes与解剖安全-01.svg" alt="MD Codes 与解剖安全，高危 codes 怎么打" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">MD Codes 与解剖安全：高危 codes 怎么打</p>
+              <p class="card__title">MD Codes 与解剖安全，高危 codes 怎么打</p>
               <p class="card__summary">MD Codes 的每个 code 都对应特定血管风险层次。鼻部、眉间、额头等高危 codes 与眼动脉交通，必须由熟悉解剖的医生在具备急救能力的机构操作。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
           </a>
           <a class="card reveal" href="40-作为消费者如何理解MD Codes.html">
-            <div class="card__thumb"><img class="card__thumb-img" src="images/40-作为消费者如何理解MD Codes-01.svg" alt="作为消费者如何理解 MD Codes：听懂、提问、参与" loading="lazy" /></div>
+            <div class="card__thumb"><img class="card__thumb-img" src="images/40-作为消费者如何理解MD Codes-01.svg" alt="作为消费者如何理解 MD Codes，听懂、提问、参与" loading="lazy" /></div>
             <div class="card__body">
               <p class="card__category">美容注射的艺术</p>
-              <p class="card__title">作为消费者如何理解 MD Codes：听懂、提问、参与</p>
+              <p class="card__title">作为消费者如何理解 MD Codes，听懂、提问、参与</p>
               <p class="card__summary">MD Codes 给了消费者一套和医生沟通的共同语言。学会听懂 code、提出对的问题、参与方案讨论，是 MD Codes 给你的最大价值。</p>
               <span class="card__cta">阅读全文 <svg viewBox="0 0 12 12" width="12" height="12"><path d="M2 6h7M6 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></span>
             </div>
@@ -424,8 +435,36 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></p>
-      <p style="font-size:var(--fs-xs);color:var(--ink-faint);margin-top:var(--sp-2);">美容注射的艺术 · 40 篇</p>
+      <div class="site-footer__grid">
+        <div class="footer-about">
+          <h4>关于我们</h4>
+          <p>重庆西区医院整形外科医疗美容中心（AMC）依托三级综合医院，提供整形外科、美容外科、微整注射、美容皮肤科等医疗服务。</p>
+          <p class="footer-about__disclaimer">本网站内容不代表任何诊疗建议和就医指导，诊疗活动请到正规医疗机构找有资质的医生进行。</p>
+        </div>
+        <div>
+          <h4>科普系列</h4>
+          <ul>
+            <li><a href="../index.html">科普首页</a></li>
+            <li><a href="../consultant/">一路绿灯 · 咨询师成长站</a></li>
+            <li><a href="../skin/">皮肤病症</a></li>
+            <li><a href="../surgery/">四级手术</a></li>
+            <li><a href="../injection/">美容注射</a></li>
+            <li><a href="../aesthetics/">医美亚美学</a></li>
+            <li><a href="../types/">美学三型</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>联系方式</h4>
+          <ul>
+            <li>门诊电话：（+86）023-81913691</li>
+            <li>医院地址：重庆市九龙坡区华福大道北段 301 号</li>
+            <li>交通：轻轨 5 号线华岩站旁（向南约 500 米）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有 · <a href="../disclaimer.html">实验内容声明</a>
+      </div>
     </div>
   </footer>
 
@@ -459,5 +498,6 @@
       document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
     })();
   </script>
+  <script src="../assets/js/share.js" defer></script>
 </body>
 </html>

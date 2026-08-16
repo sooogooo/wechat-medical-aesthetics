@@ -9,7 +9,9 @@ const fs = require("fs");
 const path = require("path");
 
 const SRC_DIR = path.join(__dirname, "皮肤常见病症科普系列");
-const OUT_DIR = path.join(__dirname, "..", "condition");
+const OUT_DIR = path.join(__dirname, "..", "skin");
+const { headMeta } = require("./site-config");
+const courseRefs = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "assets", "data", "course-refs.json"), "utf8"));
 const DATA = require(path.join(__dirname, "..", "assets", "data", "conditions.json"));
 
 const CAT_LABELS = {
@@ -290,7 +292,16 @@ function hash(s) {
 }
 
 // —— 生成一个详情页 HTML ——
-function buildHtml(cond, parsed) {
+function buildHtml(cond, parsed, prev, next) {
+  const cref = courseRefs["skin/" + cond.slug + ".html"];
+  const jsonld = JSON.stringify({
+    "@context": "https://schema.org", "@type": "Article",
+    headline: parsed.h1.slice(0, 110),
+    description: (cond.summary || "").slice(0, 160),
+    inLanguage: "zh-CN",
+    isPartOf: { "@type": "CollectionPage", name: "皮肤常见病症科普系列" },
+    publisher: { "@type": "Organization", name: "重庆西区医院整形外科医疗美容中心" }
+  });
   const catLabel = CAT_LABELS[cond.category] || cond.category;
   const urgent = URGENT_CALLOUTS[cond.id];
 
@@ -328,35 +339,40 @@ function buildHtml(cond, parsed) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${esc(parsed.h1)} · 皮肤科普</title>
   <meta name="description" content="${esc(cond.summary)}" />
-  <link rel="icon" type="image/png" href="/assets/logo/amc-logo.png" />
-  <link rel="apple-touch-icon" href="/assets/logo/amc-logo.png" />
+  <link rel="icon" type="image/png" href="../assets/logo/amc-logo.png" />
+  <link rel="apple-touch-icon" href="../assets/logo/amc-logo.png" />
   <link rel="stylesheet" href="../assets/css/design-tokens.css" />
   <link rel="stylesheet" href="../assets/css/base.css" />
   <link rel="stylesheet" href="../assets/css/article.css" />
+  <link rel="stylesheet" href="../assets/css/share.css" />
+  ${headMeta({ canonicalPath: "skin/" + cond.slug + ".html", title: parsed.h1 + " · 皮肤科普", desc: (cond.summary || "").slice(0, 80), cardKey: "skin" })}
+  <script type="application/ld+json">${jsonld}</script>
 </head>
-<body>
+<body data-prev="${prev ? prev.slug + '.html' : ''}" data-next="${next ? next.slug + '.html' : ''}">
   <header class="site-header" id="siteHeader">
     <div class="site-header__inner">
       <a href="../index.html" class="brand" aria-label="重庆西区医院整形外科医疗美容中心 首页">
-        <img class="brand__logo" src="/assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
+        <img class="brand__logo" src="../assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
         <span class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></span>
       </a>
       <nav class="main-nav" id="mainNav" aria-label="主导航">
         <a href="../index.html">首页</a>
-        <a href="../index.html">整形外科</a>
-        <a href="../index.html">非手术中心</a>
-        <a href="../index.html">特色专科</a>
-        <a href="../index.html" aria-current="page">皮肤病症</a>
-        <a href="../index.html">医疗团队</a>
-        <a href="../index.html" class="btn btn--primary">预约面诊</a>
+        <a href="../search.html">搜索</a>
+        <a href="../consultant/">一路绿灯</a>
+        <a href="../skin/" aria-current="page">皮肤病症</a>
+        <a href="../surgery/">四级手术</a>
+        <a href="../injection/">美容注射</a>
+        <a href="../aesthetics/">亚美学</a>
+        <a href="../types/">美学三型</a>
       </nav>
+      <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
       <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false"><span></span></button>
     </div>
   </header>
 
   <main class="article">
     <nav class="breadcrumb" aria-label="路径">
-      <a href="../index.html">皮肤病症</a><span>／</span>
+      <a href="../skin/">皮肤病症</a><span>／</span>
       <a href="../index.html">${esc(catLabel)}</a><span>／</span>${esc(parsed.h1.split(" ")[0].slice(0,8))}
     </nav>
 
@@ -393,6 +409,12 @@ ${parsed.bodyHtml}
     </section>
 
     <p class="disclaimer">${esc(parsed.disclaimer || "本文用于健康教育，不能替代皮肤科面诊。")} 遇到紧急情况请立即拨打 120 或前往急诊。</p>
+    ${cref ? `<aside class="course-ref"><p class="course-ref__label">配套课程</p><a href="../${cref.url}">《一路绿灯》第 ${String(cref.no).padStart(2, "0")} 课 · ${cref.title}</a><span>本篇是该课的精读教材</span></aside>` : ""}
+    <nav class="pager">
+      ${prev ? '<a class="pager__a pager__prev" href="' + prev.slug + '.html"><span>上一篇</span><b>' + prev.title + '</b></a>' : '<span class="pager__a"></span>'}
+      ${next ? '<a class="pager__a pager__next" href="' + next.slug + '.html"><span>下一篇</span><b>' + next.title + '</b></a>' : '<span class="pager__a"></span>'}
+      <span class="pager__hint">←/→ 键翻篇</span>
+    </nav>
 
     <div class="article-foot">
       <div class="related">
@@ -407,7 +429,7 @@ ${parsed.bodyHtml}
             <h3>想进一步确认？</h3>
             <p>科普帮你看懂，具体方案需要面诊。皮肤科医生可以帮你判断。</p>
           </div>
-          <a href="../index.html" class="btn btn--primary">预约皮肤科面诊</a>
+          <a href="tel:02381913691" class="btn btn--primary">电话预约 023-8191-3691</a>
         </div>
       </div>
     </div>
@@ -422,21 +444,15 @@ ${parsed.bodyHtml}
           <p class="footer-about__disclaimer">本网站内容不代表任何诊疗建议和就医指导，诊疗活动请到正规医疗机构找有资质的医生进行。</p>
         </div>
         <div>
-          <h4>快速链接</h4>
+          <h4>科普系列</h4>
           <ul>
-            <li><a href="../index.html">首页</a></li>
-            <li><a href="../index.html">整形外科</a></li>
-            <li><a href="../index.html">非手术中心</a></li>
-            <li><a href="../index.html">特色专科</a></li>
-            <li><a href="../index.html">皮肤病症</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>更多</h4>
-          <ul>
-            <li><a href="../index.html">医疗团队</a></li>
-            <li><a href="../index.html">服务项目</a></li>
-            <li><a href="../index.html">联系我们</a></li>
+            <li><a href="../index.html">科普首页</a></li>
+            <li><a href="../consultant/">一路绿灯 · 咨询师成长站</a></li>
+            <li><a href="../skin/">皮肤病症</a></li>
+            <li><a href="../surgery/">四级手术</a></li>
+            <li><a href="../injection/">美容注射</a></li>
+            <li><a href="../aesthetics/">医美亚美学</a></li>
+            <li><a href="../types/">美学三型</a></li>
           </ul>
         </div>
         <div>
@@ -449,11 +465,13 @@ ${parsed.bodyHtml}
         </div>
       </div>
       <div class="site-footer__bottom">
-        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有
+        渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有 · <a href="../disclaimer.html">实验内容声明</a>
       </div>
     </div>
   </footer>
 
+  <script src="../assets/js/share.js" defer></script>
+  <script>(function(){var p=document.body.getAttribute("data-prev"),n=document.body.getAttribute("data-next");if(p||n)addEventListener("keydown",function(e){if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;if(e.key==="ArrowRight"&&n)location.href=n;if(e.key==="ArrowLeft"&&p)location.href=p})})();</script>
   <script src="../assets/js/article.js"></script>
 </body>
 </html>
@@ -472,7 +490,8 @@ function main() {
     const parsed = parseMd(md);
     parsed.bodyHtml = normalizePunctuation(parsed.bodyHtml);
     parsed.summary = cond.summary;
-    const html = buildHtml(cond, parsed);
+    const di = DATA.indexOf(cond);
+    const html = buildHtml(cond, parsed, di > 0 ? { slug: DATA[di - 1].slug, title: DATA[di - 1].title || DATA[di - 1].slug } : null, di < DATA.length - 1 ? { slug: DATA[di + 1].slug, title: DATA[di + 1].title || DATA[di + 1].slug } : null);
     fs.writeFileSync(path.join(OUT_DIR, cond.slug + ".html"), html, "utf8");
     ok++;
   });

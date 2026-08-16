@@ -4,10 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>医美科普 · 重庆西区医院整形外科医疗美容中心</title>
-  <meta name="description" content="五个系列、145 篇医美科普文章。皮肤病症、四级手术、美容注射、医美亚美学、美学三型，从认识到决策，从风险到艺术。" />
+  <meta name="description" content="五大系列、145 篇医美科普文章,外加「一路绿灯」医美咨询师成长课程。皮肤病症、四级手术、美容注射、医美亚美学、美学三型,从认识到决策,从风险到艺术。" />
   <link rel="icon" type="image/png" href="assets/logo/amc-logo.png" />
+  <link rel="canonical" href="http://127.0.0.1:8000/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="医美科普 · 重庆西区医院整形外科医疗美容中心" />
+  <meta property="og:description" content="五大系列、145 篇医美科普文章，外加「一路绿灯」医美咨询师成长课程。从认识到决策，从风险到艺术。" />
+  <meta property="og:image" content="http://127.0.0.1:8000/assets/img/share/portal-card.png" />
+  <meta property="og:site_name" content="重庆西区医院医美科普" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"医美科普 · 重庆西区医院整形外科医疗美容中心","url":"http://127.0.0.1:8000/","potentialAction":{"@type":"SearchAction","target":"http://127.0.0.1:8000/search.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
   <link rel="stylesheet" href="assets/css/design-tokens.css" />
   <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/share.css" />
   <style>
     /* ============ 门户首页专用样式 ============ */
     .portal-hero { padding: var(--sp-9) 0 var(--sp-7); text-align: center; }
@@ -34,6 +43,13 @@
     .series-card--surgery .series-card__tag { color: var(--urgent); }
     .series-card--injection .series-card__tag { color: var(--accent-warm); }
     .series-card--aesthetics .series-card__tag { color: var(--accent); }
+
+    /* 页脚网格：桌面三列 → 平板两列 → 手机单列（列内收紧，避免长条堆叠） */
+    .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1.2fr; gap: var(--sp-7) var(--sp-6); align-items: start; }
+    .footer-grid > div { min-width: 0; }
+    .footer-grid p { margin: 0 0 var(--sp-1); }
+    @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--sp-6) var(--sp-5); } .footer-grid > div:first-child { grid-column: 1 / -1; } }
+    @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; gap: var(--sp-5); } }
     .series-card--types .series-card__tag { color: var(--accent-warm); }
 
     .portal-footer-text { text-align: center; padding: var(--sp-7) 0; color: var(--ink-faint); font-size: var(--fs-small); }
@@ -52,12 +68,15 @@
       </a>
       <nav class="main-nav" id="mainNav" aria-label="主导航">
         <a href="/" aria-current="page">首页</a>
+        <a href="search.html">搜索</a>
+        <a href="consultant/">一路绿灯</a>
         <a href="skin/">皮肤病症</a>
         <a href="surgery/">四级手术</a>
         <a href="injection/">美容注射</a>
         <a href="aesthetics/">亚美学</a>
         <a href="types/">美学三型</a>
       </nav>
+      <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
       <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
         <span></span>
       </button>
@@ -68,7 +87,7 @@
   <div class="urgent-bar">
     <div class="container">
       <span class="urgent-bar__icon">⚠</span>
-      <span>紧急情况请先求助。出现呼吸困难、面部肿胀、注射后剧痛发白、高热伴皮疹等,请立即拨打 120 或前往急诊。</span>
+      <span>紧急情况请先求助。出现呼吸困难、面部肿胀、注射后剧痛发白、高热伴皮疹等，请立即拨打 120 或前往急诊。</span>
     </div>
   </div>
 
@@ -76,9 +95,9 @@
     <!-- ============ Hero ============ -->
     <section class="portal-hero">
       <div class="container">
-        <p class="eyebrow">医美科普 · 五大系列</p>
-        <h1>认识医美,<br>从理解开始。</h1>
-        <p class="lead">五个系列、145 篇科普文章，从皮肤病症到四级手术,从注射技术到审美反思。不推销、不承诺、不替代面诊。</p>
+        <p class="eyebrow">医美科普 · 五大系列 + 成长课程</p>
+        <h1>认识医美，<br>从理解开始。</h1>
+        <p class="lead">五个系列、145 篇科普文章，从皮肤病症到四级手术，从注射技术到审美反思。不推销、不承诺、不替代面诊。</p>
         <div class="stats">
           <span><b>5</b> 大系列</span>
           <span><b>145</b> 篇文章</span>
@@ -93,12 +112,29 @@
       <div class="container">
         <div class="series-grid">
 
+          <!-- 一路绿灯 · 成长课程（特色横幅卡） -->
+          <a href="consultant/" class="series-card series-card--consultant reveal" style="grid-column: 1 / -1; border-color: var(--accent); background: linear-gradient(135deg, #ffffff 55%, var(--accent-soft));">
+            <div style="display:flex; gap:var(--sp-5); align-items:center; flex-wrap:wrap;">
+              <img src="assets/logo/green-light.svg" alt="一路绿灯" style="width:56px; height:56px; flex:none;" />
+              <div style="flex:1; min-width:260px;">
+                <p class="series-card__tag" style="color: var(--accent-deep);">成长课程 · 从小白到上岗的十二个月</p>
+                <h2 class="series-card__title">一路绿灯 · 医美咨询师成长站</h2>
+                <p class="series-card__desc">为交通信号专业毕业的转行者定制：五个阶段、20 节课，以道路与红绿灯为母题，先看清职业真相，再学交规、认识车流、看懂路口、上路，驶入绿波带。</p>
+              </div>
+              <div class="series-card__meta">
+                <span class="count">20 课</span>
+                <span>5 阶段 · 12 个月</span>
+                <span>进入 →</span>
+              </div>
+            </div>
+          </a>
+
           <!-- 皮肤病症 -->
           <a href="skin/" class="series-card series-card--skin reveal">
             <div class="series-card__thumb"><img src="assets/img/conditions/00-acne.svg" alt="皮肤病症" loading="lazy" /></div>
             <p class="series-card__tag">系列一 · 皮肤科</p>
             <h2 class="series-card__title">皮肤常见病症科普</h2>
-            <p class="series-card__desc">55 个常见皮肤问题的科学解读。先确认病名,再谈处理;不羞辱外观,不承诺根治,不替代面诊。</p>
+            <p class="series-card__desc">55 个常见皮肤问题的科学解读。先确认病名，再谈处理;不羞辱外观，不承诺根治，不替代面诊。</p>
             <div class="series-card__meta">
               <span class="count">55 篇</span>
               <span>痤疮 / 黄褐斑 / 湿疹 / 脱发 / 血管病变</span>
@@ -110,7 +146,7 @@
             <div class="series-card__thumb"><img src="surgery/images-poster/00-01.svg" alt="四级手术" loading="lazy" /></div>
             <p class="series-card__tag">系列二 · 整形外科</p>
             <h2 class="series-card__title">四级与整形美容手术</h2>
-            <p class="series-card__desc">30 个手术主题，颌面四级手术、躯干轮廓、鼻部、面部年轻化、安全管理。风险最高的医美决策,需要最审慎的科普。</p>
+            <p class="series-card__desc">30 个手术主题，颌面四级手术、躯干轮廓、鼻部、面部年轻化、安全管理。风险最高的医美决策，需要最审慎的科普。</p>
             <div class="series-card__meta">
               <span class="count">30 篇</span>
               <span>下颌角 / 正颌 / 腹壁成形 / 隆乳 / 拉皮</span>
@@ -122,7 +158,7 @@
             <div class="series-card__thumb"><img src="injection/images/01-美容注射不只是打一针-01.svg" alt="美容注射" loading="lazy" /></div>
             <p class="series-card__tag">系列三 · 微创注射</p>
             <h2 class="series-card__title">美容注射的艺术</h2>
-            <p class="series-card__desc">40 篇注射主题，填充、肉毒、再生材料的机制与风险,MD Codes 编码注射方法,以及长期管理的智慧。</p>
+            <p class="series-card__desc">40 篇注射主题，填充、肉毒、再生材料的机制与风险，MD Codes 编码注射方法，以及长期管理的智慧。</p>
             <div class="series-card__meta">
               <span class="count">40 篇</span>
               <span>玻尿酸 / 肉毒 / MD Codes / 栓塞急救</span>
@@ -134,7 +170,7 @@
             <div class="series-card__thumb"><img src="aesthetics/images/01-医美亚美学是什么-01.svg" alt="医美亚美学" loading="lazy" /></div>
             <p class="series-card__tag">系列四 · 审美文化</p>
             <h2 class="series-card__title">医美亚美学</h2>
-            <p class="series-card__desc">10 种医美审美流派的盘点与反思，幼态脸、高级脸、妈生款、抗老美学、容貌焦虑。看清欲望来源,才能自主选择。</p>
+            <p class="series-card__desc">10 种医美审美流派的盘点与反思，幼态脸、高级脸、妈生款、抗老美学、容貌焦虑。看清欲望来源，才能自主选择。</p>
             <div class="series-card__meta">
               <span class="count">10 篇</span>
               <span>幼态脸 / 高级脸 / 抗老 / 身体焦虑</span>
@@ -146,7 +182,7 @@
             <div class="series-card__thumb"><img src="types/images/01-医美美学三型总论-01.svg" alt="美学三型" loading="lazy" /></div>
             <p class="series-card__tag">系列五 · 审美境界</p>
             <h2 class="series-card__title">医美美学三型</h2>
-            <p class="series-card__desc">高级型、技术型、庸俗型，医美审美的三种境界分类。倡导克制与整体,警示趋同与过度,一份审美升级指南。</p>
+            <p class="series-card__desc">高级型、技术型、庸俗型，医美审美的三种境界分类。倡导克制与整体，警示趋同与过度，一份审美升级指南。</p>
             <div class="series-card__meta">
               <span class="count">10 篇</span>
               <span>高级型 / 技术型 / 庸俗型 / 走向高级</span>
@@ -159,7 +195,7 @@
 
     <div class="portal-footer-text">
       <div class="container">
-        <p>本文用于公众健康教育,不构成医疗建议,不替代面诊。遇到紧急情况请立即拨打 120。</p>
+        <p>本文用于公众健康教育，不构成医疗建议，不替代面诊。遇到紧急情况请立即拨打 120。</p>
       </div>
     </div>
   </main>
@@ -169,11 +205,11 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <p class="brand__name"><b>重庆西区医院</b> <span>整形外科医疗美容中心</span></p>
-          <p style="margin-top: var(--sp-2); font-size: var(--fs-xs); color: var(--ink-faint);">医美科普 · 五大系列 · 145 篇</p>
+          
         </div>
         <div>
           <p style="font-weight: var(--w-semibold); margin-bottom: var(--sp-2);">科普系列</p>
+          <p><a href="consultant/">一路绿灯 · 咨询师成长站</a></p>
           <p><a href="skin/">皮肤病症</a></p>
           <p><a href="surgery/">四级手术</a></p>
           <p><a href="injection/">美容注射</a></p>
@@ -182,9 +218,12 @@
         </div>
         <div>
           <p style="font-weight: var(--w-semibold); margin-bottom: var(--sp-2);">重要提示</p>
-          <p style="font-size: var(--fs-xs); color: var(--ink-soft);">本站内容用于公众健康教育,不构成医疗建议、不替代面诊。医美决策须结合个体情况与具备资质的医师面诊。</p>
+          <p style="font-size: var(--fs-xs); color: var(--ink-soft);">本站内容用于公众健康教育，不构成医疗建议、不替代面诊。医美决策须结合个体情况与具备资质的医师面诊。</p>
         </div>
       </div>
+    </div>
+    <div class="site-footer__bottom" style="border-top:1px solid var(--line);margin-top:var(--sp-5);padding-top:var(--sp-4);font-size:var(--fs-xs);color:var(--ink-faint);text-align:center;">
+      渝ICP备 16053114 号-2 · 渝B2-20180032 · 渝公网安备 31011502400137 号 · © 2026 重庆西区医院整形外科医疗美容中心 版权所有 · <a href="disclaimer.html">实验内容声明</a>
     </div>
   </footer>
 
@@ -206,5 +245,6 @@
       document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
     })();
   </script>
+  <script src="assets/js/share.js" defer></script>
 </body>
 </html>

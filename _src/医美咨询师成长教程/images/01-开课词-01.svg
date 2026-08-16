@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-labelledby="t01a d01a">
+  <title id="t01a">新旧咨询师两条车道</title>
+  <desc id="d01a">旧车道销售驱动已被逐步清退，新车道医疗导向正在被行业重新需要</desc>
+  <defs>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .laneName{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .laneSub{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .nodeTitle{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .nodeSub{font:500 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .mid{font:700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#7A8B6F;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect x="30" y="26" width="740" height="448" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <text x="56" y="58" class="series">医美咨询师成长教程 · 阶段0 · 01</text>
+  <text x="56" y="90" class="title">新旧咨询师 两条车道</text>
+  <text x="56" y="116" class="kicker">行业已从销售驱动转向医疗导向，选错车道比开得慢更危险</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 信号灯 -->
+  <rect x="70" y="168" width="40" height="252" rx="10" fill="#2B2A28"/>
+  <circle cx="90" cy="204" r="12" fill="#B5654A"/>
+  <circle cx="90" cy="294" r="12" fill="#C9A876"/>
+  <circle cx="90" cy="384" r="12" fill="#7A8B6F"/>
+
+  <!-- 旧车道 -->
+  <text x="130" y="186" class="laneName">旧车道 · 销售驱动</text>
+  <text x="130" y="202" class="laneSub">约1995-2015 · 已逐步封闭</text>
+  <rect x="130" y="212" width="614" height="82" rx="10" fill="#ffffff" stroke="#dcb3a6" stroke-width="1.4"/>
+  <rect x="146" y="228" width="130" height="50" rx="10" fill="#ffffff" stroke="#B5654A" stroke-width="1.5"/>
+  <text x="211" y="249" class="nodeTitle" text-anchor="middle">大单文化</text>
+  <text x="211" y="267" class="nodeSub" text-anchor="middle">一张单数百万的时代</text>
+  <rect x="298" y="228" width="130" height="50" rx="10" fill="#ffffff" stroke="#B5654A" stroke-width="1.5"/>
+  <text x="363" y="249" class="nodeTitle" text-anchor="middle">咨询师主导医疗</text>
+  <text x="363" y="267" class="nodeSub" text-anchor="middle">医生沦为接单工具</text>
+  <rect x="450" y="228" width="130" height="50" rx="10" fill="#ffffff" stroke="#B5654A" stroke-width="1.5"/>
+  <text x="515" y="249" class="nodeTitle" text-anchor="middle">狼性话术</text>
+  <text x="515" y="267" class="nodeSub" text-anchor="middle">不充分告知风险</text>
+  <rect x="602" y="228" width="126" height="50" rx="10" fill="#ffffff" stroke="#B5654A" stroke-width="2.2"/>
+  <text x="665" y="249" class="nodeTitle" text-anchor="middle">✕ 纠纷与信任崩塌</text>
+  <text x="665" y="267" class="nodeSub" text-anchor="middle">此路已封</text>
+  <path d="M282 253 L294 253 M286 249 L294 253 L286 257" stroke="#B5654A" stroke-width="1.6" fill="none"/>
+  <path d="M434 253 L446 253 M438 249 L446 253 L438 257" stroke="#B5654A" stroke-width="1.6" fill="none"/>
+  <path d="M586 253 L598 253 M590 249 L598 253 L590 257" stroke="#B5654A" stroke-width="1.6" fill="none"/>
+
+  <!-- 转向箭头 -->
+  <path d="M260 300 L260 328 M254 322 L260 330 L266 322" stroke="#A8A39D" stroke-width="1.8" stroke-dasharray="4 3" fill="none"/>
+  <path d="M610 300 L610 328 M604 322 L610 330 L616 322" stroke="#A8A39D" stroke-width="1.8" stroke-dasharray="4 3" fill="none"/>
+  <text x="437" y="318" class="mid" text-anchor="middle">行业转向 · 回归医疗</text>
+
+  <!-- 新车道 -->
+  <text x="130" y="352" class="laneName">新车道 · 医疗导向</text>
+  <text x="130" y="368" class="laneSub">进行中 · 正缺懂规则的新司机</text>
+  <rect x="130" y="378" width="614" height="82" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.4"/>
+  <rect x="146" y="394" width="130" height="50" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.5"/>
+  <text x="211" y="415" class="nodeTitle" text-anchor="middle">知情陪伴</text>
+  <text x="211" y="433" class="nodeSub" text-anchor="middle">知情选择替代劝说</text>
+  <rect x="298" y="394" width="130" height="50" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.5"/>
+  <text x="363" y="415" class="nodeTitle" text-anchor="middle">医生做医疗决策</text>
+  <text x="363" y="433" class="nodeSub" text-anchor="middle">咨询师只做翻译</text>
+  <rect x="450" y="394" width="130" height="50" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.5"/>
+  <text x="515" y="415" class="nodeTitle" text-anchor="middle">情绪价值</text>
+  <text x="515" y="433" class="nodeSub" text-anchor="middle">AI替代不了的部分</text>
+  <rect x="602" y="394" width="126" height="50" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="2.2"/>
+  <text x="665" y="415" class="nodeTitle" text-anchor="middle">✓ 长期信任与复购</text>
+  <text x="665" y="433" class="nodeSub" text-anchor="middle">绿灯常亮</text>
+  <path d="M282 419 L294 419 M286 415 L294 419 L286 423" stroke="#7A8B6F" stroke-width="1.6" fill="none"/>
+  <path d="M434 419 L446 419 M438 415 L446 419 L438 423" stroke="#7A8B6F" stroke-width="1.6" fill="none"/>
+  <path d="M586 419 L598 419 M590 415 L598 419 L590 423" stroke="#7A8B6F" stroke-width="1.6" fill="none"/>
+
+  <text x="56" y="460" class="footer">观点依据：李滨医美之滨《医美咨询师，请做时间的朋友》2020-06-23 等（详见课程 01 课链接）</text>
+</svg>

@@ -49,6 +49,7 @@
   <text x="634" y="425" class="body" text-anchor="middle">需长期维护</text>
   <text x="634" y="443" class="small" text-anchor="middle">防晒防加深</text>
 
-  <rect x="56" y="458" width="688" height="12" rx="6" fill="#eef4ee"/>
-  <text x="400" y="468" class="quote" text-anchor="middle" font-size="13">儿童治疗时机需个体化评估，把就诊信息整理成诊疗底图</text>
+  <rect x="56" y="456" width="688" height="20" rx="8" fill="#eef4ee"/>
+  <text x="400" y="470" class="quote" text-anchor="middle" font-size="13">儿童治疗时机需个体化评估，把就诊信息整理成诊疗底图</text>
+  <text x="400" y="490" class="footer" text-anchor="middle">医学教育示意 · 治疗能变淡不等于所有色素消失，需多次累积配合长期维护</text>
 </svg>

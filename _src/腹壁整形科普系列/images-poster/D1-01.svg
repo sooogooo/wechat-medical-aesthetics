@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleD101 descD101">
+  <title id="titleD101">红线清单，这些情况现在别做</title>
+  <desc id="descD101">腹壁成形术七条红线，再生育、体重不稳、吸烟、基础病、疤痕零容忍、预期、变故</desc>
+  <defs>
+    <marker id="ahD101" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · D1</text>
+  <text x="62" y="112" class="title">红线清单，这些情况现在别做</text>
+  <text x="62" y="148" class="kicker">命中任何一条，先解决它，再谈手术</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+
+  <rect x="62" y="200" width="776" height="56" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="450" y="235" class="midTitle" text-anchor="middle" style="fill:#C75B00">命中任何一条，先解决它，再谈手术日期</text>
+
+  <rect x="62" y="280" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="305" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="311" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="310" class="body">还打算再生育（效果会被抵消）</text>
+
+  <rect x="458" y="280" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="490" cy="305" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="490" y="311" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="516" y="310" class="body">体重还在大幅变化（先等稳定）</text>
+
+  <rect x="62" y="338" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="363" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="369" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="368" class="body">仍在吸烟（皮瓣坏死风险高）</text>
+
+  <rect x="458" y="338" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="490" cy="363" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="490" y="369" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="516" y="368" class="body">糖尿病等基础病未控稳定</text>
+
+  <rect x="62" y="396" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="421" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="427" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="426" class="body">对疤痕完全不能接受（必然留疤）</text>
+
+  <rect x="458" y="396" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="490" cy="421" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="490" y="427" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="516" y="426" class="body">预期不现实或诉求不稳定</text>
+
+  <rect x="62" y="454" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="479" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="485" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="484" class="body">正处重大生活变故期</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">等一等不是劝退，是让手术值得做</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 禁忌与时机判断由资质医师做出</text>
+</svg>

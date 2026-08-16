@@ -55,6 +55,7 @@
   <text x="470" y="416" class="body">激光或冷冻可选</text>
   <text x="470" y="432" class="small">防晒防累积复发</text>
 
-  <rect x="56" y="452" width="688" height="20" rx="8" fill="#eef4ee"/>
-  <text x="400" y="466" class="quote" text-anchor="middle" font-size="14">它本身多为良性，但新发变化的斑先诊断再美容处理</text>
+  <rect x="56" y="448" width="688" height="20" rx="8" fill="#eef4ee"/>
+  <text x="400" y="462" class="quote" text-anchor="middle" font-size="14">它本身多为良性，但新发变化的斑先诊断再美容处理</text>
+  <text x="400" y="486" class="footer" text-anchor="middle">医学教育示意 · 新发或变化的斑需皮肤科面诊排除恶性后再处理</text>
 </svg>

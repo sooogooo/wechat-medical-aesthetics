@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleA302 descA302">
+  <title id="titleA302">减重后手术，先看时机再选术式</title>
+  <desc id="descA302">减重后腹壁整形的时机条件与术式对应关系</desc>
+  <defs>
+    <marker id="ahA302" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · A3</text>
+  <text x="62" y="112" class="title">减重后手术，先看时机再选术式</text>
+  <text x="62" y="148" class="kicker">体重稳定是前提，术式看松弛的范围和方向</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+  <rect x="62" y="205" width="380" height="250" rx="10" fill="none" stroke="#D9930D" stroke-width="1.2"/>
+  <text x="84" y="243" class="nodeTitle">手术时机（先满足）</text>
+  <text x="84" y="277" class="body">体重稳定至少 6 个月</text>
+  <text x="84" y="303" class="body">减重术后，稳定 1～2 年</text>
+  <text x="84" y="329" class="body">营养指标达标（蛋白质等）</text>
+  <text x="84" y="355" class="body">心理准备，切口大、恢复长</text>
+  <rect x="478" y="205" width="380" height="250" rx="10" fill="none" stroke="#0072B2" stroke-width="1.2"/>
+  <text x="500" y="243" class="nodeTitle">术式对应（看松弛范围）</text>
+  <text x="500" y="277" class="body">环形切口，覆盖整圈松弛</text>
+  <text x="500" y="303" class="body">倒 T 型，横向纵向都过剩</text>
+  <text x="500" y="329" class="body">标准型，仅前腹松弛</text>
+  <text x="500" y="355" class="body">迷你型，此类人群少用</text>
+  <text x="450" y="488" class="small" text-anchor="middle">具体时机与术式由面诊评估决定</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">体重不稳就动刀，等于白切</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 手术时机与术式以主刀评估为准</text>
+</svg>

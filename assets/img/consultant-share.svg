@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="一路绿灯 · 医美咨询师成长站">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9db38d"/><stop offset="1" stop-color="#9db38d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#faf8f4"/>
+  <rect x="48" y="48" width="1104" height="534" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <rect x="160" y="140" width="88" height="170" rx="44" fill="#2b2a28"/>
+  <circle cx="204" cy="188" r="17" fill="#6b6864"/>
+  <circle cx="204" cy="225" r="17" fill="#6b6864"/>
+  <circle cx="204" cy="262" r="26" fill="url(#glow)"/>
+  <circle cx="204" cy="262" r="17" fill="#8fa37f"/>
+  <circle cx="198" cy="256" r="5" fill="#c9d6bd"/>
+  <text x="300" y="205" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="64" font-weight="700" fill="#2b2a28">一路绿灯</text>
+  <text x="302" y="252" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" fill="#6b6864">医美咨询师成长站 · 从小白到上岗的十二个月</text>
+  <line x1="302" y1="300" x2="760" y2="300" stroke="#e4ddd2"/>
+  <text x="302" y="345" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#7a8b6f">五个阶段 · 二十节课 · 以道路与红绿灯为母题的成长课程</text>
+  <text x="302" y="385" font-family="'SF Mono',Consolas,monospace" font-size="16" fill="#a8a39d">ENGINE CHECK → TRAFFIC RULES → KNOW THE FLOW → READ THE CROSSING → ON THE ROAD → GREEN WAVE</text>
+</svg>

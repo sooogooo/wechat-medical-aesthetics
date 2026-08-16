@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleB302 descB302">
+  <title id="titleB302">联合还是分期，怎么判断</title>
+  <desc id="descB302">腹壁成形联合或分期手术的判断条件对照</desc>
+  <defs>
+    <marker id="ahB302" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · B3</text>
+  <text x="62" y="112" class="title">联合还是分期，怎么判断</text>
+  <text x="62" y="148" class="kicker">血供条件和抽脂量，是判断的核心</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+  <rect x="62" y="205" width="370" height="250" rx="10" fill="none" stroke="#0072B2" stroke-width="1.2"/>
+  <text x="84" y="243" class="nodeTitle">倾向联合</text>
+  <text x="84" y="277" class="body">脂肪与松弛都是主要矛盾</text>
+  <text x="84" y="303" class="body">主刀评估血供允许</text>
+  <text x="84" y="329" class="body">抽脂量在安全范围内</text>
+  <text x="247" y="443" class="small" style="fill:#0072B2" text-anchor="middle">收益是少受一次恢复的罪</text>
+  <rect x="468" y="205" width="370" height="250" rx="10" fill="none" stroke="#D9930D" stroke-width="1.2"/>
+  <text x="490" y="243" class="nodeTitle">倾向分期</text>
+  <text x="490" y="277" class="body">需要大量抽脂时</text>
+  <text x="490" y="303" class="body">血供条件差（吸烟、糖尿病）</text>
+  <text x="490" y="329" class="body">两次手术各自风险更可控</text>
+  <text x="653" y="443" class="small" style="fill:#D9930D" text-anchor="middle">代价是两次麻醉与恢复</text>
+  <text x="450" y="488" class="small" text-anchor="middle">分期顺序（先吸脂还是先成形）由主刀决定</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">分期多受一次罪，每次风险更可控</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 联合或分期由主刀评估决定</text>
+</svg>

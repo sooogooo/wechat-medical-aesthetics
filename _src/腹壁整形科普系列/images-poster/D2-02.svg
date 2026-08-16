@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleD202 descD202">
+  <title id="titleD202">回答含糊时，要警惕的信号</title>
+  <desc id="descD202">面诊时六类需要警惕的含糊回答与话术</desc>
+  <defs>
+    <marker id="ahD202" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · D2</text>
+  <text x="62" y="112" class="title">回答含糊时，要警惕的信号</text>
+  <text x="62" y="148" class="kicker">被回避的话题，往往就是风险所在</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+
+
+  <rect x="62" y="209" width="776" height="42" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="92" cy="230" r="11" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="92" y="235" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="116" y="236" class="midTitle">回避谈疤痕</text>
+  <text x="340" y="236" class="small">“疤很小，看不出来的”</text>
+
+  <rect x="62" y="259" width="776" height="42" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="92" cy="280" r="11" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="92" y="285" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="116" y="286" class="midTitle">回避谈风险</text>
+  <text x="340" y="286" class="small">“很安全，没什么风险”</text>
+
+  <rect x="62" y="309" width="776" height="42" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="92" cy="330" r="11" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="92" y="335" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="116" y="336" class="midTitle">效果承诺</text>
+  <text x="340" y="336" class="small">“无痕”“终身”“保证满意”</text>
+
+  <rect x="62" y="359" width="776" height="42" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="92" cy="380" r="11" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="92" y="385" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="116" y="386" class="midTitle">资质含糊</text>
+  <text x="340" y="386" class="small">“医生很有经验，你放心”</text>
+
+  <rect x="62" y="409" width="776" height="42" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="92" cy="430" r="11" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="92" y="435" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="116" y="436" class="midTitle">催促决策</text>
+  <text x="340" y="436" class="small">“今天定有优惠、名额有限”</text>
+
+  <rect x="62" y="459" width="776" height="42" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="92" cy="480" r="11" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="92" y="485" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="116" y="486" class="midTitle">急救能力答不上</text>
+  <text x="340" y="486" class="small">血库、麻醉、监护说不清</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">回避风险话题的机构，出事时最没准备</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 机构与医师资质请通过官方渠道核验</text>
+</svg>

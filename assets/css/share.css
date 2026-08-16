@@ -1,0 +1,48 @@
+/* share.css — 全站共享分享按钮与提示浮层（各页型统一引入） */
+.share-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  font: 500 12px/1 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #6b6864; background: transparent;
+  border: 1px solid #e4ddd2; border-radius: 999px;
+  padding: 7px 14px; cursor: pointer;
+  transition: color .25s cubic-bezier(.22,.61,.36,1), border-color .25s cubic-bezier(.22,.61,.36,1);
+}
+.share-btn:hover { color: #5f6e54; border-color: #7a8b6f; }
+.share-btn:focus-visible { outline: 2px solid #7a8b6f; outline-offset: 2px; }
+.share-btn svg { flex: none; }
+@media (max-width: 880px) { .share-btn .share-btn__label { display: none; } .share-btn { padding: 7px 9px; } }
+
+#cpToast {
+  position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 16px);
+  background: #2b2a28; color: #faf8f4; font-size: 14px;
+  padding: 10px 18px; border-radius: 999px; opacity: 0; pointer-events: none;
+  transition: opacity .3s, transform .3s; z-index: 90; max-width: 86vw; text-align: center;
+}
+#cpToast.is-on { opacity: 1; transform: translate(-50%, 0); }
+
+@media print {
+  .share-btn, #cpToast, .site-header, .cp-progress, .lesson-nav, .back-path { display: none !important; }
+  body { background: #fff; }
+  .prose figure img, .lesson-card__thumb img { max-width: 88% !important; page-break-inside: avoid; }
+  .cs-section, .article__body figure { page-break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}
+
+/* —— 系列内上下篇 —— */
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 40px 0 8px; }
+.pager__a { display: flex; flex-direction: column; gap: 4px; border: 1px solid #e4ddd2; border-radius: 10px; padding: 14px 18px; text-decoration: none; transition: border-color .25s; }
+.pager__a:hover { border-color: #7a8b6f; }
+.pager__a span { font-size: 12px; color: #a8a39d; }
+.pager__a b { font-size: 14px; color: #2b2a28; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pager__next { text-align: right; align-items: flex-end; }
+.pager__hint { grid-column: 1 / -1; text-align: center; font-size: 11px; color: #a8a39d; }
+@media (max-width: 640px) { .pager { grid-template-columns: 1fr; } }
+@media print { .pager { display: none; } }
+
+/* —— 课程回链 —— */
+.course-ref { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 20px; padding: 14px 18px; border: 1px solid rgba(122,139,111,.4); border-left: 3px solid #7a8b6f; border-radius: 0 10px 10px 0; }
+.course-ref__label { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #7a8b6f; margin: 0; }
+.course-ref a { font-size: 14px; font-weight: 600; color: #2b2a28; text-decoration: none; }
+.course-ref a:hover { color: #5f6e54; }
+.course-ref span:last-child { font-size: 12px; color: #a8a39d; }
+@media print { .course-ref { display: none; } }

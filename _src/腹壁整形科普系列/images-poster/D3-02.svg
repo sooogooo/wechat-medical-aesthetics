@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleD302 descD302">
+  <title id="titleD302">异常低价省掉了什么</title>
+  <desc id="descD302">异常低价腹壁成形可能省掉的成本项，血库、麻醉、监护、随访、资质、术式、耗材</desc>
+  <defs>
+    <marker id="ahD302" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · D3</text>
+  <text x="62" y="112" class="title">异常低价省掉了什么</text>
+  <text x="62" y="148" class="kicker">省掉的成本，由你的身体和风险买单</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+
+  <rect x="62" y="200" width="776" height="56" rx="10" fill="none" stroke="#A64200" stroke-width="1.2"/>
+  <text x="450" y="235" class="midTitle" text-anchor="middle" style="fill:#A64200">明显低于常规的报价，一定在某些地方省了成本</text>
+
+  <rect x="62" y="280" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="305" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="311" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="310" class="body">血库与急救保障</text>
+
+  <rect x="458" y="280" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="490" cy="305" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="490" y="311" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="516" y="310" class="body">麻醉团队资质</text>
+
+  <rect x="62" y="338" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="363" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="369" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="368" class="body">住院与术后监护</text>
+
+  <rect x="458" y="338" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="490" cy="363" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="490" y="369" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="516" y="368" class="body">术后随访跟进</text>
+
+  <rect x="62" y="396" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="421" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="427" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="426" class="body">主刀四级权限</text>
+
+  <rect x="458" y="396" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="490" cy="421" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="490" y="427" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="516" y="426" class="body">术式缩水（该大做小）</text>
+
+  <rect x="62" y="454" width="380" height="50" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <circle cx="94" cy="479" r="12" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="94" y="485" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" style="fill:#C75B00" text-anchor="middle">×</text>
+  <text x="120" y="484" class="body">耗材与缝线质量</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">异常低价省下的，都在拿安全换</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 价格以面诊明细为准 · 警惕异常低价</text>
+</svg>

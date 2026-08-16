@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>结业卡 · 一路绿灯</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" href="../assets/logo/amc-logo.png" />
+  <link rel="stylesheet" href="../assets/css/design-tokens.css" />
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/consultant.css" />
+  <link rel="stylesheet" href="../assets/css/share.css" />
+  <style>
+    .gr-wrap { max-width: 680px; margin: 0 auto; padding: var(--sp-7) var(--sp-4) var(--sp-9); }
+    .gr-card { border: 1px solid var(--hairline); border-radius: 10px; background: var(--bg-card); padding: var(--sp-7) var(--sp-6); text-align: center; position: relative; }
+    .gr-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--accent); border-radius: 10px 10px 0 0; }
+    .gr-lights { display: flex; justify-content: center; gap: var(--sp-4); margin-bottom: var(--sp-4); }
+    .gr-lights i { width: 14px; height: 14px; border-radius: 50%; background: var(--line-strong); }
+    .gr-lights i.on { background: var(--accent); }
+    .gr-title { font-size: var(--fs-h1); margin-bottom: var(--sp-2); }
+    .gr-name { font-size: 1.6rem; font-weight: var(--w-bold); color: var(--ink); margin: var(--sp-4) 0 var(--sp-2); border: none; border-bottom: 1px dashed var(--line-strong); text-align: center; width: 220px; outline: none; background: transparent; }
+    .gr-meta { font-size: var(--fs-xs); color: var(--ink-faint); line-height: var(--lh-relaxed); }
+    .gr-progress { margin-top: var(--sp-5); }
+    .gr-bar { height: 8px; border: 1px solid var(--hairline); border-radius: 999px; overflow: hidden; }
+    .gr-bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .6s var(--ease); }
+    .gr-missing { margin-top: var(--sp-3); font-size: var(--fs-xs); color: var(--ink-soft); line-height: var(--lh-relaxed); }
+    .gr-actions { margin-top: var(--sp-5); display: flex; gap: var(--sp-3); justify-content: center; flex-wrap: wrap; }
+    @media print { .gr-actions, .site-header, .no-print { display: none !important; } .gr-card { border-color: #2b2a28; } }
+  </style>
+</head>
+<body id="top" class="stage-s5">
+  <div class="cp-progress" aria-hidden="true"></div>
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__inner">
+      <a href="index.html" class="brand" style="gap:10px;">
+        <img class="brand__logo" src="../assets/logo/amc-logo.png" alt="重庆西区医院整形外科医疗美容中心" />
+        <span class="brand__name"><b>一路绿灯</b> <span>医美咨询师成长站</span></span>
+      </a>
+      <div class="header-right">
+        <nav class="main-nav" id="mainNav">
+          <a href="index.html">成长之路</a>
+          <a href="../search.html">搜索</a>
+          <a href="../index.html">医美科普主站</a>
+        </nav>
+        <button class="share-btn" id="shareBtn" type="button" aria-label="分享本页"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span class="share-btn__label">分享</span></button>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="gr-wrap">
+    <div class="gr-card" id="grCard">
+      <div class="gr-lights" id="grLights"><i></i><i></i><i></i><i></i><i></i></div>
+      <p class="eyebrow">GREEN WAVE CERTIFICATE</p>
+      <h1 class="gr-title" id="grTitle">结业进度</h1>
+      <input class="gr-name no-print" id="grName" type="text" placeholder="写下你的名字" maxlength="20" aria-label="你的名字" />
+      <p class="gr-meta" id="grMeta"></p>
+      <p class="gr-meta">医美咨询师成长课程 · 五个阶段 · 二十节课 · 一路绿灯</p>
+      <div class="gr-progress" id="grProgress">
+        <div class="gr-bar"><i id="grBarFill"></i></div>
+        <p class="gr-missing" id="grMissing"></p>
+      </div>
+      <div class="gr-actions no-print">
+        <button class="btn btn--primary" id="grPrint" type="button">打印 / 保存为图片</button>
+        <a class="btn btn--ghost" href="index.html">回到成长之路</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer cp-footer">
+    <div class="container cp-footer__bottom">
+      <p>职业教育内容，不构成医疗建议 · © 2026 · <a href="../disclaimer.html">实验内容声明</a></p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/share.js" defer></script>
+  <script>
+  (function () {
+    "use strict";
+    var TOTAL = 20;
+    var LESSONS = ["01-开课词-给交通信号工程师的转行信","02-引擎自检-要不要入行的红绿灯","03-行业地图-一座叫医美的城市","04-合规红线-咨询师不是医务人员","05-消费者视角-四层结构与暗访作业","06-皮肤底盘-21篇精读地图","07-注射底盘-三大逻辑与风险重灾区","08-手术底盘-分级资质与最长决策链","09-美学语言-从三庭五眼到骨相皮相","10-面诊技术-OD访谈与信号配时","11-期望管理-效果区间表达法","12-警讯系统-红黄绿灯分级","13-情绪价值-AI替代不了的十二种能力","14-剧本工作坊-十个经典场景话术","15-作品集-三十篇科普转写法","16-求职路线-岗位选择与面试准备","17-入职90天-跟诊学习与转正述职","18-指标健康读法-识别病态KPI","19-客户经营-潮汐车道与长期主义","20-三条分支与年度复盘"];
+    var prog = {};
+    try { prog = JSON.parse(localStorage.getItem("yldj-progress") || "{}"); } catch (e) {}
+    Object.keys(prog).forEach(function (k) { try { var dk = decodeURIComponent(k); if (dk !== k) { prog[dk] = prog[k]; delete prog[k]; } } catch (e) {} });
+    var done = LESSONS.filter(function (f) { return prog[f + ".html"]; });
+    var n = done.length;
+
+    var lights = document.getElementById("grLights").children;
+    var lit = Math.floor(n / (TOTAL / 5));
+    for (var i = 0; i < 5; i++) if (i < lit) lights[i].classList.add("on");
+
+    document.getElementById("grTitle").textContent = n >= TOTAL ? "结业证书" : "结业进度";
+    var today = new Date();
+    var dstr = today.getFullYear() + " 年 " + (today.getMonth() + 1) + " 月 " + today.getDate() + " 日";
+    document.getElementById("grMeta").textContent = n >= TOTAL
+      ? "已于 " + dstr + " 完成全部 " + TOTAL + " 课 · 五条绿波带全部点亮"
+      : "已完成 " + n + " / " + TOTAL + " 课 · 点亮五盏灯即结业";
+
+    document.getElementById("grBarFill").style.width = Math.round(n / TOTAL * 100) + "%";
+    if (n < TOTAL) {
+      var miss = LESSONS.filter(function (f) { return !prog[f + ".html"]; }).slice(0, 5)
+        .map(function (f, i) { return "第 " + f.split("-")[0] + " 课"; });
+      document.getElementById("grMissing").textContent = n === 0 ? "从第 01 课开始吧，每学完一课记得点「标记本课完成」。" : "还差：" + miss.join(" · ") + (TOTAL - n > 5 ? " …" : "");
+    } else {
+      document.getElementById("grProgress").style.display = "none";
+    }
+
+    var nameEl = document.getElementById("grName");
+    try { nameEl.value = localStorage.getItem("yldj-name") || ""; } catch (e) {}
+    nameEl.addEventListener("input", function () {
+      try { localStorage.setItem("yldj-name", nameEl.value); } catch (e) {}
+    });
+    document.getElementById("grPrint").addEventListener("click", function () { print(); });
+  })();
+  </script>
+</body>
+</html>

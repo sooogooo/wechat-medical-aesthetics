@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleD301 descD301">
+  <title id="titleD301">费用构成，钱花在哪里</title>
+  <desc id="descD301">腹壁成形费用的七个构成部分，手术、麻醉、耗材、住院、血库、随访、术式加价</desc>
+  <defs>
+    <marker id="ahD301" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · D3</text>
+  <text x="62" y="112" class="title">费用构成，钱花在哪里</text>
+  <text x="62" y="148" class="kicker">七大块，从手术团队到血库保障</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+
+
+  <rect x="62" y="215" width="188" height="104" rx="10" fill="none" stroke="#0072B2" stroke-width="1.2"/>
+  <text x="156" y="257" class="midTitle" text-anchor="middle" style="fill:#0072B2">手术费</text>
+  <text x="156" y="287" class="small" text-anchor="middle">主刀＋助手团队</text>
+
+  <rect x="258" y="215" width="188" height="104" rx="10" fill="none" stroke="#0B8A6B" stroke-width="1.2"/>
+  <text x="352" y="257" class="midTitle" text-anchor="middle" style="fill:#0B8A6B">麻醉费</text>
+  <text x="352" y="287" class="small" text-anchor="middle">麻醉医生全程监护</text>
+
+  <rect x="454" y="215" width="188" height="104" rx="10" fill="none" stroke="#56B4E9" stroke-width="1.2"/>
+  <text x="548" y="257" class="midTitle" text-anchor="middle" style="fill:#56B4E9">手术室与耗材</text>
+  <text x="548" y="287" class="small" text-anchor="middle">设备、缝线、引流</text>
+
+  <rect x="650" y="215" width="188" height="104" rx="10" fill="none" stroke="#D9930D" stroke-width="1.2"/>
+  <text x="744" y="257" class="midTitle" text-anchor="middle" style="fill:#D9930D">住院与监护</text>
+  <text x="744" y="287" class="small" text-anchor="middle">床位、护理、复查</text>
+
+  <rect x="160" y="335" width="188" height="104" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="254" y="377" class="midTitle" text-anchor="middle" style="fill:#C75B00">血库与急救保障</text>
+  <text x="254" y="407" class="small" text-anchor="middle">用不到时看不出</text>
+
+  <rect x="376" y="335" width="188" height="104" rx="10" fill="none" stroke="#B36A98" stroke-width="1.2"/>
+  <text x="470" y="377" class="midTitle" text-anchor="middle" style="fill:#B36A98">评估与随访</text>
+  <text x="470" y="407" class="small" text-anchor="middle">术前检查、术后复查</text>
+
+  <rect x="592" y="335" width="188" height="104" rx="10" fill="none" stroke="#A64200" stroke-width="1.2"/>
+  <text x="686" y="377" class="midTitle" text-anchor="middle" style="fill:#A64200">术式复杂度</text>
+  <text x="686" y="407" class="small" text-anchor="middle">迷你＜标准＜环形</text>
+  <text x="450" y="488" class="small" text-anchor="middle">报价对比要同口径，问清含不含麻醉、住院、耗材、复查</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">资质成本决定下限，术式复杂度决定浮动</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 不含具体金额 · 以面诊明细为准</text>
+</svg>

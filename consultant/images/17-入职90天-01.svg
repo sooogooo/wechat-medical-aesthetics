@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-labelledby="t17a d17a">
+  <title id="t17a">入职90天路线图</title>
+  <desc id="d17a">30天跟诊记录，60天辅助接诊求匹配度反馈，90天独立与转正述职</desc>
+  <defs>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .phase{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .item{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .day{font:700 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+      .mile{font:700 11.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#7A8B6F;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect x="30" y="26" width="740" height="448" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <text x="56" y="58" class="series">医美咨询师成长教程 · 阶段4 · 17</text>
+  <text x="56" y="90" class="title">入职 90 天 不抢跑、不掉队</text>
+  <text x="56" y="116" class="kicker">新人期最大风险是"我已经会了"——跟诊窗口期只有这一段</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 30天 -->
+  <rect x="56" y="144" width="222" height="250" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.5"/>
+  <rect x="72" y="160" width="88" height="22" rx="10" fill="#7A8B6F"/>
+  <text x="116" y="175" class="day" text-anchor="middle">第 1-30 天</text>
+  <text x="170" y="176" class="phase">跟诊与记录</text>
+  <text x="72" y="208" class="item">· 每天一份跟诊笔记：</text>
+  <text x="82" y="226" class="item">医生怎么问 · 怎么处理期望</text>
+  <text x="82" y="244" class="item">· 我学到的一个具体点</text>
+  <text x="72" y="272" class="item">· 熟悉全流程：预约-检测-</text>
+  <text x="82" y="290" class="item">面诊-收费-随访</text>
+  <text x="72" y="318" class="item">· 建医生档案：专长·脾气·风格</text>
+  <text x="72" y="346" class="item">· 语言红线日检 + 错题本继续</text>
+  <text x="72" y="378" class="mile">铁律：只跟诊，不独立接单</text>
+
+  <!-- 60天 -->
+  <rect x="290" y="144" width="222" height="250" rx="10" fill="#ffffff" stroke="#d9cbab" stroke-width="1.5"/>
+  <rect x="306" y="160" width="94" height="22" rx="10" fill="#C9A876"/>
+  <text x="353" y="175" class="day" text-anchor="middle">第 31-60 天</text>
+  <text x="412" y="176" class="phase">辅助接诊</text>
+  <text x="306" y="208" class="item">· 带教在场下接初诊：</text>
+  <text x="316" y="226" class="item">你主谈，她兜底</text>
+  <text x="306" y="254" class="item">· 每次接诊写转诊摘要</text>
+  <text x="316" y="272" class="item">当面交医生——最快信誉建设</text>
+  <text x="306" y="300" class="item">· 每周求一次"匹配度反馈"：</text>
+  <text x="316" y="318" class="item">我转的客人方案匹配吗？</text>
+  <text x="316" y="336" class="item">哪个判断我偏了？</text>
+  <text x="306" y="364" class="item">· 第一单投诉全程记录</text>
+  <text x="306" y="382" class="mile">新标准：医生决策匹配度</text>
+
+  <!-- 90天 -->
+  <rect x="524" y="144" width="222" height="250" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.8"/>
+  <rect x="540" y="160" width="94" height="22" rx="10" fill="#7A8B6F"/>
+  <text x="587" y="175" class="day" text-anchor="middle">第 61-90 天</text>
+  <text x="646" y="176" class="phase">独立与转正</text>
+  <text x="540" y="208" class="item">· 独立接初诊</text>
+  <text x="540" y="236" class="item">· 整理 90 天数据备述职</text>
+  <text x="540" y="268" class="item">述职五件套：</text>
+  <text x="550" y="286" class="item">接待量 · 匹配度案例 · 错题 TOP5</text>
+  <text x="550" y="304" class="item">三个案例（含一次劝停）</text>
+  <text x="550" y="322" class="item">· 下一步计划与培训诉求</text>
+  <text x="540" y="360" class="mile">"我没做这单"的理由</text>
+  <text x="540" y="378" class="mile">比成交故事更打动管理者</text>
+
+  <!-- 心态带 -->
+  <rect x="56" y="408" width="690" height="52" rx="10" fill="#ffffff" stroke="#c9c9c4" stroke-width="1.2"/>
+  <text x="76" y="430" class="item">黄灯兑现期的三条应对：回看《入行决策书》照单执行 · 找一位前辈做非正式导师 · 每周给自己亮一盏"绿波带"</text>
+  <text x="76" y="450" class="item">（用跟诊笔记证明给自己看：这周比上周多会了什么）</text>
+
+  <text x="56" y="480" class="footer">通关：转正述职通过 + 至少 2 位医生愿意为你背书</text>
+</svg>

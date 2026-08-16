@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-labelledby="t18a d18a">
+  <title id="t18a">健康指标与病态KPI对比</title>
+  <desc id="d18a">到店率成交率客单价复购率的健康读法对比病态读法，病态KPI五信号，复购率是长期计分板</desc>
+  <defs>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .head{font:700 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;}
+      .row{font:700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .cell{font:500 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .bad{font:500 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#B5654A;}
+      .sig{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect x="30" y="26" width="740" height="448" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <text x="56" y="58" class="series">医美咨询师成长教程 · 阶段4 · 18</text>
+  <text x="56" y="90" class="title">指标双仪表 健康读法 vs 病态 KPI</text>
+  <text x="56" y="116" class="kicker">通行能力第一课：超饱和投放，短期流量上升，事故率飙升，最终瘫痪</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 表头 -->
+  <text x="76" y="160" class="row">指标</text>
+  <text x="180" y="160" class="head" fill="#7A8B6F">健康读法</text>
+  <text x="480" y="160" class="head" fill="#B5654A">病态读法</text>
+  <line x1="56" y1="170" x2="744" y2="170" stroke="#dce5e5"/>
+
+  <text x="76" y="196" class="row">到店率</text>
+  <text x="180" y="196" class="cell">渠道质量 + 邀约话术，慢变量</text>
+  <text x="480" y="196" class="bad">"到店礼"硬凑人头，到店即逼单</text>
+  <line x1="56" y1="208" x2="744" y2="208" stroke="#eee"/>
+
+  <text x="76" y="234" class="row">成交率</text>
+  <text x="180" y="234" class="cell">不是越高越好——剩下的客人被诚实缓行/劝停</text>
+  <text x="480" y="234" class="bad">唯一考核，逼所有人成交所有人</text>
+  <line x1="56" y1="246" x2="744" y2="246" stroke="#eee"/>
+
+  <text x="76" y="272" class="row">客单价</text>
+  <text x="180" y="272" class="cell">品类结构与医生方案的自然结果</text>
+  <text x="480" y="272" class="bad">拆分项目硬凑高价，过度推销</text>
+  <line x1="56" y1="284" x2="744" y2="284" stroke="#eee"/>
+
+  <text x="76" y="310" class="row">复购率</text>
+  <text x="180" y="310" class="cell">信任与效果的真实计分板（长期指标）</text>
+  <text x="480" y="310" class="bad">靠割韭菜式新客流量掩盖复购塌方</text>
+
+  <!-- 五信号 -->
+  <rect x="56" y="326" width="688" height="112" rx="10" fill="#ffffff" stroke="#d9b3a6" stroke-width="1.6"/>
+  <text x="76" y="352" class="head" fill="#B5654A">病态 KPI 五信号（出现两条以上，考虑换道）</text>
+  <text x="76" y="376" class="sig">① 成交额唯一考核，匹配度/客诉/复购不计　② 鼓励超量推销："能开三支为什么开一支"</text>
+  <text x="76" y="396" class="sig">③ 话术模板带"绝对/保证"，红线无人纠错　④ 投诉只罚个人不修流程　⑤ 新人三月淘汰机器</text>
+  <text x="76" y="424" class="sig">隐形资产小账本：每月记录接待量 · 劝停次数（你没做的单）· 匹配度反馈 · 客人感谢</text>
+
+  <text x="56" y="466" class="footer">数据纪律：看趋势不看单点 · 指标度量流程不评判人 · 警讯拦停一单，健康指标拦停一条错道</text>
+</svg>

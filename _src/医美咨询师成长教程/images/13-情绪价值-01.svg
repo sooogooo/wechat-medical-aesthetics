@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-labelledby="t13a d13a">
+  <title id="t13a">十二种情绪价值类型</title>
+  <desc id="d13a">共情治愈陪伴鼓励认同教导分享感动满足救赎自我猎奇十二型，识别客人此刻需要哪一型</desc>
+  <defs>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .typeName{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .typeSub{font:500 10px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .center{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+      .centerSub{font:500 10.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#f0f4ee;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect x="30" y="26" width="740" height="448" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <text x="56" y="58" class="series">医美咨询师成长教程 · 阶段3 · 13</text>
+  <text x="56" y="90" class="title">十二种情绪价值 AI 学不会的部分</text>
+  <text x="56" y="116" class="kicker">分类出自《情绪价值——AI 时代医美咨询师的贡献》2024-11-05（李滨医美之滨，文章观点）</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 12型 4x3 -->
+  <rect x="56" y="144" width="166" height="88" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.4"/>
+  <text x="139" y="172" class="typeName" text-anchor="middle">共情型</text>
+  <text x="139" y="194" class="typeSub" text-anchor="middle">先接住情绪</text>
+  <text x="139" y="210" class="typeSub" text-anchor="middle">再谈方案</text>
+  <rect x="234" y="144" width="166" height="88" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.4"/>
+  <text x="317" y="172" class="typeName" text-anchor="middle">治愈型</text>
+  <text x="317" y="194" class="typeSub" text-anchor="middle">术后崩溃的深夜</text>
+  <text x="317" y="210" class="typeSub" text-anchor="middle">回复安心不是推销</text>
+  <rect x="412" y="144" width="166" height="88" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.4"/>
+  <text x="495" y="172" class="typeName" text-anchor="middle">陪伴型</text>
+  <text x="495" y="194" class="typeSub" text-anchor="middle">治疗全周期的</text>
+  <text x="495" y="210" class="typeSub" text-anchor="middle">"我在"</text>
+  <rect x="590" y="144" width="154" height="88" rx="10" fill="#ffffff" stroke="#7A8B6F" stroke-width="1.4"/>
+  <text x="667" y="172" class="typeName" text-anchor="middle">鼓励型</text>
+  <text x="667" y="194" class="typeSub" text-anchor="middle">看见她坚持的</text>
+  <text x="667" y="210" class="typeSub" text-anchor="middle">每一点努力</text>
+
+  <rect x="56" y="242" width="166" height="88" rx="10" fill="#ffffff" stroke="#C9A876" stroke-width="1.4"/>
+  <text x="139" y="270" class="typeName" text-anchor="middle">认同型</text>
+  <text x="139" y="292" class="typeSub" text-anchor="middle">肯定她想清楚</text>
+  <text x="139" y="308" class="typeSub" text-anchor="middle">的那部分</text>
+  <rect x="234" y="242" width="166" height="88" rx="10" fill="#ffffff" stroke="#C9A876" stroke-width="1.4"/>
+  <text x="317" y="270" class="typeName" text-anchor="middle">教导型</text>
+  <text x="317" y="292" class="typeSub" text-anchor="middle">教她怎么自己</text>
+  <text x="317" y="308" class="typeSub" text-anchor="middle">判断而不是替她判断</text>
+  <rect x="412" y="242" width="166" height="88" rx="10" fill="#ffffff" stroke="#C9A876" stroke-width="1.4"/>
+  <text x="495" y="270" class="typeName" text-anchor="middle">分享型</text>
+  <text x="495" y="292" class="typeSub" text-anchor="middle">分享自己踩过的坑</text>
+  <text x="495" y="308" class="typeSub" text-anchor="middle">用自己当镜子</text>
+  <rect x="590" y="242" width="154" height="88" rx="10" fill="#ffffff" stroke="#C9A876" stroke-width="1.4"/>
+  <text x="667" y="270" class="typeName" text-anchor="middle">感动型</text>
+  <text x="667" y="292" class="typeSub" text-anchor="middle">记住她随口提过的</text>
+  <text x="667" y="308" class="typeSub" text-anchor="middle">婚期与孩子高考</text>
+
+  <rect x="56" y="340" width="166" height="88" rx="10" fill="#ffffff" stroke="#A8A39D" stroke-width="1.4"/>
+  <text x="139" y="368" class="typeName" text-anchor="middle">满足型</text>
+  <text x="139" y="390" class="typeSub" text-anchor="middle">合理要求被认真对待</text>
+  <text x="139" y="406" class="typeSub" text-anchor="middle">不是被话术应付</text>
+  <rect x="234" y="340" width="166" height="88" rx="10" fill="#ffffff" stroke="#A8A39D" stroke-width="1.4"/>
+  <text x="317" y="368" class="typeName" text-anchor="middle">救赎型</text>
+  <text x="317" y="390" class="typeSub" text-anchor="middle">踩坑客人的</text>
+  <text x="317" y="406" class="typeSub" text-anchor="middle">"第一个没骗我的人"</text>
+  <rect x="412" y="340" width="166" height="88" rx="10" fill="#ffffff" stroke="#A8A39D" stroke-width="1.4"/>
+  <text x="495" y="368" class="typeName" text-anchor="middle">自我型</text>
+  <text x="495" y="390" class="typeSub" text-anchor="middle">引导她讲出审美主张</text>
+  <text x="495" y="406" class="typeSub" text-anchor="middle">"这是我的决定"</text>
+  <rect x="590" y="340" width="154" height="88" rx="10" fill="#ffffff" stroke="#A8A39D" stroke-width="1.4"/>
+  <text x="667" y="368" class="typeName" text-anchor="middle">猎奇型</text>
+  <text x="667" y="390" class="typeSub" text-anchor="middle">讲新技术的原理</text>
+  <text x="667" y="406" class="typeSub" text-anchor="middle">满足好奇不制造冲动</text>
+
+  <text x="56" y="456" class="footer">识别一问："她此刻需要哪一型？"——给错型比不给更糟（她要共情你给教导，等于二次伤害）</text>
+  <text x="56" y="472" class="footer">立场：情绪价值是服务的结果，永远不是话术的手段——把它当工具，短期有效、长期反噬</text>
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-labelledby="t14a d14a">
+  <title id="t14a">十个经典场景地图</title>
+  <desc id="d14a">砍价、网上方案、陪同否决、围观型、隐瞒病史、超额注射、同行探子、未成年人、术后不满、情绪崩溃十场景与核心原则</desc>
+  <defs>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .no{font:700 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+      .scName{font:700 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .scRule{font:500 9.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+    </style>
+  </defs>
+  <rect x="30" y="26" width="740" height="448" rx="10" fill="#ffffff" stroke="#e4ddd2"/>
+  <text x="56" y="58" class="series">医美咨询师成长教程 · 阶段3 · 14</text>
+  <text x="56" y="90" class="title">剧本工作坊 十个经典场景</text>
+  <text x="56" y="116" class="kicker">不背台词，背结构：情境 → 错误示范（红线）→ 正确框架</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+
+  <!-- 第一行 -->
+  <rect x="56" y="144" width="130" height="120" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.3"/>
+  <rect x="70" y="158" width="24" height="18" rx="9" fill="#7A8B6F"/><text x="82" y="171" class="no" text-anchor="middle">1</text>
+  <text x="121" y="184" class="scName" text-anchor="middle">砍价</text>
+  <text x="121" y="208" class="scRule" text-anchor="middle">往价值走</text>
+  <text x="121" y="224" class="scRule" text-anchor="middle">不往情绪走</text>
+  <rect x="196" y="144" width="130" height="120" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.3"/>
+  <rect x="210" y="158" width="24" height="18" rx="9" fill="#7A8B6F"/><text x="222" y="171" class="no" text-anchor="middle">2</text>
+  <text x="261" y="184" class="scName" text-anchor="middle">网上方案照做</text>
+  <text x="261" y="208" class="scRule" text-anchor="middle">尊重信息</text>
+  <text x="261" y="224" class="scRule" text-anchor="middle">不给决策权</text>
+  <rect x="336" y="144" width="130" height="120" rx="10" fill="#ffffff" stroke="#d9cbab" stroke-width="1.3"/>
+  <rect x="350" y="158" width="24" height="18" rx="9" fill="#C9A876"/><text x="362" y="171" class="no" text-anchor="middle">3</text>
+  <text x="401" y="184" class="scName" text-anchor="middle">陪同否决</text>
+  <text x="401" y="208" class="scRule" text-anchor="middle">决策结构不在位</text>
+  <text x="401" y="224" class="scRule" text-anchor="middle">= 黄灯缓行</text>
+  <rect x="476" y="144" width="130" height="120" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.3"/>
+  <rect x="490" y="158" width="24" height="18" rx="9" fill="#7A8B6F"/><text x="502" y="171" class="no" text-anchor="middle">4</text>
+  <text x="541" y="184" class="scName" text-anchor="middle">围观型</text>
+  <text x="541" y="208" class="scRule" text-anchor="middle">给带得走的东西</text>
+  <text x="541" y="224" class="scRule" text-anchor="middle">心里标注"养"</text>
+  <rect x="616" y="144" width="128" height="120" rx="10" fill="#ffffff" stroke="#d9b3a6" stroke-width="1.3"/>
+  <rect x="630" y="158" width="24" height="18" rx="9" fill="#B5654A"/><text x="642" y="171" class="no" text-anchor="middle">5</text>
+  <text x="680" y="184" class="scName" text-anchor="middle">隐瞒病史</text>
+  <text x="680" y="208" class="scRule" text-anchor="middle">病史做成必答题</text>
+  <text x="680" y="224" class="scRule" text-anchor="middle">存疑即交医生</text>
+
+  <!-- 第二行 -->
+  <rect x="56" y="276" width="130" height="120" rx="10" fill="#ffffff" stroke="#d9b3a6" stroke-width="1.3"/>
+  <rect x="70" y="290" width="24" height="18" rx="9" fill="#B5654A"/><text x="82" y="303" class="no" text-anchor="middle">6</text>
+  <text x="121" y="316" class="scName" text-anchor="middle">超额注射</text>
+  <text x="121" y="340" class="scRule" text-anchor="middle">会劝停的咨询师</text>
+  <text x="121" y="356" class="scRule" text-anchor="middle">才是好咨询师</text>
+  <rect x="196" y="276" width="130" height="120" rx="10" fill="#ffffff" stroke="#a9bba0" stroke-width="1.3"/>
+  <rect x="210" y="290" width="24" height="18" rx="9" fill="#7A8B6F"/><text x="222" y="303" class="no" text-anchor="middle">7</text>
+  <text x="261" y="316" class="scName" text-anchor="middle">同行探子</text>
+  <text x="261" y="340" class="scRule" text-anchor="middle">按规矩报价</text>
+  <text x="261" y="356" class="scRule" text-anchor="middle">专业度不为谁改变</text>
+  <rect x="336" y="276" width="130" height="120" rx="10" fill="#ffffff" stroke="#d9b3a6" stroke-width="1.8"/>
+  <rect x="350" y="290" width="24" height="18" rx="9" fill="#B5654A"/><text x="362" y="303" class="no" text-anchor="middle">8</text>
+  <text x="401" y="316" class="scName" text-anchor="middle">未成年人</text>
+  <text x="401" y="340" class="scRule" text-anchor="middle">红灯：监护人</text>
+  <text x="401" y="356" class="scRule" text-anchor="middle">知情到面，不推进</text>
+  <rect x="476" y="276" width="130" height="120" rx="10" fill="#ffffff" stroke="#d9cbab" stroke-width="1.3"/>
+  <rect x="490" y="290" width="24" height="18" rx="9" fill="#C9A876"/><text x="502" y="303" class="no" text-anchor="middle">9</text>
+  <text x="541" y="316" class="scName" text-anchor="middle">术后不满</text>
+  <text x="541" y="340" class="scRule" text-anchor="middle">速度和态度</text>
+  <text x="541" y="356" class="scRule" text-anchor="middle">比结果更决定结局</text>
+  <rect x="616" y="276" width="128" height="120" rx="10" fill="#ffffff" stroke="#d9b3a6" stroke-width="1.8"/>
+  <rect x="630" y="290" width="24" height="18" rx="9" fill="#B5654A"/><text x="642" y="303" class="no" text-anchor="middle">10</text>
+  <text x="680" y="316" class="scName" text-anchor="middle">术后崩溃</text>
+  <text x="680" y="340" class="scRule" text-anchor="middle">红灯：安抚 + 上报</text>
+  <text x="680" y="356" class="scRule" text-anchor="middle">绝不半夜推修复</text>
+
+  <text x="56" y="432" class="footer">演练：朋友抽签扮演 → 全程录像 → 复盘三问：踩红线了吗？结构完整吗？对面的人感到被推销还是被帮助？</text>
+  <text x="56" y="452" class="footer">至少 5 段录像 = 阶段 3 通关材料，也是第 16 课求职作品的一部分</text>
+</svg>

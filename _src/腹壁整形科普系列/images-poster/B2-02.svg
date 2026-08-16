@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="titleB202 descB202">
+  <title id="titleB202">为什么腹壁成形是四级手术</title>
+  <desc id="descB202">腹壁成形术被定为四级手术的五个原因</desc>
+  <defs>
+    <marker id="ahB202" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7c6cb"/>
+    </marker>
+    <style>
+      .series { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; letter-spacing:1.8px; fill:#7d97a4; }
+      .title { font: 300 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .kicker { font: 400 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .nodeTitle { font: 500 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .midTitle { font: 500 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .body { font: 400 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#4a5a60; }
+      .small { font: 400 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#7a8a90; }
+      .quote { font: 400 18px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#22333b; }
+      .footer { font: 400 12px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#93a3a8; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="#ffffff" stroke="#dde5e7" stroke-width="1"/>
+  <text x="62" y="64" class="series">腹壁整形 12 讲 · B2</text>
+  <text x="62" y="112" class="title">为什么腹壁成形是四级手术</text>
+  <text x="62" y="148" class="kicker">分级依据是风险，出血、肌层、皮瓣、血栓、麻醉</text>
+  <line x1="62" y1="172" x2="838" y2="172" stroke="#e3e9ea" stroke-width="1"/>
+
+  <rect x="62" y="200" width="776" height="62" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="450" y="226" class="midTitle" text-anchor="middle">腹壁成形术属四级手术（美容项目最高级别）</text>
+  <text x="450" y="248" class="small" text-anchor="middle">分级依据是风险程度，不是效果好坏</text>
+
+  <rect x="62" y="288" width="236" height="96" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="180" y="324" class="midTitle" text-anchor="middle">剥离面大</text>
+  <text x="180" y="352" class="small" text-anchor="middle">出血风险高，需备血条件</text>
+
+  <rect x="332" y="288" width="236" height="96" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="450" y="324" class="midTitle" text-anchor="middle">涉及肌层重建</text>
+  <text x="450" y="352" class="small" text-anchor="middle">腹直肌前鞘折叠缝合</text>
+
+  <rect x="602" y="288" width="236" height="96" rx="10" fill="none" stroke="#C75B00" stroke-width="1.2"/>
+  <text x="720" y="324" class="midTitle" text-anchor="middle">皮瓣坏死风险</text>
+  <text x="720" y="352" class="small" text-anchor="middle">吸烟、糖尿病者更高</text>
+
+  <rect x="197" y="404" width="236" height="96" rx="10" fill="none" stroke="#D9930D" stroke-width="1.2"/>
+  <text x="315" y="440" class="midTitle" text-anchor="middle">血栓风险</text>
+  <text x="315" y="468" class="small" text-anchor="middle">深静脉血栓／肺栓塞需规范预防</text>
+
+  <rect x="467" y="404" width="236" height="96" rx="10" fill="none" stroke="#D9930D" stroke-width="1.2"/>
+  <text x="585" y="440" class="midTitle" text-anchor="middle">围术期要求</text>
+  <text x="585" y="468" class="small" text-anchor="middle">麻醉、监护、住院、血库</text>
+  <line x1="62" y1="520" x2="838" y2="520" stroke="#e3e9ea" stroke-width="1"/>
+  <text x="450" y="548" class="quote" text-anchor="middle">四级，依据的是风险，不是好看程度</text>
+  <text x="62" y="580" class="footer">医学教育示意 · 四级手术须在有相应资质的医疗机构开展</text>
+</svg>

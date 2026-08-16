@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>腹壁整形海报预览</title>
+<style>
+  body { margin: 0; padding: 8px; background: #f4f6f7; font-family: sans-serif; }
+  .grid { display: grid; grid-template-columns: repeat(4, 452px); gap: 8px; }
+  .cell img { display: block; width: 452px; height: auto; }
+  .cell .name { font-size: 12px; color: #7a8a90; padding: 2px 4px; }
+</style>
+</head>
+<body>
+<div class="grid" id="g"></div>
+<script>
+const files = [];
+for (const pre of ['A1','A2','A3','B1','B2','B3','C1','C2','C3','D1','D2','D3'])
+  for (const n of ['01','02']) files.push(pre + '-' + n + '.svg');
+document.getElementById('g').innerHTML = files.map(f =>
+  `<div class="cell"><div class="name">${f}</div><img src="${f}" alt="${f}"></div>`).join('');
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t18f2 d18f2">
+  <title id="t18f2">结节性痒疹在家减少二次伤害</title>
+  <desc id="t18f2">护理与复诊三项结果准备，抓痕减少不代表患者终于自律</desc>
+  <defs>
+    <linearGradient id="bg18f2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1f7f8"/><stop offset="1" stop-color="#fff6eb"/></linearGradient>
+    <filter id="sh18f2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183642" flood-opacity="0.10"/></filter>
+    <style>
+      .series{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;letter-spacing:1.3px;fill:#7A8B6F;}
+      .title{font:700 25px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .kicker{font:500 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52656c;}
+      .nodeTitle{font:700 15px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .body{font:500 12.5px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#3e5057;}
+      .small{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#5c6c72;}
+      .quote{font:700 16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#2B2A28;}
+      .footer{font:500 11px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#68787e;}
+      .tag{font:700 13px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#ffffff;}
+    </style>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg18f2)"/>
+  <rect x="30" y="26" width="740" height="448" rx="20" fill="#ffffff" opacity="0.96" stroke="#dce8e8" filter="url(#sh18f2)"/>
+  <text x="56" y="58" class="series">皮肤病症科普 · 18</text>
+  <text x="56" y="90" class="title">在家怎样减少二次伤害</text>
+  <text x="56" y="116" class="kicker">治疗是组合拳，居家护理是其中一环</text>
+  <line x1="56" y1="132" x2="744" y2="132" stroke="#dce5e5"/>
+  <text x="56" y="158" class="nodeTitle">居家护理四件事</text>
+
+  <rect x="56" y="172" width="335" height="58" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="84" cy="201" r="16" fill="#7A8B6F"/><text x="84" y="206" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">1</text>
+  <text x="112" y="197" class="body" font-weight="700">物理隔断抓挠</text>
+  <text x="112" y="217" class="small">手套 短指甲 夜间敷料</text>
+
+  <rect x="409" y="172" width="335" height="58" rx="10" fill="#f0f5ef" stroke="#7A8B6F" stroke-width="1.4"/>
+  <circle cx="437" cy="201" r="16" fill="#7A8B6F"/><text x="437" y="206" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">2</text>
+  <text x="465" y="197" class="body" font-weight="700">保湿润肤</text>
+  <text x="465" y="217" class="small">修复屏障减轻干燥痒</text>
+
+  <rect x="56" y="242" width="335" height="58" rx="10" fill="#fff8ee" stroke="#C9A876" stroke-width="1.4"/>
+  <circle cx="84" cy="271" r="16" fill="#C9A876"/><text x="84" y="276" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">3</text>
+  <text x="112" y="267" class="body" font-weight="700">冷敷替代抓挠</text>
+  <text x="112" y="287" class="small">痒时冷敷或拍打而非抓</text>
+
+  <rect x="409" y="242" width="335" height="58" rx="10" fill="#fff8ee" stroke="#C9A876" stroke-width="1.4"/>
+  <circle cx="437" cy="271" r="16" fill="#C9A876"/><text x="437" y="276" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif">4</text>
+  <text x="465" y="267" class="body" font-weight="700">保护睡眠</text>
+  <text x="465" y="287" class="small">睡前用药 减少夜间痒醒</text>
+
+  <!-- 复诊三项 -->
+  <text x="56" y="338" class="nodeTitle">为复诊准备三项结果</text>
+  <rect x="56" y="352" width="220" height="80" rx="10" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.4"/>
+  <text x="166" y="380" class="body" text-anchor="middle" font-weight="700">抓挠次数</text>
+  <text x="166" y="404" class="small" text-anchor="middle">每周记录趋势</text>
+
+  <rect x="290" y="352" width="220" height="80" rx="10" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.4"/>
+  <text x="400" y="380" class="body" text-anchor="middle" font-weight="700">睡眠质量</text>
+  <text x="400" y="404" class="small" text-anchor="middle">是否夜间痒醒</text>
+
+  <rect x="524" y="352" width="220" height="80" rx="10" fill="#f8fbfb" stroke="#5F6E54" stroke-width="1.4"/>
+  <text x="634" y="380" class="body" text-anchor="middle" font-weight="700">新结节数量</text>
+  <text x="634" y="404" class="small" text-anchor="middle">是否还在增多</text>
+
+  <rect x="56" y="442" width="688" height="22" rx="8" fill="#eef4ee"/>
+  <text x="400" y="457" class="quote" text-anchor="middle" font-size="14">抓痕减少，不代表患者终于自律</text>
+  <text x="56" y="474" class="footer">医学教育示意 · 治疗常需数周见效，配合医生组合方案比单靠意志力更有效</text>
+</svg>
