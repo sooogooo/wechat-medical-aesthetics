@@ -75,13 +75,14 @@
 </div>
     </section>
 
-    <section class="block p1">
+    <section class="block p1 translator">
       <h2>四、翻译器："行业早期 = 红利窗口"</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：大厂人对"早期行业"的默认公式是：混乱 = 红利，早进场 = 吃肉。医美符合前半句——它确实不成熟、确实在重构，确实需要新人。</p>
 <p><strong>失真处</strong>：互联网的"早期"指需求和基础设施都年轻，增长会把混乱稀释掉。医美的"不成熟"是 40 年的：需求成熟（客群庞大而稳定），不成熟的是供给结构和规则。混乱不会被增长稀释，只会被监管周期性修剪——修剪的力度和方向不由市场决定。而且它不是"早期"，按每 10 年一变的节奏，你进场时大概率处在某一轮变化的中段，既不是从零的红利，也不是定局的红海。</p>
 <p><strong>大厂人的典型错误</strong>：把"行业落后"当成"我的机会"——"这里连中台都没有，我一出手就能降维打击"。持有这种心态进场的人，语料里有专门的判词，<a class="xref" href="08-跨界者的四种死法与三个活法.html">第 08 篇</a>整篇就是写给他们（你）的。</p>
 </div>
     </section>
+      <figure class="fig"><img src="assets/figs/05b.svg" alt="翻译器，行业早期等于红利窗口的失真处" loading="lazy" /><figcaption>翻译器，行业早期等于红利窗口的失真处</figcaption></figure>
 
     <section class="block p1">
       <h2>五、时间风险自检</h2>
@@ -162,6 +163,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

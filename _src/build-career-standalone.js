@@ -66,30 +66,44 @@ const READER_TRANSFORMS = [
 // 尾部来源块标签的读者版
 const LABEL_MAP = { "本篇事实底座": "引用来源", "跨文归纳": "编者综合", "需另行核验": "待核实" };
 
-// 每篇一张信息图（figs/NN.svg，由 gen-career-figs.js 生成）。
-// afterSection 为小节标题片段，插图插在该小节之后；null 表示插在篇首导语后。
+// 每篇的信息图（figs/NN.svg 主图，figs/NNb.svg 副图，由 gen-career-figs.js 生成）。
+// after 为小节标题片段，插图插在该小节之后；null 表示插在篇首导语后。
 const FIGURES = {
-  "01-开篇-写给正在刷招聘软件的大厂人": { after: null, alt: "三块拼图拼不出一个行业" },
-  "02-医美是个什么生意-医疗的交付消费的获客": { after: "一、先看三条", alt: "消费的嘴与医疗的手结构图" },
-  "03-这个行业的钱是怎么分的": { after: "二、四层利润表", alt: "四层利润实况条形示意" },
-  "04-谁说了算-医生老板经营院长咨询师": { after: "一、先背一句话", alt: "以医生为锚的权力同心圆" },
-  "05-乱象是真的机会也是真的": { after: "一、2025 年的乱象清单", alt: "2018 至 2025 行业周期时间线" },
-  "06-五条入口的实况": { after: null, alt: "五条入口按进行业深度排布" },
-  "07-大厂能力清单-可迁移资产与负资产": { after: null, alt: "资产与负资产天平" },
-  "08-跨界者的四种死法与三个活法": { after: null, alt: "四种死法与三个活法对照" },
-  "09-谈offer之前-薪酬组织与试用期": { after: "三、尽调清单", alt: "尽调五查流程" },
-  "10-入职180天的五次冲击": { after: null, alt: "180 天五次冲击时间线" },
-  "11-和医生共事是一门手艺": { after: "一、他们不是难搞", alt: "医生行为逻辑六格画像" },
-  "12-指标与良心的日常拉扯": { after: "二、张力的两端", alt: "销售导向与医疗导向之间的灰色光谱" },
-  "13-谁留下了谁离开了": { after: "三、模式归纳", alt: "转行去留流向图" },
-  "14-名校生进医美-被高估的机会与被低估的代价": { after: null, alt: "机会四条与代价四条对照" },
-  "15-名校生进来之后怎么做": { after: null, alt: "十二个月四动作时间轴" },
-  "16-去或不去-一页纸决策清单": { after: null, alt: "三区决策流程" },
+  "01-开篇-写给正在刷招聘软件的大厂人": [{ after: null, file: "01", alt: "三块拼图拼不出一个行业" }],
+  "02-医美是个什么生意-医疗的交付消费的获客": [
+    { after: "一、先看三条", file: "02", alt: "消费的嘴与医疗的手结构图" },
+    { after: "翻译器", file: "02b", alt: "翻译器，流量思维在医美的失真处" },
+  ],
+  "03-这个行业的钱是怎么分的": [{ after: "二、四层利润表", file: "03", alt: "四层利润实况条形示意" }],
+  "04-谁说了算-医生老板经营院长咨询师": [{ after: "一、先背一句话", file: "04", alt: "以医生为锚的权力同心圆" }],
+  "05-乱象是真的机会也是真的": [
+    { after: "一、2025 年的乱象清单", file: "05", alt: "2018 至 2025 行业周期时间线" },
+    { after: "翻译器", file: "05b", alt: "翻译器，行业早期等于红利窗口的失真处" },
+  ],
+  "06-五条入口的实况": [{ after: null, file: "06", alt: "五条入口按进行业深度排布" }],
+  "07-大厂能力清单-可迁移资产与负资产": [{ after: null, file: "07", alt: "资产与负资产天平" }],
+  "08-跨界者的四种死法与三个活法": [{ after: null, file: "08", alt: "四种死法与三个活法对照" }],
+  "09-谈offer之前-薪酬组织与试用期": [
+    { after: "三、尽调清单", file: "09", alt: "尽调五查流程" },
+    { after: "翻译器", file: "09b", alt: "翻译器，总包期权与底薪提成的结构差异" },
+  ],
+  "10-入职180天的五次冲击": [{ after: null, file: "10", alt: "180 天五次冲击时间线" }],
+  "11-和医生共事是一门手艺": [{ after: "一、他们不是难搞", file: "11", alt: "医生行为逻辑六格画像" }],
+  "12-指标与良心的日常拉扯": [
+    { after: "二、张力的两端", file: "12", alt: "销售导向与医疗导向之间的灰色光谱" },
+    { after: "翻译器", file: "12b", alt: "翻译器，伦理审查在这里是一个人当下的决定" },
+  ],
+  "13-谁留下了谁离开了": [{ after: "三、模式归纳", file: "13", alt: "转行去留流向图" }],
+  "14-名校生进医美-被高估的机会与被低估的代价": [{ after: null, file: "14", alt: "机会四条与代价四条对照" }],
+  "15-名校生进来之后怎么做": [
+    { after: null, file: "15", alt: "十二个月四动作时间轴" },
+    { after: "翻译器", file: "15b", alt: "翻译器，这里没有培养体系" },
+  ],
+  "16-去或不去-一页纸决策清单": [{ after: null, file: "16", alt: "三区决策流程" }],
 };
 
-function figureHtml(idx, alt) {
-  const no = String(idx + 1).padStart(2, "0");
-  return `\n      <figure class="fig"><img src="assets/figs/${no}.svg" alt="${esc(alt)}" loading="lazy" /><figcaption>${esc(alt)}</figcaption></figure>`;
+function figureHtml(fig) {
+  return `\n      <figure class="fig"><img src="assets/figs/${fig.file}.svg" alt="${esc(fig.alt)}" loading="lazy" /><figcaption>${esc(fig.alt)}</figcaption></figure>`;
 }
 
 // ============ 预读标题 ============
@@ -119,6 +133,8 @@ function inline(text) {
     const i = parseInt(n, 10) - 1;
     return (i >= 0 && i < ARTICLES.length) ? `<a class="xref" href="${ARTICLES[i].slug}.html">${m0}</a>` : m0;
   });
+  // 决策清单的勾选符号 → 可交互元素（仅第 16 篇正文含 ☐）
+  t = t.replace(/☐/g, '<span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span>');
   return t;
 }
 
@@ -311,6 +327,39 @@ function pageScript() {
       if(read[f])el.classList.add('is-read');
     });
 
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
+
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');
     if(pv||nx)addEventListener('keydown',function(e){
@@ -343,20 +392,22 @@ function articlePage(a, idx) {
   const no = String(idx + 1).padStart(2, "0");
   const desc = (meta.position || a.tagline).replace(/[*｜|]/g, " ").slice(0, 110);
 
+  const figs = FIGURES[a.slug] || [];
   const sectionHtml = sections.map((sec) => {
+    const isTranslator = sec.title.includes("翻译器");
     let html = `
-    <section class="block ${part.cls}">
+    <section class="block ${part.cls}${isTranslator ? " translator" : ""}">
       <h2>${inline(sec.title)}</h2>
       <div class="prose">${renderBlocks(sec.lines)}</div>
     </section>`;
-    // 信息图注入：小节标题匹配时，在该小节后插入本篇插图
-    if (FIGURES[a.slug] && FIGURES[a.slug].after && sec.title.includes(FIGURES[a.slug].after)) {
-      html += figureHtml(idx, FIGURES[a.slug].alt);
+    // 信息图注入：小节标题匹配时，在该小节后插入对应插图
+    for (const fig of figs) {
+      if (fig.after && sec.title.includes(fig.after)) html += figureHtml(fig);
     }
     return html;
   }).join("\n");
   // 未指定小节的插图，插在篇首导语后
-  const heroFig = (FIGURES[a.slug] && !FIGURES[a.slug].after) ? figureHtml(idx, FIGURES[a.slug].alt) : "";
+  const heroFigs = figs.filter((f) => !f.after).map(figureHtml).join("");
 
   const sourcesHtml = sourceLines.length ? `
     <aside class="sources ${part.cls}">
@@ -385,7 +436,7 @@ ${pageHeader()}
         <p class="meta">第 ${no} 篇 · 共 ${ARTICLES.length} 篇</p>
         <button class="mark-read" id="markRead" type="button"><span>标记为已读</span></button>
       </header>
-${heroFig}
+${heroFigs}
 ${sectionHtml}
 ${sourcesHtml}
       <nav class="pager ${part.cls}">
@@ -492,6 +543,7 @@ ${pageHeader("about")}
   <main class="wrap">
     <article>
       <header class="article-hero p1">
+        <img class="about-logo" src="assets/img/logo.svg" alt="实然指南 logo，方印之实加缺口圆环与金点" />
         <p class="part-chip"><span class="chip-no">关</span>关于</p>
         <h1>关于实然指南</h1>
         <p class="lead">一份写给转行决策者的行业读本，只讲实然，不讲应然。</p>
@@ -513,6 +565,7 @@ ${pageHeader("about")}
           <p>全站只做实然写作。每个核心判断都挂在可查证的事实上，来源与日期随文标注；涉及建议的地方只用条件判断的句式——如果你要的是这个，在现状下你大概率会遇到那个；行业丑处和好处都写在明处；没有可靠出处的内容明确标注待核实，不用想象补齐。</p>
           <p>每篇文末的"本篇引用与待核实"分三类。引用来源是转述行业文章的直接观点，观点归属原作者；编者综合是跨篇归纳的判断；待核实是截至发布仍无法确认的信息，读者引用前请自行查证。</p>
         </div>
+        <figure class="fig"><img src="assets/figs/labels.svg" alt="三级标注说明图：引用来源、编者综合、待核实" loading="lazy" /><figcaption>三级标注，全站通用的信息分级</figcaption></figure>
       </section>
 
       <section class="block p1">

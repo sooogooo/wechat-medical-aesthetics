@@ -91,7 +91,7 @@
 </div>
     </section>
 
-    <section class="block p1">
+    <section class="block p1 translator">
       <h2>六、翻译器：组织权力模型</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：两边都有"核心人才""关键角色""老板"的概念，医生对机构的分量，类似核心技术的负责人。</p>
 <p><strong>失真处</strong>：大厂的权力由制度载体分配——职级、汇报线、晋升委员会、期权协议，人在制度里，制度换人组织照转。医美的权力由稀缺性分配——医生的手艺长在人身上，人走了，技术、客户、口碑一起走。所以大厂的管理动作（对齐、拉通、考核、晋升）在这里失灵：你可以考核一个职级，考核不了一双手。</p>
@@ -173,6 +173,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

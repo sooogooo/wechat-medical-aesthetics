@@ -378,6 +378,54 @@ function journeySvg() {
 </svg>`;
 }
 
+// ============ 翻译器可视化卡（第二波：02/05/09/12/15 的翻译器小节配图） ============
+const WT = 800, WH = 430;
+function translatorFig({ cls, left, right, ok, warp, err }) {
+  const badge = R(46, 40, 96, 30, { fill: PC[cls], r: 15 }) + T(94, 60, "翻 译 器", { size: 13, fill: "#fff", anchor: "middle", ls: 2, weight: 600 });
+  const head = badge +
+    R(170, 40, 200, 30, { stroke: HAIR, fill: "#fff", r: 15 }) + T(270, 60, left, { size: 13.5, anchor: "middle", fill: SOFT }) +
+    T(392, 61, "⟶", { size: 17, fill: PC[cls], anchor: "middle", weight: 700 }) +
+    R(412, 40, 200, 30, { stroke: PC[cls], fill: PCSOFT[cls], r: 15 }) + T(512, 60, right, { size: 13.5, anchor: "middle", fill: PC[cls], weight: 600 });
+  const band = (y, label, text, color, soft) =>
+    R(46, y, 708, 84, { fill: soft, stroke: HAIR }) +
+    R(46, y, 6, 84, { fill: color, r: 3 }) +
+    T(74, y + 34, label, { size: 13.5, weight: 600, fill: color }) +
+    T(74, y + 62, text, { size: 13.5, fill: INK });
+  const body = head +
+    band(104, "直译 · 成立处", ok, PC.p5, "#f5f7f0") +
+    band(204, "失真处", warp, PC.p3, "#faf3f0") +
+    band(304, "大厂人的典型错误", err, INK, "#ffffff");
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${WT} ${WH}" font-family="${FONT}">
+  <rect x="0" y="0" width="${WT}" height="${WH}" fill="${PAPER}"/>
+  <rect x="24" y="24" width="${WT - 48}" height="${WH - 48}" rx="12" fill="#ffffff" stroke="${HAIR}"/>
+  ${body}
+  ${T(46, 416 - 22, "类比在哪里成立、在哪里失效，看见边界再动手", { size: 11.5, fill: FAINT })}
+</svg>`;
+}
+
+const TRANSLATORS = {
+  "02": { cls: "p1", left: "流量思维", right: "医美获客", ok: "获客＝流量，投放＝买量，机构的需求真实存在", warp: "流量增长的尽头是医生的手，而医生的手不能扩容", err: "低价爆款打透市场，等于给交付端埋雷" },
+  "05": { cls: "p1", left: "行业早期＝红利窗口", right: "医美的四十年", ok: "不成熟确实意味着空白与位置，机会真实存在", warp: "不成熟已持续四十年，监管整治是周期性天气", err: "把行业落后当成自己的降维打击机会" },
+  "09": { cls: "p2", left: "总包 / 期权", right: "底薪 / 提成", ok: "都是固定加浮动的薪酬结构，方向可对译", warp: "期权赌未来有兑现场景，提成赌当期且基数怎么算是利益问题", err: "只谈底薪，不好意思细问提成与考核口径" },
+  "12": { cls: "p3", left: "伦理审查委员会", right: "一个人当下的决定", ok: "两边都有红线思维，禁区概念可迁移", warp: "这里没有委员会，灰色决定每天当场由个人裁决，且留痕常在", err: "等公司给指引——在这里你就是全部指引" },
+  "15": { cls: "p4", left: "新人培养体系", right: "没有体系", ok: "两边都有新人期的说法，导师制有外形", warp: "没有系统只有碎片，成长不被任何流程兜底", err: "等入职培训与转正答辩来证明自己" },
+};
+for (const [k, cfg] of Object.entries(TRANSLATORS)) {
+  FIGS[k + "b"] = translatorFig(cfg);
+}
+
+// 关于页：三级标注说明图
+FIGS["labels"] = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="${FONT}">
+  <rect x="0" y="0" width="800" height="300" fill="${PAPER}"/>
+  <rect x="24" y="24" width="752" height="252" rx="12" fill="#ffffff" stroke="${HAIR}"/>
+  ${T(52, 62, "每篇文末的三级标注", { size: 19, weight: 600 })}
+  ${R(52, 84, 200, 64, { fill: "#f5f7f0", stroke: HAIR })}${T(152, 112, "引用来源", { size: 14.5, anchor: "middle", weight: 600, fill: PC.p5 })}${T(152, 134, "转述原文，观点归属原作者", { size: 11.5, anchor: "middle", fill: SOFT })}
+  ${R(300, 84, 200, 64, { fill: "#faf3f0", stroke: HAIR })}${T(400, 112, "编者综合", { size: 14.5, anchor: "middle", weight: 600, fill: PC.p3 })}${T(400, 134, "跨篇归纳的判断", { size: 11.5, anchor: "middle", fill: SOFT })}
+  ${R(548, 84, 200, 64, { fill: "#fff", stroke: HAIR, dash: "5 4" })}${T(648, 112, "待核实", { size: 14.5, anchor: "middle", weight: 600 })}${T(648, 134, "引用前请自行查证", { size: 11.5, anchor: "middle", fill: SOFT })}
+  ${LINE_ARROW(152, 162, 152, 196, "p1")}${LINE_ARROW(400, 162, 400, 196, "p1")}${LINE_ARROW(648, 162, 648, 196, "p1")}
+  ${R(52, 200, 696, 44, { fill: PCSOFT.p1, stroke: HAIR })}${T(400, 228, "十六篇正文，全部行业判断都标注来源与日期", { size: 14, anchor: "middle", fill: PC.p1 })}
+</svg>`;
+
 // ============ 写出 + 渲染校验 ============
 let okCount = 0;
 for (const [k, svg] of Object.entries(FIGS)) {

@@ -85,7 +85,7 @@
 </div>
     </section>
 
-    <section class="block p4">
+    <section class="block p4 translator">
       <h2>翻译器：新人培养体系 → 没有体系</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：两边都有"新人期"的概念，都有导师制的外形（医生、咨询主管事实上会带你）。</p>
 <p><strong>失真处</strong>：大厂的新人期是一套系统——入职培训、导师配对、保护性的考核宽限期、明确的转正标准。这里没有系统，只有碎片：有人愿意教你，是你运气好；没人管你，是常态。你的成长不会被任何流程兜底。</p>
@@ -93,6 +93,7 @@
 <hr />
 </div>
     </section>
+      <figure class="fig"><img src="assets/figs/15b.svg" alt="翻译器，这里没有培养体系" loading="lazy" /><figcaption>翻译器，这里没有培养体系</figcaption></figure>
 
     <aside class="sources p4">
       <h2>本篇引用与待核实</h2>
@@ -159,6 +160,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

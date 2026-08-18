@@ -114,7 +114,7 @@
 </div>
     </section>
 
-    <section class="block p3">
+    <section class="block p3 translator">
       <h2>五、翻译器：伦理审查 → 一个人当下的决定</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：大厂也有内容安全、合规审查，你熟悉"红线思维"。</p>
 <p><strong>失真处</strong>：大厂的伦理审查是流程和委员会——问题被抛给系统，个人不必每天单独特裁自己的良心。在这里，多数机构没有这个系统，五类灰色决定每天落在你一个人的手上，当场、即时、没有升级通道。而且留痕逻辑相反："违章抓拍随时存在"——你说错的话、写下的文案，都可能成为未来的证据（《医美咨询师成长教程》的合规设计原话，沿用其语料依据）。</p>
@@ -125,6 +125,7 @@
 <hr />
 </div>
     </section>
+      <figure class="fig"><img src="assets/figs/12b.svg" alt="翻译器，伦理审查在这里是一个人当下的决定" loading="lazy" /><figcaption>翻译器，伦理审查在这里是一个人当下的决定</figcaption></figure>
 
     <aside class="sources p3">
       <h2>本篇引用与待核实</h2>
@@ -191,6 +192,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

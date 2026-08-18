@@ -100,7 +100,7 @@
 </div>
     </section>
 
-    <section class="block p2">
+    <section class="block p2 translator">
       <h2>五、翻译器：总包 / 期权 → 底薪 / 提成</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：都是"固定 + 浮动"的薪酬结构，浮动部分都用来对齐个人与组织的利益。</p>
 <p><strong>失真处</strong>：大厂的总包坐标系有市场定价和 level 体系背书，期权是对公司未来的定价——有流动性事件作为兑现场景。这里的浮动部分（提成）是对当期销售的赌注，没有流动性事件，只有现金流；而且提成基数（收银还是划扣）本身就是个利益分配问题。你在旧世界谈的是"价值和增长"，在新世界先要谈清楚"钱怎么数"。</p>
@@ -108,6 +108,7 @@
 <hr />
 </div>
     </section>
+      <figure class="fig"><img src="assets/figs/09b.svg" alt="翻译器，总包期权与底薪提成的结构差异" loading="lazy" /><figcaption>翻译器，总包期权与底薪提成的结构差异</figcaption></figure>
 
     <aside class="sources p2">
       <h2>本篇引用与待核实</h2>
@@ -174,6 +175,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

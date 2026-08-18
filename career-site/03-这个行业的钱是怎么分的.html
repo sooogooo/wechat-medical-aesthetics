@@ -80,7 +80,7 @@
     </section>
       <figure class="fig"><img src="assets/figs/03.svg" alt="四层利润实况条形示意" loading="lazy" /><figcaption>四层利润实况条形示意</figcaption></figure>
 
-    <section class="block p1">
+    <section class="block p1 translator">
       <h2>三、翻译器：GMV → 营业额</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：GMV 对营业额，都是规模指标，都能反映市场占有，都是老板最爱看的数字。</p>
 <p><strong>失真处</strong>：在大厂，GMV 背后有一整套配套指标体系（履约成本、take rate、留存、复购）防止它失真；在医美机构，营业额长期单独存在，而且"在医美这个医患弱关系的行当里，单纯的营业额和后面的许多结果都没有确切的因果关系"——营业额高不等于利润大，客流量大不等于客户忠诚度高，广告投得多不等于品牌力强。（《中国医美业最大的笑话》，2019-01-11）</p>
@@ -167,6 +167,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

@@ -34,6 +34,7 @@
   <main class="wrap">
     <article>
       <header class="article-hero p1">
+        <img class="about-logo" src="assets/img/logo.svg" alt="实然指南 logo，方印之实加缺口圆环与金点" />
         <p class="part-chip"><span class="chip-no">关</span>关于</p>
         <h1>关于实然指南</h1>
         <p class="lead">一份写给转行决策者的行业读本，只讲实然，不讲应然。</p>
@@ -55,6 +56,7 @@
           <p>全站只做实然写作。每个核心判断都挂在可查证的事实上，来源与日期随文标注；涉及建议的地方只用条件判断的句式——如果你要的是这个，在现状下你大概率会遇到那个；行业丑处和好处都写在明处；没有可靠出处的内容明确标注待核实，不用想象补齐。</p>
           <p>每篇文末的"本篇引用与待核实"分三类。引用来源是转述行业文章的直接观点，观点归属原作者；编者综合是跨篇归纳的判断；待核实是截至发布仍无法确认的信息，读者引用前请自行查证。</p>
         </div>
+        <figure class="fig"><img src="assets/figs/labels.svg" alt="三级标注说明图：引用来源、编者综合、待核实" loading="lazy" /><figcaption>三级标注，全站通用的信息分级</figcaption></figure>
       </section>
 
       <section class="block p1">
@@ -133,6 +135,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

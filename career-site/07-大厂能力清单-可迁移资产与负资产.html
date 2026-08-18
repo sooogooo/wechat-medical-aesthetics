@@ -83,7 +83,7 @@
 </div>
     </section>
 
-    <section class="block p2">
+    <section class="block p2 translator">
       <h2>三、翻译器：中台 / 赋能</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：概念可对译。机构确实需要信息化、标准化、数据能力，你的中台经验里有可拆用的零件。</p>
 <p><strong>失真处</strong>：大厂中台的存在前提是多业务线协同的规模经济；医美机构是单体小组织，"赋能"在这里的实际含义是"帮我把获客和客户经营这两件事管好"。行业要的不是中台，是能跑的系统加一个靠谱的人。</p>
@@ -94,7 +94,7 @@
     <section class="block p2">
       <h2>四、自查清单</h2>
       <div class="prose"><p>对照打勾。资产侧勾得越多，<a class="xref" href="09-谈offer之前-薪酬组织与试用期.html">第 09 篇</a>谈 offer 的筹码越足；负资产侧勾得越多，<a class="xref" href="10-入职180天的五次冲击.html">第 10 篇</a>的 180 天心防要筑得越厚。</p>
-<div class="table-wrap"><table><thead><tr><th>类别</th><th>项目</th><th>我有吗</th><th>第一个月的用法</th></tr></thead><tbody><tr><td>资产</td><td>数据分析与治理</td><td>☐</td><td>数据考古，先拼客户表</td></tr><tr><td>资产</td><td>内容与 IP 运营</td><td>☐</td><td>一条不违规的医生教育内容</td></tr><tr><td>资产</td><td>流量实操</td><td>☐</td><td>方案先过交付端这一关</td></tr><tr><td>资产</td><td>流程与 SOP</td><td>☐</td><td>一件脏活做穿一个月</td></tr><tr><td>负资产</td><td>流量万能心态</td><td>☐</td><td>警惕：把增长做成亏损加速器</td></tr><tr><td>负资产</td><td>方法论优越感</td><td>☐</td><td>警惕：市场只买产出不买世界观</td></tr><tr><td>负资产</td><td>制度信任习惯</td><td>☐</td><td>警惕：先建人身信任再谈流程</td></tr><tr><td>负资产</td><td>快迭代本能</td><td>☐</td><td>警惕：交付端没有回滚键</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>类别</th><th>项目</th><th>我有吗</th><th>第一个月的用法</th></tr></thead><tbody><tr><td>资产</td><td>数据分析与治理</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>数据考古，先拼客户表</td></tr><tr><td>资产</td><td>内容与 IP 运营</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>一条不违规的医生教育内容</td></tr><tr><td>资产</td><td>流量实操</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>方案先过交付端这一关</td></tr><tr><td>资产</td><td>流程与 SOP</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>一件脏活做穿一个月</td></tr><tr><td>负资产</td><td>流量万能心态</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>警惕：把增长做成亏损加速器</td></tr><tr><td>负资产</td><td>方法论优越感</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>警惕：市场只买产出不买世界观</td></tr><tr><td>负资产</td><td>制度信任习惯</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>警惕：先建人身信任再谈流程</td></tr><tr><td>负资产</td><td>快迭代本能</td><td><span class="ck" role="checkbox" tabindex="0" aria-label="勾选此项">☐</span></td><td>警惕：交付端没有回滚键</td></tr></tbody></table></div>
 <p>最后一句实话：资产和负资产常常是同一种能力的一体两面——数据能力用对了是资产、用成"数据中台梦"就是负资产；流量能力用对了是资产、用成低价螺旋就是负资产。<strong>分界不在于你有什么，在于你是否接受<a class="xref" href="02-医美是个什么生意-医疗的交付消费的获客.html">第 02 篇</a>那个结构：消费的嘴，医疗的手。</strong></p>
 <hr />
 </div>
@@ -165,6 +165,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');

@@ -84,13 +84,14 @@
 </div>
     </section>
 
-    <section class="block p1">
+    <section class="block p1 translator">
       <h2>四、翻译器：流量思维</h2>
       <div class="prose"><p><strong>直译（成立处）</strong>：获客 = 流量，投放 = 买量，转化 = 到店成交，LTV = 客户终身价值。这套翻译大体成立，因为机构对获客的需求真实而迫切——"医美人对互联网关心的核心只有一个：获客"（《又见中台——关于医美互联网中台的假设》，2023-04-11）。你的投放手艺、数据分析、内容运营，在这里有真实的需求方，这是大厂人最容易找到的第一份工作。</p>
 <p><strong>失真处</strong>：在大厂，流量思维的隐含前提是交付可标准化、可扩容——订单涨了，加服务器、招骑手、开客服。在医美，流量增长的尽头是医生的手，而医生的手不能扩容（<a class="xref" href="04-谁说了算-医生老板经营院长咨询师.html">第 04 篇</a>详述）。获客做得越成功，交付端被挤压得越狠——价值悖论就是流量思维在这个行业的物理边界。你不理解这一点，就会把机构的增长做成它的死亡加速器。</p>
 <p><strong>大厂人的典型错误</strong>：入职第一周提出"做一款低价爆款引流品打透本地市场"。你不知道"两段游戏"的机构版规律，也不知道低价引来的客群需要"强大的低端流量消化能力、强大的成本控制能力、强大的纠纷处理能力"来接（2025-04-01）。你以为自己在复制拼多多的打法，实际在给机构的交付端埋雷。同样的提案，在字节是 OKR，在这里可能是事故。</p>
 </div>
     </section>
+      <figure class="fig"><img src="assets/figs/02b.svg" alt="翻译器，流量思维在医美的失真处" loading="lazy" /><figcaption>翻译器，流量思维在医美的失真处</figcaption></figure>
 
     <section class="block p1">
       <h2>五、本篇的立论：你多半站在"嘴"这一端</h2>
@@ -167,6 +168,39 @@
       var f=el.getAttribute('data-read');
       if(read[f])el.classList.add('is-read');
     });
+
+    // 决策清单勾选（第 16 篇）
+    var cks=document.querySelectorAll('.ck');
+    if(cks.length){
+      var PK2='shiran-check';
+      var st2={};try{st2=JSON.parse(localStorage.getItem(PK2)||'{}')}catch(e){}
+      function syncCk(){
+        var n=0;
+        cks.forEach(function(el,i){
+          var k=page+'#'+i,on=!!st2[k];
+          el.textContent=on?'☑':'☐';el.classList.toggle('on',on);el.setAttribute('aria-checked',on);
+          if(on)n++;
+        });
+        var chip=document.getElementById('ckProgress');
+        if(chip)chip.textContent='已核 '+n+' / '+cks.length;
+      }
+      cks.forEach(function(el,i){
+        function tg(){
+          var k=page+'#'+i;
+          if(st2[k])delete st2[k];else st2[k]=1;
+          try{localStorage.setItem(PK2,JSON.stringify(st2))}catch(e){}
+          syncCk();
+        }
+        el.addEventListener('click',tg);
+        el.addEventListener('keydown',function(e){if(e.key===' '||e.key==='Enter'){e.preventDefault();tg();}});
+      });
+      if(mk){
+        var chip=document.createElement('span');
+        chip.className='ck-progress';chip.id='ckProgress';
+        mk.parentNode.appendChild(chip);
+      }
+      syncCk();
+    }
 
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');
