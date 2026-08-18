@@ -94,6 +94,7 @@
     "use strict";
     var SOURCES = [
       { key: "consultant", json: "assets/data/consultant.json", dir: "consultant/", name: "一路绿灯 · 咨询师成长站", color: "#7a8b6f", pick: function (d) { return (d.lessons || []).map(function (l) { return { slug: l.slug, title: "第 " + String(l.no).padStart(2, "0") + " 课 · " + l.title, summary: l.tagline, keywords: [l.duration, l.prereq, "阶段" + l.stage] }; }); } },
+      { key: "career", json: "assets/data/career.json", dir: "career/", name: "大厂人转行医美 · 实然指南", color: "#2f4858", pick: function (d) { return (d.articles || []).map(function (a) { return { slug: a.slug, title: "第 " + String(a.no).padStart(2, "0") + " 篇 · " + a.title, summary: a.tagline, keywords: [a.partName, "转行", "大厂", "医美"] }; }); } },
       { key: "skin", json: "assets/data/conditions.json", dir: "skin/", name: "皮肤常见病症科普", color: "#7a8b6f", pick: function (d) { return d.map(function (a) { return { slug: a.slug, title: a.title, summary: a.summary, keywords: a.keywords || [] }; }); } },
       { key: "surgery", json: "assets/data/surgery.json", dir: "surgery/", name: "四级与整形美容手术", color: "#b5654a", pick: function (d) { return d.map(function (a) { return { slug: a.slug, title: a.title, summary: a.summary, keywords: a.keywords || [] }; }); } },
       { key: "injection", json: "assets/data/injection.json", dir: "injection/", name: "美容注射的艺术", color: "#c9a876", pick: function (d) { return d.map(function (a) { return { slug: a.slug, title: a.title, summary: a.summary, keywords: a.keywords || [] }; }); } },

@@ -1,0 +1,125 @@
+/* =========================================================================
+   大厂人转行医美 · 实然指南
+   样式复用一路绿灯（consultant.css）的设计系统：页头页脚、文章小节、
+   翻篇器、小节目录、阅读进度条均同源；本文件只补充系列总览的
+   部分区（cf-stage）与篇目卡片（cf-card）样式。
+   ========================================================================= */
+
+@import url("consultant.css");
+
+/* —— 系列总览：部分区 —— */
+.cf-stage {
+  margin-top: var(--sp-8);
+  padding-top: var(--sp-5);
+  border-top: 1px solid var(--hairline);
+}
+.cf-stage__head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-4);
+}
+.cf-stage__no {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--sc, var(--ink));
+  border-radius: 50%;
+  color: var(--sc, var(--ink));
+  font-size: 1.15rem;
+  font-weight: var(--w-semibold);
+}
+.cf-stage__name {
+  font-size: 1.3rem;
+  font-weight: var(--w-semibold);
+  color: var(--ink, #2b2a28);
+  margin: 0;
+}
+.cf-stage__goal {
+  margin: 4px 0 0;
+  color: var(--ink-soft, #6b6864);
+  font-size: 0.92rem;
+}
+.cf-stage__pass {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid var(--hairline, #e4ddd2);
+  border-radius: 999px;
+  background: var(--sc-soft, #f4f1ea);
+  color: var(--sc, var(--ink-soft));
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+/* —— 系列总览：篇目卡片网格 —— */
+.cf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--sp-4);
+}
+.cf-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-4);
+  background: #fff;
+  border: 1px solid var(--hairline, #e4ddd2);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.cf-card:hover,
+.cf-card:focus-visible {
+  border-color: var(--sc, var(--ink));
+  transform: translateY(-2px);
+}
+.cf-card__no {
+  flex: none;
+  font-size: 1.4rem;
+  font-weight: var(--w-semibold);
+  color: var(--sc, var(--ink-soft));
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+  min-width: 2ch;
+}
+.cf-card__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cf-card__title {
+  font-weight: var(--w-semibold);
+  line-height: 1.4;
+}
+.cf-card__tag {
+  font-size: 0.82rem;
+  color: var(--ink-soft, #6b6864);
+  line-height: 1.5;
+}
+.cf-card__go {
+  flex: none;
+  color: var(--sc, var(--ink-soft));
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.cf-card:hover .cf-card__go,
+.cf-card:focus-visible .cf-card__go {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 640px) {
+  .cf-stage__pass { display: none; }
+  .cf-card__go { display: none; }
+}

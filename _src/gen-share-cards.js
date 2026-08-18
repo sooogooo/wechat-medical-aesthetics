@@ -38,6 +38,7 @@ const BADGES = {
   surgery: "SURGERY · 31", injection: "INJECTION · 41",
   aesthetics: "AESTHETICS · 10", types: "THREE TYPES · 10",
   consultant: "CONSULTANT ROAD · 20 LESSONS",
+  career: "FROM TECH · 16 ESSAYS",
 };
 
 let n = 0;

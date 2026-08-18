@@ -11,7 +11,7 @@ const DIRS = [
   { dir: "", files: ["index.html", "disclaimer.html", "search.html"] },
   { dir: "skin" }, { dir: "surgery" }, { dir: "injection" },
   { dir: "aesthetics" }, { dir: "types" },
-  { dir: "consultant" },
+  { dir: "consultant" }, { dir: "career" },
 ];
 const SKIP = new Set(["404.html"]); // noindex 页不入 sitemap
 

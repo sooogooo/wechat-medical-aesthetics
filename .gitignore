@@ -12,3 +12,7 @@ node_modules/
 _src/extract-svg.mjs
 _src/insert-poster-refs.mjs
 _src/serve*.js
+
+# 部署产物不入库
+*.zip
+yldj-site-deploy.zip

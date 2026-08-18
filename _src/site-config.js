@@ -1,9 +1,10 @@
 /**
  * site-config.js — 全站构建共享配置
  * SITE_BASE 用于 canonical / og:image / sitemap <loc> 的绝对化。
- * 部署到正式域名时：set SITE_BASE=https://your.domain 后重跑构建。
+ * 默认值即生产域名：忘带环境变量也不会把 localhost 写进产物。
+ * 本地预览无需覆盖；确需本地地址时：set SITE_BASE=http://127.0.0.1:8000 后重跑构建。
  */
-const SITE_BASE = (process.env.SITE_BASE || "http://127.0.0.1:8000").replace(/\/$/, "");
+const SITE_BASE = (process.env.SITE_BASE || "https://sooogooo.github.io/wechat-medical-aesthetics").replace(/\/$/, "");
 
 const SERIES_META = {
   portal:     { key: "portal",     name: "医美科普门户",       tagline: "认识医美，从理解开始",                    color: "#7a8b6f", path: "" },
@@ -13,6 +14,7 @@ const SERIES_META = {
   aesthetics: { key: "aesthetics", name: "医美亚美学",         tagline: "10 种审美流派的盘点与反思",              color: "#7d8ba3", path: "aesthetics/" },
   types:      { key: "types",      name: "医美美学三型",       tagline: "高级型 · 技术型 · 庸俗型",                color: "#8a8578", path: "types/" },
   consultant: { key: "consultant", name: "一路绿灯 · 医美咨询师成长站", tagline: "从小白到上岗的十二个月",        color: "#7a8b6f", path: "consultant/" },
+  career:     { key: "career",     name: "大厂人转行医美 · 实然指南",   tagline: "16 篇实然指南 · 不劝进不劝退", color: "#2f4858", path: "career/" },
 };
 
 /** canonical + og 三件套（og:image 用绝对地址 PNG 分享卡） */
