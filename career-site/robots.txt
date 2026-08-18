@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sooogooo.github.io/career-site/sitemap.xml
