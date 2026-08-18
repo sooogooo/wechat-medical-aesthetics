@@ -343,3 +343,27 @@ tbody tr:nth-child(even) { background: #fcfbf8; }
   .part-head { gap: var(--sp-3); }
   main.wrap { padding-top: var(--sp-6); }
 }
+
+/* ============ 信息图 ============ */
+.fig {
+  margin: var(--sp-6) 0 0;
+  background: #fff; border: 1px solid var(--hairline); border-radius: 12px;
+  padding: var(--sp-3); overflow: hidden;
+}
+.fig img { display: block; width: 100%; height: auto; }
+.fig figcaption {
+  text-align: center; font-size: 12.5px; color: var(--ink-faint);
+  padding: var(--sp-2) 0 var(--sp-1);
+}
+
+/* ============ 首页导览图 ============ */
+.journey-wrap { margin-top: var(--sp-8); }
+.journey-title { font-size: 20px; font-weight: 600; }
+.journey-desc { font-size: 13.5px; color: var(--ink-soft); margin: 4px 0 var(--sp-4); }
+.journey-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.journey-scroll svg { display: block; width: 100%; min-width: 720px; height: auto; }
+.journey-scroll svg a { cursor: pointer; }
+.journey-scroll svg a:hover circle { fill: var(--pc-soft, #edf1f4); }
+
+/* 品牌区标志为图片时的尺寸 */
+.brand-mark { width: 34px; height: 34px; border-radius: 8px; }

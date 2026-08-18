@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+
+  <marker id="ah-p3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#b5654a"/>
+  </marker>
+
+  <rect x="0" y="0" width="800" height="500" fill="#fffdf9"/>
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#ffffff" stroke="#e4ddd2"/>
+  <rect x="24" y="24" width="4" height="46" rx="2" fill="#b5654a"/>
+  <text x="46" y="46" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" fill="#2b2a28" font-weight="600">谁留下了，谁离开了</text>
+  <text x="46" y="70" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864">转行结局的模式分布</text>
+
+  <rect x="320" y="120" width="160" height="52" rx="8" fill="#f8f2f0" stroke="#e4ddd2" stroke-width="1.4"/><text x="400" y="152" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2b2a28" font-weight="600" text-anchor="middle">转行进场</text>
+  <line x1="375" y1="172" x2="235" y2="216" stroke="#5f6e54" stroke-width="1.6" marker-end="url(#ah-p4)"/>
+  <line x1="425" y1="172" x2="565" y2="216" stroke="#b5654a" stroke-width="1.6" marker-end="url(#ah-p3)"/>
+  <rect x="80" y="220" width="300" height="130" rx="8" fill="#fff" stroke="#5f6e54" stroke-width="1.6"/>
+  <text x="230" y="248" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#5f6e54" font-weight="600" text-anchor="middle">留下的人</text>
+  <text x="230" y="274" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864" text-anchor="middle">观察者 · 保留身位</text>
+  <text x="230" y="298" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864" text-anchor="middle">走完信用积累的人</text>
+  <text x="230" y="322" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864" text-anchor="middle">红利边缘的分享者</text>
+  <rect x="420" y="220" width="300" height="130" rx="8" fill="#fff" stroke="#b5654a" stroke-width="1.6"/>
+  <text x="570" y="248" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#b5654a" font-weight="600" text-anchor="middle">离开的人</text>
+  <text x="570" y="274" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864" text-anchor="middle">收入落差 · 方法论无处安放</text>
+  <text x="570" y="298" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864" text-anchor="middle">组织摩擦 · 价值观冲突</text>
+  <text x="570" y="322" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="11.5" fill="#a8a39d" text-anchor="middle">四个触发点 · 三特征，皆为假设</text>
+  <text x="400" y="396" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864" text-anchor="middle">没有比例数据，只有模式——人物为合成原型，待真实采访验证</text>
+
+<text x="46" y="460" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="11.5" fill="#a8a39d">离开不是失败，把红绿灯系统当救命系统用</text>
+</svg>

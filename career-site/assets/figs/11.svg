@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+
+  <marker id="ah-p3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#b5654a"/>
+  </marker>
+
+  <rect x="0" y="0" width="800" height="500" fill="#fffdf9"/>
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#ffffff" stroke="#e4ddd2"/>
+  <rect x="24" y="24" width="4" height="46" rx="2" fill="#b5654a"/>
+  <text x="46" y="46" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" fill="#2b2a28" font-weight="600">和医生共事，先读懂六条</text>
+  <text x="46" y="70" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12.5" fill="#6b6864">医生群体行为逻辑的结构来源</text>
+
+  <rect x="60" y="120" width="216" height="96" rx="8" fill="#f8f2f0" stroke="#e4ddd2" stroke-width="1.4"/><text x="168" y="164" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#2b2a28" font-weight="600" text-anchor="middle">容错率最低</text><text x="168" y="190" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b6864" text-anchor="middle">结果在脸上体表</text>
+  <rect x="296" y="120" width="216" height="96" rx="8" fill="#fff" stroke="#e4ddd2" stroke-width="1.4"/><text x="404" y="164" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#2b2a28" font-weight="600" text-anchor="middle">各种学霸</text><text x="404" y="190" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b6864" text-anchor="middle">理性用在了专业上</text>
+  <rect x="532" y="120" width="216" height="96" rx="8" fill="#fff" stroke="#e4ddd2" stroke-width="1.4"/><text x="640" y="164" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#2b2a28" font-weight="600" text-anchor="middle">尊严与金钱打架</text><text x="640" y="190" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b6864" text-anchor="middle">尊严赢</text>
+  <rect x="60" y="238" width="216" height="96" rx="8" fill="#fff" stroke="#e4ddd2" stroke-width="1.4"/><text x="168" y="282" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#2b2a28" font-weight="600" text-anchor="middle">胆子小</text><text x="168" y="308" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b6864" text-anchor="middle">是行业淘汰出来的</text>
+  <rect x="296" y="238" width="216" height="96" rx="8" fill="#fff" stroke="#e4ddd2" stroke-width="1.4"/><text x="404" y="282" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#2b2a28" font-weight="600" text-anchor="middle">手艺人</text><text x="404" y="308" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b6864" text-anchor="middle">凭技术吃饭</text>
+  <rect x="532" y="238" width="216" height="96" rx="8" fill="#fff" stroke="#e4ddd2" stroke-width="1.4"/><text x="640" y="282" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14.5" fill="#2b2a28" font-weight="600" text-anchor="middle">活在当下</text><text x="640" y="308" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#6b6864" text-anchor="middle">营销要快速见效</text>
+  <text x="400" y="396" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#b5654a" text-anchor="middle">行业结构塑形的结果，不是性格缺陷清单</text>
+
+<text x="46" y="460" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="11.5" fill="#a8a39d">摆正位置，快速见效，事实说话，永远不来硬的</text>
+</svg>

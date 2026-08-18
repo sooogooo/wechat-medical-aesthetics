@@ -66,6 +66,32 @@ const READER_TRANSFORMS = [
 // 尾部来源块标签的读者版
 const LABEL_MAP = { "本篇事实底座": "引用来源", "跨文归纳": "编者综合", "需另行核验": "待核实" };
 
+// 每篇一张信息图（figs/NN.svg，由 gen-career-figs.js 生成）。
+// afterSection 为小节标题片段，插图插在该小节之后；null 表示插在篇首导语后。
+const FIGURES = {
+  "01-开篇-写给正在刷招聘软件的大厂人": { after: null, alt: "三块拼图拼不出一个行业" },
+  "02-医美是个什么生意-医疗的交付消费的获客": { after: "一、先看三条", alt: "消费的嘴与医疗的手结构图" },
+  "03-这个行业的钱是怎么分的": { after: "二、四层利润表", alt: "四层利润实况条形示意" },
+  "04-谁说了算-医生老板经营院长咨询师": { after: "一、先背一句话", alt: "以医生为锚的权力同心圆" },
+  "05-乱象是真的机会也是真的": { after: "一、2025 年的乱象清单", alt: "2018 至 2025 行业周期时间线" },
+  "06-五条入口的实况": { after: null, alt: "五条入口按进行业深度排布" },
+  "07-大厂能力清单-可迁移资产与负资产": { after: null, alt: "资产与负资产天平" },
+  "08-跨界者的四种死法与三个活法": { after: null, alt: "四种死法与三个活法对照" },
+  "09-谈offer之前-薪酬组织与试用期": { after: "三、尽调清单", alt: "尽调五查流程" },
+  "10-入职180天的五次冲击": { after: null, alt: "180 天五次冲击时间线" },
+  "11-和医生共事是一门手艺": { after: "一、他们不是难搞", alt: "医生行为逻辑六格画像" },
+  "12-指标与良心的日常拉扯": { after: "二、张力的两端", alt: "销售导向与医疗导向之间的灰色光谱" },
+  "13-谁留下了谁离开了": { after: "三、模式归纳", alt: "转行去留流向图" },
+  "14-名校生进医美-被高估的机会与被低估的代价": { after: null, alt: "机会四条与代价四条对照" },
+  "15-名校生进来之后怎么做": { after: null, alt: "十二个月四动作时间轴" },
+  "16-去或不去-一页纸决策清单": { after: null, alt: "三区决策流程" },
+};
+
+function figureHtml(idx, alt) {
+  const no = String(idx + 1).padStart(2, "0");
+  return `\n      <figure class="fig"><img src="assets/figs/${no}.svg" alt="${esc(alt)}" loading="lazy" /><figcaption>${esc(alt)}</figcaption></figure>`;
+}
+
 // ============ 预读标题 ============
 const TITLE_MAP = {};
 for (const a of ARTICLES) {
@@ -198,7 +224,8 @@ function head({ title, desc, path, card = "assets/img/og-card.png" }) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(desc)}" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="canonical" href="${SITE_BASE}/${path}" />
   <meta property="og:type" content="website" />
@@ -214,7 +241,7 @@ function pageHeader(active) {
   return `<header class="site-header" id="siteHeader">
   <div class="wrap">
     <a href="index.html" class="brand" aria-label="${SITE_NAME} 首页">
-      <span class="brand-mark" aria-hidden="true">实</span>
+      <img class="brand-mark" src="assets/img/logo-mark.svg" alt="${SITE_NAME} 标志" />
       <span class="brand-text"><b>${SITE_NAME}</b><span>${SITE_SUB}</span></span>
     </a>
     <nav class="main-nav" id="mainNav" aria-label="主导航">
@@ -316,11 +343,20 @@ function articlePage(a, idx) {
   const no = String(idx + 1).padStart(2, "0");
   const desc = (meta.position || a.tagline).replace(/[*｜|]/g, " ").slice(0, 110);
 
-  const sectionHtml = sections.map((sec) => `
+  const sectionHtml = sections.map((sec) => {
+    let html = `
     <section class="block ${part.cls}">
       <h2>${inline(sec.title)}</h2>
       <div class="prose">${renderBlocks(sec.lines)}</div>
-    </section>`).join("\n");
+    </section>`;
+    // 信息图注入：小节标题匹配时，在该小节后插入本篇插图
+    if (FIGURES[a.slug] && FIGURES[a.slug].after && sec.title.includes(FIGURES[a.slug].after)) {
+      html += figureHtml(idx, FIGURES[a.slug].alt);
+    }
+    return html;
+  }).join("\n");
+  // 未指定小节的插图，插在篇首导语后
+  const heroFig = (FIGURES[a.slug] && !FIGURES[a.slug].after) ? figureHtml(idx, FIGURES[a.slug].alt) : "";
 
   const sourcesHtml = sourceLines.length ? `
     <aside class="sources ${part.cls}">
@@ -349,6 +385,7 @@ ${pageHeader()}
         <p class="meta">第 ${no} 篇 · 共 ${ARTICLES.length} 篇</p>
         <button class="mark-read" id="markRead" type="button"><span>标记为已读</span></button>
       </header>
+${heroFig}
 ${sectionHtml}
 ${sourcesHtml}
       <nav class="pager ${part.cls}">
@@ -417,10 +454,18 @@ ${pageHeader()}
         </div>
         <div class="hero-stats">
           <span><b>16</b>篇正文</span>
-          <span><b>4</b>个问题</span>
+          <span><b>17</b>张信息图</span>
           <span><b>15</b>篇来源文章</span>
           <span><b>73</b>处带日期引用</span>
         </div>
+      </div>
+    </section>
+
+    <section class="journey-wrap wrap reveal">
+      <h2 class="journey-title">十六篇地图</h2>
+      <p class="journey-desc">从开篇到决策清单的一条路，点击任意站点直达。</p>
+      <div class="journey-scroll">
+${fs.readFileSync(path.join(OUT_DIR, "assets", "figs", "journey.svg"), "utf8")}
       </div>
     </section>
 
@@ -510,7 +555,8 @@ function notFoundPage() {
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>页面不存在 · ${SITE_NAME}</title>
 <meta name="robots" content="noindex" />
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page">
@@ -541,8 +587,8 @@ fs.writeFileSync(path.join(OUT_DIR, "index.html"), indexPage());
 fs.writeFileSync(path.join(OUT_DIR, "about.html"), aboutPage());
 fs.writeFileSync(path.join(OUT_DIR, "404.html"), notFoundPage());
 
-// favicon
-fs.writeFileSync(path.join(OUT_DIR, "assets", "favicon.svg"),
+// favicon（站点根目录）
+fs.writeFileSync(path.join(OUT_DIR, "favicon.svg"),
 `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#2f4858"/><text x="32" y="42" font-family="serif" font-size="30" fill="#faf8f4" text-anchor="middle">实</text></svg>`);
 
 // 样式（单一来源：_src/career-site-style.css）
