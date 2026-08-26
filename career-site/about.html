@@ -15,6 +15,7 @@
   <meta property="og:image" content="https://sooogooo.github.io/career-site/assets/img/og-card.png" />
   <meta property="og:site_name" content="实然指南 · 大厂人转行医美" />
   <meta name="twitter:card" content="summary_large_image" />
+  
 </head>
 <body class="page">
 <header class="site-header" id="siteHeader">
@@ -25,6 +26,8 @@
     </a>
     <nav class="main-nav" id="mainNav" aria-label="主导航">
       <a href="index.html#parts">目录</a>
+      <a href="translator.html">翻译器</a>
+      <a href="index.html#search">搜索</a>
       <a href="about.html" class="is-active">关于</a>
       <a href="16-去或不去-一页纸决策清单.html" class="nav-cta">决策清单</a>
     </nav>
@@ -92,6 +95,7 @@
       </div>
       <nav aria-label="页脚导航">
         <a href="index.html#parts">全部目录</a>
+        <a href="translator.html">翻译器总表</a>
         <a href="01-开篇-写给正在刷招聘软件的大厂人.html">从第 01 篇开始</a>
         <a href="16-去或不去-一页纸决策清单.html">一页纸决策清单</a>
         <a href="about.html">关于与声明</a>
@@ -167,6 +171,34 @@
         mk.parentNode.appendChild(chip);
       }
       syncCk();
+    }
+
+    // —— 站内搜索（首页 #search 激活） ——
+    var box=document.getElementById('searchBox');
+    if(box){
+      var res=document.getElementById('searchResults');
+      fetch('assets/data/search-index.json').then(function(r){return r.json()}).then(function(idx){
+        var items=idx.items||[];
+        function esc2(s){return String(s).replace(/</g,'&lt;')}
+        function render(list){
+          if(!list.length){res.innerHTML='<p class="sc-empty">没有匹配的结果，换个词试试。</p>';return}
+          res.innerHTML=list.map(function(it){
+            return '<a class="sc-hit" href="'+it.url+'"><span class="sc-type">'+esc2(it.type)+'</span><span class="sc-title">'+esc2(it.title)+'</span><span class="sc-desc">'+esc2(it.desc)+'</span></a>';
+          }).join('');
+        }
+        function doSearch(){
+          var q=box.value.trim().toLowerCase();
+          if(!q){res.innerHTML='<p class="sc-hint">输入关键词，实时检索 '+items.length+' 条内容。</p>';return}
+          var hit=items.filter(function(it){
+            return (it.title+' '+it.desc+' '+(it.keywords||[]).join(' ')).toLowerCase().indexOf(q)>=0;
+          });
+          render(hit.slice(0,12));
+        }
+        box.addEventListener('input',doSearch);
+        doSearch();
+      }).catch(function(){
+        res.innerHTML='<p class="sc-empty">索引加载失败，请刷新重试。</p>';
+      });
     }
 
     // 键盘与边缘滑动翻篇

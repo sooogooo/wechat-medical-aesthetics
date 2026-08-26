@@ -409,6 +409,9 @@ const TRANSLATORS = {
   "09": { cls: "p2", left: "总包 / 期权", right: "底薪 / 提成", ok: "都是固定加浮动的薪酬结构，方向可对译", warp: "期权赌未来有兑现场景，提成赌当期且基数怎么算是利益问题", err: "只谈底薪，不好意思细问提成与考核口径" },
   "12": { cls: "p3", left: "伦理审查委员会", right: "一个人当下的决定", ok: "两边都有红线思维，禁区概念可迁移", warp: "这里没有委员会，灰色决定每天当场由个人裁决，且留痕常在", err: "等公司给指引——在这里你就是全部指引" },
   "15": { cls: "p4", left: "新人培养体系", right: "没有体系", ok: "两边都有新人期的说法，导师制有外形", warp: "没有系统只有碎片，成长不被任何流程兜底", err: "等入职培训与转正答辩来证明自己" },
+  "04": { cls: "p1", left: "组织管理制度", right: "稀缺手艺场", ok: "核心资产、关键角色这些权力概念都存在", warp: "权力由稀缺性分配而不由制度分配，医生不可管理", err: "试图用现代管理制度理顺组织，三个月后自己成了被理顺的对象" },
+  "06": { cls: "p2", left: "互联网方法论", right: "获客手艺", ok: "投放、内容、数据分析在机构有真实需求方", warp: "行业采购的只是获客那一角，不是整套世界观", err: "入职演讲讲方法论赋能，台下的营销总监只想知道客人从哪来" },
+  "14": { cls: "p4", left: "名校学历 / 大厂职级", right: "行业信用", ok: "学习速度与内容手艺是可以兑现的资产", warp: "学历买不到行业信用，只能买到一个月的耐心", err: "面谈反复讲管过亿级 DAU，职级跨行业不承兑" },
 };
 for (const [k, cfg] of Object.entries(TRANSLATORS)) {
   FIGS[k + "b"] = translatorFig(cfg);
@@ -424,6 +427,24 @@ FIGS["labels"] = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" 
   ${R(548, 84, 200, 64, { fill: "#fff", stroke: HAIR, dash: "5 4" })}${T(648, 112, "待核实", { size: 14.5, anchor: "middle", weight: 600 })}${T(648, 134, "引用前请自行查证", { size: 11.5, anchor: "middle", fill: SOFT })}
   ${LINE_ARROW(152, 162, 152, 196, "p1")}${LINE_ARROW(400, 162, 400, 196, "p1")}${LINE_ARROW(648, 162, 648, 196, "p1")}
   ${R(52, 200, 696, 44, { fill: PCSOFT.p1, stroke: HAIR })}${T(400, 228, "十六篇正文，全部行业判断都标注来源与日期", { size: 14, anchor: "middle", fill: PC.p1 })}
+</svg>`;
+
+// 翻译器总表页：八组概念总览图
+FIGS["trans-overview"] = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="${FONT}">
+  <rect x="0" y="0" width="800" height="560" fill="${PAPER}"/>
+  <rect x="24" y="24" width="752" height="512" rx="12" fill="#ffffff" stroke="${HAIR}"/>
+  <rect x="24" y="24" width="4" height="46" rx="2" fill="${PC.p1}"/>
+  ${T(46, 46, "八组概念的直译与失真", { size: 20, weight: 600 })}
+  ${T(46, 70, "左列是可以带走的语言，右列是它们在医美的真实含义", { size: 12.5, fill: SOFT })}
+  ${[["GMV / 增长", "营业额"], ["流量 / 获客成本", "获客"], ["平台生态", "医美产业链"], ["中台 / 赋能", "医美信息化"], ["核心人才", "医生"], ["用户至上", "医患弱关系"], ["数据驱动", "数据治理"], ["KPI / OKR", "营业额考核"]].map((pair, i) => {
+    const y = 104 + i * 52;
+    return R(56, y, 300, 40, { fill: "#fff", stroke: HAIR, r: 20 }) +
+      T(206, y + 25, pair[0], { size: 13.5, anchor: "middle", fill: SOFT }) +
+      T(382, y + 26, "⟶", { size: 16, fill: PC.p1, anchor: "middle", weight: 700 }) +
+      R(410, y, 300, 40, { fill: PCSOFT.p1, stroke: HAIR, r: 20 }) +
+      T(560, y + 25, pair[1], { size: 13.5, anchor: "middle", fill: PC.p1, weight: 600 });
+  }).join("\n  ")}
+  ${T(400, 548 - 14, "每一组的成立处与失真警告，见下方总表", { size: 11.5, fill: FAINT, anchor: "middle" })}
 </svg>`;
 
 // ============ 写出 + 渲染校验 ============

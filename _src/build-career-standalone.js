@@ -75,12 +75,18 @@ const FIGURES = {
     { after: "翻译器", file: "02b", alt: "翻译器，流量思维在医美的失真处" },
   ],
   "03-这个行业的钱是怎么分的": [{ after: "二、四层利润表", file: "03", alt: "四层利润实况条形示意" }],
-  "04-谁说了算-医生老板经营院长咨询师": [{ after: "一、先背一句话", file: "04", alt: "以医生为锚的权力同心圆" }],
+  "04-谁说了算-医生老板经营院长咨询师": [
+    { after: "一、先背一句话", file: "04", alt: "以医生为锚的权力同心圆" },
+    { after: "二、医生", file: "04b", alt: "翻译器，组织管理制度到稀缺手艺场" },
+  ],
   "05-乱象是真的机会也是真的": [
     { after: "一、2025 年的乱象清单", file: "05", alt: "2018 至 2025 行业周期时间线" },
     { after: "翻译器", file: "05b", alt: "翻译器，行业早期等于红利窗口的失真处" },
   ],
-  "06-五条入口的实况": [{ after: null, file: "06", alt: "五条入口按进行业深度排布" }],
+  "06-五条入口的实况": [
+    { after: "先说一个总的实况", file: "06", alt: "五条入口按进行业深度排布" },
+    { after: "先说一个总的实况", file: "06b", alt: "翻译器，互联网方法论到获客手艺" },
+  ],
   "07-大厂能力清单-可迁移资产与负资产": [{ after: null, file: "07", alt: "资产与负资产天平" }],
   "08-跨界者的四种死法与三个活法": [{ after: null, file: "08", alt: "四种死法与三个活法对照" }],
   "09-谈offer之前-薪酬组织与试用期": [
@@ -94,7 +100,10 @@ const FIGURES = {
     { after: "翻译器", file: "12b", alt: "翻译器，伦理审查在这里是一个人当下的决定" },
   ],
   "13-谁留下了谁离开了": [{ after: "三、模式归纳", file: "13", alt: "转行去留流向图" }],
-  "14-名校生进医美-被高估的机会与被低估的代价": [{ after: null, file: "14", alt: "机会四条与代价四条对照" }],
+  "14-名校生进医美-被高估的机会与被低估的代价": [
+    { after: "一、先交代素材边界", file: "14", alt: "机会四条与代价四条对照" },
+    { after: "三、代价侧", file: "14b", alt: "翻译器，名校牌与行业信用" },
+  ],
   "15-名校生进来之后怎么做": [
     { after: null, file: "15", alt: "十二个月四动作时间轴" },
     { after: "翻译器", file: "15b", alt: "翻译器，这里没有培养体系" },
@@ -234,8 +243,41 @@ function renderTable(rows) {
   return html;
 }
 
+// 篇目间的"接着读"推荐（每篇两篇，基于内容关联）
+const RELATED = {
+  1: [2, 16], 2: [3, 7], 3: [5, 9], 4: [11, 6], 5: [3, 14], 6: [7, 15],
+  7: [8, 6], 8: [6, 14], 9: [12, 10], 10: [12, 11], 11: [10, 4], 12: [9, 16],
+  13: [10, 14], 14: [15, 8], 15: [14, 6], 16: [1, 9],
+};
+
+// 首页 FAQ（答案全部提炼自对应篇目正文，不引入未核实内容）
+const FAQ = [
+  { q: "医美真的暴利吗？", a: "利润在上游厂商和平台，机构端最苦。有机构一年两个多亿营业额、利润六百万，已经算赢家。", to: 3 },
+  { q: "大厂背景进医美有优势吗？", a: "获客手艺有真实买方，但流量万能心态和方法论优越感是负资产——它们往往以正确感的面目出现。", to: 7 },
+  { q: "哪条入口最容易进？", a: "咨询师最近但有争议（非国家职业、网电端将被 AI 替代）；平台方最平滑，但严格说没离开互联网。", to: 6 },
+  { q: "转行能拿多少钱？", a: "普遍底薪加提成，考核口径常是营业额不是利润。行业没有可靠行情价，只能靠面谈横向比。", to: 9 },
+  { q: "入职头半年最难的是什么？", a: "五次冲击按时间到：数据、会议、身份、指标、价值观。第六个月是去留的高频时点。", to: 10 },
+  { q: "医生真的管不了吗？", a: "行业原话是，世界上有三种人，男人、女人和医生。结构上离开院长可以，离开医生不行。", to: 11 },
+  { q: "灰色操作会不会被迫参与？", a: "销售导向是主流活法之一，五类灰色决定每天遇到。第一道防线是入职第一个月写绝不清单，而不是第六个月。", to: 12 },
+  { q: "名校学历在医美值钱吗？", a: "买不到行业信用，只能买到一个月的耐心。信用来自跟过多少诊、处理过多少纠纷、搞定过多少件结果不允许出错的事。", to: 14 },
+  { q: "转行失败的人为什么离开？", a: "四个触发点：收入落差、方法论无处安放、组织摩擦、价值观冲突，多数线索在尽调阶段就摆着。", to: 13 },
+  { q: "现在还是入场好时机吗？", a: "乱象与机会同真：十四部门整治进行时，同时公立入场、机构分化。先想清楚赌现状的钱还是转型的钱。", to: 5 },
+];
+
+// 翻译器总表（八组概念，事实依据见各篇正文与文末引用）
+const TRANSLATOR_TABLE = [
+  { left: "GMV / 增长", right: "营业额", ok: "同为规模指标，反映市场占有", warp: "行业长期只看营业额不看利润，两亿营收六百万利润已算赢家，增长可能越增越亏" },
+  { left: "流量 / 获客成本", right: "获客", ok: "逻辑同构，机构获客需求真实而迫切", warp: "电商投产比已卷到一比一；行业要的是流量搬运，不是互联网方法论" },
+  { left: "平台生态", right: "医美产业链", ok: "都是多边结构", warp: "利润分配倒挂：上游最赚、平台第二、机构最苦——你进的可能不是生态是被压榨层" },
+  { left: "中台 / 赋能", right: "医美信息化", ok: "概念可对译，数据治理方向一致", warp: "行业从没出现过像样的中台，只有快速变现的 SaaS 和电商；连阿里都拆了自己的中台" },
+  { left: "核心人才", right: "医生", ok: "同为稀缺资源、关键角色", warp: "医生不可管理；与股东医生冲突时，牺牲的是非医疗人员" },
+  { left: "用户至上", right: "医患弱关系", ok: "口号相似，都强调客户", warp: "客户忠诚度与客流量的因果关系弱；医疗决策权在医生，不在运营" },
+  { left: "数据驱动", right: "数据治理", ok: "电子病历、云存储是行业刚需", warp: "数据常被用来守住信息差而非消除它；每家机构都认为自己的医生适合所有人" },
+  { left: "KPI / OKR", right: "营业额考核", ok: "都有指标体系", warp: "考核口径常是营业额而非利润，根源之一是老板不愿让职业经理人了解成本结构" },
+];
+
 // ============ 页面骨架 ============
-function head({ title, desc, path, card = "assets/img/og-card.png" }) {
+function head({ title, desc, path, card = "assets/img/og-card.png", jsonld }) {
   return `<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${esc(title)}</title>
@@ -249,8 +291,19 @@ function head({ title, desc, path, card = "assets/img/og-card.png" }) {
   <meta property="og:description" content="${esc(desc)}" />
   <meta property="og:image" content="${SITE_BASE}/${card}" />
   <meta property="og:site_name" content="${SITE_NAME} · ${SITE_SUB}" />
-  <meta name="twitter:card" content="summary_large_image" />`;
+  <meta name="twitter:card" content="summary_large_image" />
+  ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}`;
 }
+
+// 结构化数据
+const LD_ARTICLE = (title, desc) => ({
+  "@context": "https://schema.org", "@type": "Article",
+  headline: title, description: desc, inLanguage: "zh-CN",
+  isPartOf: { "@type": "CollectionPage", name: "实然指南 · 大厂人转行医美" },
+});
+const LD_PAGE = (title, desc) => ({
+  "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, inLanguage: "zh-CN",
+});
 
 function pageHeader(active) {
   const cls = (k) => active === k ? ' class="is-active"' : "";
@@ -262,6 +315,8 @@ function pageHeader(active) {
     </a>
     <nav class="main-nav" id="mainNav" aria-label="主导航">
       <a href="index.html#parts"${cls("parts")}>目录</a>
+      <a href="translator.html"${cls("translator")}>翻译器</a>
+      <a href="index.html#search"${cls("search")}>搜索</a>
       <a href="about.html"${cls("about")}>关于</a>
       <a href="16-去或不去-一页纸决策清单.html" class="nav-cta">决策清单</a>
     </nav>
@@ -280,6 +335,7 @@ function pageFooter() {
       </div>
       <nav aria-label="页脚导航">
         <a href="index.html#parts">全部目录</a>
+        <a href="translator.html">翻译器总表</a>
         <a href="01-开篇-写给正在刷招聘软件的大厂人.html">从第 01 篇开始</a>
         <a href="16-去或不去-一页纸决策清单.html">一页纸决策清单</a>
         <a href="about.html">关于与声明</a>
@@ -360,6 +416,34 @@ function pageScript() {
       syncCk();
     }
 
+    // —— 站内搜索（首页 #search 激活） ——
+    var box=document.getElementById('searchBox');
+    if(box){
+      var res=document.getElementById('searchResults');
+      fetch('assets/data/search-index.json').then(function(r){return r.json()}).then(function(idx){
+        var items=idx.items||[];
+        function esc2(s){return String(s).replace(/</g,'&lt;')}
+        function render(list){
+          if(!list.length){res.innerHTML='<p class="sc-empty">没有匹配的结果，换个词试试。</p>';return}
+          res.innerHTML=list.map(function(it){
+            return '<a class="sc-hit" href="'+it.url+'"><span class="sc-type">'+esc2(it.type)+'</span><span class="sc-title">'+esc2(it.title)+'</span><span class="sc-desc">'+esc2(it.desc)+'</span></a>';
+          }).join('');
+        }
+        function doSearch(){
+          var q=box.value.trim().toLowerCase();
+          if(!q){res.innerHTML='<p class="sc-hint">输入关键词，实时检索 '+items.length+' 条内容。</p>';return}
+          var hit=items.filter(function(it){
+            return (it.title+' '+it.desc+' '+(it.keywords||[]).join(' ')).toLowerCase().indexOf(q)>=0;
+          });
+          render(hit.slice(0,12));
+        }
+        box.addEventListener('input',doSearch);
+        doSearch();
+      }).catch(function(){
+        res.innerHTML='<p class="sc-empty">索引加载失败，请刷新重试。</p>';
+      });
+    }
+
     // 键盘与边缘滑动翻篇
     var pv=document.body.getAttribute('data-prev'),nx=document.body.getAttribute('data-next');
     if(pv||nx)addEventListener('keydown',function(e){
@@ -393,10 +477,10 @@ function articlePage(a, idx) {
   const desc = (meta.position || a.tagline).replace(/[*｜|]/g, " ").slice(0, 110);
 
   const figs = FIGURES[a.slug] || [];
-  const sectionHtml = sections.map((sec) => {
+  const sectionHtml = sections.map((sec, si) => {
     const isTranslator = sec.title.includes("翻译器");
     let html = `
-    <section class="block ${part.cls}${isTranslator ? " translator" : ""}">
+    <section class="block ${part.cls}${isTranslator ? " translator" : ""}" id="sec-${si}">
       <h2>${inline(sec.title)}</h2>
       <div class="prose">${renderBlocks(sec.lines)}</div>
     </section>`;
@@ -419,10 +503,33 @@ function articlePage(a, idx) {
       }).join("\n")}</div>
     </aside>` : "";
 
+  const relatedIdx = RELATED[idx + 1] || [];
+  const relatedHtml = relatedIdx.length ? `
+      <aside class="related ${part.cls}">
+        <p class="related-title">接着读</p>
+        <div class="related-grid">
+          ${relatedIdx.map((n) => {
+            const ra = ARTICLES[n - 1];
+            return `<a class="r-card reveal ${PARTS[ra.part].cls}" href="${ra.slug}.html" data-read="${ra.slug}.html">
+              <span class="r-no">第 ${String(n).padStart(2, "0")} 篇</span>
+              <span class="r-title">${esc(TITLE_MAP[ra.slug])}</span>
+              <span class="r-tag">${esc(ra.tagline)}</span>
+            </a>`;
+          }).join("\n          ")}
+        </div>
+      </aside>` : "";
+
+  // 移动端折叠目录（宽屏由悬浮 mini-toc 覆盖）
+  const tocMobile = sections.length > 2 ? `
+      <details class="toc-mobile">
+        <summary>本页目录（${sections.length} 节）</summary>
+        <nav>${sections.map((sec, si) => `<a href="#sec-${si}">${esc(sec.title)}</a>`).join("")}</nav>
+      </details>` : "";
+
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
-${head({ title: `${title} · ${SITE_NAME}`, desc, path: `${a.slug}.html` })}
+${head({ title: `${title} · ${SITE_NAME}`, desc, path: `${a.slug}.html`, jsonld: LD_ARTICLE(title, desc) })}
 </head>
 <body class="article ${part.cls}" data-prev="${prev ? prev.slug + ".html" : ""}" data-next="${next ? next.slug + ".html" : ""}">
   <div class="progress" id="progress" aria-hidden="true"></div>
@@ -436,9 +543,11 @@ ${pageHeader()}
         <p class="meta">第 ${no} 篇 · 共 ${ARTICLES.length} 篇</p>
         <button class="mark-read" id="markRead" type="button"><span>标记为已读</span></button>
       </header>
+${tocMobile}
 ${heroFigs}
 ${sectionHtml}
 ${sourcesHtml}
+${relatedHtml}
       <nav class="pager ${part.cls}">
         ${prev ? `<a class="prev" href="${prev.slug}.html"><span class="pager-label">← 上一篇</span><span class="pager-title">${esc(TITLE_MAP[prev.slug])}</span></a>` : `<a class="prev" href="index.html"><span class="pager-label">← 目录</span><span class="pager-title">回到全部篇目</span></a>`}
         ${next ? `<a class="next" href="${next.slug}.html"><span class="pager-label">下一篇 →</span><span class="pager-title">${esc(TITLE_MAP[next.slug])}</span></a>` : `<a class="next" href="about.html"><span class="pager-label">读完了 →</span><span class="pager-title">关于本站与声明</span></a>`}
@@ -455,6 +564,27 @@ ${pageScript()}
 
 // ============ 首页 ============
 function indexPage() {
+  const FIG_COUNT = fs.readdirSync(path.join(OUT_DIR, "assets", "figs")).filter((f) => f.endsWith(".svg")).length;
+  const quick3 = [
+    { n: 2, why: "看懂行业底层结构，钱的流向与权力分布" },
+    { n: 8, why: "跨界规律，四种死法与三个活法" },
+    { n: 16, why: "拿走工具，一页纸决策清单" },
+  ].map(({ n, why }) => {
+    const a = ARTICLES[n - 1];
+    return `<a class="q3-card ${PARTS[a.part].cls}" href="${a.slug}.html">
+      <span class="q3-no">第 ${String(n).padStart(2, "0")} 篇</span>
+      <span class="q3-title">${esc(TITLE_MAP[a.slug])}</span>
+      <span class="q3-why">${esc(why)} →</span>
+    </a>`;
+  }).join("\n      ");
+
+  const faqHtml = FAQ.map((f) => {
+    const a = ARTICLES[f.to - 1];
+    return `<details class="faq-item">
+      <summary>${esc(f.q)}<span class="faq-arrow" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>${esc(f.a)}</p><a class="faq-link" href="${a.slug}.html">详见第 ${String(f.to).padStart(2, "0")} 篇 · ${esc(TITLE_MAP[a.slug])}</a></div>
+    </details>`;
+  }).join("\n      ");
   const partsHtml = PARTS.map((p) => {
     const arts = ARTICLES.filter((a) => a.part === p.no);
     const cards = arts.map((a) => {
@@ -487,7 +617,7 @@ function indexPage() {
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
-${head({ title: `${SITE_NAME} · ${SITE_SUB}`, desc: "写给正在考虑转行医美的大厂人与名校毕业生。十六篇实然指南，从行业结构、钱的流向、权力分布，到五条入口、入职 180 天与一页纸决策。不劝进，不劝退。", path: "index.html" })}
+${head({ title: `${SITE_NAME} · ${SITE_SUB}`, desc: "写给正在考虑转行医美的大厂人与名校毕业生。十六篇实然指南，从行业结构、钱的流向、权力分布，到五条入口、入职 180 天与一页纸决策。不劝进，不劝退。", path: "index.html", jsonld: { "@context": "https://schema.org", "@type": "WebSite", name: "实然指南 · 大厂人转行医美", url: SITE_BASE + "/", inLanguage: "zh-CN" } })}
 </head>
 <body class="home">
 ${pageHeader()}
@@ -505,10 +635,17 @@ ${pageHeader()}
         </div>
         <div class="hero-stats">
           <span><b>16</b>篇正文</span>
-          <span><b>17</b>张信息图</span>
+          <span><b>${FIG_COUNT}</b>张信息图</span>
           <span><b>15</b>篇来源文章</span>
           <span><b>73</b>处带日期引用</span>
         </div>
+      </div>
+    </section>
+
+    <section class="quick3-wrap wrap reveal">
+      <h2 class="q3-heading">时间紧，只读三篇</h2>
+      <div class="q3-grid">
+      ${quick3}
       </div>
     </section>
 
@@ -523,6 +660,23 @@ ${fs.readFileSync(path.join(OUT_DIR, "assets", "figs", "journey.svg"), "utf8")}
     <div class="wrap" id="parts">
 ${partsHtml}
     </div>
+
+    <section class="faq-wrap wrap reveal">
+      <h2 class="q3-heading">快问快答</h2>
+      <p class="q3-sub">答案全部提炼自正文，每条都注明出处篇目。</p>
+      <div class="faq-list">
+      ${faqHtml}
+      </div>
+    </section>
+
+    <section class="search-wrap wrap reveal" id="search">
+      <h2 class="q3-heading">站内搜索</h2>
+      <p class="q3-sub">十六篇正文、问答与工具页，一次查完。</p>
+      <div class="search-box">
+        <input id="searchBox" type="search" placeholder="试试：利润 / 医生 / 入口 / 名校 / 提成…" autocomplete="off" aria-label="站内搜索" />
+      </div>
+      <div id="searchResults" class="search-results" aria-live="polite"></div>
+    </section>
   </main>
 ${pageFooter()}
 ${pageScript()}
@@ -599,6 +753,78 @@ ${pageScript()}
 `;
 }
 
+// ============ 翻译器总表页 ============
+function translatorPage() {
+  const rows = TRANSLATOR_TABLE.map((r) => `
+        <tr>
+          <td><b>${esc(r.left)}</b></td>
+          <td><b class="tr-right">${esc(r.right)}</b></td>
+          <td>${esc(r.ok)}</td>
+          <td class="tr-warp">${esc(r.warp)}</td>
+        </tr>`).join("");
+  const examples = [
+    { n: 2, t: "流量思维" }, { n: 5, t: "行业早期与红利窗口" }, { n: 9, t: "总包期权与底薪提成" },
+    { n: 12, t: "伦理审查与个人决定" }, { n: 15, t: "培养体系与没有体系" }, { n: 14, t: "名校牌与行业信用" },
+  ].map(({ n, t }) => `<a class="tr-example" href="${ARTICLES[n - 1].slug}.html"><b>第 ${String(n).padStart(2, "0")} 篇</b>${esc(t)}<span aria-hidden="true">→</span></a>`).join("\n          ");
+
+  return `<!doctype html>
+<html lang="zh-CN">
+<head>
+${head({ title: `翻译器总表 · ${SITE_NAME}`, desc: "大厂语言到医美现实的八组对照。每组给出直译成立处与失真警告，进场前通读一遍，开会之前查一查。", path: "translator.html", jsonld: LD_PAGE("翻译器总表", "大厂语言到医美现实的八组对照表") })}
+</head>
+<body class="page">
+${pageHeader("translator")}
+  <main class="wrap">
+    <article>
+      <header class="article-hero p1">
+        <p class="part-chip"><span class="chip-no">译</span>工具页</p>
+        <h1>翻译器总表</h1>
+        <p class="lead">把大厂语言翻译成医美现实。成立处告诉你类比在哪里能用，失真警告告诉你它在哪里断掉。</p>
+      </header>
+
+      <section class="block p1">
+        <h2>怎么用</h2>
+        <div class="prose">
+          <p>进场之前通读一遍，把旧语言的失真处记在心里；开会想说出某个大厂词之前，先回到这一页查一查它在这里的真实含义。这张表不能替你做决定，但能省下最贵的那一类学费——用旧地图走新大陆的学费。</p>
+          <p>八组概念的事实依据，均出自十六篇正文及其标注日期的引用来源；其中五组在正文里有展开的可视化实例，文末可直接跳转。</p>
+        </div>
+        <figure class="fig"><img src="assets/figs/trans-overview.svg" alt="八组概念的直译与失真总览" loading="lazy" /><figcaption>八组概念总览</figcaption></figure>
+      </section>
+
+      <section class="block p1">
+        <h2>八组对照</h2>
+        <div class="table-wrap tr-table-wrap">
+          <table class="tr-table">
+            <thead><tr><th>大厂语言</th><th>医美现实</th><th>直译 · 成立处</th><th>失真警告</th></tr></thead>
+            <tbody>${rows}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="block p1">
+        <h2>五个展开实例</h2>
+        <div class="prose">
+          <p>以下篇目的翻译器小节配有完整的三段式卡片（直译、失真、典型错误），是这张总表的逐题展开。</p>
+        </div>
+        <div class="tr-examples">
+          ${examples}
+        </div>
+      </section>
+
+      <nav class="pager p1">
+        <a class="prev" href="index.html"><span class="pager-label">← 目录</span><span class="pager-title">回到全部篇目</span></a>
+        <a class="next" href="01-开篇-写给正在刷招聘软件的大厂人.html"><span class="pager-label">开始阅读 →</span><span class="pager-title">开篇 · 写给正在刷招聘软件的大厂人</span></a>
+      </nav>
+    </article>
+  </main>
+${pageFooter()}
+${pageScript()}
+</body>
+</html>
+`;
+}
+
 // ============ 404 ============
 function notFoundPage() {
   return `<!doctype html>
@@ -638,7 +864,29 @@ for (let i = 0; i < ARTICLES.length; i++) {
 }
 fs.writeFileSync(path.join(OUT_DIR, "index.html"), indexPage());
 fs.writeFileSync(path.join(OUT_DIR, "about.html"), aboutPage());
+fs.writeFileSync(path.join(OUT_DIR, "translator.html"), translatorPage());
 fs.writeFileSync(path.join(OUT_DIR, "404.html"), notFoundPage());
+
+// 站内搜索索引 JSON
+fs.mkdirSync(path.join(OUT_DIR, "assets", "data"), { recursive: true });
+const searchIndex = {
+  generatedAt: new Date().toISOString().slice(0, 10),
+  items: [
+    ...ARTICLES.map((a, i) => ({
+      type: "篇目", title: `第 ${String(i + 1).padStart(2, "0")} 篇 · ${TITLE_MAP[a.slug]}`,
+      desc: a.tagline, url: `${a.slug}.html`,
+      keywords: [PARTS[a.part].name, "转行", "医美", "大厂"],
+    })),
+    ...FAQ.map((f) => ({
+      type: "问答", title: f.q, desc: f.a,
+      url: `index.html#search`,
+      keywords: ["快问快答"],
+    })),
+    { type: "工具页", title: "翻译器总表", desc: "大厂语言到医美现实的八组对照，直译成立处与失真警告", url: "translator.html", keywords: ["翻译器", "对照表", "概念"] },
+    { type: "页面", title: "关于实然指南", desc: "这是什么、怎么读、编辑原则、来源与声明", url: "about.html", keywords: ["关于", "声明"] },
+  ],
+};
+fs.writeFileSync(path.join(OUT_DIR, "assets", "data", "search-index.json"), JSON.stringify(searchIndex, null, 1));
 
 // favicon（站点根目录）
 fs.writeFileSync(path.join(OUT_DIR, "favicon.svg"),
@@ -651,7 +899,7 @@ fs.copyFileSync(path.join(__dirname, "career-site-style.css"), path.join(OUT_DIR
 fs.copyFileSync(path.join(ROOT, "assets", "img", "share", "career-card.png"), path.join(OUT_DIR, "assets", "img", "og-card.png"));
 
 // sitemap + robots
-const urls = ["index.html", "about.html", ...ARTICLES.map((a) => `${a.slug}.html`)];
+const urls = ["index.html", "about.html", "translator.html", ...ARTICLES.map((a) => `${a.slug}.html`)];
 const today = new Date().toISOString().slice(0, 10);
 fs.writeFileSync(path.join(OUT_DIR, "sitemap.xml"),
 `<?xml version="1.0" encoding="UTF-8"?>
@@ -667,6 +915,6 @@ Sitemap: ${SITE_BASE}/sitemap.xml
 `);
 
 console.log("=== 实然指南 · 独立站构建完成 ===");
-console.log(`文章页: ${ARTICLES.length}, 首页 + 关于 + 404: 3, 共 ${ARTICLES.length + 3} 个页面`);
+console.log(`文章页: ${ARTICLES.length}, 首页 + 关于 + 翻译器 + 404: 4, 共 ${ARTICLES.length + 4} 个页面`);
 console.log(`输出目录: ${OUT_DIR}`);
 console.log(`SITE_BASE = ${SITE_BASE}（部署前可用 CAREER_SITE_BASE 环境变量覆盖后重跑）`);
