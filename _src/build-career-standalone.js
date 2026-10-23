@@ -18,8 +18,8 @@ const ROOT = path.resolve(__dirname, "..");
 const SRC_DIR = path.join(ROOT, "_src", "大厂人转行医美系列");
 const OUT_DIR = path.join(ROOT, "career-site");
 
-// 独立站域名（部署前用 CAREER_SITE_BASE 覆盖后重跑）
-const SITE_BASE = (process.env.CAREER_SITE_BASE || "https://sooogooo.github.io/career-site").replace(/\/$/, "");
+// 独立站域名（部署在 wechat-medical-aesthetics 仓库 Pages 的 career-site/ 子路径；如迁移可用 CAREER_SITE_BASE 覆盖后重跑）
+const SITE_BASE = (process.env.CAREER_SITE_BASE || "https://sooogooo.github.io/wechat-medical-aesthetics/career-site").replace(/\/$/, "");
 const SITE_NAME = "实然指南";
 const SITE_SUB = "大厂人转行医美";
 
