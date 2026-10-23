@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round" text-rendering="geometricPrecision" font-family='-apple-system,PingFang SC,Hiragino Sans GB,sans-serif'>
-
-    
-  <path d="M48 22c-4 0-8 4-8 14v44c0 8 4 14 10 14h20c6 0 10-6 10-14V36c0-10-4-14-8-14-3 0-7 2-12 2s-9-2-12-2z" stroke="#2B2A28" stroke-width="1.8"/>
-    <g fill="#C9A876" fill-opacity="0.45" stroke="#2B2A28" stroke-width="1.1">
-      <circle cx="52" cy="42" r="3"/><circle cx="64" cy="44" r="3"/><circle cx="56" cy="52" r="3"/>
-      <circle cx="68" cy="56" r="3"/><circle cx="52" cy="64" r="3"/><circle cx="62" cy="66" r="3"/>
-      <circle cx="56" cy="76" r="3"/><circle cx="66" cy="78" r="3"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" font-family="-apple-system,PingFang SC,Hiragino Sans GB,sans-serif" text-rendering="geometricPrecision" viewBox="0 0 120 120"><path stroke="#2B2A28" stroke-width="1.8" d="M48 22c-4 0-8 4-8 14v44c0 8 4 14 10 14h20c6 0 10-6 10-14V36c0-10-4-14-8-14-3 0-7 2-12 2s-9-2-12-2z"/><g fill="#C9A876" fill-opacity=".45" stroke="#2B2A28" stroke-width="1.1"><circle cx="52" cy="42" r="3"/><circle cx="64" cy="44" r="3"/><circle cx="56" cy="52" r="3"/><circle cx="68" cy="56" r="3"/><circle cx="52" cy="64" r="3"/><circle cx="62" cy="66" r="3"/><circle cx="56" cy="76" r="3"/><circle cx="66" cy="78" r="3"/></g></svg>

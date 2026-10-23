@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="结节并发症">
-  <rect width="640" height="200" fill="#faf8f4" rx="12"/>
-  <rect x="30" y="20" width="580" height="170" rx="8" fill="#ffffff" stroke="#c9a876"/>
-  <text x="320" y="45" text-anchor="middle" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" fill="#8a7340">结节：注射部位出现硬块、鼓包</text>
-  <text x="50" y="75" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 即发性：注射过量、过浅、材料聚集（技术问题）</text>
-  <text x="50" y="98" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 迟发性：数月到数年后出现，与免疫反应、生物膜有关（尤其再生类）</text>
-  <text x="50" y="121" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 表现：局部硬块、鼓起、触痛、发红，可能时肿时消</text>
-  <text x="50" y="144" font-family="PingFang SC,sans-serif" font-size="11" fill="#2b2a28">• 处理：透明质酸可酶解；再生类难溶，可能需激素或手术</text>
-  <text x="50" y="170" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600" fill="#8a7340">出现结节尽快联系医生，不要自行按摩或反复针挑</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="结节并发症" role="img" viewBox="0 0 640 200"><rect width="640" height="200" fill="#faf8f4" rx="12"/><rect width="580" height="170" x="30" y="20" fill="#fff" stroke="#c9a876" rx="8"/><text x="320" y="45" fill="#8a7340" font-family="PingFang SC,sans-serif" font-size="13" font-weight="600" text-anchor="middle">结节：注射部位出现硬块、鼓包</text><text x="50" y="75" fill="#2b2a28" font-family="PingFang SC,sans-serif" font-size="11">• 即发性：注射过量、过浅、材料聚集（技术问题）</text><text x="50" y="98" fill="#2b2a28" font-family="PingFang SC,sans-serif" font-size="11">• 迟发性：数月到数年后出现，与免疫反应、生物膜有关（尤其再生类）</text><text x="50" y="121" fill="#2b2a28" font-family="PingFang SC,sans-serif" font-size="11">• 表现：局部硬块、鼓起、触痛、发红，可能时肿时消</text><text x="50" y="144" fill="#2b2a28" font-family="PingFang SC,sans-serif" font-size="11">• 处理：透明质酸可酶解；再生类难溶，可能需激素或手术</text><text x="50" y="170" fill="#8a7340" font-family="PingFang SC,sans-serif" font-size="10" font-weight="600">出现结节尽快联系医生，不要自行按摩或反复针挑</text></svg>

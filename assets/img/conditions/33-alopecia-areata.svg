@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round" text-rendering="geometricPrecision" font-family='-apple-system,PingFang SC,Hiragino Sans GB,sans-serif'>
-
-  <ellipse cx="60" cy="60" rx="34" ry="32" stroke="#2B2A28" stroke-width="2"/>
-  <path d="M40 40c4-2 10-2 14 0M66 40c4-2 10-2 14 0" stroke="#2B2A28" stroke-width="1.3" fill="none"/>
-    <g stroke="#2B2A28" stroke-width="1" fill="none" opacity="0.4">
-      <line x1="38" y1="46" x2="38" y2="54"/><line x1="46" y1="42" x2="46" y2="52"/>
-      <line x1="54" y1="40" x2="54" y2="50"/><line x1="66" y1="40" x2="66" y2="50"/>
-      <line x1="74" y1="42" x2="74" y2="52"/><line x1="82" y1="46" x2="82" y2="54"/>
-      <line x1="40" y1="68" x2="40" y2="76"/><line x1="80" y1="68" x2="80" y2="76"/>
-    </g>
-    <circle cx="60" cy="60" r="10" fill="#fff" stroke="#B5654A" stroke-width="1.6" stroke-dasharray="2 2"/>
-    <text x="60" y="63" font-size="7" fill="#B5654A" text-anchor="middle">!</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" font-family="-apple-system,PingFang SC,Hiragino Sans GB,sans-serif" text-rendering="geometricPrecision" viewBox="0 0 120 120"><ellipse cx="60" cy="60" stroke="#2B2A28" stroke-width="2" rx="34" ry="32"/><path fill="none" stroke="#2B2A28" stroke-width="1.3" d="M40 40c4-2 10-2 14 0M66 40c4-2 10-2 14 0"/><g fill="none" stroke="#2B2A28" stroke-width="1" opacity=".4"><line x1="38" x2="38" y1="46" y2="54"/><line x1="46" x2="46" y1="42" y2="52"/><line x1="54" x2="54" y1="40" y2="50"/><line x1="66" x2="66" y1="40" y2="50"/><line x1="74" x2="74" y1="42" y2="52"/><line x1="82" x2="82" y1="46" y2="54"/><line x1="40" x2="40" y1="68" y2="76"/><line x1="80" x2="80" y1="68" y2="76"/></g><circle cx="60" cy="60" r="10" fill="#fff" stroke="#B5654A" stroke-dasharray="2 2" stroke-width="1.6"/><text x="60" y="63" fill="#B5654A" font-size="7" text-anchor="middle">!</text></svg>
